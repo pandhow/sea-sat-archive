@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>东南亚卫星产业动态周报 · 2026-07-23</title>
+<style>
+  :root{
+    --bg:#0a0e1a; --panel:#111726; --panel2:#0e1420; --line:#1f2b40;
+    --txt:#e6ecf7; --sub:#9fb0cc; --dim:#6b7c9c;
+    --comm:#3b82f6; --nav:#22c55e; --rs:#ec4899;
+    --biz:#f59e0b; --accent:#38bdf8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:linear-gradient(160deg,#080b14,#0d1322 60%,#0a0e1a);color:var(--txt);
+    font-family:"Microsoft YaHei","PingFang SC",-apple-system,Segoe UI,sans-serif;line-height:1.7;
+    padding:0 0 60px;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:960px;margin:0 auto;padding:0 22px}
+  /* header */
+  header{padding:44px 0 26px;border-bottom:1px solid var(--line);margin-bottom:30px;
+    background:radial-gradient(1200px 300px at 50% -80px,rgba(56,189,248,.10),transparent)}
+  .kicker{display:inline-block;font-size:12px;letter-spacing:3px;color:var(--accent);
+    border:1px solid rgba(56,189,248,.35);padding:4px 12px;border-radius:20px;margin-bottom:16px}
+  h1{font-size:30px;font-weight:800;letter-spacing:.5px;line-height:1.25}
+  h1 .grad{background:linear-gradient(90deg,#38bdf8,#818cf8,#ec4899);-webkit-background-clip:text;
+    background-clip:text;color:transparent}
+  .meta{margin-top:12px;color:var(--sub);font-size:13.5px}
+  .meta b{color:var(--txt)}
+  .scope{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+  .chip{font-size:12px;padding:4px 10px;border-radius:6px;background:var(--panel);border:1px solid var(--line);color:var(--sub)}
+  /* section title */
+  h2.sec{font-size:19px;margin:38px 0 16px;padding-left:12px;border-left:4px solid var(--accent);font-weight:800}
+  /* core points */
+  .core{background:linear-gradient(135deg,rgba(56,189,248,.08),rgba(129,140,248,.05));
+    border:1px solid var(--line);border-radius:14px;padding:22px 24px}
+  .core ul{list-style:none}
+  .core li{position:relative;padding:8px 0 8px 26px;border-bottom:1px dashed rgba(255,255,255,.06);font-size:14.5px}
+  .core li:last-child{border-bottom:none}
+  .core li::before{content:"▸";position:absolute;left:4px;color:var(--accent);font-weight:700}
+  .core li b{color:#fff}
+  .tagd{color:var(--comm)} .tagn{color:var(--nav)} .tagr{color:var(--rs)}
+  /* matrix */
+  table{width:100%;border-collapse:collapse;font-size:13.5px;background:var(--panel);border-radius:12px;overflow:hidden}
+  th,td{padding:11px 10px;text-align:center;border-bottom:1px solid var(--line)}
+  th{background:var(--panel2);color:var(--sub);font-weight:600;letter-spacing:.5px}
+  td.cty{text-align:left;font-weight:700;color:var(--txt)}
+  .dot{font-size:15px}
+  .hi{color:#ff5a5f} .mid{color:#f5b301} .lo{color:#48607f}
+  .legend{margin-top:10px;font-size:12px;color:var(--dim);display:flex;gap:18px;flex-wrap:wrap}
+  /* country blocks */
+  .country{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:8px 24px 22px;margin-bottom:26px}
+  .chead{display:flex;align-items:center;gap:12px;padding:18px 0 6px;border-bottom:1px solid var(--line);margin-bottom:8px}
+  .flag{font-size:30px}
+  .chead h3{font-size:20px;font-weight:800}
+  .chead .en{color:var(--dim);font-size:12.5px;font-weight:400;margin-left:2px}
+  /* domain sub-block */
+  .dom{padding:16px 0 4px}
+  .dhead{display:flex;align-items:center;gap:9px;margin-bottom:12px}
+  .bar{width:5px;height:18px;border-radius:3px}
+  .bar.comm{background:var(--comm)} .bar.nav{background:var(--nav)} .bar.rs{background:var(--rs)}
+  .dhead h4{font-size:15px;font-weight:700}
+  .dhead .lab{font-size:11px;padding:2px 8px;border-radius:5px;margin-left:2px}
+  .lab.comm{background:rgba(59,130,246,.15);color:#7cb0ff}
+  .lab.nav{background:rgba(34,197,94,.15);color:#6fe39b}
+  .lab.rs{background:rgba(236,72,153,.15);color:#f79cc7}
+  .item{padding:12px 0;border-top:1px dashed rgba(255,255,255,.07)}
+  .item:first-of-type{border-top:none}
+  .item .t{font-weight:700;font-size:14.5px;color:#fff;margin-bottom:4px}
+  .item .src{font-size:12px;color:var(--dim);margin-bottom:7px}
+  .item .src b{color:var(--sub);font-weight:600}
+  .item .sum{font-size:13.5px;color:var(--sub)}
+  .none{font-size:13px;color:var(--dim);font-style:italic;padding:6px 0}
+  /* biz block */
+  .biz{margin-top:10px;background:linear-gradient(135deg,rgba(245,158,11,.10),rgba(245,158,11,.03));
+    border-left:3px solid var(--biz);border-radius:0 8px 8px 0;padding:9px 14px;font-size:13px;color:#f7d9a0}
+  .biz b{color:var(--biz)}
+  /* advice */
+  .advice{background:linear-gradient(135deg,rgba(245,158,11,.08),rgba(56,189,248,.05));
+    border:1px solid var(--line);border-radius:16px;padding:24px}
+  .advice ol{padding-left:20px}
+  .advice li{margin:10px 0;font-size:14px;color:var(--sub)}
+  .advice li b{color:#fff}
+  footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);color:var(--dim);font-size:12px;text-align:center;line-height:1.9}
+  .warn{background:rgba(255,90,95,.08);border:1px solid rgba(255,90,95,.25);border-radius:10px;
+    padding:12px 16px;font-size:12.5px;color:#ffb3b5;margin-top:16px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="kicker">SMARCO · SOUTHEAST ASIA SATELLITE INTEL</span>
+    <h1><span class="grad">东南亚卫星产业动态</span> 周报</h1>
+    <div class="meta">第 5 期 · 报告日期 <b>2026-07-23</b> · 监测窗口 <b>2026-07-17 ~ 07-23</b> · 编制：Harry 🎩（明华 / SmarCo 东南亚 BD 情报）</div>
+    <div class="scope">
+      <span class="chip">🇹🇭 泰国</span>
+      <span class="chip">🇮🇩 印度尼西亚</span>
+      <span class="chip">🇲🇾 马来西亚</span>
+      <span class="chip">🇸🇬 新加坡</span>
+      <span class="chip">🇰🇭 柬埔寨</span>
+      <span class="chip" style="border-color:var(--comm);color:#7cb0ff">卫星通信</span>
+      <span class="chip" style="border-color:var(--nav);color:#6fe39b">导航 GNSS/北斗</span>
+      <span class="chip" style="border-color:var(--rs);color:#f79cc7">遥感 EO/SAR/光学</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- 核心看点 -->
+  <h2 class="sec">📌 本期核心看点</h2>
+  <div class="core">
+    <ul>
+      <li><b>泰国北斗应用 MOU 落地：</b><span class="tagn">导航</span> 7/20 泰国总理访华期间，GISTDA 与中国国家发改委（NDRC）在北京人民大会堂正式签署北斗导航卫星系统应用合作 MOU（7/14 内阁批准），覆盖交通物流、灾害管理、智慧农业，并延伸嫦娥七号载荷合作。</li>
+      <li><b>柬埔寨首相会见千帆运营方：</b><span class="tagd">通信</span> 7/17 洪玛奈会见上海垣信卫星（千帆星座）董事长郑杰，探讨 LEO 卫星互联网与直连手机在柬投资；柬邮电部正制定卫星互联网法律框架。</li>
+      <li><b>ST Engineering 太空路线图推进：</b><span class="tagr">遥感</span><span class="tagd">通信</span> 新加坡 NEBULA 星间激光通信验证星 2026 下半年交付；NeuSAR-2 四颗 SAR 星 2027 首发、2030 全运行（0.6m 分辨率、每日 8-16 次重访）；POLARIS 光学 AI 遥感星研发启动。</li>
+      <li><b>印尼 NEO-1 自研对地观测星定档 2027.1：</b><span class="tagr">遥感</span> BRIN 国产化率 65%，支持农林渔、灾害、环境监测与 AIS 船舶追踪；印尼-印度 7/7 签 16 项合作含 Biak 发射场。</li>
+      <li><b>马来西亚高精定位合资落地：</b><span class="tagn">导航</span> 赛伯乐国际（01020.HK）7/16-7/22 与 Tahira、Smart Digital 签 MOU，拟建全国 CORS 网络 + GBAS/SBAS 双增强平台；MEASAT 由「轨道位」向「智能平台」转型（多轨道 SD-WAN 整合 Starlink / 千帆 / 天启）。</li>
+    </ul>
+  </div>
+
+  <!-- 活跃度矩阵 -->
+  <h2 class="sec">🔥 活跃度矩阵（国家 × 领域）</h2>
+  <table>
+    <thead>
+      <tr><th style="text-align:left">国家</th><th>卫星通信</th><th>导航 GNSS/北斗</th><th>遥感 EO/SAR/光学</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="cty">🇹🇭 泰国</td><td><span class="dot mid">●</span> 中</td><td><span class="dot hi">●</span> 高</td><td><span class="dot mid">●</span> 中</td></tr>
+      <tr><td class="cty">🇮🇩 印尼</td><td><span class="dot hi">●</span> 高</td><td><span class="dot lo">●</span> 低</td><td><span class="dot hi">●</span> 高</td></tr>
+      <tr><td class="cty">🇲🇾 马来西亚</td><td><span class="dot hi">●</span> 高</td><td><span class="dot hi">●</span> 高</td><td><span class="dot lo">●</span> 低</td></tr>
+      <tr><td class="cty">🇸🇬 新加坡</td><td><span class="dot hi">●</span> 高</td><td><span class="dot mid">●</span> 中</td><td><span class="dot hi">●</span> 高</td></tr>
+      <tr><td class="cty">🇰🇭 柬埔寨</td><td><span class="dot hi">●</span> 高</td><td><span class="dot mid">●</span> 中</td><td><span class="dot lo">●</span> 低</td></tr>
+    </tbody>
+  </table>
+  <div class="legend">
+    <span><span class="dot hi">●</span> 高热度（本周有重大事件/签约）</span>
+    <span><span class="dot mid">●</span> 中热度（有进展/延续动态）</span>
+    <span><span class="dot lo">●</span> 低 / 暂无新增</span>
+  </div>
+
+  <!-- ============ 泰国 ============ -->
+  <div class="country">
+    <div class="chead"><span class="flag">🇹🇭</span><h3>泰国 <span class="en">Thailand</span></h3></div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar comm"></span><h4>卫星通信</h4><span class="lab comm">Communication</span></div>
+      <div class="item">
+        <div class="t">Thaicom 引入 Amazon Leo LEO 宽带，Q1 财报确认落地权</div>
+        <div class="src">来源：<b>Thaicom 官网 / Telecom Review Asia</b> · 2026-05-07（4/6 签约，Q1 财报再确认）</div>
+        <div class="sum">Thaicom 子公司 TC 142 成为 Amazon Leo（原 Project Kuiper）在泰国的授权分销商与落地权持有者，向下游分销高速宽带，主攻区域/乡村/偏远社区。Amazon Leo 已在轨 200+ 星、完成 9 次发射。Thaicom Q1/2026 核心利润 3.85 亿泰铢（同比 +166%），LEO 被列为未来核心增长引擎。</div>
+        <div class="biz"><b>BD 关联：</b>泰国 LEO 市场呈「Amazon Leo（Thaicom）+ 千帆 + Starlink」多方并行格局，SmarCo 可切入地面终端、企业专网集成与本地化运维分销层，避开裸带宽价格战。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar nav"></span><h4>导航 GNSS / 北斗</h4><span class="lab nav">Navigation</span></div>
+      <div class="item">
+        <div class="t">泰中北斗应用合作 MOU 在京正式签署</div>
+        <div class="src">来源：<b>泰国中文社 / 163</b> · 2026-07-20（7/14 内阁批准）</div>
+        <div class="sum">泰国总理访华期间，GISTDA（地理信息与空间技术发展局）与中国国家发改委签署北斗导航卫星系统应用合作 MOU，聚焦技术研发、产业应用、精准地理信息服务，用于交通运输、灾害管理并延伸至智慧农业，为泰国创业者开放地理空间数据应用机会；同批含嫦娥七号载荷合作、深空探测联合实验室、核聚变等 5 项协议。</div>
+        <div class="biz"><b>BD 关联：</b>北斗高精度落地泰国是明华「北斗配套」商业模式的直接利好，可对接 GISTDA 及本地集成商，捆绑短报文/高精定位终端与农业、渔船、物流示范场景（参考光穀北斗帕塔亚车道级导航、渔船监控经验）。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar rs"></span><h4>遥感 EO / SAR / 光学</h4><span class="lab rs">Remote Sensing</span></div>
+      <div class="item">
+        <div class="t">泰中联合深空探测 + 嫦娥七号载荷，推动电子产业向航天级迈进</div>
+        <div class="src">来源：<b>泰国中文社 / 163</b> · 2026-07-20</div>
+        <div class="sum">泰中共建联合深空探测实验室，泰国研究人员参与嫦娥七号科学仪器（载荷）联合研发，助力泰国电子产业迈向航天级制造标准、进入全球太空供应链；未与我方遥感需求端直接冲突，属能力建设型进展。</div>
+        <div class="biz"><b>BD 关联：</b>泰方遥感数据服务与空间基础设施需求上升，可作为遥感方案讲解 + 数据服务的潜在延展市场，观察 GISTDA 后续对地观测数据采购动向。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 印尼 ============ -->
+  <div class="country">
+    <div class="chead"><span class="flag">🇮🇩</span><h3>印度尼西亚 <span class="en">Indonesia</span></h3></div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar comm"></span><h4>卫星通信</h4><span class="lab comm">Communication</span></div>
+      <div class="item">
+        <div class="t">Telkomsat Starlink 分销增长，多轨道 + AI 战略推进</div>
+        <div class="src">来源：<b>Koran Manado / Detik iNET</b> · 2026-07-13</div>
+        <div class="sum">Telkomsat 作为 Starlink 印尼官方分销商，矿业/物流/海事/种植园企业采用带动 LEO 增长；同时运营 GEO 容量 60Gbps+，采多轨道（GEO+LEO）互补策略，并整合 Earth Intelligence / Earth Observation / AI，把卫星从「通信管道」升级为「精准监测平台」。卫星业务 Q1/2026 营收 5340 亿印尼盾（+6.75%）。恰逢印尼卫星 50 周年（7/8）。</div>
+        <div class="biz"><b>BD 关联：</b>印尼「多轨道 + 卫星数据智能化」是明确风向，SmarCo 可在企业专网、海事/矿业行业解决方案与遥感数据增值分析上寻找与 Telkomsat 及本地集成商的合作切口。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar nav"></span><h4>导航 GNSS / 北斗</h4><span class="lab nav">Navigation</span></div>
+      <div class="item">
+        <div class="none">本周无印尼本土导航/北斗独立新增动态。相关进展并入印度 GAGAN（SBAS 航空增强）——见「印尼-印度 16 项太空合作」（遥感子块），含卫星导航与机场应用方向。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar rs"></span><h4>遥感 EO / SAR / 光学</h4><span class="lab rs">Remote Sensing</span></div>
+      <div class="item">
+        <div class="t">NEO-1 首颗自研对地观测卫星定档 2027 年 1 月</div>
+        <div class="src">来源：<b>Antara / The Star / RRI</b> · 2026-07-08 ~ 07-10</div>
+        <div class="sum">BRIN 宣布 Nusantara Earth Observation-1（NEO-1）将于 2027.1 发射，国产化率（TKDN）约 65%，属迷你卫星、具中/高分成像能力，服务区域测绘、农业、林业、海事、灾害、环境监测与 AIS 船舶追踪；BRIN 下一步优先发展国家通信卫星并推进国家发射场。</div>
+      </div>
+      <div class="item">
+        <div class="t">印尼-印度签 16 项合作，含卫星 + Biak 发射场</div>
+        <div class="src">来源：<b>Antara / RRI / Indonesia Business Post</b> · 2026-07-07</div>
+        <div class="sum">Modi 访问雅加达期间，BRIN 与印度 ISRO 签署太空合作协议：NEO-1 拟由印度发射；共建 Biak（巴布亚）发射场（印方 Skyroot × 印尼 PSN，俄 Glavkosmos × URPI 并行）；依托既有 Biak 地面站，覆盖粮食安全、环境监测与航空导航（GAGAN SBAS）等应用。</div>
+        <div class="biz"><b>BD 关联：</b>印尼自研遥感 + 多国发射场博弈显示其「数据主权」诉求强烈。明华遥感业务应以「数据服务 + 应用方案 + 需求调研」切入（而非硬件竞争），可对标海南农垦式的农业遥感应用打包，向印尼农林/海事场景复制。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 马来西亚 ============ -->
+  <div class="country">
+    <div class="chead"><span class="flag">🇲🇾</span><h3>马来西亚 <span class="en">Malaysia</span></h3></div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar comm"></span><h4>卫星通信</h4><span class="lab comm">Communication</span></div>
+      <div class="item">
+        <div class="t">MEASAT 转型：从「轨道位」到「智能平台」</div>
+        <div class="src">来源：<b>The Edge Malaysia（Digital Edge 封面）</b> · 2026-07-13 ~ 07-19</div>
+        <div class="sum">新任 CTO John Loke 主导 MEASAT 超越「卖带宽」模式：以 SD-WAN 智能管理层整合自有 GEO（91.5°E 主权轨位）与多家 LEO（Starlink / Spacesail 千帆 / Tianqi 天启），构建 GEO+LEO 混合架构；发力远程医疗、农业传感、海事连接等垂直 SaaS，服务医院、政府、农渔社区。强调主权卫星资产不应完全依赖外国星座。</div>
+        <div class="biz"><b>BD 关联：</b>MEASAT 已把千帆纳入合作 LEO 组合，印证中系 LEO 在马来市场的接受度。SmarCo 可在其垂直 SaaS 生态（telehealth/农业/海事）中寻找终端集成、数据应用或区域分销合作位。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar nav"></span><h4>导航 GNSS / 北斗</h4><span class="lab nav">Navigation</span></div>
+      <div class="item">
+        <div class="t">赛伯乐国际拟组合资，建全国 CORS + GBAS/SBAS 双平台</div>
+        <div class="src">来源：<b>AAStocks（01020.HK 公告）</b> · 2026-07-16 ~ 07-22</div>
+        <div class="sum">赛伯乐国际控股（01020.HK）附属 PTF 与 Tahira、Smart Digital 签 MOU，拟在马来西亚设合营/合伙企业共同开发高精定位服务，计划建设全国性 CORS 网络及配套基础设施，落地地基增强系统（GBAS）与星基增强系统（SBAS）两大平台。马来现有 JUPEM MyRTKnet 已达 109 站（Phase V）。</div>
+        <div class="biz"><b>BD 关联：</b>马来高精定位基础设施进入建设期，是北斗 + 多系统 GNSS 终端与应用的入口窗口。明华可关注 CORS 组网、终端供应及农业/测绘/自动驾驶等下游应用的配套机会，与中系厂商协同报价。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar rs"></span><h4>遥感 EO / SAR / 光学</h4><span class="lab rs">Remote Sensing</span></div>
+      <div class="item">
+        <div class="none">本周无马来西亚遥感独立重大新增动态；遥感需求主要蕴含于 DAN2030 国家航天规划与 MEASAT 数据平台化转型中，持续观察。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 新加坡 ============ -->
+  <div class="country">
+    <div class="chead"><span class="flag">🇸🇬</span><h3>新加坡 <span class="en">Singapore</span></h3></div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar comm"></span><h4>卫星通信</h4><span class="lab comm">Communication</span></div>
+      <div class="item">
+        <div class="t">NEBULA 星间激光通信验证星，2026 下半年交付</div>
+        <div class="src">来源：<b>ST Engineering / Futunn</b> · Space Summit@Airshow 2026</div>
+        <div class="sum">ST Engineering 推进 NEBULA——新加坡首个星间激光通信验证星，测试 Gbps 级数据传输，为超高速太空网络（全球宽带、对地观测、安全数据交换）奠基。此外，NSAS × 日本 JAXA 7/6 签首个双边协议，探索量子卫星通信；新方 Transcelestial 与日本 Warpspace 建立光通信合作。</div>
+        <div class="biz"><b>BD 关联：</b>新加坡定位高端太空技术枢纽（约 70 家企业、2000+ 从业者），适合作为 SmarCo 的技术合作/资本/人才对标窗口，而非价格竞争市场。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar nav"></span><h4>导航 GNSS / 北斗</h4><span class="lab nav">Navigation</span></div>
+      <div class="item">
+        <div class="t">量子卫星通信合作与近赤道定位优势</div>
+        <div class="src">来源：<b>Jiji Press / FCC Singapore</b> · 2026-07-06 ~ 07</div>
+        <div class="sum">导航领域无独立新增星座动态，但 NSAS × JAXA 将合作推进量子卫星通信（含 PNT 相关前沿）；新加坡近赤道区位使多数卫星每日至少过境一次，为定位/授时与低轨服务提供地利。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar rs"></span><h4>遥感 EO / SAR / 光学</h4><span class="lab rs">Remote Sensing</span></div>
+      <div class="item">
+        <div class="t">NeuSAR-2 四颗 SAR 星座 + POLARIS 光学 AI 星</div>
+        <div class="src">来源：<b>ST Engineering / MTI 官网</b> · Space Summit 2026 / 议会书面答复</div>
+        <div class="sum">NeuSAR-2 由 4 颗小型 SAR 卫星组成，2027 首发、2030 全运行，近赤道 LEO、0.6m/像素分辨率、每日 8-16 次重访；POLARIS 光学成像星研发启动，具星上 AI 处理能力。政府现与 ST Engineering 共有 3 颗对地观测星；ST Eng 与 DSO 合资空间工程团队约 140 人；另获 UAE 客户 SAR 星订单。HTX × ST Engineering 4/28 签 5 年太空技术公共安全 MOU。</div>
+        <div class="biz"><b>BD 关联：</b>新加坡 SAR/光学数据能力（高重访、赤道覆盖）对东南亚海事、灾害、环境监测极具价值，可作为明华遥感数据源/方案合作的潜在上游，服务区域客户需求。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 柬埔寨 ============ -->
+  <div class="country">
+    <div class="chead"><span class="flag">🇰🇭</span><h3>柬埔寨 <span class="en">Cambodia</span></h3></div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar comm"></span><h4>卫星通信</h4><span class="lab comm">Communication</span></div>
+      <div class="item">
+        <div class="t">首相洪玛奈会见上海垣信（千帆星座），探讨 LEO 互联网投资</div>
+        <div class="src">来源：<b>Cambolist / 163 / 华人头条</b> · 2026-07-17</div>
+        <div class="sum">柬首相洪玛奈在华期间会见上海垣信卫星科技董事长郑杰，双方就千帆低轨宽带星座与卫星直连手机（Direct-to-Cell）在柬投资进行探讨；洪玛奈欢迎投资意向，强调优质互联网为政府优先事项，柬邮电部正制定卫星互联网法律框架，落地后优先普及偏远农村并防止滥用，建议垣信与邮电部深入对接评估可行性。</div>
+        <div class="biz"><b>BD 关联：</b>柬埔寨市场对中系 LEO（千帆）持开放态度且法规待建，是早期卡位窗口。SmarCo 可在监管框架成型阶段介入本地化落地、终端分销与政企专网集成，抢占先发身位。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar nav"></span><h4>导航 GNSS / 北斗</h4><span class="lab nav">Navigation</span></div>
+      <div class="item">
+        <div class="t">北斗东盟行成果延续：高精测量、国土规划、生态监测</div>
+        <div class="src">来源：<b>新浪（北斗东盟行综述）</b> · 延续性动态</div>
+        <div class="sum">「共享北斗·联通东盟」活动泰柬站达成多项合作：柬环境部、国土/城规部会见中方企业，聚焦北斗高精度测量、国土空间规划、生态环境监测，成立「北斗时空信息联合工作组」建常态化机制，并向柬国家警察总署捐赠 100 套具应急通信/精准定位/生命监测功能的北斗终端。</div>
+        <div class="biz"><b>BD 关联：</b>柬方对北斗高精度 + 应急通信终端接受度高、政府背书充分，与明华「北斗短报文 + 高精定位」产品线高度契合，可复制「示范项目 + 终端采购 + 联合工作组」路径。</div>
+      </div>
+    </div>
+
+    <div class="dom">
+      <div class="dhead"><span class="bar rs"></span><h4>遥感 EO / SAR / 光学</h4><span class="lab rs">Remote Sensing</span></div>
+      <div class="item">
+        <div class="none">本周无柬埔寨遥感独立新增动态；遥感需求主要蕴含于国土规划与生态环境监测场景（与北斗时空信息合作绑定），可作为遥感方案后续延展方向。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 业务衔接建议 -->
+  <h2 class="sec">🎯 与明华 / SmarCo 东南亚 BD 的业务衔接建议</h2>
+  <div class="advice">
+    <ol>
+      <li><b>北斗配套优先落两点——泰国 + 柬埔寨。</b>泰国北斗 MOU 已落地、柬「北斗东盟行 + 联合工作组」机制成熟，二者与明华「短报文 + 高精定位」产品线最契合。建议以「示范项目 + 终端采购 + 联合工作组」模板推进，泰国对接 GISTDA/本地集成商，柬埔寨对接环境部/国土部及既有工作组。</li>
+      <li><b>遥感走「数据服务 + 应用方案」而非硬件竞争。</b>印尼（NEO-1 自研）、新加坡（NeuSAR-2/POLARIS）本地能力上升，明华应以需求调研 + 方案讲解切入，对标海南农垦式农业遥感打包，向印尼农林/海事、柬国土/生态场景复制，新加坡 SAR 数据可作上游数据源。</li>
+      <li><b>卫星通信抓「多轨道集成 + 本地化运维分销」层。</b>泰（Amazon Leo/千帆）、印尼（Starlink/Telkomsat 多轨道）、马来（MEASAT SD-WAN 整合千帆）、柬（千帆早期卡位）均呈多星座并行，避开裸带宽价格战，切入企业专网、行业解决方案与本地运维分销。</li>
+      <li><b>马来高精定位基建窗口期。</b>赛伯乐 CORS + GBAS/SBAS 组网启动，关注终端供应与农业/测绘/自动驾驶下游应用配套，可与中系 GNSS 厂商协同报价。</li>
+      <li><b>新加坡定位为技术/资本/人才对标窗口。</b>非价格市场，宜作技术合作与生态观察（ST Engineering、NSAS、约 70 家太空企业），跟踪其区域数据服务外溢机会。</li>
+    </ol>
+  </div>
+
+  <div class="warn">
+    ⚠️ <b>核实提示：</b>本周报新闻时点以来源披露为准；涉及重大合作（如北斗 MOU、千帆在柬投资、CORS 合资等）多处于 MOU / 意向 / 待法规阶段，正式立项、签约及商业条款须以官方公告与一线 BD 二次核实后再据以决策。
+  </div>
+
+  <footer>
+    东南亚卫星产业动态周报 · 第 5 期 · 2026-07-23<br>
+    数据来源：WebSearch(news) 公开检索 · 编制：Harry 🎩（明华 / SmarCo 东南亚 BD 情报）<br>
+    领域色标：<span style="color:var(--comm)">■ 卫星通信</span>　<span style="color:var(--nav)">■ 导航 GNSS/北斗</span>　<span style="color:var(--rs)">■ 遥感 EO/SAR/光学</span>
+  </footer>
+
+</div>
+</body>
+</html>
