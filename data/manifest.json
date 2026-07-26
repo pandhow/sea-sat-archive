@@ -3,6 +3,29 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-07-26",
+      "issue_no": "008",
+      "title": "泰Thaicom 4关闭倒计时5天；北斗MOU签署后首周行动窗口；新NTU首颗AI边缘计算CubeSat；柬北斗中企邦盛时空赴柬座谈；印尼Starlink停新持续",
+      "tags": [
+        "泰国",
+        "印度尼西亚",
+        "马来西亚",
+        "新加坡",
+        "柬埔寨",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "千帆",
+        "Starlink",
+        "Thaicom",
+        "NTU",
+        "明华",
+        "SmarCo"
+      ],
+      "file": "issues/2026-07-26.html"
+    },
+    {
       "date": "2026-07-25",
       "issue_no": "007",
       "title": "泰国北斗MOU北京正式签署；印尼Starlink容量售罄停新；柬CORS 72站落桩；新ST工程NEBULA下半年交付；马来MEASAT多轨道转型",
