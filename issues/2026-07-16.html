@@ -62,6 +62,35 @@
   .kpi .l{font-size:12px;color:var(--muted)}
   a{color:var(--accent)}
 </style>
+
+<style id="light-override">
+:root{
+  --bg:#eef1f7;--bg2:#e3e9f4;--card:#ffffff;--card2:#f3f6fc;
+  --panel:#ffffff;--panel2:#f3f6fc;--line:#dde3ef;
+  --txt:#1b2440;--sub:#62708f;--dim:#8593ad;
+  --sat:#2c6fd6;--hi:#c08a16;--ok:#0f9d8c;--bad:#e03131;
+  --th:#2c6fd6;--id:#0f9d8c;--my:#7a3fb0;--sg:#8a5cd0;--kh:#d6418f;
+  --gold:#b07d12;--com:#2c6fd6;--nav:#0f9d8c;--rs:#d6418f;--launch:#e8833a;
+}
+body{background:var(--bg)!important;color:var(--txt)!important;}
+header{background:var(--panel2)!important;color:var(--txt)!important;}
+header .meta,header .tag,header h1,header h2,header h3,header .sub{color:var(--txt)!important;}
+a{color:var(--com)!important;}
+@media (max-width:600px){
+  .wrap,.container{max-width:100%!important;padding:16px 12px 40px!important;margin:0!important;}
+  header{padding:22px 16px!important;}
+  h1{font-size:22px!important;}
+  h2{font-size:18px!important;margin:26px 0 12px!important;}
+  h3,.country{font-size:16px!important;}
+  .cards,.core{grid-template-columns:1fr!important;}
+  .card,.c,.item,.sec{padding:14px!important;}
+  table{font-size:12px!important;}
+  th,td{padding:8px 6px!important;}
+  .item .inner,.inner{padding:14px!important;}
+  .sub-title{margin:16px 0 8px!important;}
+}
+</style>
+
 </head>
 <body>
 <div class="wrap">
@@ -71,7 +100,7 @@
   <div style="margin-top:10px">
     <span class="pill">自动检索整理 · Harry 🎩</span>
     <span class="pill">每周一更新</span>
-    <span class="pill">明华 · SmarCo 东南亚 BD</span>
+    <span class="pill">明华 · Astrolink 东南亚 BD</span>
   </div>
 </header>
 
@@ -286,7 +315,7 @@
 </table>
 
 <div class="overview" style="margin-top:26px">
-  <h3>🎯 与明华 / SmarCo 东南亚 BD 的业务衔接建议</h3>
+  <h3>🎯 与明华 / Astrolink 东南亚 BD 的业务衔接建议</h3>
   <ul>
     <li><b>北斗商业化（刘乐方向）：</b>中印尼会谈已含北斗短报文；柬埔寨 JICA CORS 网兼容北斗地基增强——是可优先切入的两个政策窗口。</li>
     <li><b>遥感需求侧：</b>泰国 GISTDA-ICEYE SAR、印尼 NEO-1、新加坡 NeuSAR-2、柬埔寨规划首星，均指向"数据应用+AI 分析"缺口，契合明华遥感主攻需求端的定位。</li>
