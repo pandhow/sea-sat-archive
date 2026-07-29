@@ -54,14 +54,43 @@
   footer{margin-top:44px;color:var(--sub);font-size:13px;text-align:center;border-top:1px solid var(--line);padding-top:18px;}
   a{color:var(--com);text-decoration:none;word-break:break-all;}
 </style>
+
+<style id="light-override">
+:root{
+  --bg:#eef1f7;--bg2:#e3e9f4;--card:#ffffff;--card2:#f3f6fc;
+  --panel:#ffffff;--panel2:#f3f6fc;--line:#dde3ef;
+  --txt:#1b2440;--sub:#62708f;--dim:#8593ad;
+  --sat:#2c6fd6;--hi:#c08a16;--ok:#0f9d8c;--bad:#e03131;
+  --th:#2c6fd6;--id:#0f9d8c;--my:#7a3fb0;--sg:#8a5cd0;--kh:#d6418f;
+  --gold:#b07d12;--com:#2c6fd6;--nav:#0f9d8c;--rs:#d6418f;--launch:#e8833a;
+}
+body{background:var(--bg)!important;color:var(--txt)!important;}
+header{background:var(--panel2)!important;color:var(--txt)!important;}
+header .meta,header .tag,header h1,header h2,header h3,header .sub{color:var(--txt)!important;}
+a{color:var(--com)!important;}
+@media (max-width:600px){
+  .wrap,.container{max-width:100%!important;padding:16px 12px 40px!important;margin:0!important;}
+  header{padding:22px 16px!important;}
+  h1{font-size:22px!important;}
+  h2{font-size:18px!important;margin:26px 0 12px!important;}
+  h3,.country{font-size:16px!important;}
+  .cards,.core{grid-template-columns:1fr!important;}
+  .card,.c,.item,.sec{padding:14px!important;}
+  table{font-size:12px!important;}
+  th,td{padding:8px 6px!important;}
+  .item .inner,.inner{padding:14px!important;}
+  .sub-title{margin:16px 0 8px!important;}
+}
+</style>
+
 </head>
 <body>
 <div class="wrap">
 
 <header>
-  <div class="tag">SEA SATELLITE WEEKLY · 第 010 期</div>
+  <div class="tag">ASEAN SAT. DAILY · 第 010 期</div>
   <h1>东南亚卫星产业动态</h1>
-  <div class="meta">监测周期：2026-07-21 ~ 07-28（含近两周关键事件回溯）｜ 监测范围：泰国 · 印度尼西亚 · 马来西亚 · 新加坡 · 柬埔寨 ｜ 领域：卫星通信 / 导航（GNSS·北斗）/ 遥感 ｜ 出品：Harry 🎩 for 明华 · SmarCo 东南亚 BD</div>
+  <div class="meta">监测周期：2026-07-21 ~ 07-28（含近两周关键事件回溯）｜ 监测范围：泰国 · 印度尼西亚 · 马来西亚 · 新加坡 · 柬埔寨 ｜ 领域：卫星通信 / 导航（GNSS·北斗）/ 遥感 ｜ 出品：Harry 🎩 for 明华 · Astrolink 东南亚 BD</div>
 </header>
 
 <h2>📌 本期核心看点</h2>
@@ -199,7 +228,7 @@
     <li>技术路线：自家 GEO + Starlink LEO（授权转售）统一在 SD-WAN 层实时调度，主打「LEO 低时延 + GEO 兜底」混合架构；资产底座为兰卡威/赛城地面设施与 30 年政企关系。</li>
     <li>坦承纯带宽 GEO 运营商已被挤压，服务化是唯一活路；马来西亚 Madani 数字包容政策提供顺风。</li>
   </ul>
-  <div class="biz"><b>💼 BD 关联：</b>MEASAT 要做行业 SaaS 但缺终端与传感器生态——明华/SmarCo 的农业传感、车联终端、海事监测硬件可作为其垂直方案的供应侧伙伴；建议以「农业遥感+传感器数据融合」为切口递交合作提案。</div>
+  <div class="biz"><b>💼 BD 关联：</b>MEASAT 要做行业 SaaS 但缺终端与传感器生态——明华/Astrolink 的农业传感、车联终端、海事监测硬件可作为其垂直方案的供应侧伙伴；建议以「农业遥感+传感器数据融合」为切口递交合作提案。</div>
 </div></div>
 
 <div class="item"><div class="bar com"></div><div class="inner">
@@ -249,7 +278,7 @@
     <li>配套企业协议：Warpspace×Transcelestial（激光通信）、Fusic×NTU（AI 星座运维系统）、两国航空航天工业协会合作。</li>
     <li>新加坡太空产业现约 70 家企业、2000 名从业者。</li>
   </ul>
-  <div class="biz"><b>💼 BD 关联：</b>新加坡是区域太空「资本+标准」枢纽，日方已抢先绑定。SmarCo 在新的存在（SingNova 网络）可用于情报触角与渠道合作，而非硬碰硬投标；关注 NSAS 后续开放的国际合作项目清单。</div>
+  <div class="biz"><b>💼 BD 关联：</b>新加坡是区域太空「资本+标准」枢纽，日方已抢先绑定。Astrolink 在新的存在（SingNova 网络）可用于情报触角与渠道合作，而非硬碰硬投标；关注 NSAS 后续开放的国际合作项目清单。</div>
 </div></div>
 
 <div class="sub-title">▎导航（GNSS/北斗）</div>
@@ -312,7 +341,7 @@
 </div></div>
 
 <!-- ===================== BD 建议 ===================== -->
-<h2>🧭 与明华 / SmarCo 东南亚 BD 的业务衔接建议</h2>
+<h2>🧭 与明华 / Astrolink 东南亚 BD 的业务衔接建议</h2>
 <div class="bd">
   <ol>
     <li><span class="p0">【P0·本周】柬埔寨双线卡位：</span>①卫星服务法律框架定稿前，经 CDC/邮电部递交意向书（对标垣信、邦盛时空均已建立官方触点的节奏）；②CORS 72 站土建收尾、设备采购在即，立即经 MLMUPC/总包渠道询价备案 GNSS 设备。</li>
