@@ -3,6 +3,33 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-07-29",
+      "issue_no": "011",
+      "title": "越南首次开栏：Starlink定价65美元落地+LOTUSat-1待发射；泰Thaicom4后天断电；泰NBTC主席危机致审批停摆；印尼MangoStar 50县LEO民政连接；柬千帆入场法律框架卡位",
+      "tags": [
+        "泰国",
+        "印度尼西亚",
+        "马来西亚",
+        "新加坡",
+        "柬埔寨",
+        "越南",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "LOTUSat",
+        "Thaicom",
+        "千帆",
+        "MEASAT",
+        "VNSC",
+        "CORS",
+        "Vikram-1"
+      ],
+      "file": "issues/2026-07-29.html"
+    },
+    {
       "date": "2026-07-28",
       "issue_no": "010",
       "title": "东南亚卫星产业动态",
