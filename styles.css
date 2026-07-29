@@ -75,14 +75,15 @@ body{background:var(--bg);color:var(--ink);
   .topbar .meta{font-size:10.5px}
   .search input{width:100%}
   .layout{display:block}
-  .sidebar{width:100%;flex:0 0 auto;max-height:80px;border-right:none;border-bottom:1px solid var(--line);
+  .sidebar{width:100%;flex:0 0 auto;max-height:92px;border-right:none;border-bottom:1px solid var(--line);
     background:var(--panel);display:flex;flex-direction:row;align-items:stretch;overflow-x:auto;overflow-y:hidden}
   .side-head{display:none}
-  .issue-list{display:flex;flex-direction:row;gap:8px;padding:10px 12px;overflow:visible;flex-wrap:nowrap}
+  .issue-list{display:flex;flex-direction:row;gap:8px;padding:8px 12px;overflow:visible;flex-wrap:nowrap;align-items:center}
   .issue-item{flex:0 0 auto;white-space:nowrap;border-left:none;border-bottom:none;
-    border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-width:140px}
+    border:1px solid var(--line);border-radius:10px;padding:7px 12px;min-width:128px}
   .issue-item.active{border-color:var(--accent);background:var(--panel2)}
-  .issue-item .title{font-size:12.5px;margin:2px 0 4px;max-width:150px;overflow:hidden;text-overflow:ellipsis}
+  .issue-item .tag{display:none}
+  .issue-item .title{font-size:12.5px;margin:2px 0 0;max-width:150px;overflow:hidden;text-overflow:ellipsis}
   .side-foot{display:none}
   .viewer{display:block;height:auto;min-height:60vh;overflow:visible}
   .empty{position:static;padding:48px 20px}
