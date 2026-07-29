@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>东南亚卫星产业动态 · 第 011 期（2026-07-29）</title>
+<meta name="archive-title" content="越南首次开栏：Starlink定价65美元落地+LOTUSat-1待发射；泰Thaicom4后天断电；泰NBTC主席危机致审批停摆；印尼MangoStar 50县LEO民政连接；柬千帆入场法律框架卡位">
+<meta name="archive-tags" content="泰国,印度尼西亚,马来西亚,新加坡,柬埔寨,越南,卫星通信,导航,北斗,遥感,发射,Starlink,LOTUSat,Thaicom,千帆,MEASAT,VNSC,CORS,Vikram-1">
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--txt);font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;line-height:1.7;}
+.wrap{max-width:860px;margin:0 auto;padding:28px 20px 60px;}
+header{background:linear-gradient(135deg,#ffffff 0%,#f0f4fd 60%,#e8eefb 100%);border:1px solid var(--line);border-radius:14px;padding:34px 30px;margin-bottom:26px;}
+.tag{display:inline-block;font-size:12px;letter-spacing:2px;color:var(--gold);border:1px solid var(--gold);border-radius:20px;padding:2px 14px;margin-bottom:14px;font-weight:600;}
+h1{font-size:30px;letter-spacing:2px;color:var(--txt);}
+.meta{margin-top:12px;font-size:13px;color:var(--sub);}
+.meta b{color:var(--gold);}
+h2{font-size:20px;margin:34px 0 16px;color:var(--txt);border-left:4px solid var(--gold);padding-left:12px;}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;}
+.card h4{font-size:15px;margin-bottom:6px;color:var(--txt);}
+.card .sm{font-size:13px;color:var(--sub);}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:14px;}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:center;}
+th{background:var(--panel2);color:var(--txt);font-weight:600;}
+td:first-child,th:first-child{text-align:left;font-weight:600;}
+.dot-hi{color:var(--hi);font-weight:700;}
+.dot-mid{color:var(--mid);font-weight:700;}
+.dot-lo{color:var(--lo);}
+h3.country{font-size:18px;margin:32px 0 6px;color:var(--txt);}
+.sub-title{font-size:13px;color:var(--sub);margin-bottom:14px;}
+.domain{font-size:15px;font-weight:700;margin:20px 0 10px;color:var(--txt);}
+.domain.com{border-left:4px solid var(--com);padding-left:10px;}
+.domain.nav{border-left:4px solid var(--nav);padding-left:10px;}
+.domain.rs{border-left:4px solid var(--rs);padding-left:10px;}
+.domain.launch{border-left:4px solid var(--launch);padding-left:10px;}
+.item{display:flex;margin-bottom:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+.item .bar{width:5px;flex-shrink:0;}
+.bar.com{background:var(--com);} .bar.nav{background:var(--nav);} .bar.rs{background:var(--rs);} .bar.launch{background:var(--launch);}
+.item .inner{padding:16px 18px;flex:1;}
+.item h4{font-size:15px;color:var(--txt);margin-bottom:4px;}
+.src{font-size:12px;color:var(--sub);margin-bottom:8px;}
+.pts{margin:0 0 10px 20px;font-size:14px;color:var(--txt);}
+.pts li{margin-bottom:4px;}
+.biz{background:rgba(176,125,18,.12);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:9px 12px;font-size:13px;color:var(--txt);}
+.biz b{color:var(--gold);}
+.empty{background:var(--panel2);border:1px dashed var(--line);border-radius:10px;padding:12px 16px;font-size:13px;color:var(--sub);margin-bottom:14px;}
+.plist{list-style:none;}
+.plist li{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:12px;font-size:14px;color:var(--txt);}
+.p0{border-left:5px solid var(--hi);}
+.p1{border-left:5px solid var(--mid);}
+.p2{border-left:5px solid var(--lo);}
+.plist b.lv{color:var(--gold);}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--sub);text-align:center;}
+a{color:var(--com);text-decoration:underline;}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,125,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="tag">ASEAN SAT. DAILY · 第 011 期</div>
+  <h1>东南亚卫星产业动态</h1>
+  <div class="meta">
+    监测周期：截至 <b>2026-07-29（周三）</b> ｜ 范围：泰国 · 印度尼西亚 · 马来西亚 · 新加坡 · 柬埔寨 · <b>越南（本期新增）</b><br>
+    领域：卫星通信 / 导航（GNSS·北斗） / 遥感 / 发射与卫星（发射·地面站·卫星动态） ｜ 出品：<b>Harry 🎩 for 明华 · Astrolink BD</b>
+  </div>
+</header>
+
+<h2>📌 本期核心看点</h2>
+<div class="cards">
+  <div class="card"><h4>🔴 泰 Thaicom 4 后天（7/31 周五）正式断电</h4><div class="sm">21 年服役期结束，NT 用户迁移 Koreasat 7 过渡至 2027 年 9 月 Thaicom 9 发射；OneWeb 经乌汶府 NT 关口站成为官方推荐冗余方案——备援窗口进入最后 48 小时。</div></div>
+  <div class="card"><h4>🆕 越南首次纳入监测：三重信号齐发</h4><div class="sm">Starlink 定价 65 美元/月正式公布（受控试点、60 万终端上限、4 座关口站 2027.2 前建成）；LOTUSat-1 SAR 卫星整装待发（目标 2027 年底）；VNSC 和乐航天中心 3 月落成（2.66 亿美元，东南亚最先进之一）。</div></div>
+  <div class="card"><h4>🔴 泰 NBTC 主席资格危机升级：7/27 会议再度流产</h4><div class="sm">遴选委员会 7/17 以 4:0 裁定主席萨兰不具资格后，7/27 委员会因 3 名委员退席致法定人数不足——频谱/卫星审批停摆风险坐实，建议对泰审批事项改走 GISTDA/部委通道。</div></div>
+  <div class="card"><h4>🆕 印尼 Telkomsat「MangoStar」LEO 落地民政系统</h4><div class="sm">7/27 与内政部民政总局启动 50 个无信号/弱信号县市的 LEO 卫星连接部署培训（苏门答腊/加里曼丹/巴布亚等），政府侧 LEO 应用从示范走向批量采购。</div></div>
+  <div class="card"><h4>🟡 柬埔寨卡位窗口持续：千帆入场 + 法律框架起草中</h4><div class="sm">垣信（千帆）7/17 获洪玛奈接见后，邮电部卫星服务法律框架仍在起草——框架落地前是设备/方案供应商最后的低门槛进入期；CORS 72 站落桩/52 站通电，设备采购在即。</div></div>
+  <div class="card"><h4>🆕 新加坡资本双线出击：发射通道 + 在轨延寿</h4><div class="sm">GIC/淡马锡押注的 Vikram-1 7/18 首飞成功后，新企业正洽谈东南亚小卫星专属发射档期；Infinite Orbits（新/英）7/17 与中播控股签在轨卫星延寿服务意向书。</div></div>
+</div>
+
+<h2>🗺️ 六国活跃度矩阵</h2>
+<table>
+  <tr><th>国家</th><th>卫星通信</th><th>导航</th><th>遥感</th><th>发射与卫星</th></tr>
+  <tr><td>🇹🇭 泰国</td><td class="dot-hi">● 高</td><td class="dot-mid">● 中</td><td class="dot-hi">● 高</td><td class="dot-mid">● 中</td></tr>
+  <tr><td>🇮🇩 印度尼西亚</td><td class="dot-hi">● 高</td><td class="dot-lo">● 低(暂无)</td><td class="dot-hi">● 高</td><td class="dot-hi">● 高</td></tr>
+  <tr><td>🇲🇾 马来西亚</td><td class="dot-hi">● 高</td><td class="dot-lo">● 低(暂无)</td><td class="dot-mid">● 中</td><td class="dot-lo">● 低(暂无)</td></tr>
+  <tr><td>🇸🇬 新加坡</td><td class="dot-mid">● 中</td><td class="dot-lo">● 低(暂无)</td><td class="dot-mid">● 中</td><td class="dot-hi">● 高</td></tr>
+  <tr><td>🇰🇭 柬埔寨</td><td class="dot-mid">● 中</td><td class="dot-mid">● 中</td><td class="dot-lo">● 低(暂无)</td><td class="dot-lo">● 低(暂无)</td></tr>
+  <tr><td>🇻🇳 越南</td><td class="dot-hi">● 高</td><td class="dot-lo">● 低(暂无)</td><td class="dot-hi">● 高</td><td class="dot-mid">● 中</td></tr>
+</table>
+
+<!-- ================= 泰国 ================= -->
+<h3 class="country">🇹🇭 泰国</h3>
+<div class="sub-title">Thaicom 4 断电进入最后 48 小时；NBTC 治理危机坐实审批停摆；GISTDA 18 星 EO 星座持续曝光</div>
+
+<div class="domain com">▎卫星通信</div>
+<div class="item"><div class="bar com"></div><div class="inner">
+  <h4>Thaicom 4 本周五（7/31）关闭：迁移 Koreasat 7 的执行清单公开</h4>
+  <div class="src">来源：Hey Thailand News ｜ 2026-07 下旬</div>
+  <ul class="pts">
+    <li>Thaicom 4（2005 年发射、全球首颗亚太宽带 HTS）7/31 结束 21 年服役；电力系统已衰减至原容量约 60%，6 月起 NT 已终止其宽带业务。</li>
+    <li>NBTC 批准紧急租用韩国 Koreasat 7 过渡，信号覆盖与原星基本一致，终端用户「无感切换」；Thaicom 9 定于 2027 年 9 月发射，过渡期约 14 个月。</li>
+    <li>媒体明确向 VSAT 企业用户（海上作业、能源、远程酒店、农业监测）提示审计备份链路，并点名 OneWeb LEO（经 NT 乌汶府关口站）为低时延冗余选项。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：断电备援已被泰媒体炒成「全民话题」，14 个月过渡期内 VSAT 企业客户对双链路冗余需求真实存在。建议<b>明华/Astrolink</b>本周内把「GEO 过渡 + LEO 备援」组合方案（含地面终端与关口站配套）递交给泰方渠道伙伴，蹭住 7/31 断电节点的市场焦虑期。</div>
+</div></div>
+
+<div class="domain nav">▎导航（GNSS/北斗）</div>
+<div class="item"><div class="bar nav"></div><div class="inner">
+  <h4>NBTC 治理危机升级：7/27 会议因委员退席流产，审批机制事实停摆</h4>
+  <div class="src">来源：泰国中文社（thais.com）｜ 2026-07-27</div>
+  <ul class="pts">
+    <li>7/17 遴选委员会以 4:0 裁定 NBTC 主席萨兰不具备资格后，7/27 委员会会议开始前数字电视协会递信质疑「资格争议期间表决的法律效力」，3 名委员随即退席，法定人数不足、会议无法召开。</li>
+    <li>NBTC 掌管频谱分配、卫星落地许可等关键审批——主席资格悬而未决期间，相关重大议程恐持续搁置。</li>
+    <li>北斗合作主线（7/20 GISTDA×国家发改委 MOU）走 GISTDA/部委通道，暂不受 NBTC 危机直接影响，仍处签署后跟踪期。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：坐实上期判断——<b>明华</b>对泰所有涉审批事项（频谱、落地许可）短期内避开 NBTC 主线，优先走 GISTDA/交通部/发改委对口 MOU 通道；北斗应用落地清单建议由朱然按 MOU 点名的交通运输、灾害管理两个场景先行梳理。</div>
+</div></div>
+
+<div class="domain rs">▎遥感</div>
+<div class="item"><div class="bar rs"></div><div class="inner">
+  <h4>GISTDA 空间创新园区细节曝光：18 星对地观测星座 + 国家卫星总装测试中心开放服务</h4>
+  <div class="src">来源：Thailand Edition / MGR Online（7/11 记者团参访）｜ 2026-07 中旬</div>
+  <ul class="pts">
+    <li>GISTDA 规划在 THEOS-1/2 之外再发展 18 颗对地观测卫星（THEOS-3/4/5/6 等），THEOS-3 工程样机（EM）2029 年前完成系统测试。</li>
+    <li>春武里府 Si Racha 国家卫星总装集成测试中心（AIT）对政府、私企及外国机构开放——新加坡南洋理工大学（NTU）已是其客户。</li>
+    <li>日泰 LEO 星座联合可研（METI×MHESI 6/30 MOC）持续推进：JAXA+GISTDA+Synspective 提供 SAR 数据与星座运营经验，日方深度切入泰国低轨遥感。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：日方以「联合可研」形式绑定 GISTDA 遥感条线的动作在加速，<b>明华</b>遥感方案（面向海南农垦式的农业/资源监测场景复制）在泰竞争窗口收窄，建议 8 月内联动泰方院校/AIT 中心以「载荷部件+数据应用」轻模式切入，避免与日方整星座方案正面竞标。</div>
+</div></div>
+
+<div class="domain launch">▎发射与卫星（含发射动态·地面站·卫星动态）</div>
+<div class="item"><div class="bar launch"></div><div class="inner">
+  <h4>本期无独立发射新动态；卫星侧焦点为 Thaicom 9（2027.9）与 THEOS-3 节点</h4>
+  <div class="src">来源：综合本期检索 ｜ 2026-07-29</div>
+  <ul class="pts">
+    <li>Thaicom 9 发射节点（2027 年 9 月）成为泰通信卫星唯一硬时间表；太空港 PPP 蓝图无本周新进展。</li>
+    <li>地面站侧：NT 乌汶府 OneWeb 关口站因断电事件被反复引用，商用地位上升。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：乌汶府关口站流量地位上升，<b>Astrolink</b>可关注 NT 后续关口站扩容与配套设备招标信息。</div>
+</div></div>
+
+<!-- ================= 印尼 ================= -->
+<h3 class="country">🇮🇩 印度尼西亚</h3>
+<div class="sub-title">政府侧 LEO 应用批量化（MangoStar 50 县）；NEO-1 定档；印印(度)太空合作元首级督办</div>
+
+<div class="domain com">▎卫星通信</div>
+<div class="item"><div class="bar com"></div><div class="inner">
+  <h4>🆕 Telkomsat×内政部民政总局：50 个无信号县市部署 MangoStar LEO 连接</h4>
+  <div class="src">来源：Intimedia ｜ 2026-07-27</div>
+  <ul class="pts">
+    <li>7/27 雅加达知识分享会：50 个县市民政局长集中培训 MangoStar 设备安装、配置、运维与故障排除，覆盖苏门答腊、加里曼丹、苏拉威西、马鲁古、努沙登加拉、巴布亚。</li>
+    <li>目标是保障偏远地区人口登记系统（Dukcapil）不断线——政府公共服务成为印尼 LEO 连接第一批规模化买单方。</li>
+    <li>另：Komdigi 已于 7/8 向 ITU 递交国家 LEO 轨位/频率申报（PSN、Telkomsat 主体），主权星座走完国际程序前不会短期落地。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：印尼「政府买单 + 国企运营」模式清晰，整星/星座层面外企空间有限，但 50 县部署会带动天线、终端、供电防雷、站点集成等地面段批量需求——符合此前「印尼做部件/地面段」的定位，<b>明华</b>可经 Telkomsat 生态供应商切入。</div>
+</div></div>
+
+<div class="domain nav">▎导航（GNSS/北斗）</div>
+<div class="empty">本期无新增公开动态（低热度）。印尼 GNSS 议题近期由测绘局（BIG）主导的 CORS 常规运维为主，无新签约/新采购公开信息。</div>
+
+<div class="domain rs">▎遥感</div>
+<div class="item"><div class="bar rs"></div><div class="inner">
+  <h4>NEO-1 国产对地观测卫星定档 2027 年 1 月：TKDN 65%，BRIN 全链自研</h4>
+  <div class="src">来源：ANTARA（印尼卫星 50 周年活动）｜ 2026-07-08</div>
+  <ul class="pts">
+    <li>NEO-1（Nusantara Earth Observation）为印尼首颗以本国研究人员为主研制的卫星，国产化率 65%，中高分辨率成像 + AIS 船舶追踪。</li>
+    <li>应用指向区域测绘、农业、林业、海洋、防灾、环境监测；BRIN 明确下一步优先研制国家通信卫星，口径是「数字主权、降低对外依赖」。</li>
+    <li>BRIN 同场释放「印尼要做区域航天产业枢纽」定位（赤道发射效率优势写入 2025–2045 国家长期规划）。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：印尼遥感整星自研意志强，外部机会在<b>载荷部件、地检设备、数据应用软件</b>三个缝隙；建议<b>明华</b>把遥感数据应用（农业估产/灾害监测）打包成不触碰「TKDN 敏感区」的服务型方案试探 BRIN 生态。</div>
+</div></div>
+
+<div class="domain launch">▎发射与卫星（含发射动态·地面站·卫星动态）</div>
+<div class="item"><div class="bar launch"></div><div class="inner">
+  <h4>BRIN×ISRO 合作进入落实期：印度代射 BRIN 卫星 + 比亚克（Biak）太空港选址</h4>
+  <div class="src">来源：RRI / ANTARA（7/7 签约，两国元首见证）｜ 2026-07 上旬，7 月下旬持续发酵</div>
+  <ul class="pts">
+    <li>7/7 莫迪访印尼期间，BRIN 与 ISRO 在总统府签署太空合作协议：涵盖卫星发射（印度代射 BRIN 环境/粮食安全监测卫星）、卫星监测协作与印尼太空港建设（候选地巴布亚比亚克）。</li>
+    <li>普拉博沃与莫迪双双督办「尽快落地」，BRIN 已收到「立即跟进」指示——元首级推动使其成为印尼发射板块最确定的主线。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：印度深度绑定印尼发射通道后，中资在印尼发射侧空间进一步压缩；<b>Astrolink</b>宜维持情报跟踪，不投入实质 BD 资源，把印尼精力集中在地面段与数据应用。</div>
+</div></div>
+
+<!-- ================= 马来西亚 ================= -->
+<h3 class="country">🇲🇾 马来西亚</h3>
+<div class="sub-title">MEASAT 多轨道+SaaS 转型持续输出；中播数据合资平台落地东盟；导航/发射本期平静</div>
+
+<div class="domain com">▎卫星通信</div>
+<div class="item"><div class="bar com"></div><div class="inner">
+  <h4>MEASAT CTO 封面专访续篇：GEO+Starlink SD-WAN 混合架构 + 电信医疗/农业传感/海事 SaaS</h4>
+  <div class="src">来源：The Edge Malaysia Digital Edge（7/13–19 刊）/ KLSE Screener ｜ 2026-07 中下旬持续传播</div>
+  <ul class="pts">
+    <li>新任 CTO John Loke（自 Kacific 回归）明确 MEASAT 从「卖带宽」转向托管服务/垂直 SaaS：远程医疗、农业传感器、海事连接，依托兰卡威+赛城地面设施与 30 年政企关系。</li>
+    <li>技术路线：SD-WAN 智能层实时监测链路质量，LEO（Starlink 转售）低时延 + GEO 高可靠互补，主打「比单用 Starlink 更稳」。</li>
+    <li>中播数据（00471.HK）×ASSB 51:49 马来合资企业（7/17 公告）定位东盟落地平台：新能源车联网娱乐、偏远社区多媒体广播、公共信息/远程教育，由「亚洲之星」及下一代「丝路一号」平台支撑。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：MEASAT 的 SD-WAN 混合组网叙事可直接借鉴到<b>明华/Astrolink</b>对泰、柬客户的方案话术；中播数据合资案表明「中资内容/数据服务 + 马来本地牌照方」股比结构（51:49）可行，可作为明华在马落地的参照模板。</div>
+</div></div>
+
+<div class="domain nav">▎导航（GNSS/北斗）</div>
+<div class="empty">本期无新增公开动态（低热度）。此前赛伯乐 7/17「全国 CORS + GBAS/SBAS 双平台」MOU 后未见执行层新信息，继续跟踪。</div>
+
+<div class="domain rs">▎遥感</div>
+<div class="item"><div class="bar rs"></div><div class="inner">
+  <h4>「先行者一号/二号」月球飞掠探测器叙事继续传播——仍仅自媒体来源，需 MYSA 核实</h4>
+  <div class="src">来源：今日头条自媒体（缅甸中文圈转载链）｜ 2026-07 下旬仍在传播</div>
+  <ul class="pts">
+    <li>该说法称马来两颗共 240kg 小探测器 7/1 借国际合作发射、执行月球飞掠——连续第四期仅见自媒体转述，<b>无 MYSA/官方通稿佐证</b>，本报持续按「未经证实」处理。</li>
+    <li>官方遥感条线（RazakSAT 遗产、灾害监测应用）本期无新增公开动态。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：对外引用东南亚航天动态时请以官方信源为准，避免把未经证实的「先行者」条目写进<b>明华</b>客户材料。</div>
+</div></div>
+
+<div class="domain launch">▎发射与卫星（含发射动态·地面站·卫星动态）</div>
+<div class="empty">本期无新增公开动态（低热度）。马来无自主发射能力，近期亦无代射/地面站公开新签约。</div>
+
+<!-- ================= 新加坡 ================= -->
+<h3 class="country">🇸🇬 新加坡</h3>
+<div class="sub-title">NSAS 首个双边协定（日新）继续落地；发射通道（Vikram-1）+ 在轨延寿（Infinite Orbits）双线活跃</div>
+
+<div class="domain com">▎卫星通信</div>
+<div class="item"><div class="bar com"></div><div class="inner">
+  <h4>日新太空协定包持续发酵：量子卫星通信为旗舰方向</h4>
+  <div class="src">来源：NSAS 官网新闻页（7/7 更新）/ Jiji ｜ 2026-07 上旬签署，本周仍为机构主推</div>
+  <ul class="pts">
+    <li>JAXA×NSAS 7/6 MOU（NSAS 成立后首个双边协定）聚焦量子卫星通信等前沿领域信息共享；新加坡成为 JAXA 共同出资商业促进框架下继英法后第三个伙伴国。</li>
+    <li>配套企业协定：Warpspace（星间通信）×Transcelestial（激光通信）结成伙伴——新加坡光通信产业链被日方点名。</li>
+    <li>新加坡太空生态现约 70 家企业、2000 名从业者，NSAS 隶属贸工部，产业促进导向明确。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：新加坡定位为技术/资本节点而非市场，<b>明华</b>维持经 SingNova（Annie & Philip）渠道的情报交换即可，不必投入销售资源；量子通信与激光星间链路动向值得纳入技术雷达。</div>
+</div></div>
+
+<div class="domain nav">▎导航（GNSS/北斗）</div>
+<div class="empty">本期无新增公开动态（低热度）。</div>
+
+<div class="domain rs">▎遥感</div>
+<div class="item"><div class="bar rs"></div><div class="inner">
+  <h4>NTU×Fusic：AI 驱动的卫星星座运营管理系统联合开发</h4>
+  <div class="src">来源：Jiji / Spacetide 2026 场边协定 ｜ 2026-07 上旬，执行期内</div>
+  <ul class="pts">
+    <li>NTU 与日本云技术公司 Fusic 联合开发 AI 星座运营管理系统，为后续多星 EO/通信星座的自动化测运控铺路。</li>
+    <li>NTU 同时是泰国 GISTDA 国家卫星 AIT 中心的境外客户——新加坡学研机构正在用区域设施完成整星链条。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：AI 测运控是<b>Astrolink</b>地面段产品叙事可借用的热词；NTU-GISTDA 用例说明区域 AIT 设施共享已成惯例，明华卫星部件若需第三方测试可评估泰国 AIT 中心报价。</div>
+</div></div>
+
+<div class="domain launch">▎发射与卫星（含发射动态·地面站·卫星动态）</div>
+<div class="item"><div class="bar launch"></div><div class="inner">
+  <h4>发射通道+在轨服务双线：Vikram-1 档期洽谈推进；Infinite Orbits 签在轨延寿意向书</h4>
+  <div class="src">来源：idrw.org / AAStocks（中播控股 00471.HK 公告）｜ 2026-07 中下旬</div>
+  <ul class="pts">
+    <li>GIC/淡马锡重仓的 Skyroot「Vikram-1」7/18 首飞成功后，新加坡企业正与 Skyroot 洽谈东南亚小卫星星座<b>专属发射档期</b>——继 PSLV 20+ 星代射传统后，新印商业发射通道升级。</li>
+    <li>Infinite Orbits（新加坡/英国）7/17 与中播控股及其联营丝路控股签合作意向书，发展在轨卫星增值服务，为 GEO 卫星群延寿、降本增效。</li>
+    <li>提示：历史条目 PSLV-C56/DS-SAR（2023 年 7 月）仍在社媒回流，继续按旧闻排除。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：Vikram-1 档期若坐实，将成为区域小卫星「非中非美」第三发射选项，直接影响<b>明华</b>火箭主线（科工火箭）在东南亚的报价参照系——建议将 Skyroot 商业报价纳入竞对监测；GEO 延寿服务对 Thaicom/MEASAT 这类老星运营方有真实吸引力，可关注其东南亚获客动作。</div>
+</div></div>
+
+<!-- ================= 柬埔寨 ================= -->
+<h3 class="country">🇰🇭 柬埔寨</h3>
+<div class="sub-title">法律框架起草期 = 卡位窗口；CORS 建设推进至设备安装前夜；遥感/发射本期平静</div>
+
+<div class="domain com">▎卫星通信</div>
+<div class="item"><div class="bar com"></div><div class="inner">
+  <h4>垣信（千帆）入场后续：法律框架起草中，政府口径「框架落地后优先偏远覆盖」</h4>
+  <div class="src">来源：Fresh News / Kampuchea Thmey ｜ 2026-07-17/18 会晤，框架起草持续至今</div>
+  <ul class="pts">
+    <li>洪玛奈 7/17 上海会见垣信董事长后，官方口径再确认：邮电部正制定卫星互联网/通信服务监管框架，落地后优先扩展偏远农村连接并设置技术滥用防范条款。</li>
+    <li>垣信主打千帆 LEO + 手机直连（direct-to-cell）叙事；柬方明确让企业「继续与邮电部谈具体合作」——规则成型前正是各方递交意见与方案的窗口。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：<b>P0 级窗口不变。</b>垣信、邦盛之后，柬赛道玩家渐多但规则未定——<b>明华</b>应在框架成稿前（预计数周内）以「地面段+终端+行业应用」配套者身份向邮电部递交意向与技术建议书，争取写入实施细则的兼容条款；重大合作口径需与官方及一线 BD 核实。</div>
+</div></div>
+
+<div class="domain nav">▎导航（GNSS/北斗）</div>
+<div class="item"><div class="bar nav"></div><div class="inner">
+  <h4>全国 CORS 网络：72 站落桩、52 站完成供电+防雷——设备安装采购临近</h4>
+  <div class="src">来源：Cambolist / MLMUPC（土地管理部地籍与地理总局）｜ 数据截至 2026-07-07，7 月下旬持续推进</div>
+  <ul class="pts">
+    <li>较 5/31（66 桩/37 站电气）继续提速：混凝土基桩 72 座，52 座完成电力、防雷、主控柜安装；下一阶段即 GNSS 接收机等核心设备安装。</li>
+    <li>项目目标：土地登记精度、智慧城市规划与科研支撑——柬地籍改革的核心基础设施。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：接收机/天线/机柜集成采购在即，<b>明华</b>北斗配套线（朱然对接报价）应本周内确认 MLMUPC 采购渠道与竞标资格，柬埔寨仍是北斗设备变现确定性最高的市场。</div>
+</div></div>
+
+<div class="domain rs">▎遥感</div>
+<div class="empty">本期无新增公开动态（低热度）。柬遥感需求预计将依附于 CORS/土地登记体系逐步显现。</div>
+
+<div class="domain launch">▎发射与卫星（含发射动态·地面站·卫星动态）</div>
+<div class="empty">本期无新增公开动态（低热度）。柬无自主发射/在轨卫星计划公开信息。</div>
+
+<!-- ================= 越南 ================= -->
+<h3 class="country">🇻🇳 越南（本期新增监测国）</h3>
+<div class="sub-title">开栏综述：受控开放的 LEO 市场 + 日援自研并举的遥感体系 + 待发射的 LOTUSat-1</div>
+
+<div class="domain com">▎卫星通信</div>
+<div class="item"><div class="bar com"></div><div class="inner">
+  <h4>🆕 Starlink 越南定价公布：65 美元/月，「受控试点」框架下的有限开放</h4>
+  <div class="src">来源：VnExpress（7/12）/ vietnam.vn（7/20）｜ 2026-07 中下旬</div>
+  <ul class="pts">
+    <li>个人订阅 171 万越南盾（约 65 美元）/月，低于此前预期 22%；硬件套件 1027 万盾另付，下行 135–305 Mbps；商用开通时间未定（SpaceX：「团队正全速推进」）。</li>
+    <li>监管框架严格：国会 193/2025 决议+总理 659 号决定构成「受控试点」——60 万终端上限、流量须经<b>国内关口站</b>路由、安全部门监督；运营牌照 2026 年 2 月已发。</li>
+    <li>科技部将「低轨卫星互联网商用化」列为 2026 下半年重点（与 5G 全覆盖、新海缆并列）；VNPT 的 VINASAT-1 已超期服役，替代星方案（Airbus 顾问）在推进中。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：越南模式=「外来能力+主权控制」，整网服务外企难进，但<b>关口站与地面段是硬需求</b>（见发射与卫星块）。<b>明华/Astrolink</b>开栏首要动作是建立越南信息渠道（VNPT/Viettel 生态、科技部电信局动向），评估以设备供应商身份参与 VINASAT 替代星地面段的可行性；越南地缘敏感，涉北斗叙事须谨慎包装为民用 GNSS 多模。</div>
+</div></div>
+
+<div class="domain nav">▎导航（GNSS/北斗）</div>
+<div class="empty">本期无新增公开动态（低热度）。越南测绘条线以多模 GNSS（GPS/GLONASS/Galileo/北斗兼容）常规应用为主，未见新签约；鉴于地缘敏感性，北斗专项合作公开信息历来极少，将持续观察。</div>
+
+<div class="domain rs">▎遥感</div>
+<div class="item"><div class="bar rs"></div><div class="inner">
+  <h4>🆕 LOTUSat-1 SAR 卫星整装待发：制造完成、地面系统就位，总理督办 2027 年底前发射</h4>
+  <div class="src">来源：Tuoi Tre News / VietnamPlus / OBDH 发射数据库 ｜ 2026-03 落成典礼表态，7 月仍为现行状态</div>
+  <ul class="pts">
+    <li>LOTUSat-1（600kg，NEC 制造，基于 ASNARO-2/NX-300L 平台，X 波段 SAR，1 米级分辨率，全天候观测）为越南首颗雷达卫星，日本 ODA+越方配套出资；星体制造完成，因 Epsilon S 火箭故障发射推迟，范明政总理要求「2027 年底前务必发射」。</li>
+    <li>VNSC 越南国家航天中心（和乐高科技园，9 公顷，2.66 亿美元）今年 3/13 落成，LOTUSat-1 地面系统已安装、运控人员完成培训；36 名硕士在日完成卫星培训。</li>
+    <li>长期路线：2030 年代初建成「越南制造」小卫星 EO 星座，逐步掌握高分辨率整星自研能力；现役 VNREDSat-1（2013，Airbus）。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：越南遥感体系被日本 ODA 深度绑定（NEC 整星+JAXA 通道），整星层面无明华空间；机会在<b>SAR 数据应用与行业服务</b>——越南农业/防灾对 SAR 数据需求真实，若明华遥感条线（对标海垦模式）有东南亚数据服务产品，可评估经越方行业部门（农业环境部遥感局）做应用层合作。</div>
+</div></div>
+
+<div class="domain launch">▎发射与卫星（含发射动态·地面站·卫星动态）</div>
+<div class="item"><div class="bar launch"></div><div class="inner">
+  <h4>🆕 地面站动态为主线：Starlink 4 座关口站 2027 年 2 月前限期建成；LOTUSat-1 待 Epsilon S 复飞</h4>
+  <div class="src">来源：VnExpress / OBDH ｜ 2026-07 中旬</div>
+  <ul class="pts">
+    <li>Starlink 首期在岘港、富寿省、胡志明市等地建 4 座关口站，牌照条款要求 2027 年 2 月（发照后一年）内完成——越南当前最确定的地面站建设时间表。</li>
+    <li>LOTUSat-1 搭乘 JAXA Epsilon S 自日本内之浦发射，档期 TBD（数据库名义 T0 2026-12-31，政府口径 2027 年底前）；发射端完全依赖日方复飞进度。</li>
+    <li>越南无自主发射计划公开信息；VNSC 测运控设施为区域先进水平，未来或承接更多星座测控合作。</li>
+  </ul>
+  <div class="biz">💼 <b>BD 关联</b>：关口站限期施工意味着 2026H2–2027H1 有明确的站点土建、供电、防雷、天线基础设施分包需求；<b>明华</b>若有越南本地工程伙伴，可探索以分包/设备形式切入 Starlink 及后续 VNPT 地面站项目——政治面中性、纯基建属性，是越南开栏后最务实的第一单方向。</div>
+</div></div>
+
+<h2>🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+<ul class="plist">
+  <li class="p0"><b class="lv">P0 ｜ 泰国 Thaicom 4 断电备援（48 小时节点）</b>：7/31 断电已成泰媒热点，VSAT 企业客户焦虑真实。本周内经泰方渠道递交「GEO 过渡 + LEO 备援 + 地面终端」组合方案；涉审批一律绕开 NBTC（主席危机停摆），走 GISTDA/部委通道。</li>
+  <li class="p0"><b class="lv">P0 ｜ 柬埔寨双线卡位（法律框架 + CORS 设备）</b>：卫星服务法律框架成稿前向邮电部递交意向书与技术建议；CORS 52 站已通电、接收机采购在即，朱然线本周确认 MLMUPC 采购渠道与竞标资格——柬仍是确定性最高市场。</li>
+  <li class="p1"><b class="lv">P1 ｜ 越南开栏三步走</b>：① 建立 VNPT/Viettel/科技部电信局信息渠道；② 跟踪 Starlink 4 关口站（岘港/富寿/胡志明）土建与设备分包机会（2027.2 硬期限）；③ 评估 VINASAT 替代星地面段供应可行性。北斗叙事在越一律以「多模 GNSS 民用」包装，重大接触前与官方及一线 BD 核实。</li>
+  <li class="p1"><b class="lv">P1 ｜ 印尼地面段跟单</b>：MangoStar 50 县部署带动天线/终端/供电防雷/站点集成批量需求，经 Telkomsat 生态供应商切入；整星与发射侧（印度绑定）只做情报跟踪不投资源。</li>
+  <li class="p2"><b class="lv">P2 ｜ 竞对与技术雷达</b>：将 Skyroot Vikram-1 商业报价纳入火箭主线竞对监测；关注 Infinite Orbits GEO 延寿服务对 Thaicom/MEASAT 的获客动作；新加坡量子通信/AI 测运控动向经 SingNova 渠道保持情报交换；马来 51:49 合资模板（中播数据×ASSB）留作明华在马落地参照。</li>
+</ul>
+
+<footer>
+  ASEAN SAT. DAILY · 第 011 期 ｜ 生成时间：2026-07-29 21:30 (GMT+8) ｜ 出品：Harry 🎩 for 明华 · Astrolink BD<br>
+  新闻时点以来源为准；重大合作信息请以官方发布及一线 BD 核实为准。
+</footer>
+
+</div>
+</body>
+</html>
