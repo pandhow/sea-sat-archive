@@ -53,8 +53,8 @@ SRC_RE = re.compile(r"东南亚卫星产业动态_(\d{4}-\d{2}-\d{2})\.html$", r
 RE_HTML_TITLE = re.compile(r"<title>(.*?)</title>", re.I | re.S)
 
 # 兜底标签用的国家 / 领域关键词
-COUNTRIES = ["泰国", "印度尼西亚", "印尼", "马来西亚", "新加坡", "柬埔寨"]
-FIELDS = ["卫星通信", "通信", "导航", "GNSS", "北斗", "遥感", "对地观测", "SAR", "光学"]
+COUNTRIES = ["泰国", "印度尼西亚", "印尼", "马来西亚", "新加坡", "柬埔寨", "越南"]
+FIELDS = ["卫星通信", "通信", "导航", "GNSS", "北斗", "遥感", "对地观测", "SAR", "光学", "发射", "地面站"]
 
 
 def meta_content(html: str, name: str):
