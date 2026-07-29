@@ -106,6 +106,35 @@
   .disc{background:var(--bg2);border:1px dashed var(--line);border-radius:10px;padding:12px 16px;color:var(--mut);font-size:12px;margin-top:14px}
   @media(max-width:720px){.kpis{grid-template-columns:1fr}h1{font-size:27px}}
 </style>
+
+<style id="light-override">
+:root{
+  --bg:#eef1f7;--bg2:#e3e9f4;--card:#ffffff;--card2:#f3f6fc;
+  --panel:#ffffff;--panel2:#f3f6fc;--line:#dde3ef;
+  --txt:#1b2440;--sub:#62708f;--dim:#8593ad;
+  --sat:#2c6fd6;--hi:#c08a16;--ok:#0f9d8c;--bad:#e03131;
+  --th:#2c6fd6;--id:#0f9d8c;--my:#7a3fb0;--sg:#8a5cd0;--kh:#d6418f;
+  --gold:#b07d12;--com:#2c6fd6;--nav:#0f9d8c;--rs:#d6418f;--launch:#e8833a;
+}
+body{background:var(--bg)!important;color:var(--txt)!important;}
+header{background:var(--panel2)!important;color:var(--txt)!important;}
+header .meta,header .tag,header h1,header h2,header h3,header .sub{color:var(--txt)!important;}
+a{color:var(--com)!important;}
+@media (max-width:600px){
+  .wrap,.container{max-width:100%!important;padding:16px 12px 40px!important;margin:0!important;}
+  header{padding:22px 16px!important;}
+  h1{font-size:22px!important;}
+  h2{font-size:18px!important;margin:26px 0 12px!important;}
+  h3,.country{font-size:16px!important;}
+  .cards,.core{grid-template-columns:1fr!important;}
+  .card,.c,.item,.sec{padding:14px!important;}
+  table{font-size:12px!important;}
+  th,td{padding:8px 6px!important;}
+  .item .inner,.inner{padding:14px!important;}
+  .sub-title{margin:16px 0 8px!important;}
+}
+</style>
+
 </head>
 <body>
 
@@ -113,7 +142,7 @@
   <div class="wrap">
     <div class="kicker">Southeast Asia · Satellite Industry Briefing</div>
     <h1>东南亚卫星产业动态</h1>
-    <div class="meta">监测周期 <b>2026-07-12 ~ 2026-07-19</b> ｜ 签发 <b>2026-07-19</b> ｜ 编制 <b>Harry 🎩 · 明华/SmarCo 东南亚 BD</b></div>
+    <div class="meta">监测周期 <b>2026-07-12 ~ 2026-07-19</b> ｜ 签发 <b>2026-07-19</b> ｜ 编制 <b>Harry 🎩 · 明华/Astrolink 东南亚 BD</b></div>
     <p class="lead">覆盖泰国、印度尼西亚、马来西亚、新加坡、柬埔寨五国在<b style="color:#fff">卫星通信 / 导航(GNSS·北斗) / 遥感(对地观测·SAR·光学)</b>三大领域的最新动态。新闻时点以来源披露为准；重大合作以官方与一线 BD 核实为准。</p>
   </div>
 </header>
@@ -214,19 +243,19 @@
           <div class="it-title">千帆星座与泰国国家电信合作落地，低轨宽带覆盖偏远地区</div>
           <div class="it-meta">来源：<b>垣信卫星 / 泰国国家电信公告(转引)</b> ｜ 日期：<b>2026-07-12（合作持续落地）</b></div>
           <div class="it-sum">上海垣信卫星与泰国国家电信(National Telecom)达成合作，以「千帆星座」低轨宽带提升泰国偏远地区通信并共拓卫星宽带市场。7/4–7/5 千帆两发再增 38 颗、在轨达 238 颗；在轨业务实测下行 500+Mbps、上行 100+Mbps，19 星稳定切换、连续通信 120 分钟。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>千帆东南亚打法为「与本地强企合作、不直接建网」，泰国国家电信即关键本地伙伴。明华可争取地面段 / 信关站 / 终端配套角色；SmarCo 宜跟进泰国国家电信生态的供应商准入与行业应用(渔业、农村宽带)代理机会。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>千帆东南亚打法为「与本地强企合作、不直接建网」，泰国国家电信即关键本地伙伴。明华可争取地面段 / 信关站 / 终端配套角色；Astrolink 宜跟进泰国国家电信生态的供应商准入与行业应用(渔业、农村宽带)代理机会。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
         </div>
         <div class="item">
           <div class="it-title">泰国 6/30 起限制 Inmarsat / Viasat 商用卫星连接</div>
           <div class="it-meta">来源：<b>Master Systems / OSAT 运营商通知</b> ｜ 日期：<b>2026-06-30 生效</b></div>
           <div class="it-sum">泰国限制商用 L-band 与 GX Ka-band 服务在陆地、领海及 1 万英尺以下空域使用；泰国旗船舶全球受限，仅政府可申请豁免，海事/航空安全(GMDSS)业务不受影响。反映主权通信监管收紧。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>对 Inmarsat/Viasat 的限制叠加千帆合作，构成国产低轨宽带与卫星通信系统的替代窗口。明华可对标提供合规的国产化船载/应急通信替代方案；SmarCo 可向泰国航运/渔业客户推国产终端。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>对 Inmarsat/Viasat 的限制叠加千帆合作，构成国产低轨宽带与卫星通信系统的替代窗口。明华可对标提供合规的国产化船载/应急通信替代方案；Astrolink 可向泰国航运/渔业客户推国产终端。</div>
         </div>
         <div class="item">
           <div class="it-title">Thaicom 4 (IPSTAR) 拟 7 月底退役，韩国星过渡、Thaicom 9 延至 2027</div>
           <div class="it-meta">来源：<b>台泰时讯 / Bangkok Biz News</b> ｜ 日期：<b>2026-04-23（预计 7 月底退役）</b></div>
           <div class="it-sum">服役超期的 Thaicom 4 预计 7 月底脱离轨道，NBTC 批准以韩国 Korea-SAT 过渡；接替星 Thaicom 9(MicroGEO 高通量、Ka 频段)因制造质检问题延至 2027 发射，地面站改建需 3–6 个月。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>泰国 GEO 容量青黄不接，过渡期与新建期均产生地面段升级、终端替换需求；可与千帆低轨方案形成「GEO 过渡 + LEO 补盲」组合销售。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>泰国 GEO 容量青黄不接，过渡期与新建期均产生地面段升级、终端替换需求；可与千帆低轨方案形成「GEO 过渡 + LEO 补盲」组合销售。</div>
         </div>
       </div>
 
@@ -236,7 +265,7 @@
           <div class="it-title">泰国内阁批准 5 项泰中科技协议，含北斗应用合作 MOU（拟 7/20 签署）</div>
           <div class="it-meta">来源：<b>泰国中文社 / Thairath / SAPM</b> ｜ 日期：<b>2026-07-14（拟 7/20 总理访华签署）</b></div>
           <div class="it-sum">泰国内阁批准 5 项泰中合作草案，第 2 项为《应用北斗卫星导航系统合作谅解备忘录》，涵盖北斗共同研究开发与应用；另含中泰联合深空探测实验室、中科院联合研究(含空间技术)、核聚变交流等，拟于总理 7/20 访华期间签署。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>北斗在泰应用获国家级顶层协议支撑，直接对应明华「北斗商业应用」布局(文昌会议明确对接刘乐推进北斗商业应用)。SmarCo 应把握 7/20 签署窗口期，提前对接泰方 MHESI / GISTDA，争取成为北斗高精度位置服务(物流 / 交通 / 形变监测)落地合作方。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>北斗在泰应用获国家级顶层协议支撑，直接对应明华「北斗商业应用」布局(文昌会议明确对接刘乐推进北斗商业应用)。Astrolink 应把握 7/20 签署窗口期，提前对接泰方 MHESI / GISTDA，争取成为北斗高精度位置服务(物流 / 交通 / 形变监测)落地合作方。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
         </div>
       </div>
 
@@ -246,7 +275,7 @@
           <div class="it-title">本期泰国遥感无独立重大新增披露</div>
           <div class="it-meta">来源：<b>综合监测</b> ｜ 日期：<b>—</b></div>
           <div class="it-sum">本周泰国遥感领域无新增专项合作或重大部署公开；上一监测期 GISTDA THEOS-3 国产化与农业/碳管理应用仍是主线。后续关注北斗 MOU 是否带动「导航+遥感」一体化场景，以及 Thaicom 9 是否预留遥感载荷。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>遥感暂为泰国短板但需求稳定(农业、灾害、EUDR 合规)。可借北斗 MOU 签署的「航天热」顺势推介明华 SAR/光学数据 + AI 分析平台，以「北斗+遥感」打包切入泰方农业保险与碳监测。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>遥感暂为泰国短板但需求稳定(农业、灾害、EUDR 合规)。可借北斗 MOU 签署的「航天热」顺势推介明华 SAR/光学数据 + AI 分析平台，以「北斗+遥感」打包切入泰方农业保险与碳监测。</div>
         </div>
       </div>
     </div>
@@ -264,13 +293,13 @@
           <div class="it-title">中印尼第 12 次卫星网络协调会谈在日惹举行</div>
           <div class="it-meta">来源：<b>工业和信息化部(MIIT)</b> ｜ 日期：<b>2026-06-15 发布（会谈 6/8–12）</b></div>
           <div class="it-sum">中印尼就高低轨多个卫星系统 100 余项议题磋商，涉及卫星通信、卫星气象、北斗短报文等业务并签署纪要；中方含中国星网、中国卫通、垣信卫星等，印尼方含 PSN、印尼电信、人民银行等。促进两国系统频率兼容共用。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>频率协调是整星/地面段出海的前置条件。会谈为千帆、中国卫通等进入印尼铺路；明华可沿「频率已协调」的轨道资源，提前布局印尼信关站与运营合作。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>频率协调是整星/地面段出海的前置条件。会谈为千帆、中国卫通等进入印尼铺路；明华可沿「频率已协调」的轨道资源，提前布局印尼信关站与运营合作。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
         </div>
         <div class="item">
           <div class="it-title">PSN 推进 120 颗低轨主权星座，并宣布进军遥感</div>
           <div class="it-meta">来源：<b>Apsat 2026 / futurephecda 转引</b> ｜ 日期：<b>2026-05-12 披露</b></div>
           <div class="it-sum">PSN 已发射 6 颗赤道轨道物联网/手机直连卫星，规划 100–120 颗覆盖南北纬 15°；同时宣布进军遥感，工程样机与初样评审完成，计划 2027Q4 发射首颗 1 米分辨率遥感星，强调主权系统必要性。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>PSN 主权星座+遥感双线扩张，明确需要本土地面段与运营能力。明华可输出信关站/地面系统；SmarCo 跟进 PSN 遥感星数据增值与 IoT 直连终端市场。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>PSN 主权星座+遥感双线扩张，明确需要本土地面段与运营能力。明华可输出信关站/地面系统；Astrolink 跟进 PSN 遥感星数据增值与 IoT 直连终端市场。</div>
         </div>
       </div>
 
@@ -280,7 +309,7 @@
           <div class="it-title">北斗短报文纳入中印尼协调，武大/北斗微芯在印尼落地应用</div>
           <div class="it-meta">来源：<b>MIIT / 武汉大学测绘学院 / 北斗微芯</b> ｜ 日期：<b>2026-05 至 2026-06</b></div>
           <div class="it-sum">中印尼卫星协调会谈明确纳入北斗短报文业务；武汉大学测绘学院赴印尼交流，实地走访基于北斗/GNSS 与 InSAR 的地面沉降监测站及华测、中海达等国产装备应用；北斗微芯灾害预警方案截至 2026 已拓展至印尼。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>印尼导航以「北斗+国产测绘装备+灾害预警」实景落地为主。明华可对接 BRIN/印尼电信推北斗高精度行业应用；SmarCo 借东盟北斗基地势能抢导航领域早期心智，主推形变监测与海事定位。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>印尼导航以「北斗+国产测绘装备+灾害预警」实景落地为主。明华可对接 BRIN/印尼电信推北斗高精度行业应用；Astrolink 借东盟北斗基地势能抢导航领域早期心智，主推形变监测与海事定位。</div>
         </div>
       </div>
 
@@ -290,13 +319,13 @@
           <div class="it-title">BRIN NEO-1 国产遥感卫星定于 2027 年 1 月发射</div>
           <div class="it-meta">来源：<b>ANTARA / The Star(Bernama)</b> ｜ 日期：<b>2026-07-08</b></div>
           <div class="it-sum">NEO-1 国产率约 65%，为印尼首颗全链条自研对地观测星，用于区域制图、农业、林业、海洋、灾害减缓、环境监测与 AIS 船舶追踪；标志印尼掌握完整卫星技术链。苍宇天基此前已与 BRIN 署长达成了航天合作共识(2026-04)。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>中印尼航天合作升温。明华可对接 BRIN 提供遥感数据增值/地面站/培训；SmarCo 跟踪比亚克岛发射场选址带来的下游机会，并以自有 SAR/光学数据作为 NEO-1 互补源。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>中印尼航天合作升温。明华可对接 BRIN 提供遥感数据增值/地面站/培训；Astrolink 跟踪比亚克岛发射场选址带来的下游机会，并以自有 SAR/光学数据作为 NEO-1 互补源。</div>
         </div>
         <div class="item">
           <div class="it-title">印尼遥感需求明确：农业/矿区/渔船/应急四大场景</div>
           <div class="it-meta">来源：<b>苍宇天基 / BRIN 公开表述</b> ｜ 日期：<b>2026-04 至 2026-07</b></div>
           <div class="it-sum">BRIN 署长 Arif Satria 公开强调，印尼在农业监测、矿区监管、渔船管控、应急响应等领域对遥感数据存在广泛而迫切需求，但具备强卫星运营能力的企业尚少，诚挚欢迎中企赴印尼务实合作。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>需求端高度明确，正是明华遥感「主攻需求端」定位的匹配市场。SmarCo 可直接以「数据+行业解决方案」切入，不必等整星项目；优先做农业保险与渔船管控两张牌。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>需求端高度明确，正是明华遥感「主攻需求端」定位的匹配市场。Astrolink 可直接以「数据+行业解决方案」切入，不必等整星项目；优先做农业保险与渔船管控两张牌。</div>
         </div>
       </div>
     </div>
@@ -314,19 +343,19 @@
           <div class="it-title">MEASAT 新任 CTO 推动 GEO + Starlink LEO 多轨道融合</div>
           <div class="it-meta">来源：<b>The Edge Malaysia（Digital Edge 周刊）</b> ｜ 日期：<b>2026-07-13 ~ 07-19</b></div>
           <div class="it-sum">7 月回归的 CTO John Loke 推动 MEASAT 从「卖带宽」转向管理服务与垂直 SaaS：以 SD-WAN 将 Starlink LEO 与自有 GEO 容量整合，面向医院、政府、农户、渔业提供远程医疗、农业传感器、海事连通；借 Malaysia Madani 数字包容政策顺风。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>MEASAT 从纯容量商转型「集成+应用」，正是地面段与行业终端的集成需求释放点。明华可争取其多轨道网络平台的中文/行业应用模块；SmarCo 跟进农村宽带、渔业连通场景。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>MEASAT 从纯容量商转型「集成+应用」，正是地面段与行业终端的集成需求释放点。明华可争取其多轨道网络平台的中文/行业应用模块；Astrolink 跟进农村宽带、渔业连通场景。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
         </div>
         <div class="item">
           <div class="it-title">国电高科与 MEASAT 签约卫星物联网，渔船/橡胶园/管线监测落地</div>
           <div class="it-meta">来源：<b>ZAKER / 北京商业航天大会</b> ｜ 日期：<b>2026 年（近期）</b></div>
           <div class="it-sum">国电高科在马来西亚已落地近一年，即将规模化：低功耗低成本窄带终端覆盖海上渔船应急、橡胶园监测、能源管线巡检；终端价格约为国外同类 1/3，契合发展中国家需求，称未来 1–2 年海外爆发。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>卫星物联网「低价+场景化」模式与明华终端/集成能力可复用。SmarCo 可对标国电高科，在马来推自有/合作物联网终端，先做渔船应急与橡胶园两块刚需。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>卫星物联网「低价+场景化」模式与明华终端/集成能力可复用。Astrolink 可对标国电高科，在马来推自有/合作物联网终端，先做渔船应急与橡胶园两块刚需。</div>
         </div>
         <div class="item">
           <div class="it-title">SpaceSail 与 MEASAT 签 MOU：LEO 卫星服务 + 卫星物联网 + EO</div>
           <div class="it-meta">来源：<b>微博行业转引</b> ｜ 日期：<b>2026 年（近期）</b></div>
           <div class="it-sum">中国 SpaceSail 项目与马来西亚 MEASAT 正式签署 MOU，未来提供低地球轨道(LEO)卫星服务、卫星物联网服务及地球观测(EO)服务；MEASAT 目前为超 50 万偏远民众输送高速宽带。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>MEASAT 已成中国卫星企业进入马来首选本地接口，EO 服务被写入合作。明华可借该通道做遥感数据增值；SmarCo 关注 SpaceSail-MEASAT 的 EO 下游代理机会。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>MEASAT 已成中国卫星企业进入马来首选本地接口，EO 服务被写入合作。明华可借该通道做遥感数据增值；Astrolink 关注 SpaceSail-MEASAT 的 EO 下游代理机会。</div>
         </div>
       </div>
 
@@ -336,7 +365,7 @@
           <div class="it-title">北斗应用企业拓展至马来西亚（灾害预警/精准位置）</div>
           <div class="it-meta">来源：<b>北斗微芯 / 综合监测</b> ｜ 日期：<b>2026（持续拓展）</b></div>
           <div class="it-sum">北斗微芯灾害预警与精准位置方案截至 2026 已拓展至马来西亚、印尼、哈萨克斯坦等国，客户从「反复解释」转为主动选择北斗；区域内北斗覆盖已常态化。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>马来导航以行业应用为主、尚无国家层面新协议。明华可借「北斗比 GPS 更稳更省」的已验证口碑，主推农业机械导航、形变监测；SmarCo 跟进 MYSA 遥感+导航融合项目。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>马来导航以行业应用为主、尚无国家层面新协议。明华可借「北斗比 GPS 更稳更省」的已验证口碑，主推农业机械导航、形变监测；Astrolink 跟进 MYSA 遥感+导航融合项目。</div>
         </div>
       </div>
 
@@ -346,13 +375,13 @@
           <div class="it-title">航天宏图与 KAYAN 组建马来西亚合资，遥感+通信+碳汇</div>
           <div class="it-meta">来源：<b>网易 / 新浪财经 / 东方财富</b> ｜ 日期：<b>2026-03-20</b></div>
           <div class="it-sum">航天宏图（女娲星座，已发射 12 颗雷达星，规划 114 颗）与马来西亚 KAYAN HOLDINGS 签合资股东协议，围绕卫星制造、卫星通信、遥感数据与碳汇监测、空天资产资本化合作，建「森林物联网」数字碳汇基建，首期覆盖 3.5 万村落、近 2000 万用户，规划伦敦+香港双资本路径。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>国内同行已先发卡位，「空天+生态碳汇」成区域标杆。明华需差异化——以地面段运维、行业应用或互补数据源切入；SmarCo 避开正面竞争，主攻中小客户的 SAR 数据增值与应急遥感服务。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>国内同行已先发卡位，「空天+生态碳汇」成区域标杆。明华需差异化——以地面段运维、行业应用或互补数据源切入；Astrolink 避开正面竞争，主攻中小客户的 SAR 数据增值与应急遥感服务。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
         </div>
         <div class="item">
           <div class="it-title">MYSA / MACRES 持续主导国家级遥感数据分发</div>
           <div class="it-meta">来源：<b>MCMC 官方</b> ｜ 日期：<b>长期机构职能</b></div>
           <div class="it-sum">马来西亚遥感局(MACRES，后并入 MYSA)负责空间遥感技术应用研发与遥感数据分发；国家航天政策 2030 与太空委员会法案(Act 834)构成制度框架，遥感为农业、减灾、城市规划核心数据源。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>MYSA 是国家级数据入口。SmarCo 宜以「补充高时序 SAR 能力」定位对接 MYSA，避免与宏图正面争夺整星项目，做数据层合作。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>MYSA 是国家级数据入口。Astrolink 宜以「补充高时序 SAR 能力」定位对接 MYSA，避免与宏图正面争夺整星项目，做数据层合作。</div>
         </div>
       </div>
     </div>
@@ -370,13 +399,13 @@
           <div class="it-title">ST Engineering NEBULA 星间激光链路演示星下半年交付</div>
           <div class="it-meta">来源：<b>ST Engineering / SATNews / Yahoo</b> ｜ 日期：<b>2026-02-02（Space Summit 2026）</b></div>
           <div class="it-sum">NEBULA 为新加坡首颗星间激光通信探路者，2026 下半年交付，验证 Gbps 级数据传输，支撑未来全球宽带、对地观测与安全数据交换；标志新加坡从用星走向造星、建自主空间网络。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>新加坡重「高价值节点」而非全覆盖，市场偏技术合作/渠道。明华可关注 NEBULA 地面段与数据中继需求；SmarCo 以高端技术伙伴定位切入，而非低价终端竞争。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>新加坡重「高价值节点」而非全覆盖，市场偏技术合作/渠道。明华可关注 NEBULA 地面段与数据中继需求；Astrolink 以高端技术伙伴定位切入，而非低价终端竞争。</div>
         </div>
         <div class="item">
           <div class="it-title">NSAS 成立，统筹国家航天雄心</div>
           <div class="it-meta">来源：<b>ST Engineering / Yahoo 转引</b> ｜ 日期：<b>2026-04-01 起运作</b></div>
           <div class="it-sum">新加坡在贸工部下设立国家航天局(NSAS)，统管国家航天目标，定位为空间技术领导者与全球生态可信贡献者，为 ST Engineering 等本地产业链提供统一窗口。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>NSAS 是 singular 对接入口。SmarCo 若要进新加坡政府/准政府项目，应先建立与 NSAS 的触点，借其「可信贡献者」门槛做合规化合作。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>NSAS 是 singular 对接入口。Astrolink 若要进新加坡政府/准政府项目，应先建立与 NSAS 的触点，借其「可信贡献者」门槛做合规化合作。</div>
         </div>
       </div>
 
@@ -386,7 +415,7 @@
           <div class="it-title">本期新加坡导航无独立专项披露</div>
           <div class="it-meta">来源：<b>综合监测</b> ｜ 日期：<b>—</b></div>
           <div class="it-sum">本周新加坡在 GNSS/北斗领域无新增专项合作或重大部署；北斗东盟服务已覆盖新加坡，但无新加坡本地新近落地项目公开。新加坡航天重心明显偏向遥感与通信。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>导航非新加坡当前热点，宜以「遥感+通信」合作为主、导航作附属增值（如为 ST Engineering 地面站提供高精度授时/定位）低调切入，不单独强推。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>导航非新加坡当前热点，宜以「遥感+通信」合作为主、导航作附属增值（如为 ST Engineering 地面站提供高精度授时/定位）低调切入，不单独强推。</div>
         </div>
       </div>
 
@@ -396,19 +425,19 @@
           <div class="it-title">ST Engineering NeuSAR-2 四星 SAR 星座路线图（2027 首射 / 2030 成型）</div>
           <div class="it-meta">来源：<b>ST Engineering / SATNow / Business Times</b> ｜ 日期：<b>2026-02-02（Space Summit 2026）</b></div>
           <div class="it-sum">NeuSAR-2 由 4 颗 SAR 星组成，首星 2027 发射、2030 全面运行；近赤道 LEO，每日 8–16 次 revisit、0.6m/像素、X 波段、≤280kg/颗，可穿云夜成像，支撑环境监测、灾害响应(如油污、林火)；已获阿联酋 EO SAR 订单。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>新加坡是区域 SAR 技术龙头且加速出海。明华可探索与其做数据互补/联合方案；SmarCo 关注 NeuSAR-2 数据在东南亚的代理分销，以及为其中下游应用做本地化集成。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>新加坡是区域 SAR 技术龙头且加速出海。明华可探索与其做数据互补/联合方案；Astrolink 关注 NeuSAR-2 数据在东南亚的代理分销，以及为其中下游应用做本地化集成。</div>
         </div>
         <div class="item">
           <div class="it-title">HTX × ST Engineering 五年 MoU：公共安全星 Xplorer（高光谱，2029）</div>
           <div class="it-meta">来源：<b>Satnews</b> ｜ 日期：<b>2026-04-28</b></div>
           <div class="it-sum">新加坡内政科技局(HTX)与 ST Engineering 签五年 MoU，共研首颗公共安全卫星 Xplorer（约 100kg，近赤道轨道，2029 发射），载高光谱传感器监测氨类等危化气体羽流，支撑民防早期预警；协同 NSAS 规制。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>应急/公共安全遥感是高价值场景模板。明华可对标 Xplorer 模式，向其他东盟国家推「应急遥感小卫星+地面分析」方案；SmarCo 借鉴其 hyperspectral 应用做差异化。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>应急/公共安全遥感是高价值场景模板。明华可对标 Xplorer 模式，向其他东盟国家推「应急遥感小卫星+地面分析」方案；Astrolink 借鉴其 hyperspectral 应用做差异化。</div>
         </div>
         <div class="item">
           <div class="it-title">MiNERVA HUB 空间态势感知 + Earthsurance 碳信用监测平台</div>
           <div class="it-meta">来源：<b>ST Engineering 官方附件</b> ｜ 日期：<b>2026（持续）</b></div>
           <div class="it-sum">MiNERVA HUB 集成空间目标跟踪、碰撞预警与空间天气，服务 3 万+在轨物体；Earthsurance 用 10 年历史数据+L 波段 SAR 验证森林碳信用基线、近实时侦测毁林，支撑减排项目。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>碳监测平台与明华「遥感+碳」方向一致。SmarCo 可关注 Earthsurance 在东南亚（含马来 KAYAN 碳汇）的生态位，寻找数据/核验合作而非重复建设。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>碳监测平台与明华「遥感+碳」方向一致。Astrolink 可关注 Earthsurance 在东南亚（含马来 KAYAN 碳汇）的生态位，寻找数据/核验合作而非重复建设。</div>
         </div>
       </div>
     </div>
@@ -426,7 +455,7 @@
           <div class="it-title">本期柬埔寨卫星通信无独立重大新增披露</div>
           <div class="it-meta">来源：<b>综合监测</b> ｜ 日期：<b>—</b></div>
           <div class="it-sum">本周柬埔寨在卫星通信领域无新增专项合作公开；4/23 研讨会将卫星服务列入农业、环境、城市规划工具箱，并研究 5 年内自主发射卫星。通信仍处「引入商业服务」阶段。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>通信短板即早期卡位机会。可借北斗数据分中心建立的政府关系，顺势推卫星互联网/应急通信试点；SmarCo 以低门槛终端先做农村与边境连通样板。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>通信短板即早期卡位机会。可借北斗数据分中心建立的政府关系，顺势推卫星互联网/应急通信试点；Astrolink 以低门槛终端先做农村与边境连通样板。</div>
         </div>
       </div>
 
@@ -436,13 +465,13 @@
           <div class="it-title">北斗国星与柬埔寨签「国家北斗导航位置服务数据分中心」落户协议</div>
           <div class="it-meta">来源：<b>北斗国星官方</b> ｜ 日期：<b>2026（近期）</b></div>
           <div class="it-sum">北斗国星金边行推进北斗系统落户柬埔寨，明确交通运输领域试点下一步：研究形成应用试点方案并反馈，同步开展北斗终端及应用系统平台设计研发，作为北斗数据进入东盟的重要基础与突破口，服务「一带一路」空间信息走廊。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>「国家北斗数据分中心」模式是直接对标样板——明华可争取成为分中心的数据/终端/运维合作方；SmarCo 紧跟交通领域试点，主推物流与车队高精度位置服务。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>「国家北斗数据分中心」模式是直接对标样板——明华可争取成为分中心的数据/终端/运维合作方；Astrolink 紧跟交通领域试点，主推物流与车队高精度位置服务。<span class="warn">⚠ 重大合作需以官方与一线 BD 核实。</span></div>
         </div>
         <div class="item">
           <div class="it-title">环境部与广西国企签 MoU，引入北斗(BDS)与卫星数据库</div>
           <div class="it-meta">来源：<b>搜狐 / 华人头条</b> ｜ 日期：<b>2026-03-12</b></div>
           <div class="it-sum">柬埔寨环境部与广西国土资源规划设计集团签《环境领域现代化技术合作》MoU，引入北斗卫星导航系统(BDS)成像技术与卫星数据库管理系统，推动卫星影像技术现代化应用，提升自然资源与环境管理效率。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>环境+北斗是柬方已验证的需求组合。明华可将自有遥感数据与北斗位置能力打包进环境管理场景；SmarCo 对标广西模式，以「北斗+卫星影像」做环保/林草监测轻量方案。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>环境+北斗是柬方已验证的需求组合。明华可将自有遥感数据与北斗位置能力打包进环境管理场景；Astrolink 对标广西模式，以「北斗+卫星影像」做环保/林草监测轻量方案。</div>
         </div>
       </div>
 
@@ -452,7 +481,7 @@
           <div class="it-title">柬研究 5 年内自主发射卫星，并设国家航天管理机构</div>
           <div class="it-meta">来源：<b>华人头条 / Asia Speech / Cambodia Chronicle</b> ｜ 日期：<b>2026-04-23 / 04-25</b></div>
           <div class="it-sum">邮电部长谢万迪在「卫星监测与数据采集」研讨会闭幕式表示，柬正评估 5 年内自主发射卫星可行性，服务农业、环境监测、土地管理；同步研究设立国家航天管理机构。Pixxel 参与并强调小卫星成本十年降 70%+，主权小卫星约 500–2000 万美元。</div>
-          <div class="biz"><span class="bl">▍明华 / SmarCo 业务关联：</span>柬从「用星」走向「造星」，早期窗口已开。明华可争取地面段/培训/数据服务先期订单；SmarCo 对标 Pixxel，推介高光谱数据服务，避免重资产整星竞争，先做数据增值。</div>
+          <div class="biz"><span class="bl">▍明华 / Astrolink 业务关联：</span>柬从「用星」走向「造星」，早期窗口已开。明华可争取地面段/培训/数据服务先期订单；Astrolink 对标 Pixxel，推介高光谱数据服务，避免重资产整星竞争，先做数据增值。</div>
         </div>
       </div>
     </div>
@@ -460,23 +489,23 @@
 
   <!-- ===== 业务衔接建议 ===== -->
   <section>
-    <div class="sec-h"><span class="bar"></span>与明华 / SmarCo 东南亚 BD 的业务衔接建议</div>
+    <div class="sec-h"><span class="bar"></span>与明华 / Astrolink 东南亚 BD 的业务衔接建议</div>
     <div class="sec-sub">Actionable — 按「优先级 / 打法 / 风险」组织，重大合作以官方与一线 BD 核实为准</div>
     <div class="advice">
       <h4><span class="chip" style="background:var(--hi)"></span>① 最高优先：泰国北斗 MOU 签署窗口（7/20 前后）</h4>
       <p>北斗在泰应用升格为国家级顶层协议，是本期最强信号。建议 7/20 前后即启动泰方 MHESI / GISTDA 对接，定位为「北斗高精度位置服务落地合作方」（物流、交通、形变监测），与明华「北斗商业应用」主线直接咬合。</p>
 
       <h4><span class="chip" style="background:var(--hi)"></span>② 通信替代：泰国 Inmarsat 限制 + 千帆合作 = 国产方案窗口</h4>
-      <p>泰国 6/30 限制商用 L-band / Ka-band，叠加千帆与泰国国家电信合作，国产低轨宽带与船载/应急通信替代需求明确。明华争取地面段/信关站/终端配套；SmarCo 向航运、渔业推国产终端，做「GEO 过渡 + LEO 补盲」组合。</p>
+      <p>泰国 6/30 限制商用 L-band / Ka-band，叠加千帆与泰国国家电信合作，国产低轨宽带与船载/应急通信替代需求明确。明华争取地面段/信关站/终端配套；Astrolink 向航运、渔业推国产终端，做「GEO 过渡 + LEO 补盲」组合。</p>
 
       <h4><span class="chip" style="background:var(--mid)"></span>③ 遥感差异化：避开航天宏图马来合资的正面竞争</h4>
-      <p>航天宏图-KAYAN 已占「空天+碳汇」标杆，明华需错位：以地面段运维、行业应用、互补 SAR/光学数据源切入；SmarCo 主攻中小客户遥感数据增值与应急服务，并关注 SpaceSail-MEASAT 的 EO 下游代理。</p>
+      <p>航天宏图-KAYAN 已占「空天+碳汇」标杆，明华需错位：以地面段运维、行业应用、互补 SAR/光学数据源切入；Astrolink 主攻中小客户遥感数据增值与应急服务，并关注 SpaceSail-MEASAT 的 EO 下游代理。</p>
 
       <h4><span class="chip" style="background:var(--mid)"></span>④ 印尼：需求端匹配「主攻需求端」定位</h4>
-      <p>BRIN 已公开农业/矿区/渔船/应急四大遥感刚需且运营能力稀缺。SmarCo 不必等整星项目，直接以「数据+行业方案」做农业保险与渔船管控；明华对接 BRIN 做地面站、培训与 NEO-1 互补数据源。</p>
+      <p>BRIN 已公开农业/矿区/渔船/应急四大遥感刚需且运营能力稀缺。Astrolink 不必等整星项目，直接以「数据+行业方案」做农业保险与渔船管控；明华对接 BRIN 做地面站、培训与 NEO-1 互补数据源。</p>
 
       <h4><span class="chip" style="background:var(--mid)"></span>⑤ 柬埔寨：对标「北斗数据分中心」模式抢早期卡位</h4>
-      <p>北斗国星已签国家数据分中心、环境部引 BDS，模式清晰可对标。明华争取分中心数据/终端/运维合作；SmarCo 跟交通试点做车队高精度位置，借政府关系顺势推卫星互联网与环保遥感轻量方案。</p>
+      <p>北斗国星已签国家数据分中心、环境部引 BDS，模式清晰可对标。明华争取分中心数据/终端/运维合作；Astrolink 跟交通试点做车队高精度位置，借政府关系顺势推卫星互联网与环保遥感轻量方案。</p>
 
       <h4><span class="chip" style="background:var(--lo)"></span>⑥ 新加坡：技术伙伴定位，不拼低价</h4>
       <p>新加坡偏高价值节点(NSAS 统一窗口、ST Engineering SAR 龙头)。宜以技术合作/数据互补/合规化渠道切入，聚焦应急遥感(Xplorer 模板)与碳监测(Earthsurance)生态位，避免与本土产业链低价竞争。</p>
@@ -488,7 +517,7 @@
   </section>
 
   <footer>
-    东南亚卫星产业动态 · 自动周报 ｜ 编制 Harry 🎩（明华 / SmarCo 东南亚 BD）｜ 签发 2026-07-19<br>
+    东南亚卫星产业动态 · 自动周报 ｜ 编制 Harry 🎩（明华 / Astrolink 东南亚 BD）｜ 签发 2026-07-19<br>
     监测范围：泰国 · 印度尼西亚 · 马来西亚 · 新加坡 · 柬埔寨 ｜ 领域：卫星通信 / 导航(GNSS·北斗) / 遥感(对地观测·SAR·光学)
   </footer>
 
