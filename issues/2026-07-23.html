@@ -84,13 +84,42 @@
   .warn{background:rgba(255,90,95,.08);border:1px solid rgba(255,90,95,.25);border-radius:10px;
     padding:12px 16px;font-size:12.5px;color:#ffb3b5;margin-top:16px}
 </style>
+
+<style id="light-override">
+:root{
+  --bg:#eef1f7;--bg2:#e3e9f4;--card:#ffffff;--card2:#f3f6fc;
+  --panel:#ffffff;--panel2:#f3f6fc;--line:#dde3ef;
+  --txt:#1b2440;--sub:#62708f;--dim:#8593ad;
+  --sat:#2c6fd6;--hi:#c08a16;--ok:#0f9d8c;--bad:#e03131;
+  --th:#2c6fd6;--id:#0f9d8c;--my:#7a3fb0;--sg:#8a5cd0;--kh:#d6418f;
+  --gold:#b07d12;--com:#2c6fd6;--nav:#0f9d8c;--rs:#d6418f;--launch:#e8833a;
+}
+body{background:var(--bg)!important;color:var(--txt)!important;}
+header{background:var(--panel2)!important;color:var(--txt)!important;}
+header .meta,header .tag,header h1,header h2,header h3,header .sub{color:var(--txt)!important;}
+a{color:var(--com)!important;}
+@media (max-width:600px){
+  .wrap,.container{max-width:100%!important;padding:16px 12px 40px!important;margin:0!important;}
+  header{padding:22px 16px!important;}
+  h1{font-size:22px!important;}
+  h2{font-size:18px!important;margin:26px 0 12px!important;}
+  h3,.country{font-size:16px!important;}
+  .cards,.core{grid-template-columns:1fr!important;}
+  .card,.c,.item,.sec{padding:14px!important;}
+  table{font-size:12px!important;}
+  th,td{padding:8px 6px!important;}
+  .item .inner,.inner{padding:14px!important;}
+  .sub-title{margin:16px 0 8px!important;}
+}
+</style>
+
 </head>
 <body>
 <header>
   <div class="wrap">
     <span class="kicker">SMARCO · SOUTHEAST ASIA SATELLITE INTEL</span>
     <h1><span class="grad">东南亚卫星产业动态</span> 周报</h1>
-    <div class="meta">第 5 期 · 报告日期 <b>2026-07-23</b> · 监测窗口 <b>2026-07-17 ~ 07-23</b> · 编制：Harry 🎩（明华 / SmarCo 东南亚 BD 情报）</div>
+    <div class="meta">第 5 期 · 报告日期 <b>2026-07-23</b> · 监测窗口 <b>2026-07-17 ~ 07-23</b> · 编制：Harry 🎩（明华 / Astrolink 东南亚 BD 情报）</div>
     <div class="scope">
       <span class="chip">🇹🇭 泰国</span>
       <span class="chip">🇮🇩 印度尼西亚</span>
@@ -148,7 +177,7 @@
         <div class="t">Thaicom 引入 Amazon Leo LEO 宽带，Q1 财报确认落地权</div>
         <div class="src">来源：<b>Thaicom 官网 / Telecom Review Asia</b> · 2026-05-07（4/6 签约，Q1 财报再确认）</div>
         <div class="sum">Thaicom 子公司 TC 142 成为 Amazon Leo（原 Project Kuiper）在泰国的授权分销商与落地权持有者，向下游分销高速宽带，主攻区域/乡村/偏远社区。Amazon Leo 已在轨 200+ 星、完成 9 次发射。Thaicom Q1/2026 核心利润 3.85 亿泰铢（同比 +166%），LEO 被列为未来核心增长引擎。</div>
-        <div class="biz"><b>BD 关联：</b>泰国 LEO 市场呈「Amazon Leo（Thaicom）+ 千帆 + Starlink」多方并行格局，SmarCo 可切入地面终端、企业专网集成与本地化运维分销层，避开裸带宽价格战。</div>
+        <div class="biz"><b>BD 关联：</b>泰国 LEO 市场呈「Amazon Leo（Thaicom）+ 千帆 + Starlink」多方并行格局，Astrolink 可切入地面终端、企业专网集成与本地化运维分销层，避开裸带宽价格战。</div>
       </div>
     </div>
 
@@ -183,7 +212,7 @@
         <div class="t">Telkomsat Starlink 分销增长，多轨道 + AI 战略推进</div>
         <div class="src">来源：<b>Koran Manado / Detik iNET</b> · 2026-07-13</div>
         <div class="sum">Telkomsat 作为 Starlink 印尼官方分销商，矿业/物流/海事/种植园企业采用带动 LEO 增长；同时运营 GEO 容量 60Gbps+，采多轨道（GEO+LEO）互补策略，并整合 Earth Intelligence / Earth Observation / AI，把卫星从「通信管道」升级为「精准监测平台」。卫星业务 Q1/2026 营收 5340 亿印尼盾（+6.75%）。恰逢印尼卫星 50 周年（7/8）。</div>
-        <div class="biz"><b>BD 关联：</b>印尼「多轨道 + 卫星数据智能化」是明确风向，SmarCo 可在企业专网、海事/矿业行业解决方案与遥感数据增值分析上寻找与 Telkomsat 及本地集成商的合作切口。</div>
+        <div class="biz"><b>BD 关联：</b>印尼「多轨道 + 卫星数据智能化」是明确风向，Astrolink 可在企业专网、海事/矿业行业解决方案与遥感数据增值分析上寻找与 Telkomsat 及本地集成商的合作切口。</div>
       </div>
     </div>
 
@@ -220,7 +249,7 @@
         <div class="t">MEASAT 转型：从「轨道位」到「智能平台」</div>
         <div class="src">来源：<b>The Edge Malaysia（Digital Edge 封面）</b> · 2026-07-13 ~ 07-19</div>
         <div class="sum">新任 CTO John Loke 主导 MEASAT 超越「卖带宽」模式：以 SD-WAN 智能管理层整合自有 GEO（91.5°E 主权轨位）与多家 LEO（Starlink / Spacesail 千帆 / Tianqi 天启），构建 GEO+LEO 混合架构；发力远程医疗、农业传感、海事连接等垂直 SaaS，服务医院、政府、农渔社区。强调主权卫星资产不应完全依赖外国星座。</div>
-        <div class="biz"><b>BD 关联：</b>MEASAT 已把千帆纳入合作 LEO 组合，印证中系 LEO 在马来市场的接受度。SmarCo 可在其垂直 SaaS 生态（telehealth/农业/海事）中寻找终端集成、数据应用或区域分销合作位。</div>
+        <div class="biz"><b>BD 关联：</b>MEASAT 已把千帆纳入合作 LEO 组合，印证中系 LEO 在马来市场的接受度。Astrolink 可在其垂直 SaaS 生态（telehealth/农业/海事）中寻找终端集成、数据应用或区域分销合作位。</div>
       </div>
     </div>
 
@@ -252,7 +281,7 @@
         <div class="t">NEBULA 星间激光通信验证星，2026 下半年交付</div>
         <div class="src">来源：<b>ST Engineering / Futunn</b> · Space Summit@Airshow 2026</div>
         <div class="sum">ST Engineering 推进 NEBULA——新加坡首个星间激光通信验证星，测试 Gbps 级数据传输，为超高速太空网络（全球宽带、对地观测、安全数据交换）奠基。此外，NSAS × 日本 JAXA 7/6 签首个双边协议，探索量子卫星通信；新方 Transcelestial 与日本 Warpspace 建立光通信合作。</div>
-        <div class="biz"><b>BD 关联：</b>新加坡定位高端太空技术枢纽（约 70 家企业、2000+ 从业者），适合作为 SmarCo 的技术合作/资本/人才对标窗口，而非价格竞争市场。</div>
+        <div class="biz"><b>BD 关联：</b>新加坡定位高端太空技术枢纽（约 70 家企业、2000+ 从业者），适合作为 Astrolink 的技术合作/资本/人才对标窗口，而非价格竞争市场。</div>
       </div>
     </div>
 
@@ -286,7 +315,7 @@
         <div class="t">首相洪玛奈会见上海垣信（千帆星座），探讨 LEO 互联网投资</div>
         <div class="src">来源：<b>Cambolist / 163 / 华人头条</b> · 2026-07-17</div>
         <div class="sum">柬首相洪玛奈在华期间会见上海垣信卫星科技董事长郑杰，双方就千帆低轨宽带星座与卫星直连手机（Direct-to-Cell）在柬投资进行探讨；洪玛奈欢迎投资意向，强调优质互联网为政府优先事项，柬邮电部正制定卫星互联网法律框架，落地后优先普及偏远农村并防止滥用，建议垣信与邮电部深入对接评估可行性。</div>
-        <div class="biz"><b>BD 关联：</b>柬埔寨市场对中系 LEO（千帆）持开放态度且法规待建，是早期卡位窗口。SmarCo 可在监管框架成型阶段介入本地化落地、终端分销与政企专网集成，抢占先发身位。</div>
+        <div class="biz"><b>BD 关联：</b>柬埔寨市场对中系 LEO（千帆）持开放态度且法规待建，是早期卡位窗口。Astrolink 可在监管框架成型阶段介入本地化落地、终端分销与政企专网集成，抢占先发身位。</div>
       </div>
     </div>
 
@@ -309,7 +338,7 @@
   </div>
 
   <!-- 业务衔接建议 -->
-  <h2 class="sec">🎯 与明华 / SmarCo 东南亚 BD 的业务衔接建议</h2>
+  <h2 class="sec">🎯 与明华 / Astrolink 东南亚 BD 的业务衔接建议</h2>
   <div class="advice">
     <ol>
       <li><b>北斗配套优先落两点——泰国 + 柬埔寨。</b>泰国北斗 MOU 已落地、柬「北斗东盟行 + 联合工作组」机制成熟，二者与明华「短报文 + 高精定位」产品线最契合。建议以「示范项目 + 终端采购 + 联合工作组」模板推进，泰国对接 GISTDA/本地集成商，柬埔寨对接环境部/国土部及既有工作组。</li>
@@ -326,7 +355,7 @@
 
   <footer>
     东南亚卫星产业动态周报 · 第 5 期 · 2026-07-23<br>
-    数据来源：WebSearch(news) 公开检索 · 编制：Harry 🎩（明华 / SmarCo 东南亚 BD 情报）<br>
+    数据来源：WebSearch(news) 公开检索 · 编制：Harry 🎩（明华 / Astrolink 东南亚 BD 情报）<br>
     领域色标：<span style="color:var(--comm)">■ 卫星通信</span>　<span style="color:var(--nav)">■ 导航 GNSS/北斗</span>　<span style="color:var(--rs)">■ 遥感 EO/SAR/光学</span>
   </footer>
 
