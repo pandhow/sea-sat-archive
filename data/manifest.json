@@ -3,6 +3,30 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-07-31",
+      "issue_no": "013",
+      "title": "Thaicom 4 今日正式离轨、泰国 78.5°E 轨位悬空；马来西亚国家 SBAS 评估与发射设施指南双线开门；越南 Starlink「7 月上线」到期未兑现",
+      "tags": [
+        "泰国",
+        "印度尼西亚",
+        "马来西亚",
+        "新加坡",
+        "柬埔寨",
+        "越南",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "SBAS",
+        "Thaicom",
+        "Starlink",
+        "太空港",
+        "地面站"
+      ],
+      "file": "issues/2026-07-31.html"
+    },
+    {
       "date": "2026-07-30",
       "issue_no": "012",
       "title": "Thaicom 4 明日离轨断电、越南 Starlink 开放预订定价落地、马来 MYSA 地理空间 MOU 下沉市县",
