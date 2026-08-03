@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>东南亚卫星产业动态 · 第 016 期（越南轮值）</title>
+<meta name="archive-title" content="越南轮值：JAXA×VNSC 遥感数据协议升级、Starlink 试点推进、Vingroup/VinSpace 入局商业航天、VINASAT-3/4 换代窗口">
+<meta name="archive-tags" content="越南,卫星通信,导航,北斗,遥感,发射,Starlink,VNSC,LOTUSat,VinSpace,VINASAT">
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--bg); color:var(--txt);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  line-height:1.65; font-size:15px;
+}
+.wrap{max-width:880px; margin:0 auto; padding:28px 20px 56px;}
+header{
+  background:linear-gradient(135deg,#2c3e6b,#1b2440);
+  color:#fff; border-radius:16px; padding:30px 26px; margin-bottom:26px;
+}
+header .tag{
+  display:inline-block; font-size:12px; letter-spacing:2px; font-weight:700;
+  background:rgba(255,255,255,.16); color:#ffe9b0; padding:5px 12px; border-radius:999px;
+}
+header h1{margin:14px 0 6px; font-size:27px; color:#fff;}
+header .sub-title{margin:0; color:#cdd6ee; font-size:15px; font-weight:500;}
+header .meta{margin-top:16px; font-size:13px; color:#cdd6ee; display:flex; flex-wrap:wrap; gap:8px 18px;}
+header .meta span{background:rgba(255,255,255,.1); padding:4px 10px; border-radius:8px;}
+section{margin:30px 0;}
+h2{font-size:20px; margin:0 0 16px; padding-left:12px; border-left:5px solid var(--com); color:var(--txt);}
+h3.country{font-size:16px; margin:0 0 12px; color:var(--txt);}
+.cards{display:grid; grid-template-columns:repeat(2,1fr); gap:14px;}
+.card{
+  background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px 18px;
+  box-shadow:0 2px 10px rgba(27,36,64,.05);
+}
+.card .sm{font-size:12px; color:var(--sub); margin:0 0 6px; display:flex; gap:8px; align-items:center;}
+.card h4{margin:4px 0 8px; font-size:15px; color:var(--txt); line-height:1.4;}
+.card p{margin:0; font-size:13px; color:var(--txt);}
+.badge{font-size:11px; font-weight:700; padding:2px 8px; border-radius:6px; color:#fff; white-space:nowrap;}
+.b-hi{background:var(--hi);} .b-mid{background:var(--mid);} .b-new{background:var(--nav);} .b-lo{background:var(--lo);}
+.progress{
+  display:flex; flex-wrap:wrap; gap:8px; background:var(--panel); border:1px solid var(--line);
+  border-radius:14px; padding:14px;
+}
+.progress .day{
+  flex:1 1 auto; text-align:center; font-size:13px; padding:9px 6px; border-radius:10px;
+  background:var(--panel2); color:var(--sub); border:1px solid var(--line); min-width:92px;
+}
+.progress .day.today{background:var(--com); color:#fff; border-color:var(--com); font-weight:700; box-shadow:0 4px 12px rgba(44,111,214,.35);}
+.heatmap{display:grid; grid-template-columns:repeat(4,1fr); gap:12px;}
+.heat{
+  background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px 12px; text-align:center;
+}
+.heat .lab{font-size:13px; color:var(--sub); margin-bottom:8px;}
+.heat .dot{font-size:14px; font-weight:700;}
+.heat .dot.hi{color:var(--hi);} .heat .dot.mid{color:var(--mid);} .heat .dot.lo{color:var(--lo);}
+.item{
+  background:var(--panel); border:1px solid var(--line); border-radius:14px; margin-bottom:16px; overflow:hidden;
+  box-shadow:0 2px 10px rgba(27,36,64,.05);
+}
+.item .bar{height:6px;}
+.item.com .bar{background:var(--com);} .item.nav .bar{background:var(--nav);}
+.item.rs .bar{background:var(--rs);} .item.launch .bar{background:var(--launch);}
+.item .inner{padding:18px 20px;}
+.item h3{margin:0 0 6px; font-size:17px; color:var(--txt);}
+.item .src{font-size:12px; color:var(--sub); margin:0 0 12px;}
+.item .src b{color:var(--sub);}
+.pts{margin:8px 0 14px; padding-left:20px;}
+.pts li{margin:5px 0; color:var(--txt); font-size:14px;}
+.biz{
+  background:rgba(176,127,18,.12); border-left:4px solid var(--gold);
+  border-radius:0 10px 10px 0; padding:12px 16px; margin-top:6px; color:var(--txt); font-size:13.5px;
+}
+.biz b{color:var(--gold);}
+.prio{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:18px 22px;}
+.prio ol{margin:6px 0 0; padding-left:22px;}
+.prio li{margin:10px 0; color:var(--txt); font-size:14px;}
+.prio .p0{color:var(--hi); font-weight:700;} .prio .p1{color:var(--mid); font-weight:700;} .prio .p2{color:var(--nav); font-weight:700;}
+footer{
+  margin-top:40px; padding-top:18px; border-top:1px solid var(--line);
+  font-size:12px; color:var(--sub); text-align:center;
+}
+a{color:#1a4db5; text-decoration:underline;}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">ASEAN SAT. DAILY · 第 016 期</span>
+  <h1>东南亚卫星产业动态</h1>
+  <p class="sub-title">今日轮值：🇻🇳 越南 (Vietnam)</p>
+  <div class="meta">
+    <span>监测周期：近一周滚动（2026-07-28 – 2026-08-03）· 越南定向</span>
+    <span>轮值国：越南</span>
+    <span>四大领域：卫星通信 / 导航（GNSS·北斗）/ 遥感 / 发射与卫星</span>
+    <span>出品：Harry 🎩 for 明华 · Astrolink BD</span>
+  </div>
+</header>
+
+<section>
+  <h2>本期核心看点</h2>
+  <div class="cards">
+    <div class="card">
+      <p class="sm"><span class="badge b-hi">🔴 高</span> 遥感 · 2026-07-30</p>
+      <h4>JAXA × VNSC 修订卫星数据交换协议</h4>
+      <p>原 2017 协议扩展至 ALOS-4（DAICHI-4）并加强 APRSAF 联合研发，日越遥感合作再升级，直接支撑 LOTUSat-1 运营能力。</p>
+    </div>
+    <div class="card">
+      <p class="sm"><span class="badge b-mid">🟡 中</span> 卫星通信 · 2026-04-01</p>
+      <h4>Starlink 越南试点获牌并推进部署</h4>
+      <p>4 个网关站 + 60 万终端上限，mid-2026 启用预期；定价 $85/月，为光纤 5–10 倍 → 奢侈品/补充覆盖定位。</p>
+    </div>
+    <div class="card">
+      <p class="sm"><span class="badge b-new">🆕 新</span> 发射与卫星 · 2026-04</p>
+      <h4>Vingroup / VinSpace 入局商业航天</h4>
+      <p>亿万富翁 Pham Nhat Vuong 创立 VinSpace，目标 2027 首发微卫星，自建洁净室 + 地面站，瞄准通信 + 遥感商业化。</p>
+    </div>
+    <div class="card">
+      <p class="sm"><span class="badge b-mid">🟡 中</span> 卫星通信 · 2026</p>
+      <h4>VINASAT-3 实施 + VINASAT-4 规划</h4>
+      <p>越南主权 GEO 延续：VNPT 主责，VINASAT-4 拟替换 VINASAT-2（约 2030 寿命终止）；Thales 4/2 会谈成潜在供应商。</p>
+    </div>
+    <div class="card">
+      <p class="sm"><span class="badge b-mid">🟡 中</span> 遥感 · 2026-03-13</p>
+      <h4>VNSC 国家航天中心运营 + LOTUSat-1 待发射</h4>
+      <p>和乐 9 公顷中心已揭牌运营；LOTUSat-1（X-band SAR）制造完成，待 Epsilon S 复飞定档期。</p>
+    </div>
+    <div class="card">
+      <p class="sm"><span class="badge b-lo">⚪ 低</span> 导航 · 存量 + 2026 应用</p>
+      <h4>越南导航：VNGEONET 65 站设备层已兼容北斗</h4>
+      <p>无新增北斗合作公开信号；设备层（Leica GR50 全星座）自 2019 起已支持北斗，增量市场待一线 BD 核实。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>本周轮值进度</h2>
+  <div class="progress">
+    <div class="day today">一 · 越南</div>
+    <div class="day">二 · 柬埔寨</div>
+    <div class="day">三 · 泰国</div>
+    <div class="day">四 · 马来西亚</div>
+    <div class="day">五 · 印度尼西亚</div>
+    <div class="day">六 · 新加坡</div>
+    <div class="day">日 · 回顾</div>
+  </div>
+</section>
+
+<section>
+  <h2>轮值国四领域活跃度</h2>
+  <div class="heatmap">
+    <div class="heat"><div class="lab">卫星通信</div><div class="dot mid">● 中</div></div>
+    <div class="heat"><div class="lab">导航（GNSS/北斗）</div><div class="dot lo">● 低（暂无新增）</div></div>
+    <div class="heat"><div class="lab">遥感</div><div class="dot hi">● 高</div></div>
+    <div class="heat"><div class="lab">发射与卫星</div><div class="dot mid">● 中</div></div>
+  </div>
+</section>
+
+<!-- ===================== 卫星通信 ===================== -->
+<section>
+  <h2>▎卫星通信</h2>
+
+  <div class="item com">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>Starlink 越南试点正式获牌并推进部署</h3>
+      <p class="src">来源：Vietnam News / VOV / 人民军队报（越通社） · 日期：2026-04-01（获牌）；试点机制自 2026-02 起 · <b>热度：🟡 中</b></p>
+      <ul class="pts">
+        <li>越南电信管理局（VNTA）于 2026-02-14 向 Starlink Services Vietnam 颁发频率与设备使用许可，2026-04-01 正式发牌（固定 + 移动卫星网络服务），5 年试点，须于 2031-01-01 前结束。</li>
+        <li>初期部署 4 个网关站（Phú Thọ 富寿、Đà Nẵng 岘港、HCM 胡志明），终端上限 60 万台，用户规模严格受控。</li>
+        <li>定价高端：首月约 $435（设备 $350 + 订阅 $85），次月起约 $85/月，首年约 $1,370（约 3,400–3,500 万越南盾），为光纤资费 5–10 倍 → 奢侈品 / 补充覆盖定位。</li>
+        <li>进度：设备进口与安装顺利则 mid-2026 启用；越南固网已较完善，Starlink 定位偏远地区、海岛及海底光缆故障时的备用连接。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>Starlink 试点 4 个网关站正值建设期，地面段配套、网络安全合规、备用链路方案是明华 / Astrolink 可对标泰国 Thaicom 4 退服窗口的经验输出方向；一线 BD 须核实越南是否对第三方地面段 / 网关配套开放采购。</div>
+    </div>
+  </div>
+
+  <div class="item com">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>VINASAT-3 实施 + VINASAT-4 规划（主权 GEO 延续）</h3>
+      <p class="src">来源：Mondaq / 越南科技部（MST）· 日期：2026（规划确认）；Thales 会谈 2026-04-02 · <b>热度：🟡 中</b></p>
+      <ul class="pts">
+        <li>越南科技部确认正在实施 VINASAT-3，并规划 VINASAT-4 替换 VINASAT-2（约 2030 寿命终止）；VNPT 被指定为主实施单位。</li>
+        <li>VINASAT-1（2008，洛马造、阿里安发射）约 2023 到设计寿命；VINASAT-2 于 2012 发射，主权通信卫星体系由越南国有 VNPT 运营。</li>
+        <li>2026-04-02 越南科技部副部长 Pham Duc Long 会见 Thales Group，讨论电信卫星（Ku/Ka 多波段、星上数字处理器）、网络安全与技术转移；Thales 已与 VNPT 接洽，准备提供电信卫星解决方案（含印尼 Satria-1 经验）→ Thales 为 Vinasat-3/4 潜在主供应商。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>VINASAT-4 换代窗口（2030 前）是越南 GEO 卫星地面段 / 关口站设备与运维的潜在机会；但 Thales 系主供应商、竞争激烈，明华 / Astrolink 宜从地面段配套、网络安全合规、培训等非核心环节切入，并紧盯 Vinasat-4 招标节奏。</div>
+    </div>
+  </div>
+
+  <div class="item com">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>🆕 Vingroup / VinSpace 入局商业航天</h3>
+      <p class="src">来源：The Investor / VnExpress / DTiNews · 日期：2026-04（披露于 Vingroup 2025 年报）· <b>热度：🟡 中（🆕 新信号）</b></p>
+      <ul class="pts">
+        <li>VinSpace 由亿万富翁 Pham Nhat Vuong 于 2025-11-03 成立（注册资本 VND 3,000 亿 ≈ $11.4M），Vuong 持股 71%、Vingroup 19%。</li>
+        <li>目标 2027 年首发微卫星（"Make in Vietnam" 纳卫星集群），提供通信 + 遥感商业服务，是越南首个私企航天玩家。</li>
+        <li>正在建设洁净室、测试设备与地面站系统；寻求国内外伙伴技术转移，构建航空航天生态。</li>
+        <li>越南此前仅国家航天中心（VNSC）造过微卫星（2013 PicoDragon、2021 NanoDragon）。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>越南商业航天破冰，长期跟踪 VinSpace 洁净室 / 地面站 / 遥感商业化需求；明华 / Astrolink 可在地面段设备、遥感数据应用、人才培训方向提前建立联系（短期无订单，属卡位）。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 导航 ===================== -->
+<section>
+  <h2>▎导航（GNSS / 北斗）</h2>
+
+  <div class="item nav">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>VNGEONET 65 站 CORS（设备层已兼容北斗）</h3>
+      <p class="src">来源：Leica Geosystems 案例 / VNGEONET 官网 / Vietnam.vn · 日期：存量（2019 完工）+ 2026 应用 · <b>热度：⚪ 低</b></p>
+      <ul class="pts">
+        <li>VNGEONET 由越南测绘地信局（DOSMVN）建设，2016 启动、2019 完工，65 站 CORS（24 大地测量级 + 41 NRTK），Leica GR50（555 通道）支持 GPS / GLONASS / Galileo / BeiDou 全星座 → 设备层早已兼容北斗。</li>
+        <li>2026-01~03 河内杜嘉恩综合医院无人机医疗运输试点，用 VNGEONET 实时 GNSS 校正（厘米级）+ MobiFone 5G，保障城市无人机走廊安全飞行。</li>
+        <li>越南导航坐标系为 VN-2000（WGS84 + 7 参数 Helmert 变换），监管严格，地籍 / 土地登记须转回本地坐标。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>越南导航无新增北斗合作公开信号，但设备层已兼容北斗；明华 / Astrolink 可从终端增量层（农机、工程机械 RTK 终端、北斗增强应用）绕开存量壁垒切入，并通过一线 BD 核实越南是否放开北斗增强服务市场准入。</div>
+    </div>
+  </div>
+
+  <div class="item nav">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>Thales MEOLUT Next / COSPAS-SARSAT 搜救（基于 Galileo）</h3>
+      <p class="src">来源：Thales 越南 · 日期：2026（合作背景）；Yagi 台风 2024-09 验证 · <b>热度：⚪ 低</b></p>
+      <ul class="pts">
+        <li>Thales Alenia Space 与 VIETTEL 合作为 VINAMARINE 提供 MEOLUT Next 站，接入 COSPAS-SARSAT 全球搜救网（基于 Galileo 定位）。</li>
+        <li>2024-09 超强台风 Yagi 过境期间，系统成功接收并记录两船遇险信号（风速超 150 km/h），救起 20 名船员，验证极端天气可靠性。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>越南搜救 / 海事导航基础设施由 Thales + VIETTEL 主导，明华短期难切入；作为导航板块现状背景记录，持续观察。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 遥感 ===================== -->
+<section>
+  <h2>▎遥感</h2>
+
+  <div class="item rs">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>🔴 JAXA × VNSC 修订卫星数据交换协议（7/30）</h3>
+      <p class="src">来源：Japan Earth Observer（JEO 18 News Roundup）· 日期：2026-07-30 · <b>热度：🔴 高</b></p>
+      <ul class="pts">
+        <li>JAXA 与越南国家航天中心（VNSC）签署修订版卫星数据交换协议；原协议 2017-09，聚焦 ALOS-2 数据用于灾害管理 / 农业 / 林业。</li>
+        <li>新协议扩展至 ALOS-4（DAICHI-4），并加强 APRSAF「Space Applications for Environment (SAFE)」框架下的联合研发。</li>
+        <li>JAXA 同时通过日本 ODA 资助支撑 LOTUSat-1 发射，日越遥感合作形成"数据 + 卫星 + 研发"完整链条。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>日越遥感合作升级直接强化越南遥感数据获取与处理能力，明华 / Astrolink 遥感业务可探索：ALOS-4 数据本地化应用合作、VNSC 数据地面处理 / 培训、灾害与农业遥感应用联动；建议朱然 / 遥感团队跟进东盟遥感数据生态。</div>
+    </div>
+  </div>
+
+  <div class="item rs">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>VNSC 国家航天中心揭牌运营（存量重要基础设施）</h3>
+      <p class="src">来源：VnExpress / VN Economy / 岘港报 · 日期：2026-03-13 · <b>热度：🟡 中</b></p>
+      <ul class="pts">
+        <li>越南国家航天中心（VNSC）2026-03-13 在河内和乐高科技园区正式揭牌，日 ODA 贷款，投资超 VND 7 万亿（约 $266M），占地 9 公顷。</li>
+        <li>含运控中心、卫星数据利用与应用中心、卫星研发设施、9.3 米天线地面系统、航天博物馆。</li>
+        <li>总理范明政称其标志越南从"建基础"转向"运营应用、逐步掌握空间技术"的新阶段；目标 2030 年成为东盟中上水平航天国家。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>VNSC 是越南遥感 / 卫星数据核心基础设施，属长期客户关系锚点；明华 / Astrolink 宜将其列为越南遥感 BD 重点对接机构。</div>
+    </div>
+  </div>
+
+  <div class="item rs">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>LOTUSat-1（X-band SAR）制造完成待发射</h3>
+      <p class="src">来源：WMO OSCAR / Tuoi Tre / Envisioing · 日期：2026（状态更新）；spacelive 发射状态"待确定" · <b>热度：🟡 中</b></p>
+      <ul class="pts">
+        <li>LOTUSat-1 由 NEC 基于 ASNARO-2 / NEXTAR NX-300L 平台制造，600kg X-band SAR，分辨率 1m（Spotlight）/ 2m（Stripmap）/ 16m（ScanSAR），全天候昼夜成像。</li>
+        <li>制造已完成，待发射；总理督办 2027 年底前发射；由 JAXA Epsilon S 从内之浦航天中心发射。</li>
+        <li>受阻：Epsilon S 试飞失败（2024）导致无确定档期，发射状态仍"待确定"。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>LOTUSat-1 是越南首个 SAR 能力，明华遥感团队可提前研究其数据产品与应用场景，待其入役后探索数据代理 / 应用合作；发射依赖日本，短期无本土发射合作空间。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 发射与卫星 ===================== -->
+<section>
+  <h2>▎发射与卫星</h2>
+
+  <div class="item launch">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>VinSpace 地面站 / 洁净室建设（2027 首发目标）</h3>
+      <p class="src">来源：The Investor / VnExpress · 日期：2026-04 · <b>热度：🟡 中</b></p>
+      <ul class="pts">
+        <li>VinSpace 正在建设洁净室、测试设备与地面站系统，确保 2027 年首发微卫星进度。</li>
+        <li>越南无自主发射设施 → 须依赖国际伙伴发射；短期以实验性小规模首发为主，商业化取决于市场需求与人才供给。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>越南发射能力空白，VinSpace 2027 首发必寻国际发射伙伴；明华火箭业务（主力方向之一）可作为未来东南亚发射服务候选供应商提前跟踪，但越南当前绑日本 ODA、短期难切入，属长期卡位。</div>
+    </div>
+  </div>
+
+  <div class="item launch">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>VINASAT-3/4 卫星动态（VNPT 主责，发射档期未定）</h3>
+      <p class="src">来源：Mondaq / 越南科技部（MST）· 日期：2026 · <b>热度：🟡 中</b></p>
+      <ul class="pts">
+        <li>VINASAT-3 实施中、VINASAT-4 规划中（替换 VINASAT-2，约 2030 寿命终止），VNPT 主实施；发射服务商 / 档期未公开。</li>
+        <li>频段由 C 向 Ku/Ka 演进（Thales 观点），与区域 GEO 换代趋势一致。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>GEO 卫星换代带来地面段 / 关口站更新需求，明华 / Astrolink 可关注 VNPT 招标与 Thales 分包机会。</div>
+    </div>
+  </div>
+
+  <div class="item launch">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3>越南本土发射 / 地面站重大动态（如实标注）</h3>
+      <p class="src">来源：综合公开信息核验 · 日期：截至 2026-08-03 · <b>热度：⚪ 低</b></p>
+      <ul class="pts">
+        <li>越南无自主发射能力、无可靠公开的新增发射 / 地面站重大动态；LOTUSat-1 发射档期仍"待确定"（受 Epsilon S 拖累）。</li>
+        <li>本期无新增公开动态（低热度），不编造；仅 VinSpace 地面站建设处于早期阶段。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联：</b>持续跟踪，待 LOTUSat-1 等确定档期后评估遥感数据合作窗口；发射服务机会短期集中在 VinSpace 国际伙伴选择上。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+  <div class="prio">
+    <ol>
+      <li><span class="p0">[P0]</span> 越南导航增量市场——VNGEONET 设备层已兼容北斗，明华 / Astrolink 从农机、工程机械 RTK 终端、北斗增强应用切入，绕开存量壁垒；一线 BD 核实越南是否放开北斗增强服务市场准入。</li>
+      <li><span class="p1">[P1]</span> 遥感——JAXA × VNSC 7/30 协议升级 + VNSC 运营 + LOTUSat-1 待发射，明华遥感业务对接 VNSC / 数据应用 / 培训（朱然 / 遥感团队跟进东盟遥感数据生态）。</li>
+      <li><span class="p1">[P1]</span> GEO 换代——VINASAT-3/4（VNPT）+ Thales 合作，关注地面段 / 关口站招标与分包机会，避开主供应商正面竞争。</li>
+      <li><span class="p2">[P2]</span> Starlink 试点 4 网关站建设——地面段配套 / 网安合规 / 备用链路方案对标泰国 Thaicom 4 退服窗口经验。</li>
+      <li><span class="p2">[P2]</span> VinSpace 商业航天——越南首个私企航天玩家，长期卡位地面段 / 遥感商业化 / 培训，短期无订单。</li>
+    </ol>
+  </div>
+</section>
+
+<footer>
+  东南亚卫星产业动态 · ASEAN SAT. DAILY 第 016 期（越南轮值）<br>
+  生成时间：2026-08-03 21:25 (GMT+8) · 出品：Harry 🎩 for 明华 · Astrolink BD<br>
+  新闻时点以来源为准；重大合作以官方与一线 BD 核实为准。
+</footer>
+
+</div>
+</body>
+</html>
