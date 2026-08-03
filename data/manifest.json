@@ -3,6 +3,25 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-03",
+      "issue_no": "016",
+      "title": "越南轮值：JAXA×VNSC 遥感数据协议升级、Starlink 试点推进、Vingroup/VinSpace 入局商业航天、VINASAT-3/4 换代窗口",
+      "tags": [
+        "越南",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "VNSC",
+        "LOTUSat",
+        "VinSpace",
+        "VINASAT"
+      ],
+      "file": "issues/2026-08-03.html"
+    },
+    {
       "date": "2026-08-02",
       "issue_no": "015",
       "title": "泰国 Thaicom 4 正式断轨、78.5°E 进入真空期；新加坡 NSAS 宣布 2027Q1 设卫星任务运营中心；印尼 Telkomsat×民政 LEO 落地 50 县、BRIN NEO-1 定档 2027.1；越南 VNSC＋Starlink 试点推进",
