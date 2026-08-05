@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="archive-title" content="泰国轮值：NBTC会议再流产致卫星议程积压、Thaicom4退役Koreasat7过渡、GISTDA×ICEYE SAR落地、泰中北斗MOU进入执行期">
+<meta name="archive-tags" content="泰国,卫星通信,导航,北斗,遥感,发射,Thaicom,Koreasat7,ICEYE,SAR,GISTDA,NBTC">
+<title>东南亚卫星产业动态 · 第 018 期（泰国轮值）</title>
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65;}
+.wrap{max-width:760px;margin:0 auto;padding:24px 18px 56px;}
+header{background:linear-gradient(135deg,#1b2440,#2c3a63);color:#fff;border-radius:16px;padding:28px 22px;margin-bottom:22px;box-shadow:0 8px 24px rgba(27,36,64,.18);}
+.tag{display:inline-block;font-size:12px;letter-spacing:1px;font-weight:700;background:rgba(255,255,255,.14);color:#ffd98a;padding:5px 12px;border-radius:999px;margin-bottom:12px;}
+h1{font-size:26px;margin:0 0 6px;font-weight:800;color:#fff;}
+.sub-title{color:#c7d2ec;font-size:14px;margin:0 0 14px;}
+.meta{font-size:12.5px;color:#c7d2ec;border-top:1px solid rgba(255,255,255,.18);padding-top:12px;margin-top:4px;display:flex;flex-wrap:wrap;gap:6px 18px;}
+.meta b{color:#fff;font-weight:600;}
+h2{font-size:19px;margin:30px 0 14px;padding-left:11px;border-left:5px solid var(--com);font-weight:800;}
+h3.country{font-size:17px;margin:0 0 10px;font-weight:800;color:var(--txt);}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0 4px;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 16px;box-shadow:0 2px 8px rgba(27,36,64,.05);}
+.card .sm{font-size:12px;color:var(--sub);}
+.card h4{margin:6px 0 6px;font-size:14.5px;line-height:1.45;}
+.badge{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;padding:2px 8px;margin-bottom:6px;}
+.b-hi{background:rgba(224,49,49,.12);color:var(--hi);}
+.b-new{background:rgba(15,157,140,.14);color:var(--nav);}
+.b-mid{background:rgba(192,138,22,.16);color:var(--mid);}
+.progress{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0;}
+.progress span{flex:1 1 auto;text-align:center;font-size:12px;padding:7px 4px;border-radius:8px;background:var(--panel2);border:1px solid var(--line);color:var(--sub);min-width:64px;}
+.progress span.on{background:var(--com);color:#fff;border-color:var(--com);font-weight:700;}
+.activity{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0 4px;}
+.activity div{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 8px;text-align:center;}
+.activity .lab{font-size:12px;color:var(--sub);margin-bottom:5px;}
+.activity .lv{font-size:13px;font-weight:700;}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:13px 0;overflow:hidden;box-shadow:0 2px 8px rgba(27,36,64,.05);}
+.item .bar{height:5px;}
+.bar-com{background:var(--com);} .bar-nav{background:var(--nav);} .bar-rs{background:var(--rs);} .bar-launch{background:var(--launch);}
+.item .inner{padding:16px 17px;}
+.item h3{margin:0 0 4px;font-size:16px;font-weight:800;}
+.item .src{font-size:12.5px;color:var(--sub);margin-bottom:8px;}
+.heat{display:inline-block;font-size:12px;font-weight:700;border-radius:6px;padding:2px 9px;margin-left:6px;vertical-align:middle;}
+.heat-hi{background:rgba(224,49,49,.12);color:var(--hi);}
+.heat-mid{background:rgba(192,138,22,.16);color:var(--mid);}
+.heat-lo{background:rgba(154,166,189,.2);color:var(--sub);}
+.pts{margin:8px 0 4px;padding-left:20px;}
+.pts li{margin:4px 0;color:var(--txt);}
+.biz{background:rgba(176,127,18,.12);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:11px 14px;margin-top:11px;font-size:13.5px;color:var(--txt);}
+.biz b{color:var(--gold);}
+a{color:#1a4db5;text-decoration:underline;}
+.prio{margin:12px 0;padding:0;list-style:none;}
+.prio li{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 15px;margin:9px 0;}
+.prio .p0{border-left:5px solid var(--hi);}
+.prio .p1{border-left:5px solid var(--mid);}
+.prio .p2{border-left:5px solid var(--lo);}
+.prio b{font-weight:800;}
+footer{margin-top:30px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--sub);text-align:center;line-height:1.8;}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">ASEAN SAT. DAILY · 第 018 期</span>
+  <h1>东南亚卫星产业动态</h1>
+  <p class="sub-title">今日轮值：🇹🇭 泰国（Thailand）</p>
+  <div class="meta">
+    <span>监测周期：<b>2026-08-05</b>（轮值日报）</span>
+    <span>轮值国：<b>泰国</b></span>
+    <span>领域：<b>卫星通信 / 导航（GNSS·北斗）/ 遥感 / 发射与卫星</b></span>
+    <span>出品：<b>Harry 🎩 for 明华 · Astrolink BD</b></span>
+  </div>
+</header>
+
+<!-- 本期核心看点 -->
+<h2>本期核心看点</h2>
+<div class="cards">
+  <div class="card">
+    <span class="badge b-hi">🔴 高</span>
+    <h4>NBTC 委员会会议再度流产（8/5）</h4>
+    <p class="sm">主席资格争议致法定人数不足，含 Thaicom 4 后续、数字电视、1210 亿铢频谱拍卖等 20+ 紧急议程积压；8/6 再议前景不明。</p>
+  </div>
+  <div class="card">
+    <span class="badge b-hi">🔴 高</span>
+    <h4>Thaicom 4 退役，Koreasat 7 应急过渡</h4>
+    <p class="sm">7/31 正式停服，NBTC 授权韩国卫星应急租赁；78.5°E 轨位真空期延续至 Thaicom 9（2027.9）升空。</p>
+  </div>
+  <div class="card">
+    <span class="badge b-hi">🔴 高</span>
+    <h4>GISTDA × ICEYE（芬兰）SAR 合作落地</h4>
+    <p class="sm">6/29 联合开发工作坊，SAR 用于洪涝/沉降/海岸侵蚀 24h 监测 + 海事船舶追踪，补强泰国全天候遥感短板。</p>
+  </div>
+  <div class="card">
+    <span class="badge b-mid">🟡 中</span>
+    <h4>泰中北斗 MOU 进入执行期</h4>
+    <p class="sm">7/20 北京签署 5 项泰中协议，含 GISTDA × 国家发改委北斗创新与应用开发，聚焦交通与灾害管理。</p>
+  </div>
+  <div class="card">
+    <span class="badge b-mid">🟡 中</span>
+    <h4>直连手机升温 + Starlink 监管收紧</h4>
+    <p class="sm">Thaicom × Globalstar 年底落地卫星直连手机；8/5 宋卡湖水警联合 NBTC 查处渔船非法 Starlink 设备。</p>
+  </div>
+  <div class="card">
+    <span class="badge b-mid">🟡 中</span>
+    <h4>GISTDA 18 星 EO 星座 + THEOS-3 全自研</h4>
+    <p class="sm">6 年 18 星规划（含 SAR 组）；THEOS-3 软件由泰工程师全自研，7/9 进入工程模型测试。</p>
+  </div>
+</div>
+
+<!-- 本周轮值进度 -->
+<h2>本周轮值进度</h2>
+<div class="progress">
+  <span>一·越南</span>
+  <span>二·柬埔寨</span>
+  <span class="on">三·泰国</span>
+  <span>四·马来西亚</span>
+  <span>五·印尼</span>
+  <span>六·新加坡</span>
+  <span>日·回顾</span>
+</div>
+
+<!-- 四领域活跃度 -->
+<h2>轮值国四领域活跃度</h2>
+<div class="activity">
+  <div><div class="lab">卫星通信</div><div class="lv" style="color:var(--hi)">● 高</div></div>
+  <div><div class="lab">导航</div><div class="lv" style="color:var(--mid)">● 中</div></div>
+  <div><div class="lab">遥感</div><div class="lv" style="color:var(--hi)">● 高</div></div>
+  <div><div class="lab">发射</div><div class="lv" style="color:var(--mid)">● 中</div></div>
+</div>
+
+<!-- 卫星通信 -->
+<h2>▎卫星通信</h2>
+
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>NBTC 委员会会议再度流产，卫星与频谱紧急议程积压<span class="heat heat-hi">🔴 高</span></h3>
+    <div class="src">来源：Thairath / 泰国中文社（thais.com） · 日期：2026-08-05</div>
+    <ul class="pts">
+      <li>第 23/2026 次 NBTC 会议（8/5）因 3 名委员以「主席资格缺失」为由离席，未达法定人数而流产；主席沙拉医师已向行政法院申请临时保护以 continuing 履职。</li>
+      <li>积压议程逾 20 项，含 Thaicom 4 后续处置、数字电视运营指引、1210 亿铢（约 242 亿人民币）六频段频谱拍卖规则、BTFP 研发基金审批。</li>
+      <li>主席吁 8/6 再议；反对委员主张可由其余 6 人依议事规则推举代主席推进紧急议程，并提请总理化解僵局。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：NBTC 审批停摆使卫星/频谱相关合作窗口不确定。建议绕开 NBTC 监管通道，改走 GISTDA / 高教科研创新部（MHESI）等部委技术合作通道推进 Astrolink 卫星通信方案，避免卡在频谱审批环节。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>Thaicom 4 退役、Koreasat 7 应急过渡，78.5°E 真空期延续<span class="heat heat-hi">🔴 高</span></h3>
+    <div class="src">来源：HeyThailandNews / Bangkok Post · 日期：2026-07（持续中）</div>
+    <ul class="pts">
+      <li>Thaicom 4 于 7/31 正式停服，NBTC 授权应急租赁韩国 Koreasat 7，信号覆盖与旧星几乎重合，终端无缝切换。</li>
+      <li>国家电信（NT）乌汶府 OneWeb LEO 关口站已承载流量，可作低时延冗余；Thaicom 9 推至 2027.9 发射、Thaicom 10 计划 2028。</li>
+      <li>78.5°E 轨位空窗期至少延续至 2027 下半年，过渡期内容量与冗余均偏紧。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：轨位真空期构成备份链路/应急通信方案窗口。明华 / Astrolink 可针对离岸能源、远洋航运、偏远农业监测等 VSAT 用户提供冗余备份与混合组网方案，定位 B2B 应急替代。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>Starlink 监管收紧：宋卡湖渔船非法设备安装被查处<span class="heat heat-mid">🟡 中</span></h3>
+    <div class="src">来源：泰国中文社（thais.com）/ QQ 新闻 · 日期：2026-08-05</div>
+    <ul class="pts">
+      <li>8/5 泰国水警联合 NBTC 在宋卡湖突查，逮捕两艘渔船船主，查获非法 Starlink 接收分发设备、收发终端及信号放大器。</li>
+      <li>当事人称「不知违法」；案件依未申报无线电设备、逃税物品等罪名移交调查，凸显海事场景卫星终端监管缺口。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：合规化卫星互联网（含直连手机）入场窗口显现。Astrolink 可定位合规 B2B 海事 / 离岸场景，提供持证、可追溯的卫星通信终端与运营方案，规避灰色安装风险。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>Thaicom × Globalstar 卫星直连手机授权落地（年底可用）<span class="heat heat-mid">🟡 中</span></h3>
+    <div class="src">来源：African Wireless Communications / Bangkok Post · 日期：2025-08 签约，2026 落地</div>
+    <ul class="pts">
+      <li>NBTC 已批准 Globalstar 在 Pathum Thani（Thaicom 电信港）建地面站，为全球第 28 座、泰国首个 LEO 星座服务授权。</li>
+      <li>计划 2026 年底前向 iPhone 用户提供紧急 SOS 直连手机服务；Thaicom 为泰国独家分销伙伴，地面设施已建成。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：LEO 直连手机赛道升温。明华 / Astrolink 可跟踪 Thaicom 二级合作机会，评估与 Globalstar / Thaicom 在东盟多国的分销或增值服务协同。</div>
+  </div>
+</div>
+
+<!-- 导航 -->
+<h2>▎导航（GNSS / 北斗）</h2>
+
+<div class="item">
+  <div class="bar bar-nav"></div>
+  <div class="inner">
+    <h3>泰中 5 项 MOU 已签，北斗创新与应用开发进入执行期<span class="heat heat-mid">🟡 中</span></h3>
+    <div class="src">来源：泰国中文社（thais.com）· 日期：2026-07-20（北京签署）</div>
+    <ul class="pts">
+      <li>副总理约查南 7/20 在京签署 5 项泰中深科技协议，含「北斗导航卫星系统创新与应用开发」——GISTDA × 国家发改委。</li>
+      <li>合作范围：研发、工业实际应用、投资贸易促进，重点覆盖交通运输、灾害管理。</li>
+      <li>配套含泰中联合深空探测实验室（支撑嫦娥七号）、核聚变技术交流、高教与人才网络。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：北斗进入部委执行期。建议联动朱然对接 GISTDA，争取 CORS / 差分增强 / 行业应用示范（交通、灾害）落地机会，抢占执行窗口。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar bar-nav"></div>
+  <div class="inner">
+    <h3>中国厂商北斗示范先发：渔船监控、车道级导航（行业背景）<span class="heat heat-lo">⚪ 低</span></h3>
+    <div class="src">来源：新华社·丝路专题（背景性，非本期新发）</div>
+    <ul class="pts">
+      <li>光谷北斗在泰推动渔船智能监控管理示范，依托北斗短报文实现双向气象 / 求救通信。</li>
+      <li>芭提雅依托北斗的厘米级车道级导航已测试成功，未来可提示最佳变道时机。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：中企（光谷北斗等）已先行入场并占据示范场景。明华须加速递交北斗应用意向，避免 CORS / 行业终端增量层被挤占；可走农机、工程机械终端增量层绕开存量壁垒。</div>
+  </div>
+</div>
+
+<!-- 遥感 -->
+<h2>▎遥感</h2>
+
+<div class="item">
+  <div class="bar bar-rs"></div>
+  <div class="inner">
+    <h3>GISTDA × ICEYE（芬兰）SAR 合作落地，补强全天候遥感<span class="heat heat-hi">🔴 高</span></h3>
+    <div class="src">来源：thailand.go.th（泰国政府门户）· 日期：2026-06-29</div>
+    <ul class="pts">
+      <li>双方举办「GISTDA–ICEYE EO Satellite Joint Development Workshop」，聚焦 SAR 在气候灾害中的应用。</li>
+      <li>SAR 可穿透云层、昼夜工作，用于洪涝、地表沉降、海岸侵蚀 24h 监测；亦可追踪船舶防非法捕捞、护海疆。</li>
+      <li>标志泰国—芬兰航天关系深化，为本土 SAR 能力缺口提供外部数据与联合研制路径。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：泰国 SAR 需求强、本土能力在建。明华 / Astrolink 可对标中企（光谷等）推 SAR 数据 / 增值服务或联合应用（灾害、海事安全），争取数据分销或示范项目。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar bar-rs"></div>
+  <div class="inner">
+    <h3>GISTDA 18 星 EO 星座规划：含 SAR 组，目标数据主权<span class="heat heat-mid">🟡 中</span></h3>
+    <div class="src">来源：GISTDA / LinkedIn 行业发布 · 日期：2026（持续规划）</div>
+    <ul class="pts">
+      <li>6 年项目：THEOS-3（农业专用）、THEOS-4/5（12 星，含 SAR，安全 / 灾害）、THEOS-6（高分辨自然资源）。</li>
+      <li>目标从「数据消费者」转为「空间技术创造者」，建数据主权，减少对国外数据源依赖。</li>
+      <li>拟带动 100+ 本土航天企业参与子系统研制，培养 3000+ 高技能人员。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：星座建设周期长（2029 前），中期高度依赖外部 SAR / 光学数据 → 采购与联合研制窗口明确；Astrolink 可切入数据供应或地面段合作。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar bar-rs"></div>
+  <div class="inner">
+    <h3>THEOS-3 软件全自研，进入工程模型（EM）测试<span class="heat heat-mid">🟡 中</span></h3>
+    <div class="src">来源：BizWorldChannel · 日期：2026-07-09</div>
+    <ul class="pts">
+      <li>泰国工程师首次完成星上（OBC / AOCS / PDHU 等）与地面段（MPS / SOC / FDS / PPS 等）端到端软件自研，已接入 EM 硬件测试。</li>
+      <li>计划 2027 年在 AIT 设施进入卫星集成与洁净间测试；标志泰国从技术采用转向自主系统研制。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：自主研制提速催生子系统 / 地面段国际合作需求，明华可评估在测试设备、地面站软件或数据服务上的配套机会。</div>
+  </div>
+</div>
+
+<!-- 发射与卫星 -->
+<h2>▎发射与卫星</h2>
+
+<div class="item">
+  <div class="bar bar-launch"></div>
+  <div class="inner">
+    <h3>TSC-1 泰国自研卫星通过 EM 测试，2027 发射<span class="heat heat-mid">🟡 中</span></h3>
+    <div class="src">来源：Thairath / 台泰时报 · 日期：2026-04-18（副总理视察）</div>
+    <ul class="pts">
+      <li>TSC-1 约 60% 由泰团队自研（高分辨相机、姿控软件、地面站），已通过热真空、辐射、振动测试。</li>
+      <li>下一阶段为飞行模型（Flight Model），预计 2027 年发射；副总理尤德查南力推为 Deep Tech 里程碑。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：自研趋势拉动地面站 / 总测 / 子组件供应链。Astrolink 可关注泰国本土卫星研制配套与测试服务合作。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar bar-launch"></div>
+  <div class="inner">
+    <h3>GISTDA Space Krenovation Park（Si Racha）成区域地面段枢纽<span class="heat heat-mid">🟡 中</span></h3>
+    <div class="src">来源：ThailandEdition · 日期：2026-07-11（记者团参观）</div>
+    <ul class="pts">
+      <li>园区含国家卫星总装集成测试中心（NAIT）与卫星信号接收实验室，面向政府、私企及海外客户（含新加坡 NTU）提供服务。</li>
+      <li>运营 Space Safety Operation Center 监测空间碎片与在轨物体，预警碰撞 / 陨落。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：泰国地面段能力集聚，可作为东盟区域合作节点；明华可考虑以地面站 / 数据接收能力为切入点建立区域协同。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar bar-launch"></div>
+  <div class="inner">
+    <h3>KNACKSAT-2（KMUTNB 3U CubeSat）在轨运行（生态背景）<span class="heat heat-lo">⚪ 低</span></h3>
+    <div class="src">来源：Khaosod English / NARIT · 日期：2026-02（较早，作生态背景）</div>
+    <ul class="pts">
+      <li>2026-02 从 ISS 部署，NARIT 2/22 接收首信号，多载荷（成像 / IoT / 紫外）。</li>
+      <li>标志泰国高校 CubeSat 研制与在轨运营能力成熟，构成航天人才梯队底座。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：高校生态活跃，可为 Astrolink 在泰人才合作、联合课题与科普营销提供入口。</div>
+  </div>
+</div>
+
+<!-- BD 衔接建议 -->
+<h2>🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+<ul class="prio">
+  <li class="p0"><b>P0 · 绕开 NBTC 审批僵局，走 GISTDA / MHESI 技术通道</b>：NBTC 会议再流产（8/5）使频谱与卫星审批不确定，所有依赖监管审批的合作应改走部委技术合作路径，避免窗口期错失。</li>
+  <li class="p0"><b>P0 · 抢占泰中北斗 MOU 执行窗口</b>：7/20 协议已签，GISTDA × 国家发改委进入执行期，立即联动朱然对接，争取 CORS / 差分 / 行业示范落地。</li>
+  <li class="p1"><b>P1 · SAR 数据与应用切入</b>：GISTDA × ICEYE 落地凸显泰国 SAR 需求，Astrolink 可对标推 SAR 数据分销 / 灾害 / 海事安全联合应用。</li>
+  <li class="p1"><b>P1 · 78.5°E 真空期备份方案</b>：Thaicom 4 退役至 2027.9 空窗，面向离岸能源 / 航运 / 农业监测推冗余与混合组网 B2B 方案。</li>
+  <li class="p2"><b>P2 · 直连手机与合规终端</b>：跟踪 Thaicom × Globalstar 年底落地，评估二级合作；以合规 B2B 海事终端回应 Starlink 监管收紧趋势。</li>
+  <li class="p2"><b>P2 · 地面段与研制配套</b>：Si Racha 地面段枢纽 + TSC-1 / THEOS-3 自研趋势，关注测试、子组件与数据接收协同。</li>
+</ul>
+
+<footer>
+  东南亚卫星产业动态 · ASEAN SAT. DAILY 第 018 期（泰国轮值）<br>
+  生成时间：2026-08-05 21:25 (GMT+8) · 出品：Astrolink（明华 · Astrolink BD）<br>
+  新闻时点以来源为准；重大合作请以官方与一线 BD 核实。
+</footer>
+
+</div>
+</body>
+</html>
