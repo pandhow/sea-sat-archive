@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-05",
+      "issue_no": "018",
+      "title": "泰国轮值：NBTC会议再流产致卫星议程积压、Thaicom4退役Koreasat7过渡、GISTDA×ICEYE SAR落地、泰中北斗MOU进入执行期",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Thaicom",
+        "Koreasat7",
+        "ICEYE",
+        "SAR",
+        "GISTDA",
+        "NBTC"
+      ],
+      "file": "issues/2026-08-05.html"
+    },
+    {
       "date": "2026-08-04",
       "issue_no": "017",
       "title": "柬埔寨轮值：千帆/G60星链首相级会晤推动低轨卫星互联网入场、MPTC法律框架起草中；CORS 72桩/52通电、北斗数据分中心落地",
