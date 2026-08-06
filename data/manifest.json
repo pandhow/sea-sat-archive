@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-06",
+      "issue_no": "019",
+      "title": "马来西亚轮值：Starlink直连手机试验在望、MEASAT多轨道转型与千帆MoU卡位、MYSA国家SBAS推进、砂拉越航天港中马火箭合作",
+      "tags": [
+        "马来西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "MEASAT",
+        "千帆",
+        "SBAS",
+        "航天港",
+        "砂拉越"
+      ],
+      "file": "issues/2026-08-06.html"
+    },
+    {
       "date": "2026-08-05",
       "issue_no": "018",
       "title": "泰国轮值：NBTC会议再流产致卫星议程积压、Thaicom4退役Koreasat7过渡、GISTDA×ICEYE SAR落地、泰中北斗MOU进入执行期",
