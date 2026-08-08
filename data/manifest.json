@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-08",
+      "issue_no": "021",
+      "title": "新加坡轮值：SpeQtral量子卫星8/5接管进入实验阶段、NSAS 2027Q1运控中心与国家航天法立法在即、NeuSAR-2赤道SAR星座2027首星、NEBULA激光通信年内交付",
+      "tags": [
+        "新加坡",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "SpeQtral",
+        "量子密钥分发",
+        "NSAS",
+        "NeuSAR-2",
+        "NEBULA",
+        "SiReNT"
+      ],
+      "file": "issues/2026-08-08.html"
+    },
+    {
       "date": "2026-08-07",
       "issue_no": "020",
       "title": "印尼轮值：楠榜一号高光谱卫星8/5入轨引数据主权之争、BRIN地面站划红线、比亚克航天港PP22/2026落地、AirNav×BIG五年GNSS抗干扰MoU",
