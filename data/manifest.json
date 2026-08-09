@@ -3,6 +3,30 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-09",
+      "issue_no": "022",
+      "title": "周回顾：印尼楠榜一号入轨引数据主权之争与BRIN三条红线、泰国NBTC僵局叠加Thaicom4真空期、马来Starlink直连手机试验、新加坡国家航天法立法与2027Q1运控中心",
+      "tags": [
+        "周回顾",
+        "泰国",
+        "印度尼西亚",
+        "马来西亚",
+        "新加坡",
+        "柬埔寨",
+        "越南",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "楠榜一号",
+        "NBTC",
+        "Starlink D2C",
+        "NSAS"
+      ],
+      "file": "issues/2026-08-09.html"
+    },
+    {
       "date": "2026-08-08",
       "issue_no": "021",
       "title": "新加坡轮值：SpeQtral量子卫星8/5接管进入实验阶段、NSAS 2027Q1运控中心与国家航天法立法在即、NeuSAR-2赤道SAR星座2027首星、NEBULA激光通信年内交付",
