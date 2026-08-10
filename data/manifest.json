@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-10",
+      "issue_no": "023",
+      "title": "越南轮值：MOIT强制农机北斗认证10/1生效、Thales×VNPT推进Vinasat-3/4、JAXA×VNSC新增ALOS-4数据、Hoa Lac航天中心落成冲刺LOTUSat-1",
+      "tags": [
+        "越南",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Vinasat",
+        "Starlink",
+        "LOTUSat-1",
+        "VNSC",
+        "Thales",
+        "ALOS-4"
+      ],
+      "file": "issues/2026-08-10.html"
+    },
+    {
       "date": "2026-08-09",
       "issue_no": "022",
       "title": "周回顾：印尼楠榜一号入轨引数据主权之争与BRIN三条红线、泰国NBTC僵局叠加Thaicom4真空期、马来Starlink直连手机试验、新加坡国家航天法立法与2027Q1运控中心",
