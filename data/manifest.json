@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-12",
+      "issue_no": "025",
+      "title": "泰国轮值：Thaicom更名Gulf Space Technology、泰国拒Starlink 100%外资、泰中北斗MOU执行期、GISTDA 18星星座与泰缅遥感MoU",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Thaicom",
+        "Gulf Space Technology",
+        "Starlink",
+        "GISTDA",
+        "THEOS",
+        "ICEYE"
+      ],
+      "file": "issues/2026-08-12.html"
+    },
+    {
       "date": "2026-08-11",
       "issue_no": "024",
       "title": "柬埔寨轮值：千帆星座拟落地、柬泰边境卫星'数字围栏'、MPTC拟5年内自主卫星",
