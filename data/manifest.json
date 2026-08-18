@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-18",
+      "issue_no": "028",
+      "title": "柬埔寨轮值：千帆(G60/上海垣信)卫星互联网首相级会晤拟落地、广西国土规划集团×国土规划部遥感GIS MoU、环境部Green 2.0卫星+无人机取证森林犯罪、Starlink年内待上线、柬中环境MoU引入北斗+5年内自主卫星计划",
+      "tags": [
+        "柬埔寨",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "千帆星座",
+        "Starlink",
+        "上海垣信",
+        "广西国土规划集团",
+        "Green 2.0",
+        "MPTC"
+      ],
+      "file": "issues/2026-08-18.html"
+    },
+    {
       "date": "2026-08-17",
       "issue_no": "027",
       "title": "越南轮值：Starlink商用8/12正式上线(4网关站/60万上限)、北斗在轨升级PPP<0.3m叠加农机强制认证10/1倒计时、LOTUSat-1推迟2027+Hoa Lac航天中心启用、VinSpace签约SpaceX 2027发射首颗自研卫星",
