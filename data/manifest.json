@@ -3,6 +3,27 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-19",
+      "issue_no": "029",
+      "title": "泰国轮值：Thaicom更名Gulf Space并成Amazon Kuiper早期伙伴、泰中北斗MOU执行期、航天港PPP蓝图、GISTDA 18星星座推进数据主权",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Thaicom",
+        "Gulf Space Technology",
+        "Amazon Kuiper",
+        "GISTDA",
+        "航天港",
+        "THEOS",
+        "ICEYE"
+      ],
+      "file": "issues/2026-08-19.html"
+    },
+    {
       "date": "2026-08-18",
       "issue_no": "028",
       "title": "柬埔寨轮值：千帆(G60/上海垣信)卫星互联网首相级会晤拟落地、广西国土规划集团×国土规划部遥感GIS MoU、环境部Green 2.0卫星+无人机取证森林犯罪、Starlink年内待上线、柬中环境MoU引入北斗+5年内自主卫星计划",
