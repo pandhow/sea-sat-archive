@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-21",
+      "issue_no": "031",
+      "title": "印度尼西亚轮值：BAKTI/SATRIA-1覆盖3.1万公共服务点、Komdigi推进本国LEO向ITU申报、中印尼第12次协调会谈北斗短报文入题、BRIN国产NEO-1计划2027.1发射、比阿克航天港2027启动",
+      "tags": [
+        "印度尼西亚",
+        "卫星通信",
+        "SATRIA-1",
+        "导航",
+        "北斗",
+        "中印尼协调会谈",
+        "遥感",
+        "NEO-1",
+        "BRIN",
+        "发射",
+        "比阿克航天港",
+        "Star.VISION"
+      ],
+      "file": "issues/2026-08-21.html"
+    },
+    {
       "date": "2026-08-20",
       "issue_no": "030",
       "title": "马来西亚轮值：MEASAT-3d 进入商用、TerraXpace 首发 SAR、马中北斗 MoU、MYSA 第三颗遥感星与赤道发射场规划",
