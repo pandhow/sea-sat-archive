@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>东南亚卫星产业动态 · 第 032 期（新加坡轮值）</title>
+<meta name="archive-title" content="新加坡轮值：NSAS运控中心2027H1启用、国家航天法在拟、ST工程NeuSAR-2四星SAR星座2027首发、SpeQtre量子星8月接管操作控制权">
+<meta name="archive-tags" content="新加坡,卫星通信,导航,北斗,GNSS,遥感,SAR,NeuSAR-2,发射,SpeQtral,NSAS">
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65;font-size:15px;}
+.wrap{max-width:860px;margin:0 auto;padding:28px 22px 56px;}
+header{background:linear-gradient(135deg,#1e3a8a 0%,#2c6fd6 60%,#0f9d8c 100%);color:#fff;border-radius:18px;padding:30px 26px;margin-bottom:22px;box-shadow:0 8px 28px rgba(30,58,138,.18);}
+.tag{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);padding:4px 12px;border-radius:999px;font-size:12px;letter-spacing:.06em;font-weight:600;margin-bottom:12px;color:#fff;}
+h1{font-size:27px;margin:6px 0 8px;color:#fff;font-weight:800;letter-spacing:.01em;}
+.sub-title{color:rgba(255,255,255,.86);font-size:15px;margin:0 0 14px;font-weight:500;}
+.meta{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12.5px;color:rgba(255,255,255,.9);border-top:1px solid rgba(255,255,255,.22);padding-top:12px;margin-top:6px;}
+.meta b{color:#fff;font-weight:700;}
+section{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 20px;margin-bottom:20px;box-shadow:0 2px 10px rgba(27,36,64,.04);}
+h2{font-size:20px;margin:2px 0 14px;font-weight:800;display:flex;align-items:center;gap:8px;color:var(--txt);}
+h2 .em{font-size:13px;color:var(--sub);font-weight:600;}
+h3.country{font-size:17px;margin:0 0 12px;color:var(--txt);font-weight:700;}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;}
+.card{background:var(--panel2);border:1px solid var(--line);border-left:4px solid var(--com);border-radius:10px;padding:14px 16px;}
+.card .t{font-weight:700;font-size:14.5px;color:var(--txt);margin-bottom:6px;}
+.card .sm{font-size:12px;color:var(--sub);}
+.card .badge{display:inline-block;font-size:11px;font-weight:700;padding:1px 8px;border-radius:999px;margin-right:6px;}
+.b-hi{background:rgba(224,49,49,.12);color:var(--hi);}
+.b-new{background:rgba(44,111,214,.12);color:var(--com);}
+.b-mid{background:rgba(192,138,22,.14);color:var(--mid);}
+.progress{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 2px;}
+.pill{flex:1 1 auto;text-align:center;font-size:12px;padding:8px 4px;border-radius:9px;background:var(--panel2);border:1px solid var(--line);color:var(--sub);font-weight:600;min-width:84px;}
+.pill.today{background:var(--com);color:#fff;border-color:var(--com);box-shadow:0 3px 10px rgba(44,111,214,.3);}
+.pill.review{background:var(--panel2);}
+.heat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:2px 0 4px;}
+.heat{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 8px;text-align:center;}
+.heat .lab{font-size:13px;font-weight:700;color:var(--txt);}
+.heat .dot{font-size:13px;margin-top:6px;font-weight:700;}
+.dot-hi{color:var(--hi);} .dot-mid{color:var(--mid);} .dot-lo{color:var(--lo);}
+.item{background:var(--panel2);border:1px solid var(--line);border-radius:12px;margin-bottom:14px;overflow:hidden;}
+.item .bar{height:6px;}
+.bar-com{background:var(--com);} .bar-nav{background:var(--nav);} .bar-rs{background:var(--rs);} .bar-launch{background:var(--launch);}
+.item .inner{padding:16px;}
+.item h3{font-size:16px;margin:0 0 6px;color:var(--txt);font-weight:700;}
+.item .src{font-size:12.5px;color:var(--sub);margin-bottom:8px;}
+.item .heat-tag{display:inline-block;font-size:11.5px;font-weight:700;padding:1px 9px;border-radius:999px;margin-left:6px;vertical-align:middle;}
+.ht-hi{background:rgba(224,49,49,.1);color:var(--hi);}
+.ht-mid{background:rgba(192,138,22,.12);color:var(--mid);}
+.ht-lo{background:rgba(154,166,189,.16);color:var(--lo);}
+ul.pts{margin:8px 0 10px;padding-left:18px;color:var(--txt);}
+ul.pts li{margin:4px 0;}
+.biz{background:rgba(176,127,18,.1);border-left:4px solid var(--gold);border-radius:8px;padding:11px 14px;margin-top:8px;color:var(--txt);font-size:14px;}
+.biz b{color:var(--gold);font-weight:700;}
+.biz .lbl{font-weight:700;display:block;margin-bottom:3px;color:var(--gold);}
+.prio{list-style:none;padding:0;margin:6px 0 0;}
+.prio li{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px;}
+.prio .lv{display:inline-block;font-size:11.5px;font-weight:800;padding:2px 10px;border-radius:999px;margin-right:8px;}
+.lv-p0{background:rgba(224,49,49,.12);color:var(--hi);}
+.lv-p1{background:rgba(44,111,214,.12);color:var(--com);}
+.lv-p2{background:rgba(15,157,140,.12);color:var(--nav);}
+.prio b{color:var(--txt);}
+footer{text-align:center;font-size:12.5px;color:var(--sub);border-top:1px solid var(--line);padding-top:16px;margin-top:6px;}
+footer b{color:var(--txt);}
+a{color:var(--com);text-decoration:underline;}
+.note{font-size:12.5px;color:var(--sub);background:rgba(98,112,143,.08);border-radius:8px;padding:9px 12px;margin-top:8px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">ASEAN SAT. DAILY · 第 032 期</span>
+  <h1>东南亚卫星产业动态</h1>
+  <p class="sub-title">🇸🇬 今日轮值：新加坡（Singapore）</p>
+  <div class="meta">
+    <span>监测周期：<b>2026-08-22（周六）</b></span>
+    <span>轮值国：<b>🇸🇬 新加坡</b></span>
+    <span>监测领域：<b>卫星通信 · 导航(GNSS/北斗) · 遥感 · 发射与卫星</b></span>
+    <span>出品：<b>Harry 🎩 for 明华 · Astrolink BD</b></span>
+  </div>
+</header>
+
+<section>
+  <h2>📌 本期核心看点 <span class="em">（仅围绕轮值国 · 新加坡）</span></h2>
+  <div class="cards">
+    <div class="card" style="border-left-color:var(--launch)">
+      <span class="badge b-hi">🔴 高</span><span class="sm">NSAS · 国家战略</span>
+      <div class="t">国家航天局运控中心 2027 上半年启用 + 航天法/航天物体登记册在拟</div>
+      <div class="sm">新加坡从"用天"迈向主权太空治理，明确不优先发展发射能力。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--rs)">
+      <span class="badge b-hi">🔴 高</span><span class="sm">遥感 · ST Engineering</span>
+      <div class="t">NeuSAR-2 四星 SAR 星座 2027 首发、2030 全部署</div>
+      <div class="sm">0.6m 分辨率、赤道区 8–16 次/日重访，配 Airbus 3D SAR 架构。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--com)">
+      <span class="badge b-hi">🔴 高</span><span class="sm">发射与卫星 · 量子通信</span>
+      <div class="t">SpeQtre 量子通信星 8/5 由 SpeQtral 接管操作控制权</div>
+      <div class="sm">新-英合作 BBM92 QKD 进入实验阶段，新加坡领跑星地量子安全。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--com)">
+      <span class="badge b-new">🆕 新</span><span class="sm">卫星通信 · ST Engineering</span>
+      <div class="t">Satcom 业务 Q2 2026 新签约 S$5 亿，订单簿 S$357 亿</div>
+      <div class="sm">国防/机动/企业卫星运营商网络扩建、迁移与现代化。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--nav)">
+      <span class="badge b-mid">🟡 中</span><span class="sm">导航 · 民用 GNSS</span>
+      <div class="t">ERP 2.0 卫星 GNSS 收费全面替代闸机</div>
+      <div class="sm">2026 起拆 95 处闸机、2027-01-01 OBU 强制——多星座（含北斗）标杆。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--nav)">
+      <span class="badge b-mid">🟡 中</span><span class="sm">导航 · 航空</span>
+      <div class="t">DGCA 批准首例 PinS 卫星直升机场进近（Undavalli）</div>
+      <div class="sm">卫星导航去雷达化，为区域直升机 IFR 作业立先例。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🗓️ 本周轮值进度</h2>
+  <div class="progress">
+    <div class="pill">一 · 越南</div>
+    <div class="pill">二 · 柬埔寨</div>
+    <div class="pill">三 · 泰国</div>
+    <div class="pill">四 · 马来西亚</div>
+    <div class="pill">五 · 印度尼西亚</div>
+    <div class="pill today">六 · 新加坡（今日）</div>
+    <div class="pill review">日 · 回顾</div>
+  </div>
+</section>
+
+<section>
+  <h2>🌡️ 轮值国四领域活跃度 <span class="em">（新加坡）</span></h2>
+  <div class="heat-row">
+    <div class="heat"><div class="lab">卫星通信</div><div class="dot dot-hi">● 高</div></div>
+    <div class="heat"><div class="lab">导航</div><div class="dot dot-mid">● 中</div></div>
+    <div class="heat"><div class="lab">遥感</div><div class="dot dot-hi">● 高</div></div>
+    <div class="heat"><div class="lab">发射与卫星</div><div class="dot dot-mid">● 中</div></div>
+  </div>
+  <p class="note">说明：新加坡为城市国家，无自主发射能力（NSAS 明确"不优先发展发射"），故"发射与卫星"板块以卫星在轨运营、运控中心、航天立法与地面站为主，标注"中"而非"高"；导航以多星座 GNSS 民用系统（ERP 2.0、PinS 进近）为主，未签专属北斗双边合作，标注"中"。</p>
+</section>
+
+<section>
+  <h3 class="country">▎卫星通信</h3>
+
+  <div class="item">
+    <div class="bar bar-com"></div>
+    <div class="inner">
+      <h3>NSAS 确立 LEO 卫星通信为国家战略主轴，搭建多机构运控与地理空间分析中心 <span class="heat-tag ht-hi">🔴 高</span></h3>
+      <div class="src">来源：海峡时报 / USA ASEAN · 2026-02；CNA · 2026-07-31 ｜ 日期：2026-02 ~ 2026-07</div>
+      <ul class="pts">
+        <li>2026-04-01 国家航天局（NSAS）于贸工部（MTI）下正式成立，承接并扩展原 OSTIn 职能；LEO 卫星通信被视为设立该局的主要驱动力之一。</li>
+        <li>NSAS 将建"多机构运行中心"，支持政府部门卫星任务编排（satellite tasking）与地理空间数据分析，应用于港口运营、城市规划、环境监测与粮食安全。</li>
+        <li>新加坡已聚集约 70 家航天企业、约 2,000 名从业人员；政府与 ST Engineering 共拥有 3 颗对地观测卫星。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>新加坡定位"用天枢纽"而非"上天"，恰是 Astrolink 东盟分销与网关落点首选。可借 NSAS 运控中心（2027H1）成型窗口，评估将明华/海南卫星中心遥感与通信产品经新加坡中立枢纽辐射东盟政府与企业客户，规避中美技术阵营分割。</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="bar bar-com"></div>
+    <div class="inner">
+      <h3>ST Engineering Satcom Q2 2026 新签 S$5 亿，订单簿达 S$357 亿 <span class="heat-tag ht-new">🆕 新</span></h3>
+      <div class="src">来源：SpaceMagz · 2026 Q2 财报 ｜ 日期：2026 Q2</div>
+      <ul class="pts">
+        <li>Urban Solutions &amp; Satcom 板块单季新签约约 S$5 亿（约 5 亿新元），来自国防、机动与企业市场卫星运营商的网络扩建、迁移与现代化项目。</li>
+        <li>集团总订单簿升至 S$357 亿（含 TransCore NJTA E-ZPass S$17 亿合同入账）。</li>
+        <li>Satcom 业务为新加坡最大单体航天玩家，客户覆盖国防、海事与企业宽带。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>ST Engineering 是区域卫星通信龙头但聚焦定制政府/企业任务，与 Starlink 不构成直接竞争。Astrolink 可定位为"互补层"——在其宽带/中继之上叠加明华遥感数据服务或北斗海事终端，形成联合方案面向东盟。</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="bar bar-com"></div>
+    <div class="inner">
+      <h3>Addvalue（IDRS）实时中继 + SpeQtral 量子安全服务组合，2026 在轨激光演示获 NSAS/ST 背书 <span class="heat-tag ht-mid">🟡 中</span></h3>
+      <div class="src">来源：Addvalue 新闻稿 · 2026-02；SpaceSGP 洞察 · 2026 ｜ 日期：2026-02 起</div>
+      <ul class="pts">
+        <li>Addvalue 的 IDRS 经 Inmarsat L 波段 GEO 提供 24/7 实时中继（&gt;200 kbps），已装于 30+ 在轨卫星；2026-01 与 SpeQtral 签 MoU，将 QKD 安全与"始终在线"中继结合。</li>
+        <li>Transcelestial 的 CENTAURI 激光通信终端获 OSTIn/NSAS 与 ST Engineering SatSys 支持，2026 进行在轨激光演示，战略窗口 2026–2028。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>关注新加坡"中继+量子安全"服务模板向东盟政府安全通信的溢出。Astrolink 可作为区域渠道，或寻求类似 QKD/激光中继伙伴，补齐高安全通信短板；但须注意出口管制（量子为敏感技术）。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3 class="country">▎导航（GNSS / 北斗）</h3>
+
+  <div class="item">
+    <div class="bar bar-nav"></div>
+    <div class="inner">
+      <h3>ERP 2.0 全面切换为卫星 GNSS 道路收费，多星座（含北斗）民用导航标杆 <span class="heat-tag ht-mid">🟡 中</span></h3>
+      <div class="src">来源：LTA OneMotoring / SkylinkAuto · 2026-05 起 ｜ 日期：2026-05 ~ 2026-12</div>
+      <ul class="pts">
+        <li>新加坡以 GNSS 技术彻底替代 1998 年启用的闸机式 ERP；2026 起拆除 95 处闸机中的停用部分，全部拆除预计 2026 年底完成，2027-01-01 起所有注册车辆强制装 OBU。</li>
+        <li>系统基于多频、多星座 GNSS 定位（GPS/Galileo/BeiDou/GLONASS/QZSS 等），实现按距离实时计费，并预留电子停车、洪水预警等扩展。</li>
+        <li>截至 2026-01 底，93% 车辆（约 93 万）已装 OBU，覆盖 300+ 授权工坊。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>新加坡已验证"多星座含北斗"的民用 GNSS 接收生态。明华可推北斗海事/农业/车队终端，经新加坡枢纽辐射东盟，延续印尼 1.1 万台北斗农机标杆；北斗在东盟的差异化在于高精度（PPP）与短报文防灾。</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="bar bar-nav"></div>
+    <div class="inner">
+      <h3>DGCA 批准首例 PinS 卫星直升机场进近（Undavalli），导航去雷达化 <span class="heat-tag ht-mid">🟡 中</span></h3>
+      <div class="src">来源：AirNamibia / The Economic Times 报道 ｜ 日期：2026（近期）</div>
+      <ul class="pts">
+        <li>新加坡民航局（DGCA）批准全国首个 Private Point-in-Space（PinS）直升机仪表进近程序，基于卫星导航（GNSS）实现水平与垂直引导，无需地面雷达。</li>
+        <li>适用于雷达覆盖受限的直升机场，提升紧急医疗、灾害救援与区域连通的作业包线与安全性。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>卫星导航增强/完好性（含北斗增强）在航空与海事场景需求上升。明华可将北斗高精度增强服务嵌入东盟港口、机场与海事导航方案，与新加坡技术路线对齐。</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="bar bar-nav"></div>
+    <div class="inner">
+      <h3>Sealink GuardianGPS 在 APM 2026（新加坡）发布全星座抗欺骗 GNSS 导航仪 <span class="heat-tag ht-lo">⚪ 低</span></h3>
+      <div class="src">来源：Sealink Technology（LinkedIn / APM 2026）｜ 日期：2026（APM 展会期间）</div>
+      <ul class="pts">
+        <li>GuardianGPS 5200/7200 支持 L1/L2/L5/L6/E6 全频、全星座（含 BeiDou），具备实时射频频谱分析与干扰/欺骗检测，符合 IACS UR E27 网络安全要求。</li>
+        <li>面向船舶导航，强调亚米级精度与现代网络安全，在亚太海事 2026 展会（新加坡）首发并量产。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>多频抗欺骗 GNSS 接收机是北斗出海的硬件入口。明华可评估与此类区域厂商在北斗多频模组上的合作，强化东盟海事终端抗干扰能力。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3 class="country">▎遥感</h3>
+
+  <div class="item">
+    <div class="bar bar-rs"></div>
+    <div class="inner">
+      <h3>ST Engineering NeuSAR-2 四星 SAR 星座 2027 首发、2030 全部署 <span class="heat-tag ht-hi">🔴 高</span></h3>
+      <div class="src">来源：ST Engineering 公告 / 附件 PDF · 2026-02；The Edge SG · 2026 ｜ 日期：2026-02 起</div>
+      <ul class="pts">
+        <li>四星 SAR 星座，首星 2027 发射、2030 前全部入轨；赤道近地轨道每日重访 8–16 次，分辨率 0.6m/像素，X 波段、单星 ≤280kg、在轨寿命 ≥5 年。</li>
+        <li>与 Airbus 合作下一代系统，采用 3D SAR 多静态架构生成三维地表模型；配套 NEBULA（2026 下半年，星间激光通信验证）与 POLARIS（在轨 AI 处理的电光星）。</li>
+        <li>用途：洪水、溢油、林火等快变场景高频监测，以及海事、农业、能源、基础设施。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>NeuSAR-2 是东盟首个主权级 SAR 供给（2027 起）。明华遥感方案已成熟（14 章 + 三张核心 PPT），可作为区域增值整合/分销伙伴，对接东盟政府海事与灾害需求；同时警惕被 ST Engineering 直接抢占东南亚 SAR 数据市场。</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="bar bar-rs"></div>
+    <div class="inner">
+      <h3>NSAS 运营中心统筹 3 颗政府 EO 卫星，推动 InSAR 与空间态势感知 <span class="heat-tag ht-hi">🔴 高</span></h3>
+      <div class="src">来源：CNA · 2026-07-31 ｜ 日期：2026-07-31</div>
+      <ul class="pts">
+        <li>新加坡现役 3 颗政府 EO 卫星（2022–2023 发射，ST Engineering 共拥），寿命 5–7 年，约 2029–2030 需更替；NSAS 正研究是否增配 InSAR（毫米级地表形变）等能力。</li>
+        <li>2027 上半年启用的运控中心将集成卫星任务规划/任务编排、空间态势感知（SSA）与跨机构协调平台；现 SSA 数据仍购自商业源，拟自建。</li>
+        <li>NSAS 当前约 30 名员工，未来几年拟扩至 2–3 倍；局长严莉娜首次媒体访谈定调"自主 SSA + 星座更新"。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>运控中心与 SSA 是明华地面段/运控软件的潜在切入点。Digantara（印度 SSA）已携手 DSTA 为 NSAS 开发卫星跟踪软件——明华须尽快卡位，避免被先行者占满生态。</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="bar bar-rs"></div>
+    <div class="inner">
+      <h3>NTU TELO-S 纳星在轨边缘 AI 高光谱 + Synspective 以新加坡为 SAR 区域枢纽 <span class="heat-tag ht-mid">🟡 中</span></h3>
+      <div class="src">来源：Entelechy Asia / Synspective SG 博客 · 2026-08 ｜ 日期：2026-08</div>
+      <ul class="pts">
+        <li>NTU 领衔 STDP/SAP 项目，TELO-S 纳星搭载在轨边缘 AI 做高光谱分析，日处理 1TB 仅下传异常，带宽降 95%；计划 2026/2027/2028 逐年发射。</li>
+        <li>Synspective SG 以新加坡为"印太韧性锚点"扩张 SAR 星座与数据分析，强调热带云层下全天候观测价值（洪灾、地面沉降、林火）。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>在轨 AI 处理 + SAR 是区域遥感趋势。明华可将自身遥感方案与此类"AI+SAR"能力组合，面向东盟提供"灾害预警即服务"，强化与海南卫星中心的协同输出。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3 class="country">▎发射与卫星</h3>
+
+  <div class="item">
+    <div class="bar bar-launch"></div>
+    <div class="inner">
+      <h3>SpeQtre 量子通信星 8/5 由 SpeQtral 接管操作控制权，进入量子实验阶段 <span class="heat-tag ht-hi">🔴 高</span></h3>
+      <div class="src">来源：QuantumWire · 2026-08-05 ｜ 日期：2026-08-05</div>
+      <ul class="pts">
+        <li>SpeQtre 于 2025-11 随 SpaceX Transporter-15 发射（12U CubeSat），由新-英合作（SpeQtral × UK STFC RAL Space）研制，搭载纠缠光子对源。</li>
+        <li>2026-08-05 SpeQtral 从 RAL Space 接管操作控制权，开启量子实验阶段；新加坡光学地面站（NUS 量子技术中心）与英国 Chilbolton 站已确认信标链路。</li>
+        <li>目标协议 BBM92 QKD，面向政府跨境通信、金融与数据中心等高保密场景；新加坡有望成中国之外首个运营商用卫星 QKD 链路的国家。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>量子安全卫星是高价值 niche，短期非 Astrolink 直接业务，但可前瞻跟踪——若东盟政府安全通信起量，明华可寻求 QKD 伙伴或作为区域渠道，忌直接切入敏感量子硬件（受出口管制）。</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="bar bar-launch"></div>
+    <div class="inner">
+      <h3>NSAS 运控中心 2027H1 启用 + 国家航天法/航天物体登记册在拟 <span class="heat-tag ht-hi">🔴 高</span></h3>
+      <div class="src">来源：CNA · 2026-07-31；MAJU Policy · 2026 ｜ 日期：2026-07-31</div>
+      <ul class="pts">
+        <li>NSAS 拟 2027 上半年建成国家级运控中心（含卫星任务规划、SSA、多机构协调），2027 迁入新总部。</li>
+        <li>国家航天法在制定中，以 2024 年航天活动指南为基础，聚焦太空安全与可持续性（碰撞风险、离轨计划），并拟建"新加坡航天物体国家登记册"。</li>
+        <li>NSAS 明确"不优先发展发射能力"（国土约束），角色定位为太空资产运营、法规与区域枢纽。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>航天法立法窗口是合规前置信号。Astrolink 在星-地链路、地面站合规上可提前对齐新加坡标准；火箭/发射出口不在新加坡——应转投印尼比阿克、泰国航天港、马来发射场等邻国。</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <div class="bar bar-launch"></div>
+    <div class="inner">
+      <h3>新加坡 20 年累计发射 30+ 卫星，无自主发射；Aliena/HEX20/Equatorial 聚焦组件与亚轨道 <span class="heat-tag ht-lo">⚪ 低</span></h3>
+      <div class="src">来源：经济部国贸署 / HandWiki / The Edge SG · 2026 ｜ 日期：2026（综述）</div>
+      <ul class="pts">
+        <li>自 2011 年 X-SAT 起，新加坡 20 年发射 30+ 卫星，多为小卫星（EO/技术验证/通信），无本土火箭发射场。</li>
+        <li>Aliena（NTU 衍生，微电推进，VLEO 200–400km）、HEX20（3U–27U 小卫星平台）、Equatorial Space（2020-12 在马来西亚完成东南亚首枚商业技术原型火箭低空测试）均为组件/亚轨道玩家，非轨道发射服务商。</li>
+        <li>发射主要依赖 SpaceX 等外部运载（SpeQtre 即搭 Transporter-15）。</li>
+      </ul>
+      <div class="biz"><span class="lbl">💼 BD 关联建议（明华 / Astrolink）</span>新加坡"无发射"是既定事实，明华火箭出口/发射服务业务不应以新加坡为目标国；但其小卫星制造生态（Aliena/HEX20）可作为 Astrolink 星座级客户与伙伴生态观察对象。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🧭 与明华 / Astrolink BD 的业务衔接建议 <span class="em">（优先级）</span></h2>
+  <ul class="prio">
+    <li><span class="lv lv-p0">P0</span><b>以新加坡为东盟中立"用天"枢纽，切入卫星数据/应用层分销。</b> ST Engineering NeuSAR-2（2027 起）、Synspective SAR 区域数据可经新加坡辐射东盟政府海事/灾害需求；明华遥感方案（14 章成型）可作为区域增值整合伙伴，避免与 ST 直接抢市场。</li>
+    <li><span class="lv lv-p0">P0</span><b>北斗多频 GNSS 终端借新加坡枢纽出海。</b> ERP 2.0 / PinS 已验证含北斗的多星座接收生态，明华可推北斗海事/农业/车队与高精度增强终端，经新加坡辐射东盟，延续印尼 1.1 万台北斗农机标杆。</li>
+    <li><span class="lv lv-p1">P1</span><b>紧盯 NSAS 运控中心（2027H1）与航天法立法窗口。</b> 地面段/运控软件、空间态势感知（SSA）是潜在切入点；Digantara×DSTA 已先行，明华须尽快卡位以免生态被占满。</li>
+    <li><span class="lv lv-p1">P1</span><b>跟踪 SpeQtral×Addvalue "QKD+IDRS" 量子安全卫星服务模板。</b> 若东盟政府安全通信起量，Astrolink 可寻类似伙伴或作区域渠道，但须规避量子硬件出口管制。</li>
+    <li><span class="lv lv-p2">P2</span><b>火箭/发射出口业务不投新加坡（明确无自主发射）。</b> 转投印尼比阿克、泰国航天港、马来发射场等邻国；新加坡定位为地面段、数据合规与分销枢纽。</li>
+    <li><span class="lv lv-p2">P2</span><b>小卫星制造生态（Aliena/HEX20/Transcelestial）作 Astrolink 星座伙伴生态观察。</b> 暂非直接 BD，待其拿到星座级订单后再评估合作。</li>
+  </ul>
+</section>
+
+<section>
+  <h2>⚠️ 核实与免责提示</h2>
+  <p class="note">① 重大合作 / 合同（如 NSAS 外包、ST Engineering 出口合同）以官方公告与一线 BD 核实为准。② 发射与卫星板块：新加坡无自主轨道发射能力，本期所有"发射"均指搭载外部运载（如 SpeQtre 搭 SpaceX）或卫星在轨运营，未将任何计划发射表述为已入轨。③ NeuSAR-2 首星标注"计划 2027 发射"，非已发射；SpeQtre 已于 2025-11 发射、2026-08-05 接管控制权，事实经多方信源确认。④ 导航板块：新加坡为 GNSS 多星座用户，未签专属北斗双边合作（区别于马来/泰/印尼），相关表述已据此如实标注。</p>
+</section>
+
+<footer>
+  <div>ASEAN SAT. DAILY · 第 <b>032</b> 期 ｜ 生成时间：<b>2026-08-22 21:30 (GMT+8)</b></div>
+  <div>出品：<b>Astrolink</b>（明华科技 · Minova Tech Group）｜ Harry 🎩 for 明华 · Astrolink BD</div>
+  <div style="margin-top:6px;">监测范围：泰国 · 印度尼西亚 · 马来西亚 · 新加坡 · 柬埔寨 · 越南 ｜ 四大领域：卫星通信 · 导航(GNSS/北斗) · 遥感 · 发射与卫星</div>
+</footer>
+
+</div>
+
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.biz .lbl{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:rgba(255,255,255,.86)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+.note{color:var(--sub)!important;}
+.meta{color:rgba(255,255,255,.9)!important;}
+.meta b{color:#fff!important;}
+.heat .lab{color:var(--txt)!important;}
+.prio b{color:var(--txt)!important;}
+</style>
+</body>
+</html>
