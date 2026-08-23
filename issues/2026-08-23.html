@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>东南亚卫星产业动态 · 第 033 期 · 周回顾</title>
+<meta name="archive-title" content="本周六国全线活跃：中国要素(北斗/千帆/中泰中马中柬航天合作)深度绑定，监管先行(泰国Starlink 51:49、新加坡航天法)成BD入口主线">
+<meta name="archive-tags" content="周回顾,泰国,印度尼西亚,马来西亚,新加坡,柬埔寨,越南,卫星通信,导航,北斗,遥感,发射">
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:920px;margin:0 auto;padding:28px 20px 56px;}
+header{background:linear-gradient(135deg,#ffffff 0%,#f3f6fc 100%);border:1px solid var(--line);border-radius:16px;padding:28px 24px;margin-bottom:22px;box-shadow:0 2px 10px rgba(27,36,64,.05);}
+.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.5px;color:var(--com);background:rgba(44,111,214,.1);border:1px solid rgba(44,111,214,.25);padding:4px 10px;border-radius:999px;margin-bottom:12px;}
+h1{font-size:26px;margin:0 0 6px;color:var(--txt);font-weight:800;letter-spacing:.5px;}
+.sub-title{font-size:15px;color:var(--sub);margin:0 0 14px;font-weight:600;}
+.meta{font-size:12.5px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px 16px;border-top:1px dashed var(--line);padding-top:12px;margin-top:4px;}
+.meta b{color:var(--txt);font-weight:700;}
+.lead{background:var(--panel);border:1px solid var(--line);border-left:5px solid var(--com);border-radius:12px;padding:16px 18px;margin:6px 0 4px;font-size:14px;color:var(--txt);}
+h2{font-size:20px;margin:30px 0 14px;padding-left:12px;border-left:5px solid var(--com);font-weight:800;}
+h3.country{font-size:17px;margin:0 0 12px;font-weight:800;}
+.tbl{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:6px 0 4px;}
+.tbl th{background:var(--panel2);color:var(--txt);font-size:13px;font-weight:800;padding:10px 8px;text-align:center;border-bottom:2px solid var(--line);}
+.tbl td{font-size:13px;padding:9px 8px;border-bottom:1px solid var(--line);color:var(--txt);vertical-align:top;}
+.tbl tr:last-child td{border-bottom:none;}
+.tbl .rk{font-weight:800;text-align:center;color:var(--com);width:38px;}
+.tbl .cty{font-weight:800;white-space:nowrap;}
+.tbl .fld{font-weight:700;white-space:nowrap;}
+.tbl .tt{font-weight:700;line-height:1.45;}
+.tbl .sm{font-size:11.5px;color:var(--sub);}
+.heat-hi{color:var(--hi);font-weight:800;}
+.heat-mid{color:var(--mid);font-weight:800;}
+.heat-lo{color:var(--lo);font-weight:800;}
+.p0{color:var(--hi);font-weight:800;}
+.p1{color:var(--mid);font-weight:800;}
+.p2{color:var(--lo);font-weight:800;}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:8px 0 4px;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 16px 14px;position:relative;overflow:hidden;}
+.card .sm{font-size:11.5px;color:var(--sub);font-weight:700;letter-spacing:.4px;margin-bottom:6px;display:block;}
+.card .t{font-size:15px;font-weight:800;color:var(--txt);margin:0 0 6px;line-height:1.45;}
+.card .d{font-size:12.5px;color:var(--sub);margin:0;}
+.badge{display:inline-block;font-size:11px;font-weight:800;padding:2px 7px;border-radius:6px;margin-left:6px;vertical-align:middle;}
+.b-hi{background:rgba(224,49,49,.12);color:var(--hi);border:1px solid rgba(224,49,49,.3);}
+.b-mid{background:rgba(192,138,22,.14);color:var(--mid);border:1px solid rgba(192,138,22,.32);}
+.b-new{background:rgba(44,111,214,.12);color:var(--com);border:1px solid rgba(44,111,214,.3);}
+.heat{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:6px 0 2px;}
+.hcell{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center;}
+.hcell .lab{font-size:13px;font-weight:800;color:var(--txt);margin-bottom:8px;}
+.hcell .lv{font-size:12.5px;font-weight:800;}
+.lv-hi{color:var(--hi);} .lv-mid{color:var(--mid);} .lv-lo{color:var(--lo);}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin-bottom:14px;overflow:hidden;}
+.item .bar{height:5px;}
+.bar-com{background:var(--com);} .bar-nav{background:var(--nav);} .bar-rs{background:var(--rs);} .bar-launch{background:var(--launch);}
+.item .inner{padding:16px 18px;}
+.item h3{font-size:16px;margin:0 0 6px;color:var(--txt);font-weight:800;line-height:1.45;}
+.src{font-size:12px;color:var(--sub);margin:0 0 4px;}
+.heatmark{font-size:12.5px;font-weight:800;margin:0 0 10px;}
+.pts{margin:8px 0 0;padding-left:18px;color:var(--txt);}
+.pts li{margin:4px 0;font-size:13.5px;}
+.biz{background:rgba(176,127,18,.12);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:10px 14px;margin:12px 0 2px;font-size:13px;color:var(--txt);}
+.biz b{color:var(--gold);font-weight:800;}
+.pri{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px;}
+.pri h4{font-size:15px;margin:14px 0 6px;font-weight:800;color:var(--txt);}
+.pri h4:first-child{margin-top:0;}
+.pri ol{margin:6px 0 0;padding-left:20px;}
+.pri li{margin:8px 0;font-size:13.5px;color:var(--txt);}
+.note{background:rgba(224,49,49,.06);border:1px solid rgba(224,49,49,.22);border-radius:10px;padding:10px 14px;margin:10px 0;font-size:12.5px;color:var(--txt);}
+.callout{background:var(--panel2);border:1px solid var(--line);border-left:5px solid var(--launch);border-radius:12px;padding:14px 18px;margin:6px 0 4px;font-size:13.5px;color:var(--txt);}
+.callout b{color:var(--launch);}
+footer{margin-top:34px;padding-top:16px;border-top:1px dashed var(--line);font-size:12px;color:var(--sub);text-align:center;line-height:1.7;}
+footer b{color:var(--txt);}
+a{color:var(--com);text-decoration:underline;}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">ASEAN SAT. WEEKLY · 周回顾 · 第 033 期</span>
+  <h1>东南亚卫星产业动态 · 本周高热度回顾</h1>
+  <p class="sub-title">周期：2026-08-17（周一）～ 2026-08-23（周日） · 六国轮值日报 + 周末补抓</p>
+  <div class="meta">
+    <span>周期：<b>2026-08-17 ~ 2026-08-23</b></span>
+    <span>范围：<b>泰国 / 印度尼西亚 / 马来西亚 / 新加坡 / 柬埔寨 / 越南</b></span>
+    <span>覆盖领域：<b>卫星通信 / 导航(GNSS·北斗) / 遥感 / 发射与卫星</b></span>
+    <span>出品：<b>Harry 🎩 for 明华 · Astrolink BD</b></span>
+  </div>
+</header>
+
+<div class="lead">
+📌 <b>本周概览</b>：本期汇总 8/17–8/22 共 6 期轮值日报（越南·柬埔寨·泰国·马来西亚·印尼·新加坡）并补抓 8/22–8/23 周末动态。与两周前「印尼单极领跑」不同，本周<b>六国四领域全线活跃</b>，且呈现一条清晰主线——<b>「中国要素深度绑定 + 监管先行」</b>：北斗（MoU 执行期、农机强制认证、短报文入题）、中资星座（千帆 G60 落地）、中泰/中马/中柬航天与对地观测合作密集兑现；同时泰国 Starlink 51:49 外资门槛、新加坡国家航天法、柬埔寨 MPTC 框架把「合规前置」推上 BD 入口首位。🇻🇳 越南、🇮🇩 印尼北斗相关条目数量与确定性最高，🇹🇭 泰国多轨道转型与🇲🇾 马来西亚主权轨位/发射场规划紧随其后。
+</div>
+
+<!-- TOP 榜单 -->
+<h2>🔥 本周 TOP 高热度榜单（按 热度🔴>🟡>⚪，同档按 BD 优先级 P0>P1>P2，再按日期新近度）</h2>
+<p class="sm" style="color:var(--sub);font-size:12.5px;margin:-4px 0 10px;">注：本周 🔴P0 级条目多达 15+ 条，下方取跨领域/跨国别最具 BD 入口价值的 12 条；其余高热度条目均保留于「分国别回顾」中。</p>
+<table class="tbl">
+  <thead>
+    <tr><th>#</th><th>轮值国</th><th>领域</th><th>标题</th><th>热度</th><th>BD</th><th>来源 / 日期</th><th>一句话摘要</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="rk">1</td><td class="cty">🇻🇳 越南</td><td class="fld">卫星通信</td>
+      <td class="tt">Starlink 越南商用正式上线（8/12 官宣、8/13 接单）</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">越南通讯社 2026-08-13</td>
+      <td>住宅 $43/$66 月、企业 $57 起、4 个境内网关站、60 万用户上限、SpaceX 全资、试点至 2031-01-01——东盟最宽松开放，空天地网络雏形。</td>
+    </tr>
+    <tr>
+      <td class="rk">2</td><td class="cty">🇰🇭 柬埔寨</td><td class="fld">卫星通信</td>
+      <td class="tt">千帆星座（G60/上海垣信）拟落地，首相级会晤</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">柬中时报 2026-07-17</td>
+      <td>在轨 238 颗、巴西已获牌照，洪玛耐借 WAIC 会见垣信董事长；MPTC 正制定卫星互联网监管框架。</td>
+    </tr>
+    <tr>
+      <td class="rk">3</td><td class="cty">🇹🇭 泰国</td><td class="fld">卫星通信</td>
+      <td class="tt">Thaicom 更名 Gulf Space Technology 进入倒计时 + 成 Amazon Kuiper 早期伙伴</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">Via Satellite 2026-08-19</td>
+      <td>EGM 记录日 8/20、9/15 开会；多轨道转型提速，从 GEO 国家队转向 LEO 生态卡位。</td>
+    </tr>
+    <tr>
+      <td class="rk">4</td><td class="cty">🇲🇾 马来西亚</td><td class="fld">卫星通信</td>
+      <td class="tt">MEASAT-3d 进入商业服务（主权轨道 HTS）</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">ABU / komunikasi.gov.my 2026-06-22</td>
+      <td>6/22 发射、约一个月入役；91.5°E 主权轨位、30 Gbps HTS、农村 100 Mbps，支撑 JENDELA 100% 覆盖。</td>
+    </tr>
+    <tr>
+      <td class="rk">5</td><td class="cty">🇮🇩 印尼</td><td class="fld">卫星通信</td>
+      <td class="tt">BAKTI / SATRIA-1 覆盖 31,803 处公共服务点</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">PSN / BAKTI Media Connect 2026-08-12</td>
+      <td>150 Gbps、PSN 运营、已覆盖 68% 学校；边疆连通优先，国有普遍服务承载主力。</td>
+    </tr>
+    <tr>
+      <td class="rk">6</td><td class="cty">🇸🇬 新加坡</td><td class="fld">遥感</td>
+      <td class="tt">ST Engineering NeuSAR-2 四星 SAR 星座 2027 首发</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">ST Engineering 2026</td>
+      <td>2030 全部署，0.6m / 8–16 次·日赤道覆盖，配 Airbus 3D SAR——东盟最强商业 SAR 供给之一。</td>
+    </tr>
+    <tr>
+      <td class="rk">7</td><td class="cty">🇸🇬 新加坡</td><td class="fld">发射/监管</td>
+      <td class="tt">NSAS 运控中心拟 2027H1 启用 + 国家航天法在拟</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">NSAS / OSTIn 2026</td>
+      <td>明确<b>不优先发展发射能力</b>，做中立「用天」枢纽；航天物体登记册同步起草，合规窗口开启。</td>
+    </tr>
+    <tr>
+      <td class="rk">8</td><td class="cty">🇻🇳 越南</td><td class="fld">导航</td>
+      <td class="tt">北斗在轨升级（PPP&lt;0.3m）+ 农机北斗强制认证 10/1 倒计时</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">CSNO 2026-07-31 / MOIT Circular 12</td>
+      <td>双星座 59 颗修正亚太直接受益；Circular 12/2026 强制进口农机预装北斗双模+VINA-STAR 认证，10/1 生效。</td>
+    </tr>
+    <tr>
+      <td class="rk">9</td><td class="cty">🇮🇩 印尼</td><td class="fld">导航</td>
+      <td class="tt">北斗短报文入题中印尼第 12 次协调会谈 + 1.1 万台北斗农机</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">中印尼会谈 2026-06-08~12 / AMI 2026</td>
+      <td>日惹会谈北斗短报文入题（中方含中国卫通/星网/亚太/亚洲卫星）；印尼 1.1 万台领跑东南亚北斗农机。</td>
+    </tr>
+    <tr>
+      <td class="rk">10</td><td class="cty">🇹🇭 泰国</td><td class="fld">导航/发射</td>
+      <td class="tt">泰中北斗 MoU 执行期 + 泰国航天港 PPP 蓝图</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">GISTDA×中国发改委 2026-07-20 / GISTDA×KPMG</td>
+      <td>五协议含深空实验室/中科院联合研究；航天港 10/15 研讨会、赤道省 20% 燃料、三阶段太空经济。</td>
+    </tr>
+    <tr>
+      <td class="rk">11</td><td class="cty">🇻🇳 越南</td><td class="fld">遥感</td>
+      <td class="tt">LOTUSat-1 SAR 推迟 2027 + Hoa Lac 航天中心启用</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">越日航天论坛 2026-08</td>
+      <td>Epsilon-S 故障致推迟；VNSC 地面站 $150M 保密招标；Hoa Lac 盛大启用冲刺 2027 发射。</td>
+    </tr>
+    <tr>
+      <td class="rk">12</td><td class="cty">🇲🇾 马来西亚</td><td class="fld">发射</td>
+      <td class="tt">MYSA 发布发射场可行性指南，赤道发射场选址或年内定</td>
+      <td class="heat-hi">🔴高</td><td class="p0">P0</td>
+      <td class="sm">MYSA / Bernama 2026</td>
+      <td>对标法属圭亚那，借赤道区位做火箭发射服务；PPP / 私人融资，中国火箭出口蓝海窗口。</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- 周末补抓 -->
+<div class="callout">
+📰 <b>周末补抓动态（8/22–8/23）</b>：<br>
+① <b>🇹🇭 泰国 Starlink 100% 外资请求被正式拒绝（升级）</b>：数字经济部长 Chaichanok Chidchob 于 8/20–8/21 重申拒绝 Starlink 以 100% 外资架构在泰运营，坚持泰方持股 &gt;50%（51:49）；国家航天政策委员会 8/17 已讨论外国卫星「落地权」与《太空活动法》草案，方向维持泰企多数股。该议题亦被置于 8 月下旬泰美贸易谈判（主权议题）。→ 与本期第 10 条「泰中北斗 + 航天港」相互强化：泰国把卫星基础设施视为主权资产，BD 入口偏向「本地合伙 + 技术转移」而非纯外资。<br>
+② <b>🇹🇭 Thaicom × 泰国自然资源环境部</b>：以卫星技术 + AI 用于自然资源与环境管理（ThaiCapitalist 8/21），印证 Thaicom 多轨道转型中「对地观测 + 地理空间智能」增量，与明华遥感方案契合。<br>
+③ <b>🇮🇩 BRIN 三轨创新战略</b>：总统会晤后 BRIN 将「空间技术」列为未来 20–30 年竞争力关键驱动（ANTARA），支撑 NEO-1 / SAR / 比阿克航天港主线。<br>
+④ <b>🇸🇬 第二届新加坡航天峰会定档 2027-02-25~26</b>（滨海湾金沙，规模更大）；NSAS 新总部 + 卫星运作室在设，本地近 70 家太空企业、2000+ 专才——BD 可瞄准峰会窗口做渠道拓展。
+</div>
+
+<!-- 活跃度矩阵 -->
+<h2>📊 本周六国 × 四领域活跃度矩阵</h2>
+<p class="sm" style="color:var(--sub);font-size:12.5px;margin:-4px 0 10px;">单元格为该格本周最高热度：● 高 / ● 中 / ● 低（暂无）。</p>
+<table class="tbl">
+  <thead>
+    <tr><th>国家</th><th>卫星通信</th><th>导航(GNSS·北斗)</th><th>遥感</th><th>发射与卫星</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="cty">🇻🇳 越南</td><td class="heat-hi">● 高</td><td class="heat-hi">● 高</td><td class="heat-hi">● 高</td><td class="heat-mid">● 中（VinSpace 计划，无自主发射）</td></tr>
+    <tr><td class="cty">🇰🇭 柬埔寨</td><td class="heat-hi">● 高</td><td class="heat-mid">● 中（北斗环境 MoU）</td><td class="heat-hi">● 高</td><td class="heat-mid">● 中（5 年内自主计划，无发射）</td></tr>
+    <tr><td class="cty">🇹🇭 泰国</td><td class="heat-hi">● 高</td><td class="heat-hi">● 高</td><td class="heat-mid">● 中（GISTDA 18 星 / ICEYE）</td><td class="heat-hi">● 高（航天港可行性）</td></tr>
+    <tr><td class="cty">🇲🇾 马来西亚</td><td class="heat-hi">● 高</td><td class="heat-mid">● 中（北斗 MoU，无自主系统）</td><td class="heat-hi">● 高</td><td class="heat-mid">● 中（发射场规划，无自主发射）</td></tr>
+    <tr><td class="cty">🇮🇩 印度尼西亚</td><td class="heat-hi">● 高</td><td class="heat-hi">● 高</td><td class="heat-hi">● 高</td><td class="heat-mid">● 中（比阿克航天港规划）</td></tr>
+    <tr><td class="cty">🇸🇬 新加坡</td><td class="heat-hi">● 高</td><td class="heat-mid">● 中（多星座 GNSS 民用）</td><td class="heat-hi">● 高</td><td class="heat-mid">● 中（运控/立法活跃，无自主发射）</td></tr>
+  </tbody>
+</table>
+
+<!-- 分国别回顾 -->
+<h2>🌏 分国别高热度回顾</h2>
+
+<h3 class="country">🇻🇳 越南（周一轮值 · 第 027 期）</h3>
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>Starlink 商用正式上线 + 北斗双线升级</h3>
+    <p class="src">来源：越南通讯社 2026-08-13；CSNO 2026-07-31；MOIT Circular 12/2026</p>
+    <p class="heatmark">🔴 热度：高　|　BD：P0</p>
+    <ul class="pts">
+      <li>Starlink 8/13 接单，4 网关站、60 万上限、试点至 2031-01-01，东盟最宽松开放。</li>
+      <li>北斗在轨升级完成，PPP 水平 &lt;0.3m；Circular 12/2026 农机北斗强制认证 10/1 生效倒计时。</li>
+      <li>LOTUSat-1 SAR 因 Epsilon-S 故障推迟 2027 + Hoa Lac 航天中心启用。</li>
+    </ul>
+  </div>
+</div>
+<div class="item">
+  <div class="bar bar-nav"></div>
+  <div class="inner">
+    <h3>VinSpace（Vingroup）× SpaceX 签约 2027 Q2 拼车发射首颗自研卫星</h3>
+    <p class="src">来源：越南商业航天报道 2026</p>
+    <p class="heatmark">🟡 热度：中　|　BD：P1</p>
+    <ul class="pts">
+      <li>仅为「签约 2027 发射计划」，<b>标注未入轨</b>，严禁写成已发射；早期关系卡位窗口。</li>
+    </ul>
+  </div>
+</div>
+
+<h3 class="country">🇰🇭 柬埔寨（周二轮值 · 第 028 期）</h3>
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>千帆星座（G60）落地首相级会晤 + 广西国土×柬国土遥感 GIS MoU</h3>
+    <p class="src">来源：柬中时报 2026-07-17；中国城市规划网 / taibo 2026-07-28</p>
+    <p class="heatmark">🔴 热度：高　|　BD：P0</p>
+    <ul class="pts">
+      <li>千帆在轨 238 颗、巴西已获牌照；MPTC 监管框架制定中。</li>
+      <li>广西国土规划集团 × 柬国土规划与建设部副总理级遥感/GIS MoU（测绘/地籍/城市规划）。</li>
+    </ul>
+  </div>
+</div>
+<div class="item">
+  <div class="bar bar-rs"></div>
+  <div class="inner">
+    <h3>环境部 Green 2.0 用卫星+无人机取证森林犯罪</h3>
+    <p class="src">来源：The Star（马来西亚）2026-08-11（报道 8/10 WWF-Cambodia 研讨会）</p>
+    <p class="heatmark">🔴 热度：高　|　BD：P1</p>
+    <ul class="pts">
+      <li>以历史卫星影像 + 无人机补证强化环境执法，是明华遥感方案的现成场景。</li>
+    </ul>
+  </div>
+</div>
+
+<h3 class="country">🇹🇭 泰国（周三轮值 · 第 029 期 + 周末升级）</h3>
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>Thaicom→Gulf Space Technology + Amazon Kuiper 早期伙伴；Starlink 100% 外资被拒（周末升级）</h3>
+    <p class="src">来源：Via Satellite 2026-08-19；The Thaiger / Matichon / Post Today 2026-08-20~21</p>
+    <p class="heatmark">🔴 热度：高　|　BD：P0</p>
+    <ul class="pts">
+      <li>Thaicom 更名倒计时（EGM 8/20、9/15 开会），多轨道转型提速。</li>
+      <li>部长 8/20–21 正式拒绝 Starlink 100% 外资，坚持 51:49 泰方多数股；国家航天政策委员会 8/17 讨论落地权与《太空活动法》。</li>
+      <li>周末补抓：Thaicom × 自然资源环境部以卫星+AI 做环境管理。</li>
+    </ul>
+  </div>
+</div>
+<div class="item">
+  <div class="bar bar-launch"></div>
+  <div class="inner">
+    <h3>泰中北斗 MoU 执行期 + 泰国航天港 PPP 蓝图</h3>
+    <p class="src">来源：GISTDA×中国发改委 2026-07-20；GISTDA×KPMG 2026</p>
+    <p class="heatmark">🔴 热度：高　|　BD：P0</p>
+    <ul class="pts">
+      <li>五协议含深空实验室 / 中科院联合研究；航天港 10/15 研讨会、赤道省 20% 燃料、三阶段太空经济。</li>
+    </ul>
+  </div>
+</div>
+
+<h3 class="country">🇲🇾 马来西亚（周四轮值 · 第 030 期）</h3>
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>MEASAT-3d 进入商业服务（主权轨位 HTS）</h3>
+    <p class="src">来源：ABU / komunikasi.gov.my 2026-06-22</p>
+    <p class="heatmark">🔴 热度：高　|　BD：P0</p>
+    <ul class="pts">
+      <li>91.5°E 主权轨道、30 Gbps HTS、农村 100 Mbps，Langkawi/Cyberjaya 地面站本土受控。</li>
+    </ul>
+  </div>
+</div>
+<div class="item">
+  <div class="bar bar-launch"></div>
+  <div class="inner">
+    <h3>MYSA 赤道发射场可行性指南（中国火箭出口蓝海）</h3>
+    <p class="src">来源：MYSA / Bernama 2026</p>
+    <p class="heatmark">🔴 热度：高　|　BD：P0</p>
+    <ul class="pts">
+      <li>对标法属圭亚那，PPP / 私人融资，选址或年内定；以海南文昌经验作对标。</li>
+    </ul>
+  </div>
+</div>
+
+<h3 class="country">🇮🇩 印度尼西亚（周五轮值 · 第 031 期）</h3>
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>BAKTI / SATRIA-1 覆盖 3.1 万公共服务点 + 北斗双线领跑</h3>
+    <p class="src">来源：PSN / BAKTI Media Connect 2026-08-12；中印尼会谈 2026-06-08~12；AMI 2026</p>
+    <p class="heatmark">🔴 热度：高　|　BD：P0</p>
+    <ul class="pts">
+      <li>SATRIA-1 覆盖 68% 学校；北斗短报文入中印尼第 12 次协调会谈；印尼 1.1 万台北斗农机领跑东南亚。</li>
+    </ul>
+  </div>
+</div>
+<div class="item">
+  <div class="bar bar-rs"></div>
+  <div class="inner">
+    <h3>BRIN 国产 NEO-1（2027.1）/ 微型卫星可载 SAR 载荷 / 比阿克航天港（2027）</h3>
+    <p class="src">来源：BRIN 2026-07-30；TKDN 65% 规划</p>
+    <p class="heatmark">🔴 热度：高（NEO-1🟡/SAR🔴/比阿克🟡）　|　BD：P1</p>
+    <ul class="pts">
+      <li>BRIN 微型卫星可载 SAR 载荷（研究教授演说）；NEO-1 严格标「计划 2027.1 发射·未入轨」；比阿克航天港规划阶段，尊重原住民合规。</li>
+    </ul>
+  </div>
+</div>
+
+<h3 class="country">🇸🇬 新加坡（周六轮值 · 第 032 期）</h3>
+<div class="item">
+  <div class="bar bar-rs"></div>
+  <div class="inner">
+    <h3>NeuSAR-2 四星 SAR 星座 2027 首发 + NSAS 运控中心 / 国家航天法</h3>
+    <p class="src">来源：ST Engineering 2026；NSAS / OSTIn 2026</p>
+    <p class="heatmark">🔴 热度：高　|　BD：P0</p>
+    <ul class="pts">
+      <li>NeuSAR-2 2030 全部署、0.6m 赤道覆盖；NSAS 2027H1 运控中心、航天法在拟，明确不做发射能力。</li>
+    </ul>
+  </div>
+</div>
+<div class="item">
+  <div class="bar bar-com"></div>
+  <div class="inner">
+    <h3>SpeQtre 量子通信星接管操作（BBM92 QKD）+ ST Engineering Satcom 新签 S$5 亿</h3>
+    <p class="src">来源：SpeQtral 2026-08-05；ST Engineering Q2 2026</p>
+    <p class="heatmark">🔴 热度：高（量子）/ 🆕（Satcom 新签）</p>
+    <ul class="pts">
+      <li>新-英 SpeQtre 2025-11 发射、2026-08-05 SpeQtral 接管操作进入量子实验；Satcom 订单簿 S$357 亿。</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 周度 BD 优先级 -->
+<h2>🧭 周度 BD 优先级（汇总本周全部 P0 + 重点 P1）</h2>
+<div class="pri">
+  <h4>🔴 P0 · 本周必跟（按国别）</h4>
+  <ol>
+    <li><span class="p0">P0</span>　<b>🇻🇳 越南 — 北斗 PPP 升级 + 农机强制认证 10/1 倒计时</b>：切入北斗模块 / VINA-STAR 认证服务，借华南·山东出口链做北斗农机出海；同步以 Starlink 商用互补（合规网关周边、海上/偏远 VSAT 备份）。</li>
+    <li><span class="p0">P0</span>　<b>🇰🇭 柬埔寨 — 千帆 G60 落地二级伙伴 + 广西国土遥感 GIS MoU</b>：对接 MPTC 监管框架合规落地、终端/VSAT/网关分销；以长光/四维等渠道供对地观测数据（农业估产、土地确权、城市规划）。</li>
+    <li><span class="p0">P0</span>　<b>🇹🇭 泰国 — 泰中北斗 MoU 执行 + Thaicom→Gulf Space/Kuiper 多轨道 + 航天港 PPP</b>：中国火箭出口 + 地面段/测控合作；以「本地合伙 + 技术转移」应对 51:49 外资门槛。</li>
+    <li><span class="p0">P0</span>　<b>🇲🇾 马来西亚 — 赤道发射场可行性 + MEASAT-3d HTS 商用</b>：发射载具/地面段/测控卡位（海南文昌对标）；借主权轨位做海事/偏远宽带、灾害备份二级合作。</li>
+    <li><span class="p0">P0</span>　<b>🇮🇩 印尼 — 北斗短报文入题 + 楠榜一号省级冠名模式复制</b>：渔业防灾终端 + 中国卫通/星网频段协调；严守 BRIN 数据主权三红线。</li>
+    <li><span class="p0">P0</span>　<b>🇸🇬 新加坡 — NSAS 运控中心/航天法窗口 + NeuSAR-2 SAR 数据分销 + 北斗多频 GNSS 终端出海</b>：以东盟中立「用天」枢纽做卫星数据/应用层分销（延续印尼 1.1 万台标杆）。</li>
+  </ol>
+  <h4>🟡 P1 · 重点培育</h4>
+  <ol>
+    <li><span class="p1">P1</span>　🇻🇳 LOTUSat-1 SAR + Hoa Lac 地面站 $150M（日越绑定，寻 NEC/住友二级）、VinSpace×SpaceX 2027 早卡位。</li>
+    <li><span class="p1">P1</span>　🇰🇭 Starlink 互补（合规网关/规避电诈连带）、Green 2.0 卫星取证、柬中北斗环境 MoU 首批示范。</li>
+    <li><span class="p1">P1</span>　🇹🇭 GISTDA 18 星座 / THEOS-3、GISTDA×ICEYE SAR、Starlink 监管真空合规替代。</li>
+    <li><span class="p1">P1</span>　🇲🇾 马中北斗 MoU、MYSA 第三颗遥感星 + Banting 地面设施、TerraXpace SAR（须一线 BD 核实在轨）。</li>
+    <li><span class="p1">P1</span>　🇮🇩 BRIN NEO-1 / SAR 技术合作、比阿克航天港早期卡位（火箭出口/地面测控·尊重原住民合规）。</li>
+    <li><span class="p1">P1</span>　🇸🇬 SpeQtral×Addvalue QKD+IDRS 模板、ERP 2.0 GNSS 终端（2027-01-01 OBU 强制）、第二届新加坡航天峰会 2027-02 渠道窗口。</li>
+  </ol>
+  <h4>⚪ P2 · 长期卡位</h4>
+  <ol>
+    <li><span class="p2">P2</span>　各国「无自主发射」板块（柬/马/新/印尼发射场与卫星均为规划或搭外部运载）——持续监测、待官方实质节点再推进，不将计划写成已发射。</li>
+    <li><span class="p2">P2</span>　MPTC 频谱规划 / 卫星互联网监管框架、CONNECTme NOW 增值应用模式、北斗规模化应用跟踪。</li>
+  </ol>
+</div>
+
+<div class="note">
+⚠️ <b>事实核查与核实提示</b>：① 结果性事件（发射成功/入轨/签约）一律以官方最终结论为准；本周 LOTUSat-1 推迟 2027、VinSpace 2027 计划、NEO-1 计划 2027.1、比阿克/赤道发射场均为「规划/计划」，<b>严禁写成已发射/已建成</b>。② 柬埔寨「长征十一号发射遥感星」网传未获官方确认，已如实标注为低热度、不编造。③ 泰国 Starlink 100% 外资被拒为部长表态（8/20–21），最终落地结构以泰方立法/牌照为准。④ 重大合作以官方公告与一线 BD 核实为准；TerraXpace SAR 在轨状态为厂商自述，须多源确认。
+</div>
+
+<footer>
+  <div>ASEAN SAT. WEEKLY · 第 033 期 · 周回顾</div>
+  <div>生成时间：2026-08-23 21:30 (GMT+8)　|　监测周期：2026-08-17 ~ 2026-08-23</div>
+  <div>出品：<b>Harry 🎩 for 明华 · Astrolink BD</b>（Astrolink，非 SmarCo）</div>
+  <div style="margin-top:6px;font-size:11.5px;">⚠️ 重大合作以官方公告与一线 BD 核实为准；结果性事件以官方最终结论为准，不作预测替代。</div>
+</footer>
+
+</div>
+</body>
+</html>
