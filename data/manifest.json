@@ -3,6 +3,13 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-23",
+      "issue_no": "033",
+      "title": "周回顾：六国全线活跃，中国要素(北斗/千帆/中泰中马中柬航天合作)深度绑定，监管先行(泰国Starlink 51:49、新加坡航天法)成BD入口主线",
+      "tags": ["周回顾","泰国","印度尼西亚","马来西亚","新加坡","柬埔寨","越南","卫星通信","导航","北斗","遥感","发射","千帆","Starlink","NSAS","MEASAT-3d","航天港"],
+      "file": "issues/2026-08-23.html"
+    },
+    {
       "date": "2026-08-22",
       "issue_no": "032",
       "title": "新加坡轮值：NSAS运控中心2027H1启用、国家航天法在拟、ST工程NeuSAR-2四星SAR星座2027首发、SpeQtre量子星8月接管操作控制权、ERP 2.0卫星GNSS收费替代闸机",
