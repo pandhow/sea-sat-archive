@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-26",
+      "issue_no": "036",
+      "title": "泰国轮值：银河航天灵知09泰国立方星(GISTDA CubeSat 1)8/25随长征六号丙成功入轨——中国商业航天首次整星出口东南亚；泰中北斗MOU执行、Thaicom更名Gulf Space牵手Amazon Leo、泰国航天港PPP推进",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "银河航天",
+        "GISTDA",
+        "Thaicom",
+        "Amazon Leo",
+        "航天港",
+        "整星出口"
+      ],
+      "file": "issues/2026-08-26.html"
+    },
+    {
       "date": "2026-08-25",
       "issue_no": "035",
       "title": "柬埔寨轮值：千帆G60运营方上海垣信完成19.4亿美元B轮、CORS基准站建成66座、中柬遥感/GIS及农业与森林碳信用合作深化，自主发射仍处治理与规划阶段",
