@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-27",
+      "issue_no": "037",
+      "title": "马来西亚轮值：Starlink直连手机试验获部长确认、TerraXpace/PSPJN主权遥感提速、彭亨Mukim Bebar发射场选址浮出、砂拉越成立州级航天局",
+      "tags": [
+        "马来西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "MEASAT",
+        "千帆",
+        "TerraXpace",
+        "PSPJN",
+        "Mukim Bebar"
+      ],
+      "file": "issues/2026-08-27.html"
+    },
+    {
       "date": "2026-08-26",
       "issue_no": "036",
       "title": "泰国轮值：银河航天灵知09泰国立方星(GISTDA CubeSat 1)8/25随长征六号丙成功入轨——中国商业航天首次整星出口东南亚；泰中北斗MOU执行、Thaicom更名Gulf Space牵手Amazon Leo、泰国航天港PPP推进",
