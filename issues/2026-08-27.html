@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>东南亚卫星产业动态 · 第 037 期（马来西亚轮值）</title>
+<meta name="archive-title" content="马来西亚轮值：Starlink直连手机试验获部长确认、TerraXpace/PSPJN主权遥感提速、彭亨Mukim Bebar发射场选址浮出">
+<meta name="archive-tags" content="马来西亚,卫星通信,导航,北斗,遥感,发射,Starlink,MEASAT,千帆,TerraXpace,PSPJN,北斗">
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--bg); color:var(--txt);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  line-height:1.65; font-size:15px;
+}
+.wrap{max-width:880px; margin:0 auto; padding:28px 20px 48px;}
+header{
+  background:linear-gradient(135deg,#1f3a8a 0%,#2c6fd6 60%,#0f9d8c 100%);
+  color:#fff; border-radius:16px; padding:26px 24px; margin-bottom:22px;
+}
+header .badge{
+  display:inline-block; background:rgba(255,255,255,.16); color:#fff;
+  font-size:12px; letter-spacing:.06em; font-weight:700; padding:5px 11px; border-radius:999px; margin-bottom:12px;
+}
+header h1{margin:0 0 6px; font-size:26px; color:#fff;}
+header .sub-title{color:#eaf1ff; font-size:14px; margin:0 0 14px;}
+header .meta{
+  display:flex; flex-wrap:wrap; gap:6px 16px; font-size:12.5px; color:#eaf1ff;
+  border-top:1px solid rgba(255,255,255,.25); padding-top:12px;
+}
+header .meta b{color:#fff; font-weight:600;}
+h2{font-size:20px; margin:30px 0 14px; padding-left:12px; border-left:5px solid var(--com); color:var(--txt);}
+h3.country{font-size:17px; margin:0 0 4px; color:var(--txt);}
+.sub-title{color:var(--sub);}
+.cards{display:grid; grid-template-columns:repeat(2,1fr); gap:14px; margin:6px 0 4px;}
+.card{
+  background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px;
+  box-shadow:0 1px 3px rgba(27,36,64,.05);
+}
+.card .sm{color:var(--sub); font-size:12px; margin:0 0 6px; font-weight:600; letter-spacing:.03em;}
+.card h4{margin:0 0 6px; font-size:15px; color:var(--txt); line-height:1.45;}
+.card p{margin:0; font-size:13px; color:var(--txt);}
+.dot{display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; vertical-align:middle;}
+.dot.hi{background:var(--hi);} .dot.mid{background:var(--mid);} .dot.lo{background:var(--lo);} .dot.new{background:#2c6fd6;}
+.progress{display:flex; flex-wrap:wrap; gap:6px; margin:6px 0;}
+.progress .step{
+  flex:1 1 auto; text-align:center; font-size:12.5px; padding:8px 6px; border-radius:8px;
+  background:var(--panel); border:1px solid var(--line); color:var(--sub); min-width:84px;
+}
+.progress .step.on{background:var(--com); color:#fff; border-color:var(--com); font-weight:700;}
+.progress .step .d{display:block; font-size:10.5px; opacity:.8;}
+.heat{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:8px 0;}
+.heat .cell{background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px; text-align:center;}
+.heat .cell .lab{font-size:12.5px; color:var(--txt); font-weight:600;}
+.heat .cell .lv{font-size:13px; margin-top:6px;}
+.heat .cell .lv.hi{color:var(--hi);} .heat .cell .lv.mid{color:var(--mid);} .heat .cell .lv.lo{color:var(--lo);}
+.item{margin:14px 0; background:var(--panel); border:1px solid var(--line); border-radius:12px; overflow:hidden;}
+.item .inner{padding:16px; border-left:5px solid var(--line);}
+.item.com .inner{border-left-color:var(--com);}
+.item.nav .inner{border-left-color:var(--nav);}
+.item.rs .inner{border-left-color:var(--rs);}
+.item.launch .inner{border-left-color:var(--launch);}
+.item .hd{display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; margin-bottom:8px;}
+.item .ttl{font-size:15.5px; font-weight:700; color:var(--txt);}
+.item .heat-tag{font-size:12px; font-weight:700; padding:2px 8px; border-radius:999px;}
+.heat-tag.hi{background:rgba(224,49,49,.12); color:var(--hi);}
+.heat-tag.mid{background:rgba(192,138,22,.14); color:var(--mid);}
+.heat-tag.lo{background:rgba(154,166,189,.18); color:var(--lo);}
+.src{color:var(--sub); font-size:12px; margin:0 0 8px;}
+.pts{margin:0 0 10px; padding-left:20px; color:var(--txt);}
+.pts li{margin:3px 0;}
+.biz{
+  background:rgba(176,127,18,.12); border-left:4px solid var(--gold); border-radius:0 8px 8px 0;
+  padding:10px 12px; font-size:13px; color:var(--txt); margin-top:4px;
+}
+.biz b{color:var(--gold);}
+a{color:var(--com); text-decoration:underline;}
+.prio{background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:6px 16px;}
+.prio .p{margin:12px 0;}
+.prio .p .tag{display:inline-block; font-size:11.5px; font-weight:800; padding:2px 9px; border-radius:6px; margin-right:8px;}
+.prio .p.p0 .tag{background:var(--hi); color:#fff;}
+.prio .p.p1 .tag{background:var(--mid); color:#fff;}
+.prio .p.p2 .tag{background:var(--lo); color:#222;}
+.prio .p b{color:var(--txt);}
+.note{background:var(--panel2); border:1px dashed var(--line); border-radius:10px; padding:10px 14px; font-size:12.5px; color:var(--sub); margin-top:10px;}
+footer{margin-top:30px; padding-top:16px; border-top:1px solid var(--line); font-size:12px; color:var(--sub); text-align:center;}
+footer b{color:var(--txt);}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="badge">ASEAN SAT. DAILY · 第 037 期</span>
+  <h1>东南亚卫星产业动态</h1>
+  <p class="sub-title">今日轮值：🇲🇾 马来西亚（Malaysia）</p>
+  <div class="meta">
+    <span>监测周期：<b>2026-07 中旬 ~ 2026-08-27</b>（重点 2026-08 动态，延续 026 期 8/13 轮值）</span>
+    <span>轮值国：<b>马来西亚</b></span>
+    <span>监测领域：<b>卫星通信 · 导航（GNSS/北斗） · 遥感 · 发射与卫星</b></span>
+    <span>出品：<b>Harry 🎩 for 明华 · Astrolink BD</b></span>
+  </div>
+</header>
+
+<!-- 本期核心看点 -->
+<h2>本期核心看点</h2>
+<div class="cards">
+  <div class="card">
+    <p class="sm"><span class="dot hi"></span>🔴 高 · 卫星通信</p>
+    <h4>Starlink 直连手机（D2D）试验获部长确认</h4>
+    <p>通讯部长法米证实 Starlink 拟在马试行 D2D，已命 MCMC 召集电信商评估；大道局成最早落地平台之一。</p>
+  </div>
+  <div class="card">
+    <p class="sm"><span class="dot hi"></span>🔴 高 · 遥感</p>
+    <h4>主权遥感双引擎提速</h4>
+    <p>TerraXpace 私营 SAR 星座 + PSPJN 国家遥感星 PPP（Uzma×Satellogic 中标，目标 2028/29 入轨）。</p>
+  </div>
+  <div class="card">
+    <p class="sm"><span class="dot mid"></span>🟡 中 · 卫星通信</p>
+    <h4>MEASAT×千帆多轨道转型深化</h4>
+    <p>MEASAT GEO+千帆 LEO+Starlink 形成"三轨道试验场"，2033 牌照续期为最大博弈点。</p>
+  </div>
+  <div class="card">
+    <p class="sm"><span class="dot mid"></span>🟡 中 · 发射与卫星</p>
+    <h4>彭亨 Mukim Bebar 发射场选址浮出</h4>
+    <p>向东朝南海、近赤道 GTO 省燃料；含旅游综合开发平滑收入，待 MPFN 关卡。</p>
+  </div>
+  <div class="card">
+    <p class="sm"><span class="dot mid"></span>🟡 中 · 导航</p>
+    <h4>MYSA「Space for All」导航日常化</h4>
+    <p>已与 90 机构开发 65 套空间应用，导航/通信/遥感融入日常；马中北斗 MOU 执行期延续。</p>
+  </div>
+  <div class="card">
+    <p class="sm"><span class="dot mid"></span>🟡 中 · 遥感（州级）</p>
+    <h4>砂拉越成立州级航天局</h4>
+    <p>瞄准卫星通信/对地观测/遥感/地理空间，CEO 年底到位，与 MCMC 频谱协作。</p>
+  </div>
+</div>
+
+<!-- 本周轮值进度 -->
+<h2>本周轮值进度</h2>
+<div class="progress">
+  <div class="step"><span class="d">周一</span>🇻🇳 越南</div>
+  <div class="step"><span class="d">周二</span>🇰🇭 柬埔寨</div>
+  <div class="step"><span class="d">周三</span>🇹🇭 泰国</div>
+  <div class="step on"><span class="d">周四</span>🇲🇾 马来西亚</div>
+  <div class="step"><span class="d">周五</span>🇮🇩 印尼</div>
+  <div class="step"><span class="d">周六</span>🇸🇬 新加坡</div>
+  <div class="step"><span class="d">周日</span>· 回顾</div>
+</div>
+
+<!-- 四领域活跃度 -->
+<h2>轮值国四领域活跃度</h2>
+<div class="heat">
+  <div class="cell"><div class="lab">卫星通信</div><div class="lv hi">● 高</div></div>
+  <div class="cell"><div class="lab">导航</div><div class="lv mid">● 中</div></div>
+  <div class="cell"><div class="lab">遥感</div><div class="lv hi">● 高</div></div>
+  <div class="cell"><div class="lab">发射与卫星</div><div class="lv mid">● 中</div></div>
+</div>
+
+<!-- 卫星通信 -->
+<h2>▎卫星通信</h2>
+
+<div class="item com">
+  <div class="inner">
+    <div class="hd"><span class="ttl">Starlink 直连手机（D2D / Direct-to-Cell）试验提案获通讯部长确认</span><span class="heat-tag hi">🔴 高</span></div>
+    <p class="src">来源：BERNAMA 2026-07-30；The Sun 2026-07-30；Free Malaysia Today 2026-08-06；Telecom Review Asia 2026-08 上旬</p>
+    <ul class="pts">
+      <li>Starlink 代表会见通讯部长法米（Fahmi Fadzil），拟在马试行 D2D——无需电信塔，直接向手机提供卫星互联网。</li>
+      <li>法米已命 MCMC 召集本地电信商与 Starlink 会面评估；大道局（LLM）合作成最早落地平台之一。</li>
+      <li>区域加速：菲律宾 Globe 已于 2026-06 推东南亚首个商用 D2C，Ookla 指 APAC 四市场 D2C 用户半年增 5 倍+。</li>
+      <li>Starlink 自 2023-07 持马牌照并享 100% 外资豁免（安华以"国家利益"豁免 49% 上限）。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：明华 / Astrolink 切入<b>海上 / 偏远 / 应急备份 VSAT 互补</b>与 D2D 合规网关周边；紧盯 MCMC 召集电信商评估结果与落地合作模式，避免与 Starlink 正面竞争、做细分补足。</div>
+  </div>
+</div>
+
+<div class="item com">
+  <div class="inner">
+    <div class="hd"><span class="ttl">MEASAT × 千帆（SpaceSail / Qianfan）多轨道转型深化</span><span class="heat-tag mid">🟡 中</span></div>
+    <p class="src">来源：SpaceSGP 2026 分析；延续 026 期（2026-08-13）</p>
+    <ul class="pts">
+      <li>2025-02 MEASAT 与中国 SpaceSail 签 MoU，覆盖 LEO 宽带 / D2D / IoT / 对地观测，并联合 Q/V 频段雨衰研究。</li>
+      <li>MEASAT GEO 舰队仍服务政府、广播与企业；Starlink 持 100% 外资豁免形成"三国并行"。</li>
+      <li>分析指 2033 年 Starlink 牌照续期为最大政治博弈点——外资豁免豁免期限的政治杠杆在此集中释放。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：明华可寻 <b>GEO+LEO 集成 / 地面段合作（SD-WAN）</b>；关注千帆若获马牌照后在农村 / 公共项目中的机会，提前卡位。</div>
+  </div>
+</div>
+
+<div class="item com">
+  <div class="inner">
+    <div class="hd"><span class="ttl">马来西亚"三轨道试验场"格局成型</span><span class="heat-tag mid">🟡 中</span></div>
+    <p class="src">来源：SpaceSGP 分析框架（2026）</p>
+    <ul class="pts">
+      <li>Starlink（企业 / 海事 / 航空）+ MEASAT GEO（广播 / 政府）+ 潜在 MEASAT-千帆（农村 / 公共）——细分而非垄断。</li>
+      <li>JENDELA 2 以卫星为东马 2,700 站点、约 21.7 万居民的连接交付技术，卫星成国家连接层。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：互补定位——明华不正面竞争，做<b>细分补足与合规周边</b>，借东马连接缺口切入政府 / 企业备份链路。</div>
+  </div>
+</div>
+
+<!-- 导航 -->
+<h2>▎导航（GNSS / 北斗）</h2>
+
+<div class="item nav">
+  <div class="inner">
+    <div class="hd"><span class="ttl">马中北斗 MOU 执行期延续（本期无新里程碑，降中）</span><span class="heat-tag mid">🟡 中</span></div>
+    <p class="src">来源：OpenGov Asia（2025-04，MOSTI×中国发改委）；延续 026 期 🔴</p>
+    <ul class="pts">
+      <li>MOU 深化农业 / 物流 / 金融 / 制造 / 灾害应用；多星座 GNSS（含北斗）测绘与农业 RTK 在马本地普及（MTM Precision 等分销）。</li>
+      <li>本期未见新的国家级北斗双边协议公开落地，故热度由 🔴 调至 🟡，待执行期新标。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：明华<b>北斗模块 / 终端借道 MOU 执行</b>；对接 MOSTI 与本地 RTK 渠道（华南 / 山东出口链），储备农业 / 测绘场景。</div>
+  </div>
+</div>
+
+<div class="item nav">
+  <div class="inner">
+    <div class="hd"><span class="ttl">MYSA「Space for All」推动导航日常化</span><span class="heat-tag mid">🟡 中</span></div>
+    <p class="src">来源：Bernama 2026-08-05；Malay Mail 2026-08-11/12</p>
+    <ul class="pts">
+      <li>MYSA 总监 Azlikamil 推公众认知：导航（Waze 等）、通信、遥感已融入日常。</li>
+      <li>已与约 90 个政府机构开发 65 套应用，覆盖农业、灾害、环境、资源管理。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：北斗应用示范可借 <b>MYSA 生态落地</b>（对标泰中北斗 MOU 示范模式），寻农业 / 灾害场景联合试点。</div>
+  </div>
+</div>
+
+<div class="item nav">
+  <div class="inner">
+    <div class="hd"><span class="ttl">多星座 GNSS 终端本地化（无专属北斗新签）</span><span class="heat-tag lo">⚪ 低</span></div>
+    <p class="src">来源：MTM Precision / Topcon 本地分销页（2026）</p>
+    <ul class="pts">
+      <li>本地供应商主推 GPS / GLONASS / Galileo / BeiDou 多模 RTK，但无新国家级北斗单边协议公开。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：观察为主，待 MOU 执行落地新标后再行切入；可经本地 RTK 渠道做产品预热的低成本卡位。</div>
+  </div>
+</div>
+
+<!-- 遥感 -->
+<h2>▎遥感</h2>
+
+<div class="item rs">
+  <div class="inner">
+    <div class="hd"><span class="ttl">PSPJN 国家遥感星 PPP 加速（Uzma × Satellogic 中标，目标 2028/29 入轨）</span><span class="heat-tag hi">🔴 高</span></div>
+    <p class="src">来源：NewParadigm Research 2026-07；Uzma / MOSTI 公告（2025-06 中标）</p>
+    <ul class="pts">
+      <li>8 年 PPP 特许（3 年研制 + 5 年运营），私营承担前期资金与技术风险，政府在运营期回收。</li>
+      <li>UzmaSAT-1（Uzma×Satellogic，2025 初发射，50cm，任务控制）已验证；Uzma 2025-06 中标牵头政府 PSPJN。</li>
+      <li>主权可控、国防驱动——避免他国否决访问与保密缺失；终值为 2028 末 / 2029 初入轨。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：明华遥感方案<b>差异化对标 Synspective / ICEYE 供给</b>；寻下游应用 / 数据合作，尊重主权数据边界。</div>
+  </div>
+</div>
+
+<div class="item rs">
+  <div class="inner">
+    <div class="hd"><span class="ttl">TerraXpace 私营 SAR 主权星（AIRSAT 星座）</span><span class="heat-tag hi">🔴 高</span></div>
+    <p class="src">来源：GlobalTelecom / TerraXpace 产品页；延续 026 期 🔴</p>
+    <ul class="pts">
+      <li>马来首颗私营 SAR（<1m 聚光 / 2m 条带），AIRSAT 星座 48 SAR + 200 光学，全天候昼夜。</li>
+      <li>本地 SAR 专长 + GBSAR / Compact SAR；服务能源、农业、环境、基建、海事。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：明华<b>对标 TerraXpace 供给</b>，寻 SAR 下游应用（海事监控 / 基建形变 / 油棕灾害）合作与数据分销。</div>
+  </div>
+</div>
+
+<div class="item rs">
+  <div class="inner">
+    <div class="hd"><span class="ttl">MYSA Space for All + 在轨资产（A-SEANSAT-PG1 等）</span><span class="heat-tag mid">🟡 中</span></div>
+    <p class="src">来源：Orbital Radar（TLE 2026-07-04）；MYSA 公告</p>
+    <ul class="pts">
+      <li>马来西亚约 9 颗在役卫星；A-SEANSAT-PG1（2023-06-27 东方发射场，SSO，对地观测）在轨活跃。</li>
+      <li>MYSA 已建 65 套应用覆盖农业 / 灾害 / 环境，下游能力为东盟上游。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：<b>下游应用层分销机会</b>——明华遥感方案经马出海，借 MYSA 生态做应用落地。</div>
+  </div>
+</div>
+
+<div class="item rs">
+  <div class="inner">
+    <div class="hd"><span class="ttl">砂拉越成立州级航天局</span><span class="heat-tag mid">🟡 中</span></div>
+    <p class="src">来源：The Star 2026-07-27</p>
+    <ul class="pts">
+      <li>砂州公用事业与电信部下设航天局，瞄准卫星通信 / 对地观测 / 遥感 / 地理空间；CEO 年底到位。</li>
+      <li>与 MCMC 频谱协作，欢迎科技企业、高校、研究机构合作。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：<b>州级切入</b>（延续 026 期 Eartheye×SAINS 砂州政府 EO MoU），优先拿州级遥感 / 卫星通信试点。</div>
+  </div>
+</div>
+
+<!-- 发射与卫星 -->
+<h2>▎发射与卫星</h2>
+
+<div class="item launch">
+  <div class="inner">
+    <div class="hd"><span class="ttl">彭亨 Mukim Bebar 发射场选址浮出</span><span class="heat-tag mid">🟡 中</span></div>
+    <p class="src">来源：LinkedIn（AZNIAL RAHMAT，2026-06 政府协调视察）；MYSA 发射设施可行性指南</p>
+    <ul class="pts">
+      <li>向东朝南海，弃级 / 异常落海，EIA 与国际安全审批简化；近赤道 GTO 省燃料降成本。</li>
+      <li>含 Pantai Saujana Biru 旅游 / 生态 / 太空观景综合开发，平滑收入波动；待 MPFN 关卡证明安全与可融资性。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：<b>中国火箭出口 / 地面测控长期卡位</b>；关注 Pahang 招商与 MPFN 审批，提前建立政府关系。</div>
+  </div>
+</div>
+
+<div class="item launch">
+  <div class="inner">
+    <div class="hd"><span class="ttl">沙巴 Lahad Datu / 砂拉越 nanosat 2030</span><span class="heat-tag mid">🟡 中</span></div>
+    <p class="src">来源：thecekodok 2026-07-10；MYSA 可行性研究指南</p>
+    <ul class="pts">
+      <li>沙巴州府 + MOSTI 研究 Lahad Datu 适建性；砂拉越拟 2030 发纳米星（环境 / 资源）。</li>
+      <li>MYSA 已发布《发射设施可行性研究指南》，统筹全国发射基础设施。'</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：<b>火箭出口 + 纳米星研制合作</b>（尊重原住民 / 环境合规），与 Pahang 路线并行评估。</div>
+  </div>
+</div>
+
+<div class="item launch">
+  <div class="inner">
+    <div class="hd"><span class="ttl">发射与卫星板块：马来西亚暂无自主轨道入轨发射</span><span class="heat-tag lo">⚪ 低</span></div>
+    <p class="src">来源：本期综合研判（无可靠公开"成功发射"动态）</p>
+    <ul class="pts">
+      <li>本期无可靠公开"成功发射"动态；所有卫星均搭外部运载（俄 / 中等），PSPJN / TerraXpace 为在研或在轨运营，非本土发射。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联</b>：<b>不投本土发射竞赛</b>，转做卫星数据 / 应用层与发射出口配套，规避重资本风险。</div>
+  </div>
+</div>
+
+<!-- BD 衔接建议 -->
+<h2>🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+<div class="prio">
+  <div class="p p0"><span class="tag">P0</span><b>Starlink D2D 监管破冰窗口</b>——明华切入海上 / 偏远 / 应急 VSAT 互补 + D2D 合规网关周边；紧盯 MCMC 召集电信商评估结果与落地模式（延续 026 P0）。</div>
+  <div class="p p0"><span class="tag">P0</span><b>马中北斗 MOU 执行期</b>——农业 / 物流 / 金融 / 制造 / 灾害应用；明华北斗模块 / 终端借道，对接 MOSTI 与本地 RTK 渠道（华南 / 山东出口链）。</div>
+  <div class="p p1"><span class="tag">P1</span><b>MEASAT×千帆（SpaceSail）多轨道 / Q-V 雨衰研究</b>——寻 GEO+LEO 集成与农村 / 公共项目地面段合作。</div>
+  <div class="p p1"><span class="tag">P1</span><b>TerraXpace SAR / PSPJN（Uzma×Satellogic）主权遥感</b>——明华遥感方案差异化对标，寻下游应用 / 数据合作（尊重主权）。</div>
+  <div class="p p1"><span class="tag">P1</span><b>砂拉越航天局 / Eartheye×SAINS 州级 EO</b>——州级切入遥感与卫星通信，优先拿试点。</div>
+  <div class="p p2"><span class="tag">P2</span><b>发射场可行性（Mukim Bebar / Lahad Datu）</b>——中国火箭出口与地面测控长期卡位，关注 Pahang / Sabah 招商与 MPFN 关卡。</div>
+  <div class="p p2"><span class="tag">P2</span><b>MYSA Space for All 生态 / 低空经济</b>——观察生态合作与人才 / 应用层机会。</div>
+</div>
+
+<div class="note">
+  ⚠️ 事实核查与核实提示：马来西亚暂无自主轨道入轨发射能力，本期所有"发射"均指搭外部运载或在研 / 在轨运营，未将计划发射写成已入轨（PSPJN 标"目标 2028/29 入轨·未发射"、TerraXpace / UzmaSAT-1 为在轨或在研）。重大合作（Starlink D2D 落地模式、PSPJN 中标分工、Mukim Bebar 发射场审批）以官方公告与一线 BD 核实为准。
+</div>
+
+<footer>
+  东南亚卫星产业动态 · <b>第 037 期</b>（马来西亚轮值）｜ 生成时间：<b>2026-08-27 21:30 (GMT+8)</b> ｜ 出品：<b>Astrolink BD</b>（明华 · Harry 🎩）<br>
+  ASEAN SAT. DAILY · 一国一日轮值 + 周日周复盘 ｜ 监测：泰国 / 印度尼西亚 / 马来西亚 / 新加坡 / 柬埔寨 / 越南
+</footer>
+
+</div>
+</body>
+</html>
