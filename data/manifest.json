@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-28",
+      "issue_no": "038",
+      "title": "印度尼西亚轮值：Lintasarta×Starlink合作BATIC2026强化、BRIN国产NEO-1进入测试集成目标2027初发射、SATRIA-1覆盖3.1万公共服务点、NTT地震Komdigi派Starlink应急、比阿克航天港BRIN已持100公顷",
+      "tags": [
+        "印度尼西亚",
+        "卫星通信",
+        "Lintasarta",
+        "Starlink",
+        "SATRIA-1",
+        "导航",
+        "北斗",
+        "遥感",
+        "NEO-1",
+        "BRIN",
+        "发射",
+        "比阿克航天港"
+      ],
+      "file": "issues/2026-08-28.html"
+    },
+    {
       "date": "2026-08-27",
       "issue_no": "037",
       "title": "马来西亚轮值：Starlink直连手机试验获部长确认、TerraXpace/PSPJN主权遥感提速、彭亨Mukim Bebar发射场选址浮出、砂拉越成立州级航天局",
