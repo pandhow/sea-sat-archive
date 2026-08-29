@@ -3,6 +3,28 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-08-29",
+      "issue_no": "039",
+      "title": "新加坡轮值：NSAS正式入宪(8/28宪法增列国家航天局)、卫星运作中心2027H1启用+太空态势感知、ST工程Satcom上半年+18%订单簿S$35.7b、NeuSAR-2四星SAR星座首发2027、国家航天法起草中、NSAS×JAXA首份双边MoC",
+      "tags": [
+        "新加坡",
+        "卫星通信",
+        "NSAS",
+        "导航",
+        "GNSS",
+        "北斗",
+        "SiReNT",
+        "遥感",
+        "NeuSAR-2",
+        "SAR",
+        "发射",
+        "国家航天法",
+        "JAXA",
+        "ST Engineering"
+      ],
+      "file": "issues/2026-08-29.html"
+    },
+    {
       "date": "2026-08-28",
       "issue_no": "038",
       "title": "印度尼西亚轮值：Lintasarta×Starlink合作BATIC2026强化、BRIN国产NEO-1进入测试集成目标2027初发射、SATRIA-1覆盖3.1万公共服务点、NTT地震Komdigi派Starlink应急、比阿克航天港BRIN已持100公顷",
