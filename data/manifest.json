@@ -3,6 +3,24 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-01",
+      "issue_no": "041",
+      "title": "柬埔寨轮值：MPTC三份监管草案公众咨询+湄公河洪灾应急遥感窗口，CORS基准网推进至77/94站",
+      "tags": [
+        "柬埔寨",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "CORS",
+        "Starlink",
+        "千帆",
+        "MPTC"
+      ],
+      "file": "issues/2026-09-01.html"
+    },
+    {
       "date": "2026-08-31",
       "issue_no": "040",
       "title": "越南轮值：Starlink商用延续(4网关站/60万上限/2031试点)、VinSpace×SpaceX 2027 Q2发射合同、北斗农机10/1合规窗口(条款以MOIT文本为准核)、VINASAT-3/4国家换代(Thales×VNPT)、LOTUSat-1 SAR 2027底待发+VNSC×JAXA ALOS-4、越南小卫星自主能力路径LOTUSat-2规划",
