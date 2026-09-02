@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-02",
+      "issue_no": "042",
+      "title": "泰国轮值：拒绝Starlink全资+着陆权框架制定中，GISTDA卫星洪水监测实战，太空港PPP计划",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "着陆权",
+        "GISTDA",
+        "北斗MoU",
+        "太空港",
+        "洪水监测"
+      ],
+      "file": "issues/2026-09-02.html"
+    },
+    {
       "date": "2026-09-01",
       "issue_no": "041",
       "title": "柬埔寨轮值：MPTC三份监管草案公众咨询+湄公河洪灾应急遥感窗口，CORS基准网推进至77/94站",
