@@ -3,6 +3,28 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-03",
+      "issue_no": "043",
+      "title": "马来西亚轮值：砂拉越烟霾告急卫星热点监测全面启动，千帆进马推进，BERNAS卫星导航农机自驾亮相MAHA",
+      "tags": [
+        "马来西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "千帆",
+        "垣信",
+        "MEASAT",
+        "Starlink",
+        "烟霾",
+        "火点监测",
+        "MAHA",
+        "GNSS"
+      ],
+      "file": "issues/2026-09-03.html"
+    },
+    {
       "date": "2026-09-02",
       "issue_no": "042",
       "title": "泰国轮值：拒绝Starlink全资+着陆权框架制定中，GISTDA卫星洪水监测实战，太空港PPP计划",
