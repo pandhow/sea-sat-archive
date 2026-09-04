@@ -3,6 +3,20 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-04",
+      "issue_no": "044",
+      "title": "印尼泥炭火灾遥感监测升级；千帆B轮出海提速；BRIN遥感星窗口调整",
+      "tags": [
+        "印度尼西亚",
+        "卫星通信",
+        "北斗",
+        "遥感",
+        "火灾监测",
+        "千帆"
+      ],
+      "file": "issues/2026-09-04.html"
+    },
+    {
       "date": "2026-09-03",
       "issue_no": "043",
       "title": "马来西亚轮值：砂拉越烟霾告急卫星热点监测全面启动，千帆进马推进，BERNAS卫星导航农机自驾亮相MAHA",
