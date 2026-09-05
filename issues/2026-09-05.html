@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="archive-title" content="ST Engineering 5G NTN双波形验证；Global Invacom募资投EO地面段；Space Summit 2027回归官宣">
+<meta name="archive-tags" content="新加坡,卫星通信,5G NTN,遥感,地面站,烟霾监测">
+<title>东南亚卫星产业动态 · 第045期（新加坡轮值）</title>
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{margin:0; background:var(--bg); color:var(--txt); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; line-height:1.65; font-size:15px;}
+.wrap{max-width:880px; margin:0 auto; padding:28px 20px 56px;}
+header{background:linear-gradient(135deg,#243b63,#1b2440); color:#fff; border-radius:16px; padding:30px 26px; margin-bottom:26px;}
+header .tag{display:inline-block; font-size:12px; letter-spacing:2px; font-weight:700; background:rgba(255,255,255,.16); color:#ffe9b0; padding:5px 12px; border-radius:999px;}
+header h1{margin:14px 0 6px; font-size:26px; letter-spacing:1px;}
+header .sub-title{margin:0; color:#cdd6ee; font-size:15px; font-weight:500;}
+header .meta{margin-top:16px; font-size:13px; color:#cdd6ee; display:flex; flex-wrap:wrap; gap:8px 18px;}
+header .meta span{background:rgba(255,255,255,.1); padding:4px 10px; border-radius:8px;}
+h2{font-size:20px; margin:34px 0 14px; padding-left:12px; border-left:5px solid var(--com); color:var(--txt);}
+h2.rs{border-color:var(--rs);} h2.nav{border-color:var(--nav);} h2.launch{border-color:var(--launch);}
+.cards{display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-top:14px;}
+.card{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:0 2px 10px rgba(27,36,64,.05);}
+.card .sm{font-size:12.5px; color:var(--sub); margin-top:6px;}
+.card b{color:var(--txt);}
+.rotation{display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 6px;}
+.rotation span{font-size:13px; padding:6px 14px; border-radius:999px; background:var(--panel); border:1px solid var(--line); color:var(--sub);}
+.rotation span.today{background:#1b2440; color:#ffe9b0; border-color:#1b2440; font-weight:700;}
+.rotation span.done{border-color:var(--nav); color:var(--nav);}
+.grid4{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:14px 0 4px;}
+.g4{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 12px; text-align:center;}
+.g4 .nm{font-size:13px; color:var(--sub); margin-bottom:8px; font-weight:600;}
+.g4 .lv{font-size:14px; font-weight:700;}
+.lv-h{color:var(--hi);} .lv-m{color:var(--mid);} .lv-n{color:var(--lo);}
+.item{background:var(--panel); border:1px solid var(--line); border-radius:14px; margin-bottom:14px; overflow:hidden; box-shadow:0 2px 10px rgba(27,36,64,.05);}
+.item .bar{height:5px;}
+.item.com .bar{background:var(--com);} .item.nav .bar{background:var(--nav);} .item.rs .bar{background:var(--rs);} .item.launch .bar{background:var(--launch);}
+.item .inner{padding:16px 18px;}
+.item h3{margin:0 0 6px; font-size:16.5px; color:var(--txt); line-height:1.5;}
+.heat{font-size:12.5px; font-weight:700; margin-right:10px;}
+.heat.h{color:var(--hi);} .heat.m{color:var(--mid);} .heat.l{color:var(--lo);}
+.src{font-size:12px; color:var(--sub); margin-bottom:8px;}
+.pts{margin:8px 0 0; padding-left:20px;}
+.pts li{margin:5px 0; color:var(--txt); font-size:14px;}
+.biz{background:rgba(176,127,18,.12); border-left:4px solid var(--gold); border-radius:0 10px 10px 0; padding:12px 16px; margin-top:12px; font-size:13.5px; color:var(--txt);}
+.biz b{color:var(--gold);}
+.bd{background:var(--panel); border:1px solid var(--line); border-left:4px solid var(--gold); border-radius:14px; padding:18px 22px; margin-top:14px;}
+.bd ol{margin:0; padding-left:22px;}
+.bd li{margin:10px 0; color:var(--txt); font-size:14px;}
+.prio{display:inline-block; font-size:12px; font-weight:700; border-radius:6px; padding:1px 8px; margin-right:8px; vertical-align:1px;}
+.p0{background:rgba(224,49,49,.12); color:var(--hi); border:1px solid rgba(224,49,49,.35);}
+.p1{background:rgba(192,138,22,.12); color:var(--mid); border:1px solid rgba(192,138,22,.35);}
+.p2{background:rgba(154,166,189,.15); color:#5b6880; border:1px solid rgba(154,166,189,.4);}
+.note{font-size:12.5px; color:var(--sub); background:var(--panel2); border:1px dashed var(--line); border-radius:10px; padding:10px 14px; margin:12px 0;}
+footer{margin-top:40px; padding-top:18px; border-top:1px solid var(--line); font-size:12px; color:var(--sub); text-align:center;}
+a{color:#1a4db5; text-decoration:underline;}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+  .grid4{grid-template-columns:repeat(2,1fr);}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">ASEAN SAT. DAILY · 第 045 期</span>
+  <h1>东南亚卫星产业动态</h1>
+  <p class="sub-title">今日轮值：🇸🇬 新加坡</p>
+  <div class="meta">
+    <span>2026-09-05（周六刊）</span>
+    <span>轮值国：新加坡</span>
+    <span>领域：卫星通信 / 导航 / 遥感 / 发射与卫星</span>
+    <span>出品：Harry 🎩 for 明华 · Astrolink BD</span>
+  </div>
+</header>
+
+<section>
+  <h2>本期核心看点</h2>
+  <div class="cards">
+    <div class="card">🟡 <b>ST Engineering iDirect 5G NTN 双波形调制解调器试点演示</b><div class="sm">9/2 ESA 5G NTN Forum：INT3000 单设备同时支持 5G NR-NTN 与 DVB-S2X/MRC，运营商迁移期"一套终端走天下"</div></div>
+    <div class="card">🟡 <b>Global Invacom 募资 480 万新元，重仓 EO 与地面站方案</b><div class="sm">9/4 配股完成（83% 认购），五大投向含对地观测与地面站集成、多轨道终端——新加坡地面段厂商卡位</div></div>
+    <div class="card">🟡 <b>ASMC 烟霾监测的"新加坡中枢"角色</b><div class="sm">设在新加坡的东盟气象中心持续高标运行：8/26 升至最高警戒，加里曼丹热点数据成全区域灾害响应底座</div></div>
+    <div class="card">🟡 <b>Space Summit 2027 回归官宣</b><div class="sm">2027-02-25~26 再落滨海湾金沙，规模扩大——新加坡继续押注"区域太空枢纽"叙事</div></div>
+    <div class="card">⚪ <b>SiReNT 高精度 GNSS 生态培育</b><div class="sm">GNSS Innovation Quest 2026 开放报名（至 10/16），新加坡土地管理局 SiReNT 网络持续做应用孵化</div></div>
+  </div>
+
+  <h2>本周轮值进度</h2>
+  <div class="rotation">
+    <span class="done">一 越南</span><span class="done">二 柬埔寨</span><span class="done">三 泰国</span><span class="done">四 马来西亚</span><span class="done">五 印尼</span><span class="today">六 新加坡</span><span>日 · 回顾</span>
+  </div>
+
+  <h2>轮值国四领域活跃度</h2>
+  <div class="grid4">
+    <div class="g4"><div class="nm">卫星通信</div><div class="lv lv-m">● 中</div></div>
+    <div class="g4"><div class="nm">导航（GNSS/北斗）</div><div class="lv lv-n">● 低</div></div>
+    <div class="g4"><div class="nm">遥感</div><div class="lv lv-m">● 中</div></div>
+    <div class="g4"><div class="nm">发射与卫星</div><div class="lv lv-m">● 中</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>▎卫星通信</h2>
+
+  <div class="item com">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3><span class="heat m">🟡 中</span>ST Engineering iDirect 演示 INT3000 多波形 5G NR-NTN 用户设备</h3>
+      <div class="src">来源：ST Engineering 官方新闻室 · 2026-09-02 · 官方一手</div>
+      <ul class="pts">
+        <li>在 ESA 5G NTN Forum 上通过卫星模拟器演示 INT3000 调制解调器试点版：单设备同时支持 <b>5G NR-NTN 与 DVB-S2X/MRC 双波形</b>，兼容混合组网架构。</li>
+        <li>网络侧接入云原生多轨道 Intuition 地面系统（原生 5G NR-NTN gNodeB），为运营商提供"存量 DVB 网络 → 标准 5G NTN"的迁移路径。</li>
+        <li>同步推进降低对 GNSS 依赖的 5G NR 波形时频同步创新，提升多轨道环境韧性，面向未来 6G。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>新日企业是东南亚卫星地面段核心供应商——明华在 Titan V / 卫星通信项目选型时，<b>多波形多轨道终端（兼容存量 + 5G NTN）正在成为行业分水岭</b>；建议把"单终端双波形"列为面向东南亚运营商客户的技术卖点清单首选。</div>
+    </div>
+  </div>
+
+  <div class="item com">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3><span class="heat m">🟡 中</span>Global Invacom 配股募资 480 万新元：五大投向重仓 EO 与地面站</h3>
+      <div class="src">来源：The Edge Singapore · TipRanks · 2026-09-04 · 双源一致</div>
+      <ul class="pts">
+        <li>英国背景、新交所主板上市的卫星地面设备商 Global Invacom 完成 0.035 新元/股配股，约 83% 有效认购，9/9 新股上市。</li>
+        <li>募资投向五大优先项：<b>对地观测与地面站集成方案</b>、多频段收发平台、平板天线生态、多轨道终端开发、商业化能力建设。</li>
+        <li>公司体系覆盖新加坡/中国/印尼/菲律宾/以色列/英国，客户横跨卫星通信、导航与防务 ISR；管理层押注"地面段市场到 2030 年显著增长"。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>连续两周看到"地面段"成为资本关键词（本周新加坡 Global Invacom、上周千帆 Rantau 信关站）——<b>明华"卫星地面站配套"方向（文昌地面站选项）与这波地面段投资周期同频</b>；Global Invacom 在印尼/中国均有产能，可作为东南亚地面段项目的潜在供应商/合作方纳入长名单。</div>
+    </div>
+  </div>
+
+  <div class="item com">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3><span class="heat l">⚪ 低</span>ViaSat-3 F3 亚太进入服务（背景条目）</h3>
+      <div class="src">来源：Space & Defense（9/1，转引 Viasat 官方表态）· 单一媒体转述</div>
+      <ul class="pts">
+        <li>Viasat 宣布 ViaSat-3 F3 卫星进入服务，容量覆盖亚太市场（含东南亚）——GEO 大容量竞争格局添一子，与 Starlink/千帆 LEO 形成高中低轨分层。</li>
+        <li>口径标注：进入服务结论当前为单一行业媒体转述 Viasat 官宣，待 Viasat 官网通稿二次确认。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="nav">▎导航（GNSS/北斗）</h2>
+
+  <div class="item nav">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3><span class="heat l">⚪ 低</span>SiReNT 高精度 GNSS 应用孵化：GNSS Innovation Quest 2026 开放报名</h3>
+      <div class="src">来源：Space Faculty（活动主办方）· 报名至 2026-10-16 · 官方渠道</div>
+      <ul class="pts">
+        <li>新加坡全国性 GNSS 工程赛事 GNSS Innovation Quest 2026 开放报名（4 月-10/16），10/24、10/31 训练营，2027 年 2 月交作品、3 月路演颁奖，总奖金 1 万新元。</li>
+        <li>指定平台为新加坡土地管理局（SLA）<b>SiReNT 高精度 GNSS 网络</b>——新加坡版"地基增强 + CORS"，面向公共服务与商业应用双赛道。</li>
+        <li>本周无 SiReNT 网络扩容或北斗专项新动态；以生态培育条目维持跟踪（对照：柬埔寨 CORS 77/94 站、马来西亚 MyRTKnet，东南亚高精度网络"三国对照"持续更新）。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>SiReNT 是新加坡对标北斗地基增强的应用入口——明华"北斗配套"叙事进入新加坡市场时，<b>以 SiReNT 兼容多星座应用（而非单北斗替代）为话术更合当地监管与市场口味</b>。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="rs">▎遥感</h2>
+
+  <div class="item rs">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3><span class="heat m">🟡 中</span>ASMC 烟霾监测持续高标运行：新加坡的"区域遥感中枢"角色再验证</h3>
+      <div class="src">来源：ASMC / 东盟秘书处口径（经 043/044 期多源交叉）· 2026-08-26 起最高警戒 · 延续跟踪</div>
+      <ul class="pts">
+        <li>设在新加坡的东盟专业气象中心（ASMC）自 8/26 将东南亚南部雾霾警报升至最高级（Alert Level 3），持续发布加里曼丹/苏门答腊卫星热点与烟羽监测产品。</li>
+        <li>本周口径接续：043 期（NOAA-20 火点 795）→ 044 期（SiPongi 946 @8/31、ASMC 加里曼丹峰值 1,734 @8/28、Sentinel-2 Ketapang 火线）——ASMC 数据是全区域灾害响应的统一底座，烟霾已外溢菲、文、马、新四国。</li>
+        <li>新加坡本国影响可控但持续：区域空气质量与航班扰动风险贯穿整个火季（持续至 10-11 月雨季）。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>ASMC 是明华灾害遥感三场景包（洪水+烟霾+泥炭地下火）的<b>天然第一客户/数据合作方</b>——其常年缺"高时间分辨率 + SWIR 地下火"能力供给，建议把 ASMC 与新加坡国立机构列入方案首批送阅名单（与印尼方并行走两条线）。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="launch">▎发射与卫星</h2>
+
+  <div class="item launch">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3><span class="heat m">🟡 中</span>Space Summit 2027 回归官宣：2027 年 2 月 25-26 日重返滨海湾金沙</h3>
+      <div class="src">来源：Space & Defense（9/4）· 行业媒体官宣报道</div>
+      <ul class="pts">
+        <li>新加坡太空峰会确认 <b>2027-02-25~26</b> 于滨海湾金沙会展中心回归，项目规模扩大——官方继续押注"亚太太空枢纽"叙事。</li>
+        <li>时点甄别：部分自媒体文章将今年早些时候已举办的 2026 峰会描述为"刚开幕"，属旧闻回炒；本条以 2027 回归官宣为准。</li>
+        <li>机构名对照：旧报道中"国家太空办公室 OSTIn"称谓已随 8/28 宪法确立的国家航天局 NSAS 过渡（039 期口径），后续引用统一用 NSAS。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>Space Summit 是东南亚卫星/太空圈<b>密度最高的对接场</b>（20 家航天局 + 300 家企业）——明华/Astrolink 可把 2027 年 2 月窗口列入明年 Q1 BD 日历，目标：展位或圆桌席位 + 与 NSAS/日 JAXA 系企业双边会谈。</div>
+    </div>
+  </div>
+
+  <div class="item launch">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3><span class="heat l">⚪ 低</span>NSAS 双边网络背景：新日航天合作框架延续（7 月签约，非本周新事）</h3>
+      <div class="src">来源：联合早报系报道（7/6 SPACETIDE）· 背景条目 · 本期检索核实</div>
+      <ul class="pts">
+        <li>7/6 新加坡航天局（NSAS）与日本 JAXA 在东京 SPACETIDE 签署首份双边合作备忘录（黄循财总理 3 月访日战略伙伴关系下首份航天合作文件），并在 JAXA"共同资助商业促进框架"下互致信函——新加坡为继英法后第三个加入该框架的国家。</li>
+        <li>同期：南洋理工大学×日本 FUSIC 签约开发 AI 驱动地面系统（卫星运营/任务调度/太空态势感知）；Transcelestial×Warpspace 卫星激光通信商业合作。</li>
+        <li>与 039 期"NSAS 宪法确立 + 运控中心 2027 启用 + NeuSAR-2 四星 SAR"锚点正向接续：NSAS 的双边合作网络（印度、泰国、日本）持续加密，新加坡"东盟中立用天枢纽"定位进一步固化。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>南大×FUSIC 的"AI 地面系统"方向与明华卫星运营自动化需求同源，可作技术对标；NSAS 每一份新 MoU 都意味着新的准入通道，保持季度级跟踪即可（P2）。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+  <div class="bd">
+    <ol>
+      <li><span class="prio p1">P1</span><b>ASMC 数据合作线启动</b>：灾害遥感三场景包（洪水+烟霾+SWIR 地下火）送阅 ASMC 与新加坡国立机构——ASMC 是全区域统一数据底座，拿下合作即覆盖六国灾害响应话语权；与印尼线（044 期 P0）并行不冲突。</li>
+      <li><span class="prio p1">P1</span><b>地面段供应商长名单更新</b>：Global Invacom（新/中/印尼产能、EO+地面站+多轨道终端）与 ST Engineering iDirect（多波形终端）双双进入本周期投资/产品放量期——纳入文昌地面站与东南亚项目设备选型长名单，索取报价与兼容矩阵。</li>
+      <li><span class="prio p2">P2</span><b>2027 年 2 月 Space Summit 入日程</b>：展位/圆桌 + NSAS 双边会谈双目标；提前 4 个月启动申请。</li>
+      <li><span class="prio p2">P2</span><b>SiReNT 兼容话术</b>：北斗配套进新加坡改用"多星座兼容 SiReNT 应用"框架，回避单系统替代叙事。</li>
+    </ol>
+  </div>
+  <div class="note">📌 本期事实核查说明：① 断档自检通过（044 期 9/4 存在）；② Space Summit 相关自媒体"刚开幕"表述经甄别为 2026 旧闻回炒，本期仅采信 2027-02-25~26 回归官宣（9/4）；③ OSTIn→NSAS 机构名过渡已按 039 期口径统一；④ ViaSat-3 F3"进入服务"为单一媒体转述官宣，已标注待 Viasat 官网二次确认；⑤ NSAS×JAXA 系 7 月事件，明确标注为背景条目非本周新事；⑥ ASMC 热点数据与 043/044 期口径逐条对齐无矛盾。</div>
+</section>
+
+<footer>
+  东南亚卫星产业动态 · 第 045 期 · 2026-09-05 21:40 生成<br>
+  出品：Harry 🎩 for 明华 · Astrolink BD（本刊物由自动化流水线生成，重大合作以官方与一线 BD 核实为准）
+</footer>
+
+</div>
+</body>
+</html>
