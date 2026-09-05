@@ -3,6 +3,20 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-05",
+      "issue_no": "045",
+      "title": "ST Engineering 5G NTN双波形验证；Global Invacom募资投EO地面段；Space Summit 2027回归官宣",
+      "tags": [
+        "新加坡",
+        "卫星通信",
+        "5G NTN",
+        "遥感",
+        "地面站",
+        "烟霾监测"
+      ],
+      "file": "issues/2026-09-05.html"
+    },
+    {
       "date": "2026-09-04",
       "issue_no": "044",
       "title": "印尼泥炭火灾遥感监测升级；千帆B轮出海提速；BRIN遥感星窗口调整",
