@@ -3,6 +3,31 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-10",
+      "issue_no": "050",
+      "title": "马来西亚轮值：砂拉越烟霾高位回落(Serian紧急状态后降至185)、千帆进马实测成功、BERNAS卫星导航农机拟三大产区试点、ScopeTel×Orange多轨道MoU",
+      "tags": [
+        "马来西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "千帆",
+        "垣信",
+        "MEASAT",
+        "Starlink",
+        "烟霾",
+        "火点监测",
+        "MAHA",
+        "GNSS",
+        "GSMA NTN",
+        "ScopeTel",
+        "Orange Business"
+      ],
+      "file": "issues/2026-09-10.html"
+    },
+    {
       "date": "2026-09-09",
       "issue_no": "049",
       "title": "泰国049期：Starlink拒全资落槌51%泰资框架、9月洪灾8省卫星监测、强厄尔尼诺转旱霾风险、THEOS-3国产星推进",
