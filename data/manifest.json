@@ -3,6 +3,30 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-11",
+      "issue_no": "051",
+      "title": "东南亚卫星产业动态 第051期 — 印度尼西亚（2026-09-11）",
+      "tags": [
+        "印度尼西亚",
+        "印尼",
+        "卫星",
+        "遥感",
+        "通信",
+        "导航",
+        "发射",
+        "BRIN",
+        "MERANTI",
+        "加里曼丹",
+        "火灾",
+        "Komdigi",
+        "M360",
+        "BeiDou",
+        "北斗",
+        "东南亚"
+      ],
+      "file": "issues/2026-09-11.html"
+    },
+    {
       "date": "2026-09-10",
       "issue_no": "050",
       "title": "马来西亚轮值：砂拉越烟霾高位回落(Serian紧急状态后降至185)、千帆进马实测成功、BERNAS卫星导航农机拟三大产区试点、ScopeTel×Orange多轨道MoU",
