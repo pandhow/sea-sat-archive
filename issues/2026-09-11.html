@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="archive-title" content="东南亚卫星产业动态 第051期 — 印度尼西亚（2026-09-11）">
+<meta name="archive-tags" content="印度尼西亚,印尼,卫星,遥感,通信,导航,发射,BRIN,MERANTI,加里曼丹,火灾,Komdigi,M360,BeiDou,北斗,东南亚">
+<title>东南亚卫星产业动态 第051期 — 印度尼西亚（2026-09-11）</title>
+<style>
+  :root {
+    --bg: #f7f9fc;
+    --card: #ffffff;
+    --text: #1a1a2e;
+    --muted: #5a5a6e;
+    --accent: #0f4c81;
+    --accent-light: #e8f1fa;
+    --border: #e1e4ea;
+    --rs: #d63384;
+    --rs-light: #fce4ec;
+    --com: #0d6efd;
+    --com-light: #e7f1ff;
+    --nav: #198754;
+    --nav-light: #e6f4ea;
+    --launch: #fd7e14;
+    --launch-light: #fff3e0;
+    --hot: #dc3545;
+    --warm: #ffc107;
+    --cool: #6c757d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 24px 16px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .header {
+    text-align: center;
+    padding: 28px 20px 20px;
+    background: linear-gradient(135deg, #0f4c81 0%, #1a6fc4 100%);
+    color: #fff;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 20px rgba(15,76,129,0.25);
+  }
+  .header h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: 1px; margin-bottom: 6px; }
+  .header .subtitle { font-size: 0.95rem; opacity: 0.9; margin-bottom: 12px; }
+  .header .meta { font-size: 0.8rem; opacity: 0.75; }
+  .header .meta span { margin: 0 8px; }
+  .core-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+  .core-card {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 18px 20px;
+    border-left: 5px solid var(--accent);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .core-card.rs { border-left-color: var(--rs); }
+  .core-card.com { border-left-color: var(--com); }
+  .core-card.nav { border-left-color: var(--nav); }
+  .core-card.launch { border-left-color: var(--launch); }
+  .core-card .tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .core-card.rs .tag { background: var(--rs-light); color: var(--rs); }
+  .core-card.com .tag { background: var(--com-light); color: var(--com); }
+  .core-card.nav .tag { background: var(--nav-light); color: var(--nav); }
+  .core-card.launch .tag { background: var(--launch-light); color: var(--launch); }
+  .core-card h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+  .core-card p { font-size: 0.9rem; color: var(--muted); line-height: 1.6; }
+  .heat {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+  .heat-hot { color: var(--hot); }
+  .heat-warm { color: #b38600; }
+  .heat-cool { color: var(--cool); }
+  .progress-bar {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .progress-bar h4 { font-size: 0.95rem; margin-bottom: 12px; color: var(--text); }
+  .progress-track {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .progress-dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+    background: var(--border);
+    position: relative;
+  }
+  .progress-dot.done { background: var(--accent); }
+  .progress-dot.today {
+    background: var(--hot);
+    box-shadow: 0 0 0 3px rgba(220,53,69,0.25);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+  }
+  .progress-dot .label {
+    position: absolute;
+    bottom: -18px;
+    font-size: 0.6rem;
+    color: var(--muted);
+    white-space: nowrap;
+    font-weight: 500;
+  }
+  .domain-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .domain-box {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  .domain-box .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    font-size: 1.2rem;
+  }
+  .domain-box.com .icon { background: var(--com-light); }
+  .domain-box.nav .icon { background: var(--nav-light); }
+  .domain-box.rs .icon { background: var(--rs-light); }
+  .domain-box.launch .icon { background: var(--launch-light); }
+  .domain-box .count {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .domain-box .label {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+  .section {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 22px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--border);
+  }
+  .section-header .icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+  .section-header h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    flex: 1;
+  }
+  .section-header .badge {
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+  .section.com .section-header .icon { background: var(--com-light); }
+  .section.com .section-header .badge { background: var(--com-light); color: var(--com); }
+  .section.nav .section-header .icon { background: var(--nav-light); }
+  .section.nav .section-header .badge { background: var(--nav-light); color: var(--nav); }
+  .section.rs .section-header .icon { background: var(--rs-light); }
+  .section.rs .section-header .badge { background: var(--rs-light); color: var(--rs); }
+  .section.launch .section-header .icon { background: var(--launch-light); }
+  .section.launch .section-header .badge { background: var(--launch-light); color: var(--launch); }
+  .news-item {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .news-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .news-item .title-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .news-item h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    flex: 1;
+    line-height: 1.5;
+  }
+  .news-item .source {
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .news-item p {
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+  .news-item .detail {
+    margin-top: 8px;
+    padding: 10px 14px;
+    background: var(--accent-light);
+    border-radius: 10px;
+    font-size: 0.85rem;
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .news-item .detail.rs { background: var(--rs-light); }
+  .news-item .detail.com { background: var(--com-light); }
+  .news-item .detail.nav { background: var(--nav-light); }
+  .news-item .detail.launch { background: var(--launch-light); }
+  .bd-box {
+    background: linear-gradient(135deg, #fff9e6 0%, #fff3cd 100%);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 24px;
+    border: 1px solid #ffeaa7;
+  }
+  .bd-box h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #856404;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .bd-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  .bd-box li {
+    padding: 8px 0;
+    font-size: 0.9rem;
+    color: #5a4a00;
+    border-bottom: 1px dashed #f0d78c;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .bd-box li:last-child { border-bottom: none; }
+  .bd-box li .num {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #ffc107;
+    color: #5a4a00;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .footer {
+    text-align: center;
+    padding: 24px 16px;
+    color: var(--muted);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    margin-top: 8px;
+  }
+  .footer a { color: var(--accent); text-decoration: none; }
+  .footer .links { margin-top: 8px; }
+  .footer .links a { margin: 0 10px; }
+  @media (max-width: 600px) {
+    body { padding: 16px 12px; }
+    .header { padding: 22px 16px 18px; }
+    .header h1 { font-size: 1.35rem; }
+    .domain-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .domain-box { padding: 12px; }
+    .domain-box .icon { width: 34px; height: 34px; font-size: 1rem; }
+    .domain-box .count { font-size: 1.2rem; }
+    .progress-dot { width: 28px; height: 28px; font-size: 0.6rem; }
+    .section { padding: 18px 16px; }
+    .news-item h4 { font-size: 0.9rem; }
+    .news-item p, .news-item .detail { font-size: 0.83rem; }
+  }
+  .light-contrast-fix { color: var(--text) !important; }
+  .light-contrast-fix h1, .light-contrast-fix h2, .light-contrast-fix h3, .light-contrast-fix h4 { color: var(--text) !important; }
+  .light-contrast-fix p, .light-contrast-fix span, .light-contrast-fix li { color: var(--muted) !important; }
+</style>
+</head>
+<body class="light-contrast-fix">
+
+<div class="header">
+  <h1>东南亚卫星产业动态</h1>
+  <div class="subtitle">第051期 · 印度尼西亚轮值 · 2026年9月11日</div>
+  <div class="meta">
+    <span>📅 周五</span>
+    <span>🌏 印尼</span>
+    <span>📡 4大领域全覆盖</span>
+  </div>
+</div>
+
+<div class="core-cards">
+  <div class="core-card rs">
+    <span class="tag">遥感</span>
+    <h3>FAO 启动 MERANTI 项目，挪威出资 483 万美元助力印尼林业遥感监测</h3>
+    <p>联合国粮农组织（FAO）与印尼环境与林业部（KLHK）9月10日正式启动 MERANTI 项目，挪威政府通过 REDD+ 机制出资 4,830 万挪威克朗（约 483 万美元），为期四年，聚焦泥炭地火灾监测与森林碳汇核算。</p>
+  </div>
+  <div class="core-card rs">
+    <span class="tag">遥感</span>
+    <h3>加里曼丹火灾急剧升级：19.7Mt CO₂ 排放、11.3 万呼吸道疾病病例<span class="heat heat-hot">🔴 高热度</span></h3>
+    <p>9月1–7日 Copernicus 监测显示加里曼丹岛排放 1,970 万吨 CO₂，过火面积超 20 万公顷。副总统吉布兰（Gibran）9月10日亲赴 Banjarbaru 视察，截至 9月9日全国呼吸道疾病病例达 113,336 例，Palangkaraya ISPU 指数一度飙升至 703–780，Sampit 达 1,166。</p>
+  </div>
+  <div class="core-card com">
+    <span class="tag">通信</span>
+    <h3>Komdigi 发布 2026 年第 10 号法规，重组频谱监测 UPT 架构</h3>
+    <p>印尼通信与数字事务部（Komdigi）8月6日生效的新规对频谱监测技术实施单位（UPT）进行重组，强化对卫星通信频段的监管能力，为后续卫星互联网牌照发放奠定制度基础。</p>
+  </div>
+  <div class="core-card nav">
+    <span class="tag">导航</span>
+    <h3>第12次中印卫星网络协调会在日惹举行，北斗短报文纳入议程<span class="heat heat-warm">🟡 中热度</span></h3>
+    <p>6月8–12日，第12次中国–印尼卫星网络协调会议在 Yogyakarta 召开，双方就 C 波段、Ku 波段及北斗短报文服务频率协调展开技术磋商，为北斗系统在印尼落地铺路。</p>
+  </div>
+</div>
+
+<div class="progress-bar">
+  <h4>📍 本周轮值进度</h4>
+  <div class="progress-track">
+    <div class="progress-dot done"><span>越</span><span class="label">一</span></div>
+    <div class="progress-dot done"><span>柬</span><span class="label">二</span></div>
+    <div class="progress-dot done"><span>泰</span><span class="label">三</span></div>
+    <div class="progress-dot done"><span>马</span><span class="label">四</span></div>
+    <div class="progress-dot today"><span>印</span><span class="label">五</span></div>
+    <div class="progress-dot"><span>新</span><span class="label">六</span></div>
+    <div class="progress-dot"><span>周</span><span class="label">日</span></div>
+  </div>
+</div>
+
+<div class="domain-grid">
+  <div class="domain-box com">
+    <div class="icon">📡</div>
+    <div class="count">2</div>
+    <div class="label">卫星通信</div>
+  </div>
+  <div class="domain-box nav">
+    <div class="icon">🧭</div>
+    <div class="count">1</div>
+    <div class="label">导航/GNSS</div>
+  </div>
+  <div class="domain-box rs">
+    <div class="icon">🛰️</div>
+    <div class="count">3</div>
+    <div class="label">遥感</div>
+  </div>
+  <div class="domain-box launch">
+    <div class="icon">🚀</div>
+    <div class="count">1</div>
+    <div class="label">发射与卫星</div>
+  </div>
+</div>
+
+<!-- 卫星通信 -->
+<div class="section com">
+  <div class="section-header">
+    <div class="icon">📡</div>
+    <h2>卫星通信</h2>
+    <span class="badge">2 条动态</span>
+  </div>
+  <div class="news-item">
+    <div class="title-row">
+      <h4>Komdigi 发布 2026 年第 10 号法规，重组频谱监测 UPT 架构<span class="heat heat-cool">⚪ 低热度</span></h4>
+    </div>
+    <div class="source">来源：Komdigi 官方公报 / 印尼通信与数字事务部 · 2026-08-06 生效</div>
+    <p>印尼通信与数字事务部（Komdigi）发布 2026 年第 10 号法规，对频谱监测技术实施单位（UPT）进行组织架构重组。新规明确 UPT 在卫星通信频段监测、干扰排查及牌照合规审查中的职能边界，为后续非对地静止轨道（NGSO）卫星互联网服务牌照发放奠定监管框架。</p>
+    <div class="detail com">
+      <strong>BD 视角：</strong>Komdigi 频谱监管能力升级意味着未来卫星互联网准入门槛将提高，但也为合规运营商提供更清晰的审批路径。Minova 若推进印尼卫星通信业务，需密切关注 UPT 重组后的频谱分配计划及牌照申请窗口期。
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="title-row">
+      <h4>M360 ASEAN 2026 峰会在吉隆坡闭幕，卫星通信成数字基建焦点<span class="heat heat-warm">🟡 中热度</span></h4>
+    </div>
+    <div class="source">来源：GSMA / The Star Malaysia · 2026-09-09~10</div>
+    <p>由 GSMA 主办的 M360 ASEAN 2026 峰会于 9月9–10 日在吉隆坡举行，马来西亚通讯部长法米（Fahmi Fadzil）出席开幕。峰会聚焦东盟数字基础设施互联互通，低轨卫星宽带（LEO）作为弥合数字鸿沟的关键手段受到广泛关注，印尼作为东盟最大经济体其卫星通信市场潜力被多次提及。</p>
+    <div class="detail com">
+      <strong>BD 视角：</strong>M360 峰会释放的信号表明东盟卫星通信市场正处于政策红利期。印尼 1.7 万岛屿的地理特征使其对卫星通信有刚性需求，Minova 可借助区域峰会建立与 GSMA 及印尼运营商的初步联系。
+    </div>
+  </div>
+</div>
+
+<!-- 导航/GNSS -->
+<div class="section nav">
+  <div class="section-header">
+    <div class="icon">🧭</div>
+    <h2>导航 / GNSS / 北斗</h2>
+    <span class="badge">1 条动态</span>
+  </div>
+  <div class="news-item">
+    <div class="title-row">
+      <h4>第12次中国–印尼卫星网络协调会在日惹举行，北斗短报文纳入议程<span class="heat heat-warm">🟡 中热度</span></h4>
+    </div>
+    <div class="source">来源：印尼国家研究创新署（BRIN）/ 中国工信部无线电管理局 · 2026-06-08~12</div>
+    <p>第12次中国–印尼卫星网络协调会议于 6月8–12 日在日惹（Yogyakarta）召开。双方就 C 波段固定卫星业务、Ku 波段广播卫星业务及北斗导航卫星系统（BDS）短报文通信服务的频率协调进行技术磋商。会议达成多项共识，为北斗系统在印尼的合法使用及短报文服务的商业化落地扫除频率干扰障碍。</p>
+    <div class="detail nav">
+      <strong>BD 视角：</strong>北斗短报文纳入双边协调议程是重要信号。印尼作为群岛国家，海上渔业、航运及灾害应急对短报文通信有天然需求。Minova 可评估成为北斗短报文服务在印尼的地面应用集成商或分销伙伴的可行性。
+    </div>
+  </div>
+</div>
+
+<!-- 遥感 -->
+<div class="section rs">
+  <div class="section-header">
+    <div class="icon">🛰️</div>
+    <h2>遥感</h2>
+    <span class="badge">3 条动态</span>
+  </div>
+  <div class="news-item">
+    <div class="title-row">
+      <h4>FAO 启动 MERANTI 项目，挪威出资 483 万美元助力印尼林业遥感监测<span class="heat heat-warm">🟡 中热度</span></h4>
+    </div>
+    <div class="source">来源：FAO 印尼办事处 / Tempo / Antara · 2026-09-10</div>
+    <p>联合国粮农组织（FAO）与印尼环境与林业部（KLHK）9月10日正式启动 MERANTI（Monitoring Emissions and Reducing Anthropogenic Natures through Technology and Innovation）项目。挪威政府通过 REDD+ 成果付费机制出资 4,830 万挪威克朗（约 483 万美元），项目为期四年（2026–2030），核心目标包括：</p>
+    <ul style="margin: 8px 0 8px 20px; font-size: 0.88rem; color: var(--muted);">
+      <li>建立基于卫星遥感的泥炭地火灾早期预警系统</li>
+      <li>开发森林碳汇核算与 REDD+ 监测报告验证（MRV）体系</li>
+      <li>培训地方林业官员使用遥感数据进行执法决策</li>
+    </ul>
+    <p>项目将整合 Sentinel-2、Landsat-9 及印尼本国 LAPAN 卫星数据，覆盖苏门答腊、加里曼丹及巴布亚三大林区。</p>
+    <div class="detail rs">
+      <strong>BD 视角：</strong>MERANTI 项目释放明确的遥感数据采购与技术服务需求。Minova 遥感业务可切入的环节包括：卫星数据源供应（Sentinel/Landsat 代理或增值服务）、MRV 平台定制开发、林业执法培训服务。建议联系 FAO 印尼办事处或 KLHK 遥感司评估合作窗口。
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="title-row">
+      <h4>加里曼丹火灾急剧升级：19.7Mt CO₂ 排放、11.3 万呼吸道疾病病例<span class="heat heat-hot">🔴 高热度</span></h4>
+    </div>
+    <div class="source">来源：Copernicus Atmosphere Monitoring Service (CAMS) / 印尼卫生部 / Kompas · 2026-09-01~10</div>
+    <p>2026年旱季厄尔尼诺与印度洋偶极子（IOD）叠加效应下，印尼加里曼丹岛森林与泥炭地火灾急剧恶化：</p>
+    <ul style="margin: 8px 0 8px 20px; font-size: 0.88rem; color: var(--muted);">
+      <li><strong>碳排放：</strong>Copernicus CAMS 数据显示，9月1–7日加里曼丹岛 CO₂ 排放量达 <strong>1,970 万吨</strong>，相当于荷兰全国两周排放量</li>
+      <li><strong>过火面积：</strong>据印尼国家灾害管理局（BNPB）统计，截至 9月9日过火面积超 <strong>20 万公顷</strong>，其中泥炭地占比约 35%</li>
+      <li><strong>健康影响：</strong>卫生部报告全国因烟霾导致的呼吸道疾病病例达 <strong>113,336 例</strong>，中加里曼丹省最为严重</li>
+      <li><strong>空气质量：</strong>Palangkaraya ISPU 指数 703–780（危险级），Sampit 达 1,166，创 2026 年新高</li>
+      <li><strong>国际影响：</strong>NASA Aqua/MODIS 卫星检测到烟霾已飘至澳大利亚西北海岸（Broome）</li>
+    </ul>
+    <p>副总统吉布兰（Gibran Rakabuming Raka）9月10日亲赴 Banjarbaru 视察灾情，承诺增派消防力量并加速人工降雨作业。</p>
+    <div class="detail rs">
+      <strong>BD 视角：</strong>火灾升级直接催生应急遥感监测需求。Minova 可快速响应的切入点包括：① 向 BNPB/地方灾害管理局提供高时效火点监测数据（MODIS/VIIRS 热点+Sentinel-2 过火面积制图）；② 向卫生部/环保部提供烟霾扩散预测与人群暴露评估；③ 向国际碳市场参与者提供火灾导致的碳汇损失核算报告。044期（9月4日）已报道 8月31日热点 946 处，本期数据呈指数级升级，形成明确的业务窗口。
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="title-row">
+      <h4>Lampung-1 高光谱卫星持续传回数据，中方合作深化<span class="heat heat-cool">⚪ 低热度</span></h4>
+    </div>
+    <div class="source">来源：STAR.VISION / 印尼航天观察社群 · 2026-08~09</div>
+    <p>由上海地卫二（STAR.VISION）与印尼合作方联合研制的 Lampung-1 高光谱卫星（8月5日发射入轨）目前运行正常，已传回首批印尼境内高光谱影像数据。该卫星搭载 128 波段高光谱相机，空间分辨率 10 米，重点服务于印尼农业（棕榈油/咖啡种植监测）及海洋（珊瑚礁/红树林健康评估）领域。</p>
+    <div class="detail rs">
+      <strong>BD 视角：</strong>Lampung-1 验证了中方遥感企业在印尼市场的落地能力。Minova 遥感业务可借鉴其"卫星+行业应用"模式，在农业保险（指数保险）、海洋牧场监测等细分领域寻找差异化定位。
+    </div>
+  </div>
+</div>
+
+<!-- 发射与卫星 -->
+<div class="section launch">
+  <div class="section-header">
+    <div class="icon">🚀</div>
+    <h2>发射与卫星</h2>
+    <span class="badge">1 条动态</span>
+  </div>
+  <div class="news-item">
+    <div class="title-row">
+      <h4>BRIN NEO-1 卫星仍处筹备阶段，预计 2027 年 Q2 发射<span class="heat heat-cool">⚪ 低热度</span></h4>
+    </div>
+    <div class="source">来源：BRIN 航天研究中心 / 印尼航天观察社群 · 2026-09</div>
+    <p>印尼国家研究创新署（BRIN）旗下的 NEO-1（Near-Earth Object-1）地球观测卫星目前仍处于总装测试阶段，最新发射窗口预计为 2027 年 4–6 月。NEO-1 为 BRIN 首颗自主研制的对地观测卫星，搭载多光谱相机，设计寿命 3 年，主要用于农业、林业及海洋资源监测。</p>
+    <p>同期，BRIN 与印度空间研究组织（ISRO）于 2026 年 8 月签署谅解备忘录，就卫星研制、发射服务及地面站共享展开合作，为 NEO-1 后续任务及未来 NEO-2 的研制提供技术备选路径。</p>
+    <div class="detail launch">
+      <strong>BD 视角：</strong>NEO-1 延期意味着印尼在 2027 年中之前仍高度依赖外国卫星数据（Sentinel、Landsat、中方卫星），这为 Minova 遥感数据代理及增值服务留下至少 18 个月的市场窗口。建议跟踪 BRIN 与 ISRO 合作进展，评估 Minova 是否可参与 NEO-2 载荷或地面系统分包。
+    </div>
+  </div>
+</div>
+
+<!-- BD 优先级 -->
+<div class="bd-box">
+  <h3>🎯 本周印尼 BD 优先级清单</h3>
+  <ul>
+    <li><span class="num">1</span><div><strong>P0 — 加里曼丹火灾应急遥感服务：</strong>向 BNPB 及中加里曼丹省灾害管理局推送火点监测/过火面积/烟霾扩散数据，快速建立政府客户关系</div></li>
+    <li><span class="num">2</span><div><strong>P1 — MERANTI 项目合作窗口：</strong>联系 FAO 印尼办事处（Jakarta）及 KLHK 遥感司，评估 Minova 在卫星数据源供应、MRV 平台开发或培训服务中的参与机会</div></li>
+    <li><span class="num">3</span><div><strong>P1 — 北斗短报文落地：</strong>跟踪第12次协调会后续进展，对接印尼渔业部（KKP）及航运协会（INSA），评估短报文终端分销或行业解决方案集成</div></li>
+    <li><span class="num">4</span><div><strong>P2 — Komdigi 频谱监管动态：</strong>关注 UPT 重组后的卫星互联网牌照申请指南发布，提前准备合规材料</div></li>
+    <li><span class="num">5</span><div><strong>P2 — BRIN 合作储备：</strong>通过 BRIN 航天研究中心建立技术对话，为 NEO-2 地面系统或载荷分包做前期铺垫</div></li>
+  </ul>
+</div>
+
+<div class="footer">
+  <div>东南亚卫星产业动态 · 第051期 · 2026年9月11日</div>
+  <div style="margin-top:4px;">轮值：印度尼西亚 🇮🇩 · 编辑：Harry 🎩 · 审校：Jeffrey</div>
+  <div class="links">
+    <a href="https://sat.dhow.ink/" target="_blank">📚 历史归档</a>
+    <a href="https://minovastrolink.com" target="_blank">🌐 Minova</a>
+    <a href="https://notes.dhow.ink/" target="_blank">📝 星海 Notes</a>
+  </div>
+  <div style="margin-top:10px; font-size:0.75rem; opacity:0.6;">
+    本报告基于公开信息整理，仅供内部决策参考。数据来源包括 FAO、Copernicus CAMS、BRIN、Komdigi、GSMA 及印尼卫生部等官方渠道。
+  </div>
+</div>
+
+</body>
+</html>
