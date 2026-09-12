@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="archive-title" content="新加坡跨境烟霾PSI三年首破百后回落、Space Summit 2027-02回归、NTU提太空数据中心开放架构第三条路">
+<meta name="archive-tags" content="新加坡,卫星通信,导航,北斗,遥感,发射,烟霾,PSI,NSAS,Space Summit,SiReNT,太空数据中心,NTU,InSAR">
+<title>东南亚卫星产业动态 · 第052期 · 新加坡轮值</title>
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.7;-webkit-text-size-adjust:100%;}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 56px;}
+header{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:30px 26px;margin-bottom:22px;}
+.tag{display:inline-block;background:var(--panel2);border:1px solid var(--line);color:var(--sub);font-size:12px;letter-spacing:.08em;padding:5px 12px;border-radius:999px;margin-bottom:14px;}
+h1{font-size:28px;margin:0 0 8px;color:var(--txt);line-height:1.35;}
+.sub-title{font-size:17px;color:var(--sub);margin:0 0 16px;font-weight:600;}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--sub);border-top:1px solid var(--line);padding-top:14px;}
+.meta span{display:inline-flex;align-items:center;gap:5px;}
+h2{font-size:20px;margin:32px 0 14px;padding-left:11px;border-left:4px solid var(--txt);color:var(--txt);}
+h2.com{border-left-color:var(--com);}
+h2.nav{border-left-color:var(--nav);}
+h2.rs{border-left-color:var(--rs);}
+h2.launch{border-left-color:var(--launch);}
+.sec{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px 20px;margin-bottom:18px;}
+h3{font-size:16px;margin:0 0 10px;color:var(--txt);line-height:1.5;}
+h3.country{font-size:16px;}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;}
+.card{background:var(--panel2);border:1px solid var(--line);border-left:4px solid var(--com);border-radius:10px;padding:15px;font-size:14px;color:var(--txt);}
+.card .sm{font-size:13px;color:var(--sub);margin-top:6px;line-height:1.6;}
+.week{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+.wd{flex:1 1 110px;background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:10px 8px;text-align:center;font-size:13px;color:var(--sub);}
+.wd.on{background:#fff6e6;border-color:var(--gold);color:var(--txt);font-weight:700;box-shadow:0 0 0 2px rgba(176,127,18,.15);}
+.gauges{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+.g4{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 10px;text-align:center;}
+.g4 .nm{font-size:13px;color:var(--sub);margin-bottom:6px;}
+.g4 .lv{font-size:14px;font-weight:700;}
+.lv-h{color:var(--hi);} .lv-m{color:var(--mid);} .lv-l{color:var(--lo);}
+.item{border:1px solid var(--line);border-radius:11px;margin-bottom:14px;overflow:hidden;background:var(--panel2);}
+.item .inner{padding:16px 17px;}
+.item.com{border-left:4px solid var(--com);}
+.item.nav{border-left:4px solid var(--nav);}
+.item.rs{border-left:4px solid var(--rs);}
+.item.launch{border-left:4px solid var(--launch);}
+.heat{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:5px;margin-right:8px;vertical-align:middle;}
+.heat.h{background:rgba(224,49,49,.13);color:var(--hi);}
+.heat.m{background:rgba(192,138,22,.15);color:var(--mid);}
+.heat.l{background:rgba(154,166,189,.18);color:var(--sub);}
+.src{font-size:12.5px;color:var(--sub);margin:2px 0 10px;}
+ul.pts{margin:8px 0 10px;padding-left:20px;font-size:14.5px;color:var(--txt);}
+ul.pts li{margin-bottom:6px;color:var(--txt);}
+.biz{background:rgba(176,127,18,.12);border-left:3px solid var(--gold);border-radius:7px;padding:11px 13px;font-size:13.5px;color:var(--txt);margin-top:10px;line-height:1.65;}
+.biz b{color:var(--gold);}
+ul.prio{list-style:none;padding:0;margin:0;}
+ul.prio li{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:11px;font-size:14.5px;color:var(--txt);line-height:1.7;}
+.prio{display:inline-block;font-size:12px;font-weight:800;padding:2px 9px;border-radius:5px;margin-right:8px;}
+.prio.p0{background:rgba(224,49,49,.14);color:var(--hi);}
+.prio.p1{background:rgba(192,138,22,.16);color:var(--mid);}
+.prio.p2{background:rgba(154,166,189,.2);color:var(--sub);}
+.note{background:#fff8e8;border:1px solid var(--gold);border-radius:10px;padding:13px 15px;font-size:13.5px;color:var(--txt);margin-bottom:18px;}
+a{color:var(--com);text-decoration:underline;}
+footer{text-align:center;font-size:12.5px;color:var(--sub);border-top:1px solid var(--line);padding-top:18px;margin-top:30px;}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+  .gauges{grid-template-columns:repeat(2,1fr);}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="tag">ASEAN SAT. DAILY · 第 052 期</div>
+  <h1>东南亚卫星产业动态</h1>
+  <p class="sub-title">今日轮值：🇸🇬 新加坡</p>
+  <div class="meta">
+    <span>📅 监测周期：2026-09-12（周六）</span>
+    <span>🎯 轮值国：新加坡</span>
+    <span>🛰 领域：卫星通信 / 导航 / 遥感 / 发射与卫星</span>
+    <span>✍️ 出品：Harry 🎩 for 明华 · Astrolink BD</span>
+  </div>
+</header>
+
+<div class="note">
+  <b>🔎 事实核查与一致性说明：</b>本期已做相邻期次校验（045 期 9/5 新加坡锚点：ST Engineering 5G NTN 双波形、Global Invacom 募资、SiReNT、Space Summit 官宣）与断档自检（051 期 2026-09-11 存在，无断档）。检索中出现的境外垃圾站点标题「Singapore Abolishes National Space Agency…」经正文比对实为 CNA 正面报道的标题党改写，<b>已排除、不予采信</b>。NSAS 运控中心时点存在「2027 年第一季度」与「总部 2027 年中启用」两种表述，本期分别标注不混用。
+</div>
+
+<h2>本期核心看点</h2>
+<div class="sec">
+  <div class="cards">
+    <div class="card" style="border-left-color:var(--rs)">🔴 <b>跨境烟霾：PSI 三年首次破百后回落</b>
+      <div class="sm">9/4 首破 100（2023 年 10 月以来首次）→ 9/5 峰值 112 → 9/10 回弹 106 → 9/12 官方口径 66–78（中度）。MSS 仍预报「中度–偏低不健康」，加里曼丹烟羽持续南漂。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--com)">🆕 <b>Space Summit 官宣 2027-02-25/26 回归</b>
+      <div class="sm">滨海湾金沙 Sands Expo，NSAS 支持。首届（2026 年 2 月）规模：2000+ 参会、300 家公司、60+ 讲者、19 国航天局、43 国家/地区。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--com)">🟡 <b>NTU 提太空数据中心「第三条路」</b>
+      <div class="sm">不走中美闭环路线，主打开放分层架构、中立可插拔；NTU 团队 2021 年起研究，Nature Electronics 论文被美国 GAO 引用。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--launch)">🟡 <b>NSAS 星座换代前瞻：InSAR 进入需求研究</b>
+      <div class="sm">三星（2022–2023 发射）2029–2030 到期；NSAS 正研究毫米级 InSAR 用于地面沉降、海岸侵蚀、森林与作物长势。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--nav)">⚪ <b>SiReNT / SLA 地基基准底账</b>
+      <div class="sm">2026-01-20 版测量基准体系：主水平控制网约 39 点（多设于组屋顶层）、次级网 5000+ 点、精密水准基准约 400 个。</div>
+    </div>
+    <div class="card" style="border-left-color:var(--nav)">⚪ <b>导航板块本周无重大新公开动态</b>
+      <div class="sm">SiReNT 生态应用（含 Skylark 改正服务数据源）维持跟踪，无扩容或北斗专项增量——如实标注低热度。</div>
+    </div>
+  </div>
+</div>
+
+<h2>本周轮值进度</h2>
+<div class="sec">
+  <div class="week">
+    <div class="wd">一 · 越南</div>
+    <div class="wd">二 · 柬埔寨</div>
+    <div class="wd">三 · 泰国</div>
+    <div class="wd">四 · 马来西亚</div>
+    <div class="wd">五 · 印尼</div>
+    <div class="wd on">六 · 新加坡 ← 今日</div>
+    <div class="wd">日 · 周回顾</div>
+  </div>
+</div>
+
+<h2>轮值国四领域活跃度</h2>
+<div class="sec">
+  <div class="gauges">
+    <div class="g4"><div class="nm">卫星通信</div><div class="lv lv-m">● 中</div></div>
+    <div class="g4"><div class="nm">导航 GNSS/北斗</div><div class="lv lv-l">● 低</div></div>
+    <div class="g4"><div class="nm">遥感</div><div class="lv lv-h">● 高</div></div>
+    <div class="g4"><div class="nm">发射与卫星</div><div class="lv lv-l">● 低</div></div>
+  </div>
+</div>
+
+<h2 class="com">▎卫星通信</h2>
+<div class="sec">
+
+  <div class="item com">
+    <div class="inner">
+      <h3><span class="heat m">🟡 中</span>Space Summit 官宣 2027 年 2 月 25–26 日回归，NSAS 站台</h3>
+      <div class="src">来源：SPACE &amp; DEFENSE（9/4 报道）；Experia Events / 活动页 | 会期：2027-02-25~26</div>
+      <ul class="pts">
+        <li>新加坡 Space Summit 由 Experia Events 主办、<b>NSAS 支持</b>，确定于 <b>2027 年 2 月 25–26 日</b>在滨海湾金沙 Sands Expo &amp; Convention Centre 举办，为期两天。</li>
+        <li>首届 2026 版规模：逾 <b>2000 名参会者、300 家公司/机构、60 余位讲者、19 个国家航天局</b>，覆盖 43 个国家与地区。</li>
+        <li><b>上期口径→本期新口径：</b>045 期（9/5）仅报「2027 年 2 月回归官宣」，本期落实至<b>具体日期 25–26 日</b>及首届完整规模数据。会期仍建议以官方公告为最终准绳。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>东南亚航天圈密度最高的对接场——明华 / Astrolink 应把 2027 年 2 月窗口锁定为明年 Q1 头号 BD 节点，目标：展位或圆桌席位 + 与 NSAS 及日系（JAXA 生态）企业双边会谈。首届 19 国航天局到场意味着<b>一次会议可覆盖六国以外的东盟全域触点</b>，性价比高于单点国别拜访。</div>
+    </div>
+  </div>
+
+  <div class="item com">
+    <div class="inner">
+      <h3><span class="heat m">🟡 中</span>NTU 呼吁「太空数据中心第三条路」：开放分层架构，不做全栈</h3>
+      <div class="src">来源：GovInsider（NSAS 主办的 Space Summit 媒体吹风会）| 时间：2026 年 9 月</div>
+      <ul class="pts">
+        <li>南洋理工大学（NTU）计算机与数据科学学院讲座教授、校长讲席教授 <b>文勇刚</b> 提出：新加坡缺乏大规模数据中心的土地、水与电力，<b>与其比拼基础设施规模，不如主导一套开放、分层的太空数据中心参考架构</b>——任何国家或企业只需在某一层做到最优即可「即插即用」，无需掌控全栈。</li>
+        <li>对标判断：当前该赛道分两派——美国以商业资本推动、中国以国家投资推动，二者<b>均趋向封闭系统</b>；新加坡可凭中立性与研发积累提供第三种选择。</li>
+        <li>技术里程碑：轨道算力节点可提供约 <b>10 kW</b> 功率运行小型 AI 模型（传统卫星不足 5 kW，仅够带动少量小型 GPU）；同轨卫星互联、算力卸载被视为未来 6G 的真实商业需求来源。</li>
+        <li>NTU 团队 2021 年即启动该方向研究，其发表于 <b>Nature Electronics</b> 的论文已被美国政府问责办公室（GAO）在国会简报中引用。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>「太空算力」正对应明华 / Astrolink 文昌四方向之一（地面站 / 遥感 / 太空算力 / 发射中心）。新加坡这套<b>开放架构叙事</b>有两点可用：其一，中方算力载荷与星上处理方案若以「可插拔分层模块」姿态出现，比整栈输出更容易被东盟中立国家接受；其二，NTU SaRC（已研制运行 13 颗卫星）是区域内少有的<b>愿意做联合验证的学术平台</b>，可作为技术对标与试点合作入口，建议列入 P1 接触名单。</div>
+    </div>
+  </div>
+
+  <div class="item com">
+    <div class="inner">
+      <h3><span class="heat l">⚪ 低</span>NSAS 扩编与运控中心进展（背景跟踪，非本周新事）</h3>
+      <div class="src">来源：CNA 首次管理层媒体访谈（7/31）| 时点：2026-07-31</div>
+      <ul class="pts">
+        <li>NSAS 现约 <b>30 余人</b>，CEO 严丽娜（Ngiam Le Na）表示未来数年将「先翻倍、再三倍」，岗位涵盖法律、工程、产业发展和国际关系。</li>
+        <li><b>口径辨析（不混用）：</b>多机构卫星任务运控中心目标在 <b>2027 年第一季度</b>投用；NSAS 新总部（运控中心所在）预计 <b>2027 年年中</b>启用。设立目的：统一任务规划与指令、自建空间态势感知（SSA）能力（目前向商业渠道购买）、跨部门卫星数据服务整合。</li>
+        <li>国家航天立法在拟：针对卫星运营商，以 2024 年航天活动指南为基础，聚焦<b>太空安全（碰撞风险管理）与可持续性</b>。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>NSAS 从 30 人扩到百人级，意味着<b>未来 24 个月是新加坡航天采购与合作的窗口期</b>；航天法落地前进入，规则适应成本低。明华 / Astrolink 若以「SSA 数据服务 + 地面段配套」切入，与 NSAS 自建 SSA 的需求直接对口，建议 P1 建立联系。</div>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="nav">▎导航（GNSS/北斗）</h2>
+<div class="sec">
+
+  <div class="item nav">
+    <div class="inner">
+      <h3><span class="heat l">⚪ 低</span>新加坡地基定位基准底账：SLA 测量基准体系 2026 版</h3>
+      <div class="src">来源：新加坡土地管理局（SLA）测量基准体系说明（2026-01-20 更新版，9/5 本地工程科普引用）| 时点：2026-01-20</div>
+      <ul class="pts">
+        <li>SLA 运营的 <b>SiReNT</b> 为新加坡高精度 GNSS 参考网络，服务测量、制图与施工自动化；其坐标地籍（Co-ordinated Cadastre）以坐标定义产权边界，构成全国空间基准。</li>
+        <li>基础设施规模：<b>主水平控制网约 39 个点</b>（多设于组屋顶层）、<b>次级网逾 5000 个点</b>（沿主要道路）、<b>垂直网约 400 个精密水准基准</b>（约每公里一个）。</li>
+        <li>生态侧：SiReNT 亦作为 Swift Navigation「Skylark」厘米级改正服务的基准数据源之一，为城市峡谷环境下的车道级定位提供支撑。</li>
+        <li><b>本期无 SiReNT 扩容、无北斗专项合作新公开动态</b>——对照柬埔寨 CORS 77/94 站、马来西亚 MyRTKnet，东南亚高精度网络「三国对照」维持原状。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>新加坡的高精度定位市场<b>已被 SLA 的基准体系牢牢锚定</b>，直接推销单系统替代方案不现实。明华「北斗配套」进入新加坡，正确姿势是<b>多星座兼容 SiReNT 的行业应用</b>（港口、工地自动化、城市物流），而非谈基准网替换——这一点与 045 期判断一致，本期无变化。</div>
+    </div>
+  </div>
+
+  <div class="item nav">
+    <div class="inner">
+      <h3><span class="heat l">⚪ 低</span>本周导航领域：无新增重大公开动态</h3>
+      <div class="src">检索覆盖：SiReNT / GNSS / 北斗 / 高精度定位，周期 2026-09-05~09-12</div>
+      <ul class="pts">
+        <li>本周未检索到新加坡境内 GNSS 基础设施扩容、北斗合作签约或监管政策变动的可靠公开信息。</li>
+        <li>按规范如实标注<b>「本期无新增公开动态（低热度）」</b>，不做推测性填充。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>低热度不等于无机会——新加坡导航侧的价值在<b>应用层</b>（港口调度、施工自动化、无人机物流）而非基础设施层，建议 BD 触点放在系统集成商而非监管机构。</div>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="rs">▎遥感</h2>
+<div class="sec">
+
+  <div class="item rs">
+    <div class="inner">
+      <h3><span class="heat h">🔴 高</span>跨境烟霾：PSI 三年首次破百后回落，官方仍预警「中度–偏低不健康」</h3>
+      <div class="src">来源：新加坡气象署 MSS 官方烟霾通报（2026-09-12 17:00）；国家环境局 NEA；Bernama（9/10）；The Straits Times；VnExpress；参考消息（9/6）| 多源一致</div>
+      <ul class="pts">
+        <li><b>官方最新读数（9/12 17:00）：</b>1 小时 PM2.5 浓度 <b>17–39 µg/m³</b>（Band 1 正常带），24 小时 PSI <b>66–78</b>（中度带）。</li>
+        <li><b>事件时间线：</b>9/4 上午 PSI 首次进入不健康区间（&gt;100，为 <b>2023 年 10 月以来首次</b>因烟霾破百）→ 9/5 中部峰值约 <b>112</b>（另有报道口径 105）→ 9/10 回弹至 <b>106</b>（中部全日不健康，东 87 / 西 83 / 北 73 / 南 79）→ 9/12 回落至中度区间。</li>
+        <li><b>成因：</b>苏门答腊中南部与加里曼丹的森林及泥炭地火灾，自 <b>8 月 21 日</b>起持续产生中到浓密烟羽；偏南/东南风把烟雾北送至新加坡。部分火点位于种植园特许经营区内，与泥炭地重叠。</li>
+        <li><b>气候背景：</b>2026 年为「超级厄尔尼诺」（媒体称 Godzilla El Niño）， <b>6 月起始</b>，较 2015 年（4 月起）晚，火点总数低于 2015 年同期；NEA 判断<b>重演 2015 年灾难的可能性较低</b>，但持续干旱期仍会出现烟霾时段。</li>
+        <li><b>官方预报：</b>未来数日苏门答腊北部有阵雨，中部转干、加里曼丹与南苏门答腊维持干燥；在偏南风下<b>烟霾影响新加坡的风险仍在</b>，24 小时 PSI 预报为「中度–偏低不健康」。</li>
+        <li><b>与上期正向接续：</b>051 期（9/11 印尼轮值）已报加里曼丹火灾急剧升级（CAMS 19.7 Mt CO₂、过火约 20 万公顷、11.3 万呼吸道病例、Palangkaraya ISPU 703–780 / Sampit 1166）。本期为<b>同一事件的跨境影响落地新加坡</b>，两者不矛盾、为同一因果链的两端。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>这是「灾害遥感三场景包」自上周提出以来<b>第一个区域级真实压力测试</b>——同一场火灾已同时冲击印尼（源头）、马来西亚（砂拉越紧急状态）、新加坡（跨境输入）三国。建议立即把<b>火点识别 + 烟羽轨迹扩散 + 空气质量反演</b>做成标准化产品包，以 MSS / NEA 的公开通报口径为验证基准做回溯演示，同步送 ASMC、NSAS 与新加坡环境监管部门。新加坡预算充足、决策链短，是最容易形成付费闭环的样板客户。</div>
+    </div>
+  </div>
+
+  <div class="item rs">
+    <div class="inner">
+      <h3><span class="heat m">🟡 中</span>NSAS 星座换代需求研究：InSAR 首次明确进入能力清单</h3>
+      <div class="src">来源：CNA（7/31 NSAS 首次媒体访谈，副首席执行官兼首席技术官 Desmond Lim）| 时点：2026-07-31</div>
+      <ul class="pts">
+        <li>新加坡现有三颗国家级对地观测卫星（2022–2023 年发射，政府与 ST Engineering 共有，单星 300–740 kg），典型寿命 5–7 年，<b>将于 2029–2030 年到期</b>。</li>
+        <li>NSAS 正与各政府部门研究是否需要新增能力，<b>明确点名 InSAR（干涉合成孔径雷达）</b>——毫米级形变测量，用于<b>地面沉降、海岸侵蚀、森林生长与作物长势</b>监测。</li>
+        <li>选型思路转向「多颗小卫星替代单颗大卫星」：同等成本下数量更多、重访更密（严丽娜表述）。</li>
+        <li>对照：ST Engineering <b>NeuSAR-2</b> 四星 SAR 星座首星预计 2027 年；行业预测数据库显示 NeuSAR-2 首次生命周期替换约在 2032 年（280 kg 级）——<b>属第三方预测，非官方计划，标注待核</b>。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>InSAR 首次被新加坡官方点名，是<b>国产 SAR 数据与形变监测服务进入新加坡的明确信号</b>。明华 / Astrolink 手里若有 InSAR 数据源或形变反演能力，现在到 2027 年是最佳预研期——赶在 NSAS 需求定义阶段介入，比 2029 年招标时入场主动得多。建议 P1：整理一份「东盟城市地面沉降 / 海岸侵蚀」样例成果主动接触 NSAS 技术发展口。</div>
+    </div>
+  </div>
+
+</div>
+
+<h2 class="launch">▎发射与卫星</h2>
+<div class="sec">
+
+  <div class="item launch">
+    <div class="inner">
+      <h3><span class="heat l">⚪ 低</span>本周发射：新加坡无实际发射活动（无本土发射场）</h3>
+      <div class="src">检索覆盖：新加坡发射 / 火箭 / 发射场，周期 2026-09-05~09-12</div>
+      <ul class="pts">
+        <li>新加坡国土限制决定其<b>不具备本土发射能力</b>，历史发射均依托印度 PSLV 等他国运载（如 2022 年 7 月萨迪什·达万航天中心一箭三星）。</li>
+        <li>本周无新加坡籍卫星发射、无新发射合作签约的可靠公开动态，<b>如实标注「本期无新增公开动态（低热度）」</b>。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>新加坡的发射需求只会以「搭车 / 整星出口 / 发射服务采购」形态出现——这恰恰是明华「发射服务 + 整星出口」叙事的对接面。注意：新加坡三星换代窗口在 2029–2030，提前 2–3 年接触才有效。</div>
+    </div>
+  </div>
+
+  <div class="item launch">
+    <div class="inner">
+      <h3><span class="heat l">⚪ 低</span>在轨资产与换代规划（背景条目）</h3>
+      <div class="src">来源：CNA（7/31）；Polaris Intelligence 发射预测数据库（第三方预测）| 时点：2026-07-31 / 预测数据</div>
+      <ul class="pts">
+        <li>过去二十余年新加坡政府、高校与企业累计发射 <b>30 余颗</b>卫星，当前在轨（含失效）约 <b>20 颗</b>，国家级三颗之外多为高校与企业的鞋盒级科研星。</li>
+        <li>用途覆盖：溢油探测、船舶与飞机追踪、蜂窝通信、海事监视、灾害管理。</li>
+        <li>换代方向：NSAS 表示新星座可能采用<b>「更多颗、更小」</b>的构型，能力聚焦地面沉降、海平面上升、森林健康与作物长势。</li>
+      </ul>
+      <div class="biz"><b>💼 BD 关联：</b>「小卫星多星组网替代单大星」是新加坡官方已确认的技术路线——与国内商业星座的产能优势天然匹配，可作为整星出口方案的<b>话术锚点</b>。</div>
+    </div>
+  </div>
+
+</div>
+
+<h2>🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+<div class="sec">
+  <ul class="prio">
+    <li><span class="prio p0">P0</span><b>烟霾三场景包送新加坡（MSS / NEA / NSAS）</b>：PSI 三年首破百已把跨境大气监测推成政治议题，且新加坡有预算、决策链短。以 MSS 9/12 官方读数与 9/4–9/12 完整时间序列为验证基准，做「火点识别 + 烟羽扩散 + 空气质量反演」回溯演示，<b>本周内出件、下周送达</b>。同一套包可复用至马来西亚、印尼（051 期已列 P0）。</li>
+    <li><span class="prio p1">P1</span><b>锁定 Space Summit 2027-02-25/26</b>：明年 Q1 头号 BD 节点，目标展位/圆桌 + NSAS 双边会谈。首届 19 国航天局到场，一次覆盖东盟全域触点，请提前 4–5 个月启动申请。</li>
+    <li><span class="prio p1">P1</span><b>InSAR 能力预研接触 NSAS</b>：官方已明确点名 InSAR（地面沉降 / 海岸侵蚀 / 森林 / 作物）。赶在需求定义期介入，2027 年前建立技术对话，卡位 2029–2030 星座换代。</li>
+    <li><span class="prio p1">P1</span><b>太空算力「开放架构」叙事对接 NTU SaRC</b>：NTU 已研制运行 13 颗卫星、愿做联合验证，且其论文被美国 GAO 引用。以「可插拔分层模块」而非整栈输出切入，与文昌太空算力方向呼应。</li>
+    <li><span class="prio p2">P2</span><b>NSAS 扩编窗口期建联</b>：30 人→百人级，未来 24 个月采购与合作需求集中释放；切入点选「SSA 数据服务 + 地面段配套」，与其自建空间态势感知需求直接对口。</li>
+    <li><span class="prio p2">P2</span><b>导航侧转向应用层</b>：新加坡基准体系由 SLA 牢牢锚定，避开基础设施层，改攻港口调度 / 施工自动化 / 无人机物流的系统集成商；话术维持「多星座兼容 SiReNT」。</li>
+  </ul>
+</div>
+
+<footer>
+  第 052 期 · 2026-09-12（周六）· 新加坡轮值<br>
+  生成时间：2026-09-12 | 出品：Harry 🎩 for 明华 · Astrolink BD<br>
+  <span style="font-size:12px">新闻时点以来源为准；重大合作请以官方通稿与一线 BD 核实。</span>
+</footer>
+
+</div>
+</body>
+</html>
