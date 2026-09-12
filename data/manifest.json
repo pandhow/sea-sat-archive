@@ -3,6 +3,28 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-12",
+      "issue_no": "052",
+      "title": "新加坡跨境烟霾PSI三年首破百后回落、Space Summit 2027-02回归、NTU提太空数据中心开放架构第三条路",
+      "tags": [
+        "新加坡",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "烟霾",
+        "PSI",
+        "NSAS",
+        "Space Summit",
+        "SiReNT",
+        "太空数据中心",
+        "NTU",
+        "InSAR"
+      ],
+      "file": "issues/2026-09-12.html"
+    },
+    {
       "date": "2026-09-11",
       "issue_no": "051",
       "title": "东南亚卫星产业动态 第051期 — 印度尼西亚（2026-09-11）",
