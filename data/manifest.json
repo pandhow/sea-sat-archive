@@ -3,6 +3,25 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-15",
+      "issue_no": "055",
+      "title": "柬埔寨邮电部长出席巴黎国际空间峰会并转赴图卢兹；全国超37万公顷稻田受旱，湄公河洪情与往年决裂",
+      "tags": [
+        "柬埔寨",
+        "卫星通信",
+        "导航",
+        "GNSS",
+        "CORS",
+        "遥感",
+        "发射",
+        "Starlink",
+        "MPTC",
+        "中柬",
+        "巴黎空间峰会"
+      ],
+      "file": "issues/2026-09-15.html"
+    },
+    {
       "date": "2026-09-14",
       "issue_no": "054",
       "title": "Starlink 254套终端官方移交13省市；热带低压登陆中部，局地雨量超500mm",
