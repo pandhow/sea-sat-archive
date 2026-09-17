@@ -3,6 +3,25 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-17",
+      "issue_no": "057",
+      "title": "马来西亚：农业局与航天局签约实现稻米产区卫星监测100%覆盖，跨境烟霾第二波重心西移至半岛、40县空气不健康",
+      "tags": [
+        "马来西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "MEASAT",
+        "MYSA",
+        "BERNAS",
+        "烟霾",
+        "ASMC"
+      ],
+      "file": "issues/2026-09-17.html"
+    },
+    {
       "date": "2026-09-16",
       "issue_no": "056",
       "title": "泰四部门签水资源一张图MoU，GISTDA掌卫星侧；THEOS-2A确认损失",
