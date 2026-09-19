@@ -3,6 +3,25 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-19",
+      "issue_no": "058",
+      "title": "新加坡中部PSI重回不健康107，跨境烟霾链第五站点亮；Global Invacom集资480万新元扩地面段",
+      "tags": [
+        "新加坡",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "烟霾",
+        "NEA",
+        "ASMC",
+        "NSAS",
+        "Global Invacom"
+      ],
+      "file": "issues/2026-09-19.html"
+    },
+    {
       "date": "2026-09-17",
       "issue_no": "057",
       "title": "马来西亚：农业局与航天局签约实现稻米产区卫星监测100%覆盖，跨境烟霾第二波重心西移至半岛、40县空气不健康",
