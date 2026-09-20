@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-20",
+      "issue_no": "059",
+      "title": "本周高热度回顾：烟霾与雨带双线跨境西延贯穿六国；马来西亚稻米遥感范式成型；泰国高分辨率数据断档浮现",
+      "tags": [
+        "周回顾",
+        "越南",
+        "柬埔寨",
+        "泰国",
+        "马来西亚",
+        "新加坡",
+        "印度尼西亚",
+        "遥感",
+        "北斗",
+        "发射",
+        "跨境烟霾",
+        "GEOGLAM"
+      ],
+      "file": "issues/2026-09-20.html"
+    },
+    {
       "date": "2026-09-19",
       "issue_no": "058",
       "title": "新加坡中部PSI重回不健康107，跨境烟霾链第五站点亮；Global Invacom集资480万新元扩地面段",
