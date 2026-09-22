@@ -3,6 +3,24 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-22",
+      "issue_no": "061",
+      "title": "柬埔寨官宣五年国家航天计划拟自研EO卫星；湄公河金边段GloFAS预报超一年峰值；北斗短报文被定性为灾害生命通道",
+      "tags": [
+        "柬埔寨",
+        "国家航天计划",
+        "地球观测卫星",
+        "北斗",
+        "短报文",
+        "湄公河洪水",
+        "遥感",
+        "森林监测",
+        "卫星通信",
+        "发射"
+      ],
+      "file": "issues/2026-09-22.html"
+    },
+    {
       "date": "2026-09-21",
       "issue_no": "060",
       "title": "苏林9/23访美拟签Vietjet机载星链；越南星链试点细则全曝光；VNREDSat-2绑定法国CO3D",
