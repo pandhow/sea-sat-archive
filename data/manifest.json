@@ -3,6 +3,27 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-23",
+      "issue_no": "062",
+      "title": "泰国四部门水情一张图9/17正式上线GISTDA掌卫星侧；银河航天灵知09泰国立方星完成整星出口在轨交付；GISTDA旱情系统与THEOS-3国产星双线推进",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "银河航天",
+        "灵知09",
+        "THEOS-3",
+        "GISTDA",
+        "水情一张图",
+        "Thaicom",
+        "Astranis"
+      ],
+      "file": "issues/2026-09-23.html"
+    },
+    {
       "date": "2026-09-22",
       "issue_no": "061",
       "title": "柬埔寨官宣五年国家航天计划拟自研EO卫星；湄公河金边段GloFAS预报超一年峰值；北斗短报文被定性为灾害生命通道",
