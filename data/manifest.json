@@ -3,6 +3,28 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-09-25",
+      "issue_no": "064",
+      "title": "印尼林火成公共卫生危机ARI破17万例、原住民集体诉讼政府；BRIN NEO-1锁定2027年1月发射；Mentawai Starlink转售案走向合法化",
+      "tags": [
+        "印度尼西亚",
+        "印尼",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "加里曼丹",
+        "林火",
+        "烟霾",
+        "Starlink",
+        "BRIN",
+        "NEO",
+        "赤道IoT"
+      ],
+      "file": "issues/2026-09-25.html"
+    },
+    {
       "date": "2026-09-24",
       "issue_no": "063",
       "title": "MEASAT呼请2027预算把主权航天列为国家投资优先；烟霾重心回移砂拉越Serian API破220、108校停课；北斗马来西亚创新基地专题曝光",
