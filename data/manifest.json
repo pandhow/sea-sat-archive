@@ -3,6 +3,27 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-01",
+      "issue_no": 68,
+      "title": "检索环境网络中断，068期基于063期马来西亚锚点维持跟踪（MEASAT主权航天/跨境烟霾/北斗创新基地/Uzma PSPJN）",
+      "tags": [
+        "马来西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "MEASAT",
+        "主权航天",
+        "烟霾",
+        "Serian",
+        "北斗创新基地",
+        "PSPJN",
+        "Uzma"
+      ],
+      "file": "2026-10-01.html"
+    },
+    {
       "issue_no": 67,
       "date": "2026-09-30",
       "title": "GISTDA卫星洪水预警覆盖全国、Thaicom 9延期至2027年3月、THEOS-3国产化冲刺",
