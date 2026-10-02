@@ -3,6 +3,28 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-02",
+      "issue_no": "069",
+      "title": "印尼林火烟霾与BRIN卫星路线图维持上期口径：检索环境网络中断，本期基于064期锚点延续，未编造新增动态",
+      "tags": [
+        "印度尼西亚",
+        "印尼",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "加里曼丹",
+        "林火",
+        "烟霾",
+        "Starlink",
+        "BRIN",
+        "NEO",
+        "赤道IoT"
+      ],
+      "file": "issues/2026-10-02.html"
+    },
+    {
       "date": "2026-10-01",
       "issue_no": 68,
       "title": "检索环境网络中断，068期基于063期马来西亚锚点维持跟踪（MEASAT主权航天/跨境烟霾/北斗创新基地/Uzma PSPJN）",
