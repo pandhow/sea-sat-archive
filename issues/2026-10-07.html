@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>东南亚卫星产业动态 · 第 071 期 · 🇹🇭 泰国轮值</title>
+<meta name="archive-title" content="Thaicom 更名 Gulf Space(GST) 转向空间技术；Thaicom 9 延期至 2027 保 119.5°E 轨位；THEOS-3 与 TIGORS 二期延续，嫦娥七号待官方确认">
+<meta name="archive-tags" content="泰国,卫星通信,导航,北斗,遥感,发射,Thaicom,Gulf Space,Thaicom 9,THEOS-3,TIGORS,嫦娥七号">
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--bg); color:var(--txt);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  line-height:1.6; font-size:15px;
+}
+.wrap{max-width:760px; margin:0 auto; padding:28px 20px 56px;}
+header{
+  background:linear-gradient(135deg,#ffffff,#f3f6fc);
+  border:1px solid var(--line); border-radius:16px;
+  padding:26px 22px; margin-bottom:22px;
+}
+.tag{
+  display:inline-block; font-size:12px; letter-spacing:.12em; font-weight:700;
+  color:#fff; background:var(--com); padding:4px 12px; border-radius:999px; margin-bottom:12px;
+}
+h1{font-size:26px; margin:0 0 6px; color:var(--txt);}
+.sub-title{color:var(--sub); font-size:15px; margin:0 0 14px; font-weight:600;}
+.meta{font-size:12.5px; color:var(--sub); border-top:1px dashed var(--line); padding-top:12px; line-height:1.9;}
+.meta b{color:var(--txt); font-weight:600;}
+.cards{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:22px;}
+.card{
+  background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px;
+  border-left:4px solid var(--com);
+}
+.card.c-nav{border-left-color:var(--nav);}
+.card.c-rs{border-left-color:var(--rs);}
+.card.c-launch{border-left-color:var(--launch);}
+.card .ttl{font-weight:700; font-size:14.5px; color:var(--txt); margin-bottom:6px;}
+.card .sm{font-size:12px; color:var(--sub);}
+.badge{display:inline-block; font-size:11px; font-weight:700; padding:2px 7px; border-radius:6px; margin-right:5px; vertical-align:middle;}
+.b-hi{background:rgba(224,49,49,.12); color:var(--hi);}
+.b-new{background:rgba(44,111,214,.14); color:var(--com);}
+.b-mid{background:rgba(192,138,22,.16); color:var(--mid);}
+.b-lo{background:rgba(154,166,189,.20); color:var(--sub);}
+.progress{
+  display:flex; flex-wrap:wrap; gap:6px; margin-bottom:20px;
+  background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:12px;
+}
+.progress .pday{
+  font-size:12px; padding:5px 9px; border-radius:8px; color:var(--sub);
+  background:var(--panel2); border:1px solid var(--line); white-space:nowrap;
+}
+.progress .pday.on{background:var(--com); color:#fff; border-color:var(--com); font-weight:700;}
+.progress .pday.miss{background:rgba(224,49,49,.10); color:var(--hi); border-color:rgba(224,49,49,.3); text-decoration:line-through;}
+.note{
+  background:rgba(176,125,18,.10); border:1px solid rgba(176,125,18,.35); border-left:4px solid var(--gold);
+  border-radius:10px; padding:12px 14px; font-size:13px; color:var(--txt); margin-bottom:20px;
+}
+.act{
+  display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:24px;
+}
+.act .cell{
+  background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:14px 10px; text-align:center;
+}
+.act .cell .dom{font-size:13px; font-weight:700; margin-bottom:8px;}
+.act .cell.com .dom{color:var(--com);}
+.act .cell.nav .dom{color:var(--nav);}
+.act .cell.rs .dom{color:var(--rs);}
+.act .cell.launch .dom{color:var(--launch);}
+.act .cell .lvl{font-size:12px; color:var(--sub);}
+.act .dot{display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:4px; vertical-align:middle;}
+.dot.hi{background:var(--hi);} .dot.mid{background:var(--mid);} .dot.lo{background:var(--lo);}
+h2{font-size:20px; margin:30px 0 14px; padding-left:12px; border-left:6px solid var(--com);}
+h2.nav{border-left-color:var(--nav);}
+h2.rs{border-left-color:var(--rs);}
+h2.launch{border-left-color:var(--launch);}
+.item{
+  background:var(--panel); border:1px solid var(--line); border-radius:12px; margin-bottom:14px; overflow:hidden;
+}
+.item .bar{height:5px;}
+.item.com .bar{background:var(--com);} .item.nav .bar{background:var(--nav);}
+.item.rs .bar{background:var(--rs);} .item.launch .bar{background:var(--launch);}
+.item .inner{padding:16px;}
+h3.country{font-size:16px; margin:0 0 4px; color:var(--txt); display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap;}
+.heat{font-size:12px; font-weight:700; padding:3px 9px; border-radius:999px; white-space:nowrap;}
+.heat.hi{background:rgba(224,49,49,.12); color:var(--hi);}
+.heat.mid{background:rgba(192,138,22,.16); color:var(--mid);}
+.heat.lo{background:rgba(154,166,189,.20); color:var(--sub);}
+.src{font-size:12.5px; color:var(--sub); margin:6px 0 10px;}
+.src b{color:var(--txt);}
+.pts{margin:0 0 12px; padding-left:20px;}
+.pts li{color:var(--txt); margin-bottom:5px; font-size:14px;}
+.biz{
+  background:rgba(176,125,18,.10); border-left:4px solid var(--gold);
+  border-radius:8px; padding:10px 12px; font-size:13.5px; color:var(--txt);
+}
+.biz b{color:var(--gold);}
+.biz-plan{background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin-top:8px;}
+.biz-plan ol{margin:8px 0 0; padding-left:22px;}
+.biz-plan li{margin-bottom:10px; font-size:14px; color:var(--txt);}
+.biz-plan .pl{font-weight:700;}
+.biz-plan .p0{color:var(--hi);} .biz-plan .p1{color:var(--mid);} .biz-plan .p2{color:var(--nav);}
+footer{
+  margin-top:30px; padding-top:16px; border-top:1px solid var(--line);
+  font-size:12.5px; color:var(--sub); text-align:center; line-height:1.9;
+}
+footer b{color:var(--txt);}
+a{color:var(--com); text-decoration:underline;}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+  .act{grid-template-columns:repeat(2,1fr);}
+  .progress .pday{font-size:11px; padding:4px 7px;}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="tag">ASEAN SAT. DAILY · 第 071 期</span>
+    <h1>东南亚卫星产业动态</h1>
+    <p class="sub-title">今日轮值：🇹🇭 泰国</p>
+    <div class="meta">
+      监测周期：<b>2026-10-07（周三）</b> ｜ 轮值国：<b>泰国</b><br>
+      四大领域：<b>卫星通信 · 导航(GNSS/北斗) · 遥感 · 发射与卫星</b><br>
+      出品：<b>Harry 🎩 for 明华 · Astrolink BD</b>
+    </div>
+  </header>
+
+  <section class="cards">
+    <div class="card">
+      <div class="ttl"><span class="badge b-new">🆕 新</span>Thaicom 更名 Gulf Space</div>
+      <div class="sm">9/17 生效 · 9/28 SET 新代码 GST · 战略转向空间技术 🔴高</div>
+    </div>
+    <div class="card c-launch">
+      <div class="ttl"><span class="badge b-hi">🔴 高</span>Thaicom 9 延期至 2027</div>
+      <div class="sm">Astranis 电源异常 + 不可抗力 · 119.5°E 轨位保卫战</div>
+    </div>
+    <div class="card">
+      <div class="ttl"><span class="badge b-mid">🟡 中</span>Amazon Leo 合法 LEO 路径</div>
+      <div class="sm">经 Thaicom 持牌转售 · Starlink 仍无消费者牌照</div>
+    </div>
+    <div class="card c-nav">
+      <div class="ttl"><span class="badge b-mid">🟡 中</span>TIGORS 二期 + 高精度定位</div>
+      <div class="sm">JICA × GISTDA 牵头商业化 · NCDC 免费改正数据</div>
+    </div>
+    <div class="card c-rs">
+      <div class="ttl"><span class="badge b-mid">🟡 中</span>THEOS-3 软件自研 + EM 测试</div>
+      <div class="sm">端到端软件泰工程师自研 · 2027 Q2 FlatSat 集成</div>
+    </div>
+    <div class="card c-launch">
+      <div class="ttl"><span class="badge b-lo">⚪ 低</span>嫦娥七号搭载泰 MATCH 载荷</div>
+      <div class="sm">截至本期检索未见官方发射成功通稿 · 维持待核</div>
+    </div>
+  </section>
+
+  <div class="progress">
+    <span class="pday">一·越南</span>
+    <span class="pday miss" title="10-06 自动化未触发">二·柬埔寨</span>
+    <span class="pday on">三·泰国</span>
+    <span class="pday">四·马来西亚</span>
+    <span class="pday">五·印尼</span>
+    <span class="pday">六·新加坡</span>
+    <span class="pday">日·回顾</span>
+  </div>
+
+  <div class="note">
+    ⚠️ <b>断档/衔接自检</b>：上一期 <b>070（2026-10-05 · 越南）</b> 在位，无最新期缺失。但 <b>10-06（周二·柬埔寨轮值，原拟 071）</b> 自动化未触发、归档缺失，本期顺延为 <b>071 期·泰国轮值</b>；柬埔寨轮值缺口建议人工确认是否补跑。相邻期次校验（vs 067 期 2026-09-30 泰国）：Thaicom 9 延期、Starlink 无牌照、THEOS-3、嫦娥七号待核等口径均<b>无反向矛盾</b>，本期为增量接续。
+  </div>
+
+  <div class="act">
+    <div class="cell com"><div class="dom">卫星通信</div><div class="lvl"><span class="dot hi"></span>高</div></div>
+    <div class="cell nav"><div class="dom">导航</div><div class="lvl"><span class="dot mid"></span>中</div></div>
+    <div class="cell rs"><div class="dom">遥感</div><div class="lvl"><span class="dot mid"></span>中</div></div>
+    <div class="cell launch"><div class="dom">发射与卫星</div><div class="lvl"><span class="dot hi"></span>高</div></div>
+  </div>
+
+  <!-- ============ 卫星通信 ============ -->
+  <h2>▎卫星通信</h2>
+
+  <div class="item com">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3 class="country">Thaicom 正式更名「Gulf Space Technology」，SET 新代码 GST<span class="heat hi">🔴 高</span></h3>
+      <div class="src">来源：<b>Thaicom 官方新闻稿（thaicom.net，2026-09-25）</b> · SatellitePro ME / Kao Hoon International / Advanced Television 多源印证 ｜ 日期：2026-09-17 生效</div>
+      <ul class="pts">
+        <li>Thaicom Public Company Limited 于 <b>2026-09-17</b> 正式更名为 <b>Gulf Space Technology Public Company Limited</b>，自 <b>2026-09-28</b> 起以新代码 <b>GST</b> 在泰国证交所（SET）交易（原代码 THCOM 退役）。</li>
+        <li>战略定位由「通信卫星运营商」转向「空间技术公司」，明确拓展<b>天基数据服务</b>与<b>关键数字基础设施</b>；CEO 为 Piyawat Jriyasetapong；GULF 集团为控股方（约 41.14%）。</li>
+        <li>🚨 <b>相邻期次衔接</b>：067 期（2026-09-30）仍称「Thaicom」——本期为该主体的<b>品牌/法律实体级变更</b>，后续 BD 对接须以新主体 <b>Gulf Space Technology</b> 为准，原 Thaicom 资产（Thaicom 6/8、119.5°E 轨位、Koreasat 7 过渡）由新主体承继。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联</b>：Gulf Space 公开叙事已转向「天基数据服务 + 关键数字基础设施」，与 Astrolink 的<b>卫星数据增值 + 合规连接</b>定位高度契合；香港平台可作<b>中立合规节点</b>对接其「数据本地留存」诉求。P1 借更名节点重启对话。</div>
+    </div>
+  </div>
+
+  <div class="item com">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3 class="country">Amazon Leo 经 Gulf Space 持牌转售成泰国合法 LEO 路径；Starlink 仍无消费者牌照<span class="heat mid">🟡 中</span></h3>
+      <div class="src">来源：<b>Nation Thailand（2026）</b> · ThailandStuff（引 Data Center Dynamics 2026-04）· Converged Systems ｜ 日期：2026 持续</div>
+      <ul class="pts">
+        <li>泰国政府于 <b>2025-11</b> 正式拒绝 SpaceX 全资运营提案；NBTC 正在制定外国卫星运营商「落地权（landing rights）」框架，拟以三类授权（服务/频率/关口站）精细监管。</li>
+        <li><b>Amazon Leo 经 Gulf Space（原 Thaicom）授权转售</b>，是泰国当前<b>唯一合法 LEO 宽带路径</b>；Starlink 个人终端在泰国仍属<b>未授权无线电设备</b>，无 NBTC 消费者牌照。</li>
+        <li>行业观察：合法路径已向「愿守本地规则者」开放，Starlink 未来若以持牌本地合伙结构进入仍非不可能，但<b>无确定时间表</b>。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联</b>：泰国对 Starlink 的低容忍 = <b>本土/区域合规星座的差异化机会</b>。Astrolink 宜走「<b>香港平台 + 泰方持牌伙伴</b>」中性合规路径，比正面引入 Starlink 更可行；重大合作须以 NBTC 官方口径核实。</div>
+    </div>
+  </div>
+
+  <!-- ============ 导航 ============ -->
+  <h2 class="nav">▎导航（GNSS/北斗）</h2>
+
+  <div class="item nav">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3 class="country">JICA TIGORS 二期 + GISTDA 牵头高精度定位数据商业化<span class="heat mid">🟡 中</span></h3>
+      <div class="src">来源：<b>Konrad News（JICA 官方公告，2026-09-05）</b> · GISTDA GNSS/NCDC 页面 ｜ 日期：2026（二期启动）· 9/11 线上说明会</div>
+      <ul class="pts">
+        <li>TIGORS 二期（2026 启动）由 <b>GISTDA</b> 合作推进，面向日泰企业征集「高精度定位数据商业化」业务试验；<b>NCDC 免费提供改正数据</b>。</li>
+        <li>一期已验证场景：道路施工机械引导、农业自动驾驶拖拉机、乘用车自动驾驶；二期开放多领域申请。</li>
+        <li>国家 CORS 数据中心（NCDC）整合多部门基准站网，提供 RTK 网络测量、CORS 数据（RINEX）、后处理三类服务。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联</b>：NCDC 免费改正数据 + GISTDA 牵头商业化 = <b>农业/工程高精度定位「地基」已就位</b>。Astrolink 若推<b>北斗/多模高精度终端</b>，可与 GISTDA 二期生态对接，提供「终端 + 数据 + 行业应用」三层中的终端与集成层。P1 跟进口径。</div>
+    </div>
+  </div>
+
+  <div class="item nav">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3 class="country">北斗对泰国无独立新增官方动态（如实标注）<span class="heat lo">⚪ 低</span></h3>
+      <div class="src">来源：<b>中方泛述口径</b>（头条/公众号等列泰国为北斗落地国）｜ 日期：2026 持续</div>
+      <ul class="pts">
+        <li>中文二手源将泰国列入「北斗全球落地国」清单，但属<b>中方峰会/泛述口径</b>，<b>非泰方官方新发布</b>。</li>
+        <li>泰国境内本期<b>无独立 GNSS 新动态</b>；北斗相关进展仍停留在中泰既有合作框架（嫦娥七号 MATCH 载荷、澜湄空间信息中心覆盖）。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联</b>：维持跟踪，待泰方（GISTDA/NCDC）官方动作；Astrolink 可借 TIGORS 二期生态以「多模兼容终端」切入，避免单边北斗叙事。</div>
+    </div>
+  </div>
+
+  <!-- ============ 遥感 ============ -->
+  <h2 class="rs">▎遥感</h2>
+
+  <div class="item rs">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3 class="country">THEOS-3 端到端软件自研完成，进入 EM 硬件测试<span class="heat mid">🟡 中</span></h3>
+      <div class="src">来源：<b>Bangkok Today（2026-07-09）</b> · Thailand News Gazette · Matichon ｜ 日期：2026-07（持续）</div>
+      <ul class="pts">
+        <li>基于 <b>THEOS-2A</b> 架构（与 SSTL 合作），四台中分辨率相机、幅宽约 <b>20 km</b>、重访缩至 <b>1 天</b>、双侧太阳翼、国产化率 <b>&gt;20%</b>、预算 3–4 亿泰铢。</li>
+        <li>星载软件（OBC / AOCS / PDHU / G-PDM / CHU）与地面软件（MPS / SOC / FDS / PPS / DFS）均由<b>泰工程师自研</b>，已与工程模型（EM）硬件集成测试。</li>
+        <li>计划 <b>2027 Q2</b> 在 NAIT 洁净间进行 FlatSat 系统集成与系统级测试。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联</b>：THEOS-2A 已于 2026-01 发射失利损毁（056 期校正），泰国高分辨率 EO <b>仅剩 THEOS-2 单星</b>，THEOS-3 要 2027 才补位 → 卖「<b>季度数据补位订阅 + 分析产品化</b>」而非整星。P1。</div>
+    </div>
+  </div>
+
+  <div class="item rs">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3 class="country">GISTDA「Check Nam」水情 +「Check 旱」旱情系统在用（维持）<span class="heat mid">🟡 中</span></h3>
+      <div class="src">来源：<b>067 期（2026-09-30）已报 9/25 洪水实战</b> · Matichon（2026-05-07 副总理视察 Space Innovation Park 推旱情系统）｜ 日期：持续</div>
+      <ul class="pts">
+        <li>当前 10 月泰国进入旱季，洪水热度回落；<b>旱情核查系统</b>（EO 数据 + AI 风险地图）持续服务农业抗旱。</li>
+        <li>「水情一张图」与 Check Nam 洪水预警为 9 月雨季实战成果，本期<b>无新增爆发</b>，属上期能力延续。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联</b>：维持 GISTDA / DDPM 灾害包敲门，提供「<b>Sentinel-1 SAR 快视图 + 风险区清单</b>」能力说明，以「预报→地块级可执行清单」切入。P1。</div>
+    </div>
+  </div>
+
+  <!-- ============ 发射与卫星 ============ -->
+  <h2 class="launch">▎发射与卫星</h2>
+
+  <div class="item launch">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3 class="country">Thaicom 9 延期至 2027，119.5°E 轨位保卫战<span class="heat hi">🔴 高</span></h3>
+      <div class="src">来源：<b>Advanced Television · Kao Hoon International · Tai Thailand Times · Nation Thailand</b> 多源 ｜ 日期：2026-05 NBTC 批准 · ITU 10 月会议裁决关键</div>
+      <ul class="pts">
+        <li>制造商 <b>Astranis</b> 电源主板组件异常（同批次波及墨西哥 Apco-1/2、中华电信、阿曼 MB Group 共 5 颗），Thaicom 9 已约 90% 完成仍需重大返工。</li>
+        <li>NBTC 董事会 <b>4 票赞成、3 票弃权</b>批准延期，认定「<b>不可抗力</b>」；原 3 年期限 2026-05-15 到期，<b>ITU 10 月会议裁决</b>为关键节点，服役推至 <b>2027/10</b>。</li>
+        <li>🚨 <b>相邻期次口径演进（非反向）</b>：062「2027/9/30 前入 119.5°E」→ 067「延期至 2027/3 发射」→ 本期「2027 年内发射、2027/10 入役」；信源对发射时点存分歧（3 月 vs 9 月），均指 2027 年、服务 2027/10，<b>不把任一时点当已确认</b>。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联</b>：泰国 2026–2027 GEO 主力星青黄不接（Thaicom 4 退服、Thaicom 9 延期）→ <b>LEO 补位 + 地面站就绪</b>窗口打开；Astrolink 以「过渡期韧性连接」对接 NT / Gulf Space，但须<b>规避在办诉讼与牌照未决风险</b>。P0/P1。</div>
+    </div>
+  </div>
+
+  <div class="item launch">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3 class="country">嫦娥七号（CE-7）搭载泰国 MATCH 载荷：截至本期检索未见官方发射成功通稿<span class="heat lo">⚪ 低</span></h3>
+      <div class="src">来源：<b>中国载人航天工程办公室（2026-08-19）</b> 官宣「器箭组合体完成垂直转运，计划近日择机实施发射」· 央视/新华社/人民网多源 ｜ 日期：2026-08-19 转运</div>
+      <ul class="pts">
+        <li>🚨 <b>事实核查（归零规范）</b>：截至本期（2026-10-07）检索，<b>国家航天局 / 央视未发布 CE-7 发射成功官方通稿</b>；067 期（2026-09-30）已前瞻「~9/30 窗口、待官方确认不写已发射」——本期<b>维持该保守口径，不写「已发射」</b>。</li>
+        <li>CE-7 为<b>探月任务</b>（月球南极水冰勘察与环境勘察，非「深空」），由<b>长征五号遥十四</b>发射，搭载泰方 NARIT×玛希隆大学 <b>MATCH</b> 科学载荷（国际月球科研站框架）。</li>
+        <li>型号与任务性质按官方标准名：<b>嫦娥七号</b>、<b>长征五号遥十四</b>、<b>探月任务</b>。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联</b>：待官方发射成功通稿发布后再正式写入；当前仅作「中泰航天合作里程碑前瞻」，重大合作须以官方与一线 BD 核实。</div>
+    </div>
+  </div>
+
+  <div class="item launch">
+    <div class="bar"></div>
+    <div class="inner">
+      <h3 class="country">泰国太空港可行性研究 + Globalstar 直连手机（维持跟踪）<span class="heat lo">⚪ 低</span></h3>
+      <div class="src">来源：<b>Nation Thailand / 067 期延续</b> ｜ 日期：2026 持续</div>
+      <ul class="pts">
+        <li>国家航天政策委员会将<b>太空港（Spaceport）</b>可行性列为三大方向之一，仍处研究阶段。</li>
+        <li>Globalstar 卫星直连手机（Gulf Space）拟 2026 年底上线，NT 已建 OneWeb 关口站——维持观察。</li>
+      </ul>
+      <div class="biz">💼 <b>BD 关联</b>：太空港与直连手机均处早期，Astrolink 维持监测、不超前承诺；待政策与牌照明朗再评估切入。</div>
+    </div>
+  </div>
+
+  <!-- ============ BD 衔接 ============ -->
+  <h2>🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+  <div class="biz-plan">
+    <ol>
+      <li><span class="pl p0">P0</span> 借 <b>Thaicom → Gulf Space（GST）</b> 更名节点，重新对接新主体「天基数据服务」战略叙事，香港平台作中立合规节点。</li>
+      <li><span class="pl p0">P0</span> Thaicom 9 延期致 2026–2027 容量缺口，推「<b>过渡期韧性连接</b>」方案对接 NT / Gulf Space（须规避在办诉讼与牌照未决）。</li>
+      <li><span class="pl p0">P0</span> 嫦娥七号<b>待官方发射通稿确认</b>后再作为中泰合作里程碑对外引用，重大合作以官方与一线 BD 核实。</li>
+      <li><span class="pl p1">P1</span> THEOS-2A 损毁 + THEOS-3 要 2027 才补位 → 卖「<b>季度数据补位订阅 + 分析产品化</b>」而非整星。</li>
+      <li><span class="pl p1">P1</span> 借 <b>JICA TIGORS 二期</b> 生态，以「多模兼容高精度终端 + 集成层」切入农业/工程定位。</li>
+      <li><span class="pl p1">P1</span> 维持 GISTDA / DDPM <b>灾害遥感包</b>（Sentinel-1 SAR 快视图 + 风险区清单）敲门。</li>
+      <li><span class="pl p2">P2</span> 跟踪泰国「落地权框架」与 Starlink 进展（以 NBTC 官方为准）；太空港、Globalstar 直连、OneWeb 关口站维持观察。</li>
+    </ol>
+  </div>
+
+  <footer>
+    第 <b>071</b> 期 ｜ 生成时间：<b>2026-10-07 09:54 (GMT+8)</b><br>
+    出品：<b>Harry 🎩 for 明华 · Astrolink BD</b>（非 SmarCo）<br>
+    监测范围：泰国 · 印度尼西亚 · 马来西亚 · 新加坡 · 柬埔寨 · 越南 ｜ 四大领域：卫星通信 · 导航(GNSS/北斗) · 遥感 · 发射与卫星
+  </footer>
+
+</div>
+</body>
+</html>
