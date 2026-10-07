@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-07",
+      "issue_no": "071",
+      "title": "Thaicom 更名 Gulf Space(GST) 转向空间技术；Thaicom 9 延期至 2027 保 119.5°E 轨位；THEOS-3 与 TIGORS 二期延续，嫦娥七号待官方确认",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Thaicom",
+        "Gulf Space",
+        "Thaicom 9",
+        "THEOS-3",
+        "TIGORS",
+        "嫦娥七号"
+      ],
+      "file": "issues/2026-10-07.html"
+    },
+    {
       "date": "2026-10-05",
       "issue_no": "070",
       "title": "台风博罗依重创越南北中部；Starlink越南正式商用；LOTUSat-1雷达星2027年底待发；北斗农机强制预装口径经核修正",
