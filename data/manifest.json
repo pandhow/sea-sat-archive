@@ -3,6 +3,24 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-08",
+      "issue_no": "072",
+      "title": "马来西亚：PSPJN自主遥感星2028/2029、北斗创新基地株洲揭牌、MEASAT主权宽带与SpaceX防灾捐赠",
+      "tags": [
+        "马来西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "MEASAT",
+        "Starlink",
+        "PSPJN",
+        "航天政策"
+      ],
+      "file": "issues/2026-10-08.html"
+    },
+    {
       "date": "2026-10-07",
       "issue_no": "071",
       "title": "Thaicom 更名 Gulf Space(GST) 转向空间技术；Thaicom 9 延期至 2027 保 119.5°E 轨位；THEOS-3 与 TIGORS 二期延续，嫦娥七号待官方确认",
