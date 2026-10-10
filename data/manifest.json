@@ -3,6 +3,25 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-10",
+      "issue_no": "074",
+      "title": "新加坡轮值：检索环境网络中断，本期基于058期锚点延续，跨境烟霾季末状态与NSAS/Global Invacom/NeuSAR-2待核，未编造新增动态",
+      "tags": [
+        "新加坡",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "跨境烟霾",
+        "NSAS",
+        "Global Invacom",
+        "NeuSAR-2",
+        "Starlink"
+      ],
+      "file": "issues/2026-10-10.html"
+    },
+    {
       "date": "2026-10-09",
       "issue_no": "073",
       "title": "印尼林火烟霾与BRIN卫星路线图维持064/069期锚点口径：检索环境网络中断，本期基于锚点延续，未编造新增动态",
