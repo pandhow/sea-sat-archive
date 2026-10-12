@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-12",
+      "issue_no": "076",
+      "title": "网络中断 fallback：越南四领域维持10-05锚点口径（Starlink商用、博罗依灾损、LOTUSat-1、北斗农机口径修正均待核）",
+      "tags": [
+        "越南",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "台风博罗依",
+        "北斗农机",
+        "LOTUSat",
+        "VNSC",
+        "苏林"
+      ],
+      "file": "issues/2026-10-12.html"
+    },
+    {
       "date": "2026-10-11",
       "issue_no": "075",
       "title": "周回顾：越南台风博罗依与星链商用、印尼林火17万例、泰国Thaicom更名Gulf Space、马来PSPJN自主星、新加坡烟霾白皮书资产",
