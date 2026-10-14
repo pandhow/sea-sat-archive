@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-14",
+      "issue_no": "078",
+      "title": "泰国轮值：10月中部大洪灾 GISTDA卫星监测45省512万莱；北斗应用写入泰中15项协议；Thaicom 9待ITU 10月裁决；嫦娥七号官方推迟2027",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "洪灾",
+        "GISTDA",
+        "Thaicom",
+        "北斗应用",
+        "Starlink",
+        "嫦娥七号"
+      ],
+      "file": "issues/2026-10-14.html"
+    },
+    {
       "date": "2026-10-13",
       "issue_no": "077",
       "title": "柬埔寨轮值：检索网络中断，本期基于061期锚点延续（五年航天计划/北斗生命通道/湄公河洪水/环境部研修均待核），未编造新增动态",
