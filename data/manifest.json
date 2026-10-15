@@ -3,6 +3,28 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-15",
+      "issue_no": "079",
+      "title": "马来西亚：副总理扎希德访华求中国卫星气象预警技术；Starlink促销与JENDELA 2；PSPJN自主星延续",
+      "tags": [
+        "马来西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "扎希德",
+        "中国卫星",
+        "气象预警",
+        "洪灾",
+        "PSPJN",
+        "MEASAT",
+        "千帆"
+      ],
+      "file": "issues/2026-10-15.html"
+    },
+    {
       "date": "2026-10-14",
       "issue_no": "078",
       "title": "泰国轮值：10月中部大洪灾 GISTDA卫星监测45省512万莱；北斗应用写入泰中15项协议；Thaicom 9待ITU 10月裁决；嫦娥七号官方推迟2027",
