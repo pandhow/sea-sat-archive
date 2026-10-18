@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>东南亚卫星产业动态 · 周回顾 · 第 082 期（2026-10-18）</title>
+<meta name="archive-title" content="本周高热度：泰国中部大洪灾GISTDA卫星实战、印尼11年来最严重跨境烟霾、马来西亚副总理级求中国卫星预警、北斗写入泰中15项协议">
+<meta name="archive-tags" content="周回顾,泰国,印度尼西亚,马来西亚,新加坡,柬埔寨,越南,卫星通信,导航,北斗,遥感,发射,洪灾,烟霾,扎希德,泰中15项协议">
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+html,body{height:auto;}
+body{margin:0; background:var(--bg); color:var(--txt);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  line-height:1.68; font-size:15px;}
+.wrap{max-width:900px; margin:0 auto; padding:26px 20px 56px;}
+header{background:linear-gradient(135deg,#2c3e6b,#1b2440); color:#fff; border-radius:16px; padding:30px 26px; margin-bottom:22px;}
+header .tag{display:inline-block; font-size:12px; letter-spacing:2px; font-weight:700; background:rgba(255,255,255,.16); color:#ffe9b0; padding:5px 12px; border-radius:999px;}
+header h1{margin:14px 0 6px; font-size:26px; color:#fff; letter-spacing:1px; font-weight:700;}
+header .sub-title{margin:0; color:#cdd6ee; font-size:15px; font-weight:500;}
+header .meta{margin-top:16px; font-size:13px; color:#cdd6ee; display:flex; flex-wrap:wrap; gap:8px 18px;}
+header .meta span{background:rgba(255,255,255,.1); padding:4px 10px; border-radius:8px;}
+h2{font-size:20px; margin:34px 0 14px; padding-left:12px; border-left:5px solid var(--gold); color:var(--txt);}
+h2.f-com{border-color:var(--com);} h2.f-nav{border-color:var(--nav);} h2.f-rs{border-color:var(--rs);} h2.f-lau{border-color:var(--launch);}
+.note{background:rgba(15,157,140,.08); border:1px solid rgba(15,157,140,.30); border-left:5px solid var(--nav); border-radius:12px; padding:12px 18px; margin:0 0 22px; color:var(--txt); font-size:13.5px;}
+.note b{color:var(--nav);}
+.warn{background:rgba(192,138,22,.10); border:1px solid rgba(192,138,22,.35); border-left:5px solid var(--mid); border-radius:12px; padding:12px 18px; margin:0 0 22px; color:var(--txt); font-size:13.5px;}
+.warn b{color:var(--mid);}
+.alarm{background:rgba(224,49,49,.08); border:1px solid rgba(224,49,49,.35); border-left:5px solid var(--hi); border-radius:12px; padding:12px 18px; margin:0 0 22px; color:var(--txt); font-size:13.5px;}
+.alarm b{color:var(--hi);}
+/* TOP 榜单 */
+.cards{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0;}
+.card{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 16px; box-shadow:0 2px 10px rgba(27,36,64,.05);}
+.card .rk{display:inline-block; min-width:24px; font-weight:800; color:var(--gold);}
+.card .k{font-size:11.5px; font-weight:800; border-radius:6px; padding:2px 8px; margin-right:6px; vertical-align:middle;}
+.k-hi{background:rgba(224,49,49,.12); color:var(--hi);} .k-mid{background:rgba(192,138,22,.14); color:var(--mid);} .k-new{background:rgba(15,157,140,.12); color:var(--nav);}
+.card .ct{font-size:12px; color:var(--sub); margin-bottom:4px;}
+.card .t{font-weight:700; font-size:14.5px; color:var(--txt); line-height:1.5; margin:4px 0 6px;}
+.card .d{font-size:12.5px; color:var(--sub); line-height:1.55;}
+.card .pr{font-weight:800;}
+.p0c{color:var(--hi);} .p1c{color:var(--mid);} .p2c{color:var(--com);}
+/* 矩阵 */
+.mtx{width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--line); border-radius:12px; overflow:hidden; margin:12px 0;}
+.mtx th,.mtx td{border:1px solid var(--line); padding:10px 8px; text-align:center; font-size:13px; color:var(--txt);}
+.mtx th{background:var(--panel2); color:var(--sub); font-weight:700;}
+.mtx td.c{color:var(--com); font-weight:700;} .mtx td.n{color:var(--nav); font-weight:700;} .mtx td.r{color:var(--rs); font-weight:700;} .mtx td.l{color:var(--launch); font-weight:700;}
+.mtx td.rowh{background:var(--panel2); font-weight:700; color:var(--txt);}
+.mtx .miss{background:rgba(224,49,49,.07); color:var(--hi);}
+/* 分国别 */
+.sec{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px 18px; margin:12px 0; box-shadow:0 2px 10px rgba(27,36,64,.05);}
+.sec h3{margin:0 0 10px; font-size:16px; color:var(--txt);}
+.sec .it{margin:8px 0; padding-left:14px; border-left:3px solid var(--line);}
+.sec .it.c{border-left-color:var(--com);} .sec .it.n{border-left-color:var(--nav);} .sec .it.r{border-left-color:var(--rs);} .sec .it.l{border-left-color:var(--launch);}
+.sec .it .tt{font-weight:700; font-size:14px; color:var(--txt);}
+.sec .it .ds{font-size:12.5px; color:var(--sub);}
+/* BD 优先级 */
+.bdlist{background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:8px 18px; margin:12px 0;}
+.bdlist li{margin:10px 0; font-size:14px; color:var(--txt);}
+.bdlist b{color:var(--txt);}
+.tagp0{color:var(--hi); font-weight:800;} .tagp1{color:var(--mid); font-weight:800;} .tagp2{color:var(--com); font-weight:800;}
+footer{margin-top:34px; padding-top:16px; border-top:1px solid var(--line); font-size:12.5px; color:var(--sub); display:flex; flex-wrap:wrap; gap:6px 18px;}
+footer b{color:var(--txt);}
+a{color:#1a4db5; text-decoration:underline;}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">ASEAN SAT. WEEKLY · 周回顾 · 第 082 期</span>
+  <h1>东南亚卫星产业动态 · 本周高热度回顾</h1>
+  <p class="sub-title">监测周期：2026-10-12（周一）～ 2026-10-18（周日）｜ 轮值链：越南→柬埔寨→泰国→马来西亚→印尼→新加坡→本回顾</p>
+  <div class="meta">
+    <span>范围：泰国 · 印度尼西亚 · 马来西亚 · 新加坡 · 柬埔寨 · 越南</span>
+    <span>四大领域：卫星通信 · 导航(GNSS/北斗) · 遥感 · 发射与卫星</span>
+    <span>出品：Harry 🎩 for 明华 · Astrolink BD</span>
+  </div>
+</header>
+
+<div class="note">
+  📌 <b>本周采集说明</b>：本回顾汇总本周 6 期轮值日报（076 越南 / 077 柬埔寨 / 078 泰国 / 079 马来西亚 / 080 印尼 / 081 新加坡）。其中 <b>078（泰国）、079（马来西亚）、080（印尼）为真实检索成稿</b>；<b>076（越南）、077（柬埔寨）、081（新加坡）三期为检索网络中断期间的「锚点延续」稿件</b>，内容标「待核」，非当期新增检索结论，已在下方对应条目标注。<br>
+  ⚠️ <b>历史挂账（持续）</b>：<b>2026-10-06（周二·柬埔寨轮值）</b>自动化未触发、归档缺失，已连续多期挂账，不在本周链内，<b>请人工确认是否补跑</b>。本周链 076–081 六期齐全、无即时断档。
+</div>
+
+<div class="warn">
+  🔎 <b>周末补抓与事实核查</b>：本期生成前对周末新发动态做了一次 WebSearch 补抓。检索结果中 satnow.com 一条「THEOS-2 于 10/9 自库鲁成功发射」的报道，<b>与既有事实矛盾</b>——056 期已据三源确认 THEOS-2A 于 2026-01 在 PSLV-C62 失利中损毁，且 THEOS-2 主星实际已于 2024 年发射。按<b>归零规范（结果性事件须官方最终结论、反向校验）</b>，该条<b>不纳入本周回顾</b>，泰国遥感主线以 078 期 GISTDA 洪灾实战为准。其余搜索结果均为 2023–24 年旧闻背景（Musk 巴厘岛、马来 D2D 7/30），无本周新高热度可确认动态。
+</div>
+
+<h2>本周 TOP 高热度榜单（按 热度→BD 优先级 排序 · Top 12）</h2>
+<div class="cards">
+  <div class="card">
+    <div class="ct"><span class="rk">1</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇹🇭 泰国 · 遥感</div>
+    <div class="t">中部大洪灾：GISTDA 卫星监测 45 省 / 512 万莱</div>
+    <div class="d">9/28–10/4 全国 45 省淹水逾 512 万莱；DDPM 10/13 仍在涝 20 省+曼谷 / 245 万人。卫星遥感实战全面铺开。来源：GISTDA / Thai PBS / Nation Thailand（10-07~10-13，真实检索）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">2</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇮🇩 印尼 · 遥感</div>
+    <div class="t">林火酿「11 年来最严重」跨境烟霾，793 火点</div>
+    <div class="d">截至 10/10 全国 793 火点（+356），中/西/南加里曼丹 360；马来柔佛 1198 校停课、新加坡启动 2015 年来首次烟霾医疗补贴。来源：ANTARA（10-15，真实检索）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">3</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇲🇾 马来西亚 · 遥感/通信</div>
+    <div class="t">副总理扎希德访华，亲自催单中国卫星气象预警</div>
+    <div class="d">10/14 起访华（至 10/16），公开寻求引进中国卫星基气象预报技术应对东北季风洪灾，拟签双边灾害管理协议（含技术转让）。来源：BERNAMA / Bloomberg（10-14，真实检索）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">4</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇹🇭 泰国 · 导航</div>
+    <div class="t">北斗应用写入泰中 15 项合作协议（Anutin 访华）</div>
+    <div class="d">清单明确含「中国北斗卫星导航系统应用」+ 中泰深空探测联合实验室——首个双边政府层级北斗应用官方背书。来源：Nation Thailand（10 月，真实检索）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">5</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇹🇭 泰国 · 遥感/保险</div>
+    <div class="t">民众灾害保险用 GISTDA 卫星定损（1 万铢/户）</div>
+    <div class="d">内政部 10/01 起生效参数化赔付，明确使用 GISTDA 卫星影像确认淹没范围——保险科技现成切口。来源：泰国中文社（10-01，真实检索）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">6</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇻🇳 越南 · 遥感 <span style="color:var(--hi)">（待核锚点）</span></div>
+    <div class="t">台风「博罗依」重创越南北中部（维持 070 锚点）</div>
+    <div class="d">9/29–30 登陆河静—义安；UN OCHA 10/01 初报 36 死、15.4 万+ 房屋受损。最终数待越南官方通报 + 本期网络中断未复核。来源：UN OCHA（10-01，锚点延续）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">7</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇰🇭 柬埔寨 · 发射 <span style="color:var(--hi)">（待核锚点）</span></div>
+    <div class="t">五年国家航天计划拟自研 EO 卫星（维持 061 锚点）</div>
+    <div class="d">部长谢万迪株洲峰会表态（三源），计划全文仍待公开，按「官方意向」口径。来源：中新社/湖南日报/新华社英文（9-22，锚点延续）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">8</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇰🇭 柬埔寨 · 遥感/导航 <span style="color:var(--hi)">（待核锚点）</span></div>
+    <div class="t">湄公河洪水链 + 北斗应急「生命通道」（维持 061 锚点）</div>
+    <div class="d">NCDM 四省 1.37 万户受灾、4,000+ 公顷稻田被淹；北斗短报文被部长定性「生命通道」。9/22 后演进待核。来源：GloFAS / NCDM（锚点延续）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">9</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇮🇩 印尼 · 卫星通信</div>
+    <div class="t">Starlink 深入边境远岛：Miangas 203 户配设备</div>
+    <div class="d">普拉博沃视察最北边境岛，180 台调制解调器+210 部手机，Telkomsel 协同，3T 地区持续铺开。来源：ANTARA / Tempo（10 月，真实检索）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">10</span> <span class="k k-hi">🔴 高</span> <span class="pr p0c">P0</span> · 🇻🇳 越南 · 卫星通信 <span style="color:var(--hi)">（待核锚点）</span></div>
+    <div class="t">Starlink 越南正式商用上线（维持 070 锚点）</div>
+    <div class="d">Reuters（8/13）等多源确认 8/12–13 起接单；约 43 美元/月、4 网关、60 万上限、试点至 2031。后续节点待核。来源：Reuters 等（锚点延续）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">11</span> <span class="k k-mid">🟡 中</span> <span class="pr p1c">P1</span> · 🇹🇭 泰国 · 发射</div>
+    <div class="t">Thaicom 9 发射推迟至 2027/3，ITU 10 月裁决 119.5°E</div>
+    <div class="d">Astranis 电源异常波及 5 颗微 GEO；ITU 无线电规则委员会 10 月会议裁决轨位存续。来源：Advanced Television / Space Intel Report（真实检索）。</div>
+  </div>
+  <div class="card">
+    <div class="ct"><span class="rk">12</span> <span class="k k-new">🆕 新</span> <span class="pr p1c">P1</span> · 🇮🇩 印尼 · 导航</div>
+    <div class="t">北斗天芯 INFOX 亮相 INTI 2026 雅加达</div>
+    <div class="d">GNSS 抗干扰/抗欺骗方案首秀印尼最大 B2B 科技展（BRIN 主办），中国北斗生态企业出海前哨信号。来源：北斗天芯官网 / INTI 2026（8-11）。</div>
+  </div>
+</div>
+
+<h2>本周六国 × 四领域活跃度矩阵</h2>
+<p class="d" style="color:var(--sub);font-size:12.5px;margin-top:-4px;">单元格汇总本周该格最高热度：● 高 / ● 中 / ● 低（暂无）。标「⚠待核」者为锚点延续稿，非当期新增检索结论。</p>
+<table class="mtx">
+  <thead>
+    <tr><th>国家 ＼ 领域</th><th>🛰 卫星通信</th><th>🧭 导航(GNSS/北斗)</th><th>🌍 遥感</th><th>🚀 发射与卫星</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="rowh">🇻🇳 越南</td><td class="c">● 高⚠待核</td><td class="n">● 中⚠待核</td><td class="r">● 高⚠待核</td><td class="l">● 中⚠待核</td></tr>
+    <tr><td class="rowh">🇰🇭 柬埔寨</td><td class="c">● 中⚠待核</td><td class="n">● 高⚠待核</td><td class="r">● 高⚠待核</td><td class="l">● 中⚠待核</td></tr>
+    <tr><td class="rowh">🇹🇭 泰国</td><td class="c">● 高</td><td class="n">● 高</td><td class="r">● 高</td><td class="l">● 高</td></tr>
+    <tr><td class="rowh">🇲🇾 马来西亚</td><td class="c">● 高</td><td class="n">● 中</td><td class="r">● 高</td><td class="l">● 中</td></tr>
+    <tr><td class="rowh">🇮🇩 印尼</td><td class="c">● 高</td><td class="n">● 中</td><td class="r">● 高</td><td class="l">● 中</td></tr>
+    <tr><td class="rowh">🇸🇬 新加坡</td><td class="c">● 中⚠待核</td><td class="n">● 低（暂无）⚠待核</td><td class="r">● 高⚠待核</td><td class="l">● 中⚠待核</td></tr>
+  </tbody>
+</table>
+
+<h2>分国别高热度回顾</h2>
+
+<div class="sec">
+  <h3>🇻🇳 越南（076 · 10-12 · 锚点延续待核）</h3>
+  <div class="it r"><div class="tt">① 台风「博罗依」重创北中部（🔴 P0）</div><div class="ds">9/29–30 登陆河静—义安，UN OCHA 10/01 初报 36 死、15.4 万+ 房屋受损；最终数待越南官方通报，本期网络中断未复核（维持 070 锚点）。</div></div>
+  <div class="it c"><div class="tt">② Starlink 越南商用上线（🔴 P0）</div><div class="ds">Reuters 8/13 多源确认 8/12–13 起接单；约 43 美元/月、4 网关、60 万上限（维持 070 锚点，待核）。</div></div>
+</div>
+
+<div class="sec">
+  <h3>🇰🇭 柬埔寨（077 · 10-13 · 锚点延续待核）</h3>
+  <div class="it l"><div class="tt">① 五年国家航天计划拟自研 EO 卫星（🔴 P0）</div><div class="ds">部长谢万迪株洲峰会表态（三源），计划全文未公开，按「官方意向」口径（维持 061 锚点）。</div></div>
+  <div class="it r"><div class="tt">② 湄公河洪水链 + 北斗应急「生命通道」（🔴 P0）</div><div class="ds">NCDM 四省 1.37 万户受灾、4,000+ 公顷稻田被淹；北斗短报文被定性「生命通道」（维持 061 锚点，9/22 后演进待核）。</div></div>
+</div>
+
+<div class="sec">
+  <h3>🇹🇭 泰国（078 · 10-14 · 真实检索）</h3>
+  <div class="it r"><div class="tt">① 中部大洪灾 GISTDA 卫星监测 45 省 / 512 万莱（🔴 P0）</div><div class="ds">9/28–10/4 全国 45 省淹水逾 512 万莱；DDPM 10/13 仍在涝 20 省+曼谷 / 245 万人。卫星遥感实战全面铺开，更正 071 期「10 月洪水回落」误判。</div></div>
+  <div class="it n"><div class="tt">② 北斗应用写入泰中 15 项协议（🔴 P0）</div><div class="ds">Anutin 访华签署 15 项协议含「中国北斗卫星导航系统应用」，首个双边政府层级北斗应用官方背书。</div></div>
+</div>
+
+<div class="sec">
+  <h3>🇲🇾 马来西亚（079 · 10-15 · 真实检索）</h3>
+  <div class="it r"><div class="tt">① 副总理扎希德访华求中国卫星气象预警（🔴 P0）</div><div class="ds">10/14 起访华（至 10/16），寻求引进中国卫星基气象预报技术应对东北季风洪灾，拟签双边灾害管理协议（含技术转让）。</div></div>
+  <div class="it l"><div class="tt">② PSPJN 自主 EO 星 2028 末 / 2029（🟡 P1）</div><div class="ds">MYSA 重申 PPP 实施国家遥感卫星发展计划，目标 2028 末/2029 发射，保障技术主权。</div></div>
+</div>
+
+<div class="sec">
+  <h3>🇮🇩 印尼（080 · 10-16 · 真实检索）</h3>
+  <div class="it r"><div class="tt">① 林火酿「11 年来最严重」跨境烟霾（🔴 P0）</div><div class="ds">截至 10/10 全国 793 火点，中/西/南加里曼丹 360；跨境冲击马来、新加坡、菲律宾。本轮跨境烟霾链源头（054→058→064→069→080 连续追踪）。</div></div>
+  <div class="it c"><div class="tt">② Starlink 边境 Miangas 203 户配设备（🔴 P0）</div><div class="ds">普拉博沃视察最北边境岛，180 台调制解调器+210 部手机，Telkomsel 协同，3T 地区持续铺开。</div></div>
+</div>
+
+<div class="sec">
+  <h3>🇸🇬 新加坡（081 · 10-17 · 锚点延续待核）</h3>
+  <div class="it r"><div class="tt">① 跨境烟霾季末状态待核：末次核实 9/19 中部 PSI 107（🔴 P0 资产）</div><div class="ds">9 月「五国连续跟踪同一烟霾系统」是可交付连续性证据；10 月最新 PSI/火点因网络中断未核实，9/19 读数作末次锚点（维持 058/074 锚点）。</div></div>
+  <div class="it r"><div class="tt">② NSAS 下一代国家 EO 星指向地面沉降/森林健康/作物生长（🔴 背景资产）</div><div class="ds">2027 年中新总部启用、多机构卫星运作中心；作物生长列入下一代目标，面向区域数据服务输出（背景锚点）。</div></div>
+</div>
+
+<h2>🧭 周度 BD 优先级（P0 / P1 / P2）</h2>
+<div class="bdlist">
+  <li><span class="tagp0">P0（本周重点跟进）</span><br>
+    <b>① 泰国洪灾遥感应急包</b>：Sentinel-1 SAR 快视 + 地块级灾损评估对接 DDPM / 农业水利部门（078）。<br>
+    <b>② 泰国北斗 15 项协议落地窗口</b>：借 Anutin 访华东风，以香港平台「数据本地留存 + 中立合规节点」切入，优先对接 GISTDA（078）。<br>
+    <b>③ 泰国卫星定损保险科技</b>：推「卫星影像 + 灾损模型」方案，复制至东盟洪涝多国（078）。<br>
+    <b>④ 印尼跨境烟霾遥感应急包 +《2026 跨境烟霾区域监测实录》</b>：48h 内出能力说明至 BNPB / KLHK / ASMC，把连续多国追踪固化为「区域连续性」产品线（080）。<br>
+    <b>⑤ 印尼 Starlink 边境/远岛补位</b>：避开零售红海，切入企业 backhaul、行业专网与运维集成（080）。<br>
+    <b>⑥ 马来西亚扎希德卫星气象预警（副总理级）</b>：即刻跟进「洪灾早期预警卫星数据服务」方案，对接 NADMA 与 MetMalaysia（079）。<br>
+    <b>⑦ 越南博罗依灾害遥感（待核锚点）</b>：网络恢复后复核官方最终灾损数，对接 VNSC / MARD（076）。<br>
+    <b>⑧ 柬埔寨首单方案拍板（待核锚点）</b>：五年航天计划 + 自研 EO 卫星已有部长级需求背书，地面段+数据管线+培训三件套（077）。
+  </li>
+  <li><span class="tagp1">P1（择机切入）</span><br>
+    <b>泰国</b>：Thaicom 9 / ITU 10 月裁决跟踪（轨位若保住，Gulf Space 地面段外包窗口）；THEOS-3 高分补位（078）。<br>
+    <b>马来西亚</b>：PSPJN 数据补位 + 地面站运维；北斗创新基地（香港中立节点）；东盟空间治理标准对接（079）。<br>
+    <b>印尼</b>：北斗天芯出海渠道对接（抗干扰/农机/测绘高精度）；独立第三方可审计火监测；Amazon Leo 入市卡位（080）。<br>
+    <b>新加坡</b>：接洽 Global Invacom 印尼团队（地面段互补）；以「赤道带作物/森林监测」切入 NSAS；港口海事高精度导航（081）。
+  </li>
+  <li><span class="tagp2">P2（观察 / 跟踪）</span><br>
+    泰国数字主权合规架构（51% 泰资 + 数据本地化）、嫦娥七号/月球载荷（推迟 2027）；越南 VinSpace 2027 首星窗口；柬埔寨 Starlink Mobile 观察；新加坡 NeuSAR-2（2027）纳入数据源规划；千帆×MEASAT 维持「MoU 无商用」（✱  Anchor）。
+  </li>
+</div>
+
+<footer>
+  <span>ASEAN SAT. WEEKLY · 第 082 期</span>
+  <span>生成时间：2026-10-18 21:30 (GMT+8)</span>
+  <span>监测周期：2026-10-12 ～ 2026-10-18</span>
+  <span>出品：<b>Astrolink</b>（明华科技集团 · 香港 Astrolink BD）</span>
+  <span>归档：sea-sat-archive / issues / 2026-10-18.html</span>
+  <span>备注：076/077/081 为网络中断锚点延续（待核）；082 汇总本周 6 期轮值日报</span>
+</footer>
+
+</div>
+</body>
+</html>
