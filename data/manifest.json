@@ -3,6 +3,28 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-19",
+      "issue_no": "083",
+      "title": "越南：Starlink 谅山/海防海岛实际落地、VinSpace×SpaceX 2027 主权卫星首发协议、LOTUSat-1 待发（网传已发射系误传）",
+      "tags": [
+        "越南",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "海防",
+        "谅山",
+        "VinSpace",
+        "SpaceX",
+        "LOTUSat",
+        "VNSC",
+        "博罗依"
+      ],
+      "file": "issues/2026-10-19.html"
+    },
+    {
       "date": "2026-10-18",
       "issue_no": "082",
       "title": "周回顾 082：泰国洪灾遥感实战、印尼11年最严重烟霾、马来西亚副总理级求中国卫星预警、北斗写入泰中15项协议",
