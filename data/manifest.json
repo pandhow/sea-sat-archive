@@ -3,6 +3,27 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-20",
+      "issue_no": "084",
+      "title": "柬埔寨轮值：拟制定国家空间政策与五年航天计划（EO为核心）；柬日航天合作（JAXA/JETRO+48硕博奖学金）；部长赴北斗峰会、星链仍禁、遥感能力体系建设",
+      "tags": [
+        "柬埔寨",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "国家航天计划",
+        "星链",
+        "Chea Vandeth",
+        "EO卫星",
+        "柬日合作",
+        "JAXA",
+        "银河航天"
+      ],
+      "file": "issues/2026-10-20.html"
+    },
+    {
       "date": "2026-10-19",
       "issue_no": "083",
       "title": "越南：Starlink 谅山/海防海岛实际落地、VinSpace×SpaceX 2027 主权卫星首发协议、LOTUSat-1 待发（网传已发射系误传）",
