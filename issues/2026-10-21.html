@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="archive-title" content="泰国洪灾扩至50省583万人80死，GISTDA卫星监测支撑决策；Thaicom 9与嫦娥七号均推迟2027，NBTC轨位议程待补料">
+<meta name="archive-tags" content="泰国,卫星通信,导航,北斗,遥感,发射,洪灾,GISTDA,Thaicom 9,嫦娥七号,NBTC,TSX 2026">
+<title>东南亚卫星产业动态 · 第 085 期</title>
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65;font-size:15px;}
+.wrap{max-width:860px;margin:0 auto;padding:28px 20px 56px;}
+header{background:linear-gradient(135deg,#1b2440,#2c3a63);color:#fff;border-radius:18px;padding:26px 22px;box-shadow:0 8px 24px rgba(27,36,64,.18);}
+.tag{display:inline-block;font-size:12px;letter-spacing:.12em;background:rgba(255,255,255,.14);padding:4px 10px;border-radius:999px;margin-bottom:12px;color:#ffe9b8;}
+h1{font-size:26px;margin:6px 0 4px;font-weight:800;color:#fff;}
+.sub-title{color:#cdd6ec;font-size:14px;margin:2px 0 14px;}
+.meta{font-size:12.5px;color:#bcc6e0;display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:8px;}
+.meta b{color:#ffe9b8;font-weight:600;}
+.section-title{margin:30px 0 12px;}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:14px 0 8px;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 2px 8px rgba(27,36,64,.05);}
+.card .sm{font-size:12px;color:var(--sub);}
+.card h3{margin:6px 0 6px;font-size:15.5px;color:var(--txt);}
+.card p{margin:4px 0 0;font-size:13px;color:var(--sub);}
+.badge{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;color:#fff;}
+.b-hi{background:var(--hi);} .b-mid{background:var(--mid);} .b-new{background:var(--com);} .b-lo{background:var(--lo);}
+.progress{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px;}
+.progress span{flex:1 1 auto;min-width:74px;text-align:center;font-size:12.5px;padding:8px 4px;border-radius:10px;background:var(--panel);border:1px solid var(--line);color:var(--sub);}
+.progress span.on{background:var(--launch);color:#fff;border-color:var(--launch);font-weight:700;box-shadow:0 4px 12px rgba(232,131,58,.35);}
+.progress span.miss{background:#fbeaea;color:var(--hi);border-color:#f3c0c0;text-decoration:line-through;}
+.heat{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0;}
+.heat div{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:12px 10px;text-align:center;}
+.heat .lab{font-size:12.px;color:var(--sub);}
+.heat .val{font-size:15px;font-weight:700;margin-top:4px;}
+.heat .hi{color:var(--hi);} .heat .mid{color:var(--mid);} .heat .lo{color:var(--lo);}
+h2{font-size:20px;margin:30px 0 10px;padding-left:12px;border-left:6px solid var(--com);}
+h2.nav{border-left-color:var(--nav);} h2.rs{border-left-color:var(--rs);} h2.launch{border-left-color:var(--launch);}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:14px;margin:12px 0;overflow:hidden;box-shadow:0 2px 8px rgba(27,36,64,.05);}
+.item .bar{height:6px;}
+.bar.com{background:var(--com);} .bar.nav{background:var(--nav);} .bar.rs{background:var(--rs);} .bar.launch{background:var(--launch);}
+.item .inner{padding:16px;}
+.item h3{margin:0 0 6px;font-size:16px;color:var(--txt);}
+.item .info{font-size:12.5px;color:var(--sub);margin-bottom:8px;display:flex;flex-wrap:wrap;gap:6px 12px;}
+.item .info .heat-tag{font-weight:700;}
+.heat-hi{color:var(--hi);} .heat-mid{color:var(--mid);} .heat-lo{color:var(--lo);}
+ul.pts{margin:8px 0 0;padding-left:18px;color:var(--txt);}
+ul.pts li{margin:4px 0;font-size:14px;}
+.biz{background:rgba(176,127,18,.12);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:10px 12px;margin:10px 0 0;font-size:13.5px;color:var(--txt);}
+.biz b{color:var(--gold);}
+.bd-list{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:12px 0;}
+.bd-list ol{margin:6px 0 0;padding-left:20px;}
+.bd-list li{margin:8px 0;font-size:14px;color:var(--txt);}
+.p0{color:var(--hi);font-weight:700;} .p1{color:var(--mid);font-weight:700;} .p2{color:var(--nav);font-weight:700;}
+.note{background:#fff7e6;border:1px solid #f0d9a8;border-radius:12px;padding:12px 14px;margin:12px 0;font-size:13.5px;color:var(--txt);}
+footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--sub);text-align:center;line-height:1.8;}
+a{color:#1a4db5;text-decoration:underline;}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">ASEAN SAT. DAILY · 第 085 期</span>
+  <h1>东南亚卫星产业动态</h1>
+  <div class="sub-title">今日轮值：🇹🇭 泰国（Wednesday Rotation）</div>
+  <div class="meta">
+    <span>监测周期：<b>2026-10-14 ~ 2026-10-21</b></span>
+    <span>轮值国：<b>泰国</b></span>
+    <span>领域：<b>卫星通信 / 导航(GNSS·北斗) / 遥感 / 发射与卫星</b></span>
+    <span>出品：<b>Harry 🎩 for 明华 · Astrolink BD</b></span>
+  </div>
+</header>
+
+<div class="note">
+  ⚠️ <b>断档提示（挂账）</b>：历史挂账 —— 2026-10-06（上周二·柬埔寨轮值，原拟 071 期）自动化未触发、归档缺失，由 075 周回顾首次标断档，077/084 期持续标注。本期为即时轮值无新增断档；上期 084（2026-10-20 柬埔寨）在位。
+</div>
+
+<h2 class="section-title">本期核心看点</h2>
+<div class="cards">
+  <div class="card">
+    <span class="badge b-hi">🔴 高</span>
+    <h3>洪灾扩至 50 省 583 万人 80 死</h3>
+    <p class="sm">遥感·灾害 — GISTDA 卫星监测成国家决策数据源；Bang Pakong 超 2013 年水平，排水估至 11/13</p>
+  </div>
+  <div class="card">
+    <span class="badge b-hi">🔴 高</span>
+    <h3>NBTC 10/21 特别会议：THAICOM-IP1 轨位许可退回补料</h3>
+    <p class="sm">通信·牌照 — 办公室资料为 2026/7/31 前数据，119.5°E 轨位议程再议；同期批准赴 ITU PP-26（多哈）</p>
+  </div>
+  <div class="card">
+    <span class="badge b-hi">🔴 高</span>
+    <h3>嫦娥七号官方确认推迟 2027</h3>
+    <p class="sm">发射·深空 — 长征五号遥十四/探月任务；泰 MATCH 载荷（NARIT×Mahidol）未飞，无反向矛盾</p>
+  </div>
+  <div class="card">
+    <span class="badge b-hi">🔴 高</span>
+    <h3>Thaicom 9（Astranis Block3）锁定 2027 发射</h3>
+    <p class="sm">发射·通信 — MicroGEO 400kg / Falcon 9；ITU 多哈会议成 119.5°E 轨位裁决窗口</p>
+  </div>
+  <div class="card">
+    <span class="badge b-mid">🟡 中</span>
+    <h3>泰国太空博览会 TSX 2026（10/28-31）开幕前瞻</h3>
+    <p class="sm">遥感·产业 — GISTDA 主办、APRSAF-32 同期，定位「东南亚航天枢纽」</p>
+  </div>
+  <div class="card">
+    <span class="badge b-mid">🟡 中</span>
+    <h3>OneWeb / Starlink / GST 泰国 LEO-GEO 格局</h3>
+    <p class="sm">通信·竞争 — Starlink 入泰仍卡外资限制；OneWeb 消费套餐拟 2027 初、GST 已商用</p>
+  </div>
+</div>
+
+<h2 class="section-title">本周轮值进度</h2>
+<div class="progress">
+  <span>一·越南</span>
+  <span>二·柬埔寨（缺失）</span>
+  <span class="on">三·泰国</span>
+  <span>四·马来西亚</span>
+  <span>五·印尼</span>
+  <span>六·新加坡</span>
+  <span>日·回顾</span>
+</div>
+
+<h2 class="section-title">轮值国四领域活跃度</h2>
+<div class="heat">
+  <div><div class="lab">卫星通信</div><div class="val hi">● 高</div></div>
+  <div><div class="lab">导航(GNSS/北斗)</div><div class="val mid">● 中</div></div>
+  <div><div class="lab">遥感</div><div class="val hi">● 高</div></div>
+  <div><div class="lab">发射与卫星</div><div class="val hi">● 高</div></div>
+</div>
+
+<!-- ============ 卫星通信 ============ -->
+<h2>▎卫星通信</h2>
+
+<div class="item">
+  <div class="bar com"></div>
+  <div class="inner">
+    <h3>NBTC 第四次特别会议：THAICOM-IP1 轨位许可议程因资料过时退回补料</h3>
+    <div class="info">
+      <span class="src">来源：泰国中文社（腾讯新闻）10/21 推送</span>
+      <span>日期：2026-10-21</span>
+      <span class="heat-tag heat-hi">🔴 热度：高</span>
+    </div>
+    <ul class="pts">
+      <li>六名委员审议 6 项议程，通过 4 项；<b>THAICOM-IP1 卫星轨道使用许可议程因委员指出办公室所用资料为 2026/7/31 之前数据，要求汇总最新资料后再议</b>。</li>
+      <li>批准泰国代表团参加 <b>ITU PP-26 全权代表大会（多哈，11/9–27）</b>，由警察中将纳塔蓬·帕拉孙通任团长。</li>
+      <li>批准洪灾地区电信用户纾困：预付卡延长至少 7 天使用期、后付费延期 7 天缴费。</li>
+      <li>主席职位争议持续（遴选委员会裁定颂拉不具备委员资格，行政法院 9/25 驳回其撤销请求），治理僵局未解。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：THAICOM-IP1 直指 IPSTAR（TC-4）119.5°E 轨位，与 062 期特许经营资产索赔案、Thaicom 9 轨位争夺为同一链条。GST（原 Thaicom）地面系统本地化需求明确，明华/Astrolink 可定位为「合规地面段 + 轨位协调」轻资产伙伴；但 NBTC 审批节奏不可预期，项目排期须留缓冲（呼应 062 期教训）。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar com"></div>
+  <div class="inner">
+    <h3>泰国 LEO-GEO 宽带格局：OneWeb 消费套餐拟 2027 初，Starlink 仍卡外资限制</h3>
+    <div class="info">
+      <span class="src">来源：KaoHoon International（KKPS 研报）/ NT 官网</span>
+      <span>日期：2026-10（月内）</span>
+      <span class="heat-tag heat-mid">🟡 热度：中</span>
+    </div>
+    <ul class="pts">
+      <li><b>OneWeb</b> 经 NT 以 nexConnect 品牌，2025/12 推企业/政府宽带；消费套餐计划 2027 初，50 Mbps / THB 9,200 / 月（50GB 流量）。</li>
+      <li><b>Amazon Leo</b> 经 GST 合作引入泰国，无商用发布日期；<b>Starlink 入泰仍不确定（外资持股限制为潜在障碍）</b>。</li>
+      <li><b>GST（原 Thaicom）</b> GEO 宽带 THB 3,900 / 月、20 Mbps，比 OneWeb 便宜但更慢；光纤（ADVANC/TRUE 500 Mbps / ~THB 1,900）仍主导，卫星宽带目标为光纤未覆盖的约 20% 家庭及备份连接。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：Starlink 卡壳 + OneWeb 高价慢速 = 中端合规 LEO 落地存在窗口。明华可作「合规 LEO 落地 + 地面段运营」轻资产伙伴，避免与 GST/NT 正面冲突；NBTC 10/21 研讨会「D2D 直连卫星灾害韧性」专题是切入叙事。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar com"></div>
+  <div class="inner">
+    <h3>NBTC 2026 国际研讨会聚焦灾害韧性，D2D 卫星连接成专题</h3>
+    <div class="info">
+      <span class="src">来源：泰国中文社（腾讯新闻）10/21 推送</span>
+      <span>日期：2026-10-21</span>
+      <span class="heat-tag heat-mid">🟡 热度：中</span>
+    </div>
+    <ul class="pts">
+      <li>研讨会设「通过 D2D 卫星连接实现灾害韧性」讨论，亚太空间合作组织（APSCO）项目运营与数据服务部主任 Tatiya Chuentrakul、中国信通院高级工程师、北邮教授结合中国经验谈手机直连卫星在灾害应对中的应用。</li>
+      <li>同步讨论无人机危机应对、AI 治理与数据主权（联合国亚太经社会执秘视频致辞）。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：D2D 直连卫星灾害场景升温，与本期洪灾（50 省）形成强耦合。明华可将「灾害应急直连卫星 + GISTDA 遥感」打包成政府/应急封闭场景方案，契合泰国数据主权叙事（香港平台作中立合规节点）。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar com"></div>
+  <div class="inner">
+    <h3>Gulf Space（原 Thaicom）更名落地二次确认</h3>
+    <div class="info">
+      <span class="src">来源：APSCC 官网（Thaicom 官方新闻稿）</span>
+      <span>日期：2026-09-17 更名 / 09-28 GST 交易 / 10-06 报道</span>
+      <span class="heat-tag heat-mid">🟡 热度：中（维持 078 期口径）</span>
+    </div>
+    <ul class="pts">
+      <li>Thaicom Public Company Limited 于 2026-09-17 正式更名 Gulf Space Technology Public Company Limited，09-28 起以新代码 <b>GST</b> 在 SET 交易（延续 078 期）。</li>
+      <li>业务含 iPSTAR 终端销售、宽带内容、卫星上下行、卫星咨询与工程开发，服务政府/企业/运营商。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：GST 品牌/法律实体已切换，合作对接主体名义变化须同步更新（一线 BD 合同与对外口径用 Gulf Space / GST，非 Thaicom）。</div>
+  </div>
+</div>
+
+<!-- ============ 导航 ============ -->
+<h2 class="nav">▎导航（GNSS/北斗）</h2>
+
+<div class="item">
+  <div class="bar nav"></div>
+  <div class="inner">
+    <h3>泰中 15 项协议含北斗（存量协议，本期无独立新增官方动态）</h3>
+    <div class="info">
+      <span class="src">来源：Krungthep Turakij / The Nation（Anutin 访华 7 月签署）</span>
+      <span>日期：2026-07（存量延续 078 期）</span>
+      <span class="heat-tag heat-lo">⚪ 热度：低（本期无新增，存量协议）</span>
+    </div>
+    <ul class="pts">
+      <li>泰中两国总理见证签署 15 份协议/MoU，涵盖高教、产业链、AI、知识产权、核聚变、公共卫生、<b>北斗卫星导航系统</b>、反洗钱、水产品出口、媒体、水资源管理与深空探测。</li>
+      <li>本期（10/14–10/21）泰国侧无独立新增北斗/GNSS 官方落地动态，据实标注低热度；GISTDA 自 2013 部署北斗演示系统、2020 实现北斗三号全面组网为存量背景。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：北斗写入泰中高层协议是政策挂靠锚点，一线 BD 等待具体落地项目信号（如泰国本地化平台、行业应用示范）；保持跟踪，不误判为已商用。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar nav"></div>
+  <div class="inner">
+    <h3>JICA TIGORS 二期高精度定位商业化 + 区域市场背景（维持跟踪）</h3>
+    <div class="info">
+      <span class="src">来源：东南亚卫星导航增强市场报告（2026）/ 往期 TIGORS 说明会</span>
+      <span>日期：—（无本周新增）</span>
+      <span class="heat-tag heat-lo">⚪ 热度：低（无新增）</span>
+    </div>
+    <ul class="pts">
+      <li>JICA TIGORS 二期（2026）由 GISTDA 牵头高精度定位数据商业化，NCDC 免费改正数据（9/11 企业试验说明会，延续往期）。</li>
+      <li>2026 东南亚导航增强市场约 45 亿美元、CAGR 18.5%；泰国因地势平坦侧重「广域连续覆盖」增强网络（对比印尼混合增强、新马港口/无人驾驶商业化）。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：泰国高精度定位处基础设施铺设期，明华可评估「北斗增强 + 农业/水利精度定位」轻量合作，但须等 TIGORS 二期商业化节点，本期不推进。</div>
+  </div>
+</div>
+
+<!-- ============ 遥感 ============ -->
+<h2 class="rs">▎遥感</h2>
+
+<div class="item">
+  <div class="bar rs"></div>
+  <div class="inner">
+    <h3>🔴 洪灾扩至 50 省 + 曼谷，583 万人受灾、80 死；GISTDA 卫星监测成决策核心</h3>
+    <div class="info">
+      <span class="src">来源：AHA Centre / ReliefWeb（ASEAN Weekly Week 42）、DDPM、Nation Thailand、The Star、GISTDA</span>
+      <span>日期：2026-10-19 ~ 10-21</span>
+      <span class="heat-tag heat-hi">🔴 热度：高</span>
+    </div>
+    <ul class="pts">
+      <li><b>灾情范围与伤亡显著升级</b>：自 9/16 洪灾已扩至 <b>50 省 + 曼谷</b>；截至 10/19 06:00，<b>1,897,828 户 / 5,839,856 人受灾、80 人死亡</b>；仍在涝 22 省 + 曼谷，约 604K 户 / 1.8M 人，水位全线回落。死亡集中：Prachin Buri 26、Chachoengsao 7–8、Nakhon Nayok 6、Suphan Buri 5、Bangkok 4。</li>
+      <li><b>GISTDA 卫星监测支撑国家决策</b>：Bang Pakong 流域 10/4 受影响约 <b>161 万莱（超 2013 年 155 万莱）</b>，峰值水位 4.93m（2013 年 4.82m）；ONWR 推算排水需约 38 天、回归正常约 <b>2026-11-13</b>。素攀武里 2.3 万莱（10/6）、巴真武里 50 万莱（10/6）由 GISTDA 卫星影像判读。</li>
+      <li><b>回落中仍有风险</b>：10/20 降至 19 省 + 曼谷（450,944 户 / 1,367,191 人），10/21 The Star 报 19 省 + 曼谷 2 区 122 万人；TMD 预报 <b>10/21–25 仍有强降雨</b>（下游东北/中部/曼谷/东部/南部上游），山洪、径流、滑坡风险。</li>
+      <li>⚠️ <b>相邻期次校验</b>：078 期（10/14）报 DDPM 10/13 仍在涝 20 省 + 曼谷 / 245 万人 → 本期 10/19 报 50 省全境 / 583 万人 / 80 死，为<b>范围与伤亡正向升级（非逆转）</b>，水位回落趋势一致；显式标注「078 已报初步涝情 → 本期为全境范围与伤亡升级」。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（明华 / Astrolink）</b>：<b>P0</b> —— GISTDA 卫星监测已是泰国洪水决策数据源（Bang Pakong 超 2013、50 省 583 万人），明华可递「SAR 快速成像 + 洪水淹没范围产品 + 保险参数化定损」方案给 DDPM / GISTDA / ONWR；复用海垦地块级经验做「泰国洪灾遥感快速响应模板」。⚠️ 须以 DDPM 每日 06:00 更新核实最终伤亡与范围，重大合作建议以官方与一线 BD 双核实。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar rs"></div>
+  <div class="inner">
+    <h3>泰国太空博览会 TSX 2026（10/28–31 ICONSIAM）开幕前瞻，GISTDA 主办</h3>
+    <div class="info">
+      <span class="src">来源：泰国中文社 10/20、SpaceNews、Khaosod、Satellogic</span>
+      <span>日期：2026-10-20 / 展期 10-28~31</span>
+      <span class="heat-tag heat-mid">🟡 热度：中（前瞻）</span>
+    </div>
+    <ul class="pts">
+      <li>GISTDA 主办，与 <b>APRSAF-32（第 32 届亚太空间机构论坛，10/27–30）</b>及第 10 届全球月球村研讨会同期，定位「泰国成为东南亚航天枢纽」。</li>
+      <li>展示火箭/卫星真实部件、遥感与 GIS、卫星通信、精准农业、环境监测、灾害响应系统；含碳信用评估、水/蓝/绿经济新兴机会；设日本宇航员交流环节。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：<b>P1</b> —— TSX 2026 是明华/Astrolink 低成本对接 GISTDA 与东南亚航天枢纽生态的窗口；准备「香港平台 + 数据合规 + 灾害遥感」三件套参展/参会，建立 GISTDA 决策链接口（呼应 078 期「水资源一张图」三处接口经验）。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar rs"></div>
+  <div class="inner">
+    <h3>THEOS-3 国产星工程模型到位，1–2 月内重大评审（维持 078 期口径）</h3>
+    <div class="info">
+      <span class="src">来源：TNA（泰国国家通讯社，往期）</span>
+      <span>日期：—（无本周新增）</span>
+      <span class="heat-tag heat-mid">🟡 热度：中（维持）</span>
+    </div>
+    <ul class="pts">
+      <li>基于 THEOS-2A/SSTL 架构自研，四台中分辨率相机、幅宽约 20km、重访 2 天→1 天；本地化率 >20%（原目标 10%），预算 3–4 亿泰铢。</li>
+      <li>工程模型（EM）已到位、地面功能测试进行中，<b>1–2 个月内进入重大评审与硬件验收</b>，其后系统整合与飞行模型总装（2027 年）。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：THEOS-3 留「地块级高分 + 分析层」外部空间（其主相机主动放弃超高分），明华可作高分数据补位订阅方；维持 078 期「卖季度数据补位而非整星」判断。</div>
+  </div>
+</div>
+
+<!-- ============ 发射与卫星 ============ -->
+<h2 class="launch">▎发射与卫星</h2>
+
+<div class="item">
+  <div class="bar launch"></div>
+  <div class="inner">
+    <h3>嫦娥七号官方确认推迟 2027，泰 MATCH 载荷未飞（延续保守口径，无反向矛盾）</h3>
+    <div class="info">
+      <span class="src">来源：thespacewiki、SpaceNexus Launch slips、NARIT（多源）</span>
+      <span>日期：2026-08 ~ 10（状态更新至 10 月）</span>
+      <span class="heat-tag heat-hi">🔴 热度：高（航天里程碑）</span>
+    </div>
+    <ul class="pts">
+      <li><b>官方否定结论</b>：2026-08-23（窗口开启前一日）CNSA 宣布任务不满足发射条件、当年窗口取消；长征五号遥十四火箭 08-26 从发射台滚回总装厂房；NARIT 08-24 称推迟至 <b>2027</b>（台风纳拉 + Shackleton 着陆点光照条件 2026 年已无法满足）。</li>
+      <li>型号官方名：<b>长征五号遥十四 / 探月任务</b>（非「深空任务」）；目标 Shackleton 陨石坑 illuminated rim，由鹊桥二号中继。</li>
+      <li><b>泰 MATCH 载荷</b>（NARIT×Mahidol，ILRS 国际月球科研站）为 7 国合作载荷之一，<b>未随本次发射飞往月球</b>；载荷无易损部件、保持待飞状态。</li>
+      <li>⚠️ <b>相邻期次校验</b>：078 期已据官方通稿标「不满足发射条件、推迟 2027」，本期 thespacewiki / SpaceNexus 多源确认 2027，<b>无反向矛盾</b>；严禁写「已发射」。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：MATCH 载荷合作窗口后移至 2027，维持跟踪不误判；中泰空间科学合作（NARIT×中方）态势良好，可作「香港平台 + 科研数据合规」中长期叙事，但本期无商业签约信号。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar launch"></div>
+  <div class="inner">
+    <h3>Thaicom 9（Astranis Block3）锁定 2027 发射，ITU 多哈会议成 119.5°E 裁决窗口</h3>
+    <div class="info">
+      <span class="src">来源：Polaris Intelligence、SpaceNexus、NBTC</span>
+      <span>日期：2026-10（状态更新）</span>
+      <span class="heat-tag heat-hi">🔴 热度：高</span>
+    </div>
+    <ul class="pts">
+      <li>Polaris Intelligence 确认 <b>Thaicom-9（Astranis Block3 MicroGEO，400kg，泰国，Falcon 9，发射可能性 4.05/5）目标 2027</b>；同批次含沙特 stc、阿曼 MB Group、中华电信等。</li>
+      <li><b>119.5°E 轨位</b>为关键：NBTC 10/21 将 THAICOM-IP1 轨道许可议程退回补料，<b>ITU PP-26 全权代表大会（多哈 11/9–27）</b>是后续轨位协调与裁决窗口（呼应 062/078 期 119.5°E 争夺）。</li>
+      <li>Astranis Block3 因 Block2 电推故障推迟，换供应商后目标 2027；服务启动时约 20% 利用率、盈亏平衡需 60–70%。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：<b>P0</b> —— Thaicom 9 轨位窗口与 GST（原 Thaicom）地面系统本地化需求叠加，明华可作 Astranis/GST 的「泰国地面段 + 合规落地」伙伴；须紧盯 NBTC 11 月多哈会议裁决节奏，避免正面触碰在办资产争议。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar launch"></div>
+  <div class="inner">
+    <h3>泰国太空港 / 赤道射场仍为可行性研究（维持）</h3>
+    <div class="info">
+      <span class="src">来源：往期（泰国太空港 Action Plan / TSX 展示「可能泰国太空港」野心）</span>
+      <span>日期：—（无本周新增审批）</span>
+      <span class="heat-tag heat-lo">⚪ 热度：低（维持）</span>
+    </div>
+    <ul class="pts">
+      <li>国家航天政策委员会 Action Plan 上参议院（PPP + 赤道省燃 20%）仍处可行性阶段；TSX 2026 展示「可能泰国太空港」国家雄心，但无新审批进展。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联（Astrolink）</b>：射场为远期议题，本期不推进；维持「地面段 + 数据管线」轻资产切入点判断。</div>
+  </div>
+</div>
+
+<!-- ============ BD 衔接建议 ============ -->
+<h2 class="section-title">🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+<div class="bd-list">
+  <ol>
+    <li><span class="p0">P0</span> <b>泰国洪灾灾害遥感包</b>：GISTDA 卫星监测已是国家决策数据源（Bang Pakong 超 2013、50 省 583 万人、80 死），明华递「SAR 快速成像 + 洪水淹没范围产品 + 保险参数化定损」给 DDPM/GISTDA/ONWR；复用海垦地块级经验做「泰国洪灾遥感快速响应模板」。⚠️ 以 DDPM 每日 06:00 更新核实最终伤亡与范围。</li>
+    <li><span class="p0">P0</span> <b>Thaicom 9 / 119.5°E 轨位窗口</b>：ITU 多哈会议（11/9–27）是 THAICOM-IP1 轨位许可裁决节点，明华地面段/地面系统能力可作 GST（原 Thaicom）或 Astranis 本地化伙伴切入点；注意合规（外资限制、NBTC 审批节奏不可预期）。</li>
+    <li><span class="p1">P1</span> <b>TSX 2026 设展/参会（10/28–31）</b>：GISTDA 主办、APRSAF-32 同期，是明华/Astrolink 对接 GISTDA 与东南亚航天枢纽生态的低成本窗口；准备「香港平台 + 数据合规 + 灾害遥感」三件套。</li>
+    <li><span class="p1">P1</span> <b>合规 LEO 落地 + D2D 灾害韧性</b>：Starlink 卡外资限制 + OneWeb 高价慢速留中端窗口；NBTC 10/21 研讨会「D2D 直连卫星灾害韧性」专题是切入叙事，可打包「应急直连卫星 + GISTDA 遥感」政府/应急封闭场景。</li>
+    <li><span class="p2">P2</span> <b>北斗政策挂靠 + 嫦娥七号跟踪</b>：北斗写入泰中 15 项协议为存量锚点，等一线 BD 落地信号；嫦娥七号推迟 2027 → MATCH 载荷合作窗口后移，维持跟踪不误判为已飞。</li>
+  </ol>
+</div>
+
+<footer>
+  ASEAN SAT. DAILY · 第 085 期 ｜ 轮值国：🇹🇭 泰国 ｜ 生成时间：2026-10-21 21:30 (GMT+8)<br>
+  监测领域：卫星通信 · 导航(GNSS/北斗) · 遥感 · 发射与卫星 ｜ 出品：Astrolink（明华 · Astrolink BD）<br>
+  事实核查：结果性事件以官方最终结论为准；相邻期次（078 期 10/14 泰国）已校验无反向矛盾；灾情数据以 DDPM 每日更新为准。
+</footer>
+
+</div>
+</body>
+</html>
