@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>东南亚卫星产业动态 · 第 087 期 · 🇮🇩 印度尼西亚</title>
+<meta name="archive-title" content="北斗出海联盟在印尼启动短报文实测；林火烟霾PM2.5跨境确认；Starlink社区宽带Beta登陆；俄助建比亚克赤道发射场（规划）">
+<meta name="archive-tags" content="印度尼西亚,卫星通信,导航,北斗,遥感,发射,Starlink,北斗出海联盟,烟霾,NEO-1,比亚克发射场">
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65;}
+.wrap{max-width:860px;margin:0 auto;padding:28px 20px 60px;}
+header{background:linear-gradient(135deg,#1b2440,#2c3a63);color:#fff;border-radius:16px;padding:26px 22px;margin-bottom:22px;box-shadow:0 6px 20px rgba(27,36,64,.18);}
+header .tag{display:inline-block;font-size:12px;letter-spacing:1px;background:rgba(255,255,255,.14);padding:4px 12px;border-radius:20px;margin-bottom:12px;color:#ffe7b3;}
+header h1{margin:0 0 6px;font-size:26px;color:#fff;}
+header .sub-title{font-size:15px;color:#cdd6ef;margin:0 0 14px;}
+header .meta{font-size:13px;color:#cdd6ef;border-top:1px solid rgba(255,255,255,.18);padding-top:12px;display:flex;flex-wrap:wrap;gap:6px 18px;}
+header .meta span b{color:#ffe7b3;font-weight:600;}
+.alert{background:rgba(224,49,49,.08);border:1px solid rgba(224,49,49,.35);color:var(--txt);border-radius:10px;padding:10px 14px;font-size:13px;margin-bottom:20px;}
+.alert b{color:var(--hi);}
+h2{font-size:20px;margin:30px 0 14px;padding-left:10px;border-left:5px solid var(--gold);}
+h3.country{font-size:17px;margin:22px 0 10px;}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:8px 0 6px;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:0 2px 8px rgba(27,36,64,.05);}
+.card .sm{font-size:12px;color:var(--sub);margin-bottom:6px;}
+.card h4{margin:0 0 6px;font-size:15px;color:var(--txt);}
+.card p{margin:0;font-size:13px;color:var(--sub);}
+.badge{display:inline-block;font-size:11px;font-weight:700;padding:1px 7px;border-radius:6px;color:#fff;}
+.b-hi{background:var(--hi);} .b-mid{background:var(--mid);} .b-new{background:var(--com);} .b-lo{background:var(--lo);}
+.weekbar{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px;}
+.wk{flex:1 1 0;min-width:88px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:9px 6px;text-align:center;font-size:12px;color:var(--sub);}
+.wk.today{background:var(--com);border-color:var(--com);color:#fff;font-weight:700;box-shadow:0 3px 10px rgba(44,111,214,.3);}
+.wk .d{display:block;font-size:11px;opacity:.8;}
+.heatrow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:10px 0 6px;}
+.heat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 8px;text-align:center;}
+.heat .lab{font-size:13px;color:var(--txt);font-weight:600;margin-bottom:4px;}
+.heat .dot{font-size:13px;}
+.heat.com .dot{color:var(--com);} .heat.nav .dot{color:var(--nav);} .heat.rs .dot{color:var(--rs);} .heat.launch .dot{color:var(--launch);}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:14px 0;overflow:hidden;box-shadow:0 2px 8px rgba(27,36,64,.05);}
+.item .bar{height:6px;}
+.item.com .bar{background:var(--com);} .item.nav .bar{background:var(--nav);} .item.rs .bar{background:var(--rs);} .item.launch .bar{background:var(--launch);}
+.item .inner{padding:16px;}
+.item .ttl{font-size:16px;font-weight:700;color:var(--txt);margin:0 0 6px;}
+.item .src{font-size:12px;color:var(--sub);margin:0 0 3px;}
+.item .dt{font-size:12px;color:var(--sub);margin:0 0 10px;}
+.item .hm{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:6px;margin-bottom:10px;}
+.hm.hi{background:rgba(224,49,49,.12);color:var(--hi);} .hm.mid{background:rgba(192,138,22,.14);color:var(--mid);} .hm.lo{background:rgba(154,166,189,.18);color:#5a6b8c;}
+.pts{margin:6px 0 0;padding-left:20px;}
+.pts li{color:var(--txt);font-size:14px;margin:5px 0;}
+.biz{background:rgba(176,127,18,.12);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:11px 14px;margin-top:12px;font-size:13.5px;color:var(--txt);}
+.biz b{color:var(--gold);}
+.prio{list-style:none;padding:0;margin:8px 0 0;}
+.prio li{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;font-size:14px;color:var(--txt);}
+.prio .p0{display:inline-block;background:var(--hi);color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;margin-right:8px;}
+.prio .p1{display:inline-block;background:var(--mid);color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;margin-right:8px;}
+.prio .p2{display:inline-block;background:var(--lo);color:#1b2440;font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;margin-right:8px;}
+footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--sub);text-align:center;}
+footer b{color:var(--txt);}
+a{color:var(--com);text-decoration:underline;}
+@media (max-width:600px){
+  .wrap{max-width:100%;padding:16px 12px 40px;}
+  header{padding:22px 16px;}
+  h1{font-size:22px;}
+  h2{font-size:18px;margin:26px 0 12px;}
+  h3.country{font-size:16px;}
+  .cards{grid-template-columns:1fr;}
+  .card{padding:14px;}
+  table{font-size:12px;}
+  th,td{padding:8px 6px;}
+  .item .inner{padding:14px;}
+}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">ASEAN SAT. DAILY · 第 087 期</span>
+  <h1>东南亚卫星产业动态</h1>
+  <p class="sub-title">今日轮值：🇮🇩 印度尼西亚</p>
+  <div class="meta">
+    <span><b>监测周期：</b>2026-10-23（单日）</span>
+    <span><b>轮值国：</b>🇮🇩 印度尼西亚</span>
+    <span><b>覆盖领域：</b>卫星通信 · 导航（GNSS/北斗） · 遥感 · 发射与卫星</span>
+    <span><b>出品：</b>Harry 🎩 for 明华 · Astrolink BD</span>
+  </div>
+</header>
+
+<div class="alert">
+  ⚠️ <b>断档说明（历史挂账）：</b>2026-10-06（周二·柬埔寨轮值）缺刊，长期挂账未补跑，请人工确认是否补跑。本期（087·印尼）上一期 086（10-22 马来西亚）在位，无即时断档。
+</div>
+
+<h2>本期核心看点</h2>
+<div class="cards">
+  <div class="card">
+    <div class="sm"><span class="badge b-hi">🔴 高</span> 导航 · 北斗生态</div>
+    <h4>北斗出海联盟在印尼启动短报文应用实测</h4>
+    <p>中国卫星网络集团 40 家企业联盟已在印尼、马来开展短报文测试，从"会议议程"升级为"实地实测"。</p>
+  </div>
+  <div class="card">
+    <div class="sm"><span class="badge b-hi">🔴 高</span> 遥感 · 灾害</div>
+    <h4>BRIN 建模确认 2026 林火烟霾 PM2.5 跨境传输</h4>
+    <p>WRF-Chem + Sentinel/MODIS/VIIRS，印证 080 期"11 年来最严重跨境烟霾"并给出量化路径。</p>
+  </div>
+  <div class="card">
+    <div class="sm"><span class="badge b-new">🆕 新</span> 卫星通信 · LEO</div>
+    <h4>Starlink「Communities」社区共享宽带 Beta 登陆印尼</h4>
+    <p>单一用户可售通行证给邻居，印尼列为开放市场之一；定价/分成未公布，细节单一信源待核实。</p>
+  </div>
+  <div class="card">
+    <div class="sm"><span class="badge b-mid">🟡 中</span> 发射与卫星</div>
+    <h4>俄提议助印尼在比亚克建赤道发射场（规划）</h4>
+    <p>印尼全资、俄方出技术；仍为意向/备忘录阶段，无时间表，单一信源须谨慎。</p>
+  </div>
+  <div class="card">
+    <div class="sm"><span class="badge b-mid">🟡 中</span> 卫星通信 · 广播</div>
+    <h4>Telkomsat 以 GEO 卫星支撑 MotoGP 曼达利卡全球转播</h4>
+    <p>TV Uplink 覆盖亚欧，印证 GEO 在国际赛事广播中的可靠角色。</p>
+  </div>
+  <div class="card">
+    <div class="sm"><span class="badge b-mid">🟡 中</span> 遥感 · 国产 EO</div>
+    <h4>BRIN NEO-1 进入集成测试，瞄准 2027 初发射</h4>
+    <p>第四代国产 EO 星，5m/10m/16m 光学 + 热红外 + AIS；NEO 星座规划含 2 颗 SAR。</p>
+  </div>
+</div>
+
+<h2>本周轮值进度</h2>
+<div class="weekbar">
+  <div class="wk"><span class="d">一</span>越南</div>
+  <div class="wk"><span class="d">二</span>柬埔寨</div>
+  <div class="wk"><span class="d">三</span>泰国</div>
+  <div class="wk"><span class="d">四</span>马来西亚</div>
+  <div class="wk today"><span class="d">五 · 今日</span>印度尼西亚</div>
+  <div class="wk"><span class="d">六</span>新加坡</div>
+  <div class="wk"><span class="d">日</span>回顾</div>
+</div>
+
+<h2>轮值国四领域活跃度</h2>
+<div class="heatrow">
+  <div class="heat com"><div class="lab">卫星通信</div><div class="dot">● 高</div></div>
+  <div class="heat nav"><div class="lab">导航</div><div class="dot">● 高</div></div>
+  <div class="heat rs"><div class="lab">遥感</div><div class="dot">● 高</div></div>
+  <div class="heat launch"><div class="lab">发射与卫星</div><div class="dot">● 中</div></div>
+</div>
+
+<!-- ===================== 卫星通信 ===================== -->
+<h2 class="com">▎卫星通信</h2>
+
+<div class="item com">
+  <div class="bar"></div>
+  <div class="inner">
+    <p class="ttl">🆕 Starlink「Communities」社区共享宽带 Beta 登陆印尼</p>
+    <p class="src">来源：Starlink News / Teslarati（2026-10-04/05，运作细节源于单一申请人 Exploraphones）</p>
+    <p class="dt">日期：2026-10-01 开放 Beta</p>
+    <span class="hm mid">🟡 中 · 单一信源，待核实</span>
+    <ul class="pts">
+      <li>SpaceX 开放 "Starlink for Communities" 计划：单一用户部署一套设备即可向邻居出售时/日/周/月通行証，SpaceX 统一处理账户、计费与带宽管理。</li>
+      <li>印尼被列为开放市场之一（南苏拉威西 Rantepao 申请人）；此外含美、墨、加等活跃市场。</li>
+      <li>通行证定价与宿主分成截至 10-02 仍未公布，运作细节目前主要追溯至单一申请人，非 SpaceX 官方通稿——按归零规范标"单一信源，待核实"。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联：</b>Starlink 在印尼的纵深进一步下沉至 3T（边境/远岛/弱势）社区共享层，零售/社区层主战场已锁定。明华/Astrolink 应避开零售正面竞争，聚焦<b>企业级 backhaul、行业专网与运维集成、合规转售</b>（延续 080 期判断）；同时持续观察社区宽带对本地电信转售格局的挤压效应。</div>
+  </div>
+</div>
+
+<div class="item com">
+  <div class="bar"></div>
+  <div class="inner">
+    <p class="ttl">Telkomsat 以 GEO 卫星支撑 MotoGP 曼达利卡 2026 全球转播</p>
+    <p class="src">来源：ANTARA / Jawawa（赛事 2026-10-09~11）</p>
+    <p class="dt">日期：2026-10-09 ~ 11</p>
+    <span class="hm mid">🟡 中</span>
+    <ul class="pts">
+      <li>Telkomsat 提供 TV Uplink 卫星上行服务，将曼达利卡国际赛道赛事实时传向亚洲与欧洲；并协助广播频率许可申请。</li>
+      <li>体现 GEO 卫星在国际大型赛事广播中的高可靠角色；Telkomsat 正推行 GEO-LEO 混合战略（2024-05-15 成为印尼首家授权 Starlink 企业转售商）。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联：</b>国际赛事/大型活动的卫星广播是明华可切入的「高可靠应急 broadcast」场景；可对标 Telkomsat 模式，面向东盟区域活动输出<b>卫星通信 + 应急备份</b>一体化方案。</div>
+  </div>
+</div>
+
+<!-- ===================== 导航 ===================== -->
+<h2 class="nav">▎导航（GNSS/北斗）</h2>
+
+<div class="item nav">
+  <div class="bar"></div>
+  <div class="inner">
+    <p class="ttl">🔴 北斗出海联盟在印尼开展短报文应用实测</p>
+    <p class="src">来源：中工网 / 人民网 / 中国经济网（2026-10-13，第五届北斗峰会报道，三源一致）</p>
+    <p class="dt">日期：2026-10-13</p>
+    <span class="hm hi">🔴 高</span>
+    <ul class="pts">
+      <li>中国卫星网络集团依托北斗时空信息海外服务平台，组建由 40 家企业组成的北斗出海联盟。</li>
+      <li>联盟<b>已在印尼、马来西亚开展短报文应用测试</b>，并建设巴西、哈萨克斯坦等北斗海外合作节点。</li>
+      <li>呼应 080 期「第十二次中印尼卫星网络协调会谈将北斗短报文纳入议程」——本期从"会议议程"升级为"实地实测"，口径正向、无反向。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联：</b>这是北斗生态在印尼从"会议议程"走向"实地测试"的关键信号。明华/Astrolink 可借<b>香港中立平台</b>做北斗短报文终端/增强服务的渠道与代理对接，切入东盟应急通信「生命通道」叙事（与柬埔寨经验同构）。</div>
+  </div>
+</div>
+
+<div class="item nav">
+  <div class="bar"></div>
+  <div class="inner">
+    <p class="ttl">北斗高精度接收机深耕印尼土地确权与基建测绘（延续）</p>
+    <p class="src">来源：北斗系统海外应用综述（媒体）</p>
+    <p class="dt">日期：持续落地</p>
+    <span class="hm mid">🟡 中</span>
+    <ul class="pts">
+      <li>基于北斗的高精度 GNSS 接收机广泛用于印尼土地确权、国土测绘、公路与铁路建设，获政府与民众认可。</li>
+      <li>与 080 期口径一致，属稳定延续场景，无新增事件。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联：</b>测绘/确权是北斗在印尼最稳的落地场景，可包装为<b>「北斗 + 遥感」一体化国土监测方案</b>，对接印尼土地改革与基建部门。</div>
+  </div>
+</div>
+
+<!-- ===================== 遥感 ===================== -->
+<h2 class="rs">▎遥感</h2>
+
+<div class="item rs">
+  <div class="bar"></div>
+  <div class="inner">
+    <p class="ttl">🔴 BRIN 建模确认 2026 林火烟霾 PM2.5 跨境传输</p>
+    <p class="src">来源：BRIN 气候大气研究中心（PRIMA）/ Radar Bangkalan（2026-10-05）</p>
+    <p class="dt">日期：2026-10-05</p>
+    <span class="hm hi">🔴 高</span>
+    <ul class="pts">
+      <li>BRIN PRIMA 用 WRF-Chem 大气模型 + Sentinel/MODIS/VIIRS 遥感火排放，模拟 2026 林火（karhutla）PM2.5 跨境传输路径。</li>
+      <li>东南风越赤道转向东北，烟霾输往马来/新加坡/文莱/菲/泰，印证 080 期"11 年来最严重跨境烟霾"并给出量化溯源。</li>
+      <li>研究处于模型阶段，配合 hot-spot.brin.go.id 实时火点体系，为区域应急提供数据底座。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联：</b>延续 054→058→064→069→080 连续追踪，固化为「区域连续性」可交付产品线；建议 48h 内向 <b>BNPB/KLHK/ASMC</b> 出能力说明，做<b>可解释、可复核</b>的烟霾溯源产品（呼应 080 期 P0）。</div>
+  </div>
+</div>
+
+<div class="item rs">
+  <div class="bar"></div>
+  <div class="inner">
+    <p class="ttl">🟡 BRIN NEO-1 进入集成测试，瞄准 2027 初发射</p>
+    <p class="src">来源：eoPortal / Indonesianow（2026-10-14 引 BRIN 网站；APSAT 2026 论坛 5-12）</p>
+    <p class="dt">日期：2026-10-14</p>
+    <span class="hm mid">🟡 中</span>
+    <ul class="pts">
+      <li>NEO-1（LAPAN-A4）第四代国产 EO 星，处测试集成阶段，目标 2027 初发射；500km 太阳同步轨道。</li>
+      <li>载荷：ELLISA 5m 高分辨率 + 10m/16m（宽幅 230km）中分辨率光学 + 170m 热红外（火点/火山）+ AIS 船舶识别；X 波段下行 200Mbps；国产化率约 65%（TKDN）。</li>
+      <li>NEO 星座规划 8 星（含 2 颗 SAR），瞄准降低对国外数据依赖；与 080 期"2027 年 1 月/在谈"一致，无反向。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联：</b>NEO 星座（含 SAR 双星）是印尼自主遥感主线，明华可关注<b>地面站、数据分发、灾害应用</b>合作机会；SAR 将补全天候成像短板，与明华遥感产品形成互补。</div>
+  </div>
+</div>
+
+<!-- ===================== 发射与卫星 ===================== -->
+<h2 class="launch">▎发射与卫星</h2>
+
+<div class="item launch">
+  <div class="bar"></div>
+  <div class="inner">
+    <p class="ttl">🟡 俄提议助印尼在比亚克建赤道发射场（规划阶段）</p>
+    <p class="src">来源：今日头条聚合俄媒（2026-10-18）；印尼方：5 月批准法规框架、6 月 BRIN-巴布亚 MoU；俄大使确认邀请 Roscosmos</p>
+    <p class="dt">日期：2026-10-18</p>
+    <span class="hm mid">🟡 中 · 单一信源/规划意向，待核实</span>
+    <ul class="pts">
+      <li>印尼计划将发射场建在巴布亚省比亚克岛（赤道以南约 1°），俄提议提供发射设施并培训印尼首位宇航员；印尼全资、俄方出技术。</li>
+      <li>赤道发射可"白嫖"地球自转初速，估算省约 15% 燃料、有效载荷提升约 1/4；以东即太平洋，残骸落海安全。</li>
+      <li>目前仅为<b>意向与备忘录</b>，无明确时间表；俄方资金匮乏、印尼缺核心工程人才，从签约到首飞或需多年——按归零规范标"规划阶段，谨慎对待"。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联：</b>比亚克发射场若落地，将成为东南亚首个赤道发射设施，利好区域发射服务与测控网络。明华应作为<b>长期观察项</b>，待官方框架清晰后再评估；当前不急于介入——涉俄方参与须合规前置（参考受制裁方合作红线，法务先审）。</div>
+  </div>
+</div>
+
+<div class="item launch">
+  <div class="bar"></div>
+  <div class="inner">
+    <p class="ttl">⚪ 印尼自主卫星发射仍处规划——无新增公开发射成败动态</p>
+    <p class="src">来源：Indonesianow（2026-10-14）/ eoPortal / 检索窗口</p>
+    <p class="dt">日期：2026-10-14</p>
+    <span class="hm lo">⚪ 低</span>
+    <ul class="pts">
+      <li>BRIN 第四代 NEO-1、第五代 NEI（赤道 IoT）目标 2027；印尼至今无自主入轨能力，卫星依赖外国发射场，探空火箭仍处亚轨道。</li>
+      <li>检索窗口内印尼无新发射任务官宣或成败结论；NEO-1 仍在研制，未入轨。</li>
+      <li>按归零规范：不把"计划/预测发射"当结论，待官方发射通稿再报。</li>
+    </ul>
+    <div class="biz">💼 <b>BD 关联：</b>发射板块本期如实标注低热度，不编造；重点仍置于通信/导航/遥感三大高活跃主线。</div>
+  </div>
+</div>
+
+<h2>🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+<ul class="prio">
+  <li><span class="p0">P0</span><b>北斗短报文在印尼实测落地窗口</b>——借香港中立平台对接北斗出海联盟/终端代理，切入东盟应急通信「生命通道」（呼应 054→080 连续烟霾追踪与柬埔寨经验）。</li>
+  <li><span class="p0">P0</span><b>跨境烟霾遥感应急包</b>——向 BNPB/KLHK/ASMC 出能力说明，固化"区域连续性"可交付产品线（含可解释 PM2.5 溯源）。</li>
+  <li><span class="p1">P1</span><b>Starlink 社区宽带 Beta 观察</b>——评估其对 3T 地区零售/社区层格局影响，明华聚焦企业 backhaul 与合规转售，避开零售竞争。</li>
+  <li><span class="p1">P1</span><b>NEO 星座（含 SAR）合作前置</b>——关注地面站、数据分发、灾害应用合作机会，与明华遥感产品互补。</li>
+  <li><span class="p2">P2</span><b>比亚克赤道发射场长期观察</b>——待官方框架清晰、合规评估（涉俄方参与需法务前置）后再议。</li>
+</ul>
+
+<footer>
+  <div>第 087 期 · 🇮🇩 印度尼西亚轮值 · 生成时间 2026-10-23 21:30 (GMT+8)</div>
+  <div style="margin-top:6px;">出品：<b>Astrolink</b>（明华 · Astrolink BD） · Harry 🎩</div>
+</footer>
+
+</div>
+</body>
+</html>
