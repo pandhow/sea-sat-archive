@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-28",
+      "issue_no": "091",
+      "title": "泰国轮值：TSX 2026太空博览会今日开幕、洪灾退水尾声GISTDA SAR持续监测、Starlink仍卡泰资多数门槛、灵知09在轨运行",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "TSX 2026",
+        "GISTDA",
+        "洪灾",
+        "Starlink",
+        "灵知09",
+        "Thaicom 9"
+      ],
+      "file": "issues/2026-10-28.html"
+    },
+    {
       "date": "2026-10-27",
       "issue_no": "090",
       "title": "柬埔寨轮值：千帆星座有意投资卫星互联网、邮电部拟监管框架；国家航天计划以EO为核心持续推进",
