@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-30",
+      "issue_no": "093",
+      "title": "印度尼西亚轮值：Piksel 主权EO平台上线、北斗落地雅万高铁142km毫米级监测、楠榜一号高光谱卫星发射浮出数据主权讨论、比亚克航天港多源确认仍处初步讨论",
+      "tags": [
+        "印度尼西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Piksel",
+        "北斗出海",
+        "雅万高铁",
+        "楠榜一号",
+        "比亚克航天港",
+        "红树林预警"
+      ],
+      "file": "issues/2026-10-30.html"
+    },
+    {
       "date": "2026-10-29",
       "issue_no": "092",
       "title": "马来西亚轮值：JENDELA 斥 RM50 亿引入 Starlink+小基站补最后1%，扎希德访华卫星救灾协议仍磋商中，MEASAT-3b 替换、北斗吉隆坡基地与 PSPJN 主权遥感同步推进",
