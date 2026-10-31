@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-10-31",
+      "issue_no": "094",
+      "title": "新加坡轮值：ST Engineering Satcom 多轨道、CRIMSON-1 AI 纳卫星满月在轨、跨境烟霾法律追责升级、NSAS–MRC 湄公河洪水测绘合作",
+      "tags": [
+        "新加坡",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "ST Engineering",
+        "CRIMSON-1",
+        "NSAS",
+        "跨境烟霾",
+        "SpeQtral",
+        "湄公河"
+      ],
+      "file": "issues/2026-10-31.html"
+    },
+    {
       "date": "2026-10-30",
       "issue_no": "093",
       "title": "印度尼西亚轮值：Piksel 主权EO平台上线、北斗落地雅万高铁142km毫米级监测、楠榜一号高光谱卫星发射浮出数据主权讨论、比亚克航天港多源确认仍处初步讨论",
