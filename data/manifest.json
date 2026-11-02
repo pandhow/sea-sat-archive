@@ -3,6 +3,25 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-11-02",
+      "issue_no": "095",
+      "title": "越南轮值：签署阿尔忒弥斯协定(第78国)、Saigontel获Starlink授权分销、海防/谅山终端落地、LOTUSat-1待发射、航天战略会扶植越南制造卫星生态",
+      "tags": [
+        "越南",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "Saigontel",
+        "阿尔忒弥斯",
+        "LOTUSat-1",
+        "Artemis"
+      ],
+      "file": "issues/2026-11-02.html"
+    },
+    {
       "date": "2026-10-31",
       "issue_no": "094",
       "title": "新加坡轮值：ST Engineering Satcom 多轨道、CRIMSON-1 AI 纳卫星满月在轨、跨境烟霾法律追责升级、NSAS–MRC 湄公河洪水测绘合作",
