@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>东南亚卫星产业动态 · 第 097 期</title>
+<meta name="archive-title" content="泰国轮值：GST(原Thaicom)太空博览会发布四大新业务、GISTDA CubeSat-1在轨教学、18星星座与THEOS-3推进，Starlink仍卡49%外资上限">
+<meta name="archive-tags" content="泰国,卫星通信,导航,北斗,遥感,发射,GST,GISTDA,CubeSat-1,Starlink,THEOS-3,太空博览会">
+<style>
+:root{
+  --bg:#eef1f7; --panel:#ffffff; --panel2:#f3f6fc; --line:#dde3ef;
+  --txt:#1b2440; --sub:#62708f; --gold:#b07d12;
+  --com:#2c6fd6; --nav:#0f9d8c; --rs:#d6418f; --launch:#e8833a;
+  --hi:#e03131; --mid:#c08a16; --lo:#9aa6bd;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.65;}
+.wrap{max-width:860px;margin:0 auto;padding:24px 20px 56px;}
+header{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:28px 24px;margin-bottom:22px;box-shadow:0 2px 10px rgba(27,36,64,.05);}
+.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.5px;color:#fff;background:linear-gradient(135deg,var(--com),var(--rs));padding:4px 12px;border-radius:20px;}
+h1{font-size:28px;margin:12px 0 6px;color:var(--txt);}
+.sub-title{font-size:16px;color:var(--sub);margin:0 0 14px;font-weight:600;}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--sub);border-top:1px dashed var(--line);padding-top:14px;}
+.meta span b{color:var(--txt);font-weight:700;}
+h2{font-size:21px;margin:30px 0 14px;color:var(--txt);border-left:5px solid var(--com);padding-left:12px;}
+h3{font-size:16px;margin:0 0 8px;color:var(--txt);}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:18px 0;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:0 1px 4px rgba(27,36,64,.04);}
+.card .sm{font-size:12px;color:var(--sub);}
+.card .ttl{font-weight:700;color:var(--txt);margin:6px 0 4px;font-size:15px;}
+.card .badge{font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;display:inline-block;}
+.b-new{background:rgba(15,157,140,.14);color:var(--nav);}
+.b-hi{background:rgba(224,49,49,.12);color:var(--hi);}
+.b-mid{background:rgba(192,138,22,.14);color:var(--mid);}
+.b-lo{background:rgba(154,166,189,.18);color:var(--sub);}
+.prog{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px;}
+.seg{flex:1 1 auto;text-align:center;font-size:12.5px;padding:8px 6px;border-radius:8px;background:var(--panel);border:1px solid var(--line);color:var(--sub);min-width:84px;}
+.seg-on{background:linear-gradient(135deg,var(--com),#4a86e8);color:#fff;border-color:transparent;font-weight:700;box-shadow:0 2px 8px rgba(44,111,214,.3);}
+.act{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0 4px;}
+.cell{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 8px;text-align:center;}
+.cell .lab{font-size:12.5px;color:var(--sub);margin-bottom:6px;}
+.cell .val{font-size:15px;font-weight:700;}
+.val.hi{color:var(--hi);} .val.mid{color:var(--mid);} .val.lo{color:var(--lo);}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:14px 0;overflow:hidden;box-shadow:0 1px 4px rgba(27,36,64,.04);}
+.item .bar{height:6px;}
+.bar.com{background:var(--com);} .bar.nav{background:var(--nav);} .bar.rs{background:var(--rs);} .bar.launch{background:var(--launch);}
+.item .inner{padding:16px 18px;}
+.src{font-size:12.5px;color:var(--sub);margin:2px 0 10px;}
+.heat{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:6px;margin-bottom:8px;}
+.heat.hi{background:rgba(224,49,49,.12);color:var(--hi);}
+.heat.mid{background:rgba(192,138,22,.14);color:var(--mid);}
+.heat.lo{background:rgba(154,166,189,.18);color:var(--sub);}
+ul.pts{margin:8px 0 0;padding-left:20px;color:var(--txt);}
+ul.pts li{margin:5px 0;}
+.biz{background:rgba(176,127,18,.12);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:10px 14px;margin-top:12px;color:var(--txt);font-size:14px;}
+.biz b{color:var(--gold);font-weight:700;}
+.biz .lbl{font-weight:700;}
+.bd-list{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px 18px;margin-top:12px;}
+.bd-list li{margin:12px 0;color:var(--txt);}
+.p0{color:var(--hi);font-weight:700;} .p1{color:var(--mid);font-weight:700;} .p2{color:var(--nav);font-weight:700;}
+footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);font-size:12.5px;color:var(--sub);text-align:center;}
+footer b{color:var(--txt);}
+.note{background:rgba(44,111,214,.07);border:1px solid var(--line);border-left:4px solid var(--com);border-radius:8px;padding:10px 14px;margin:14px 0;font-size:13.5px;color:var(--txt);}
+</style>
+<style id="light-contrast-fix">
+.pts,.pts li{color:var(--txt)!important;}
+.biz{color:var(--txt)!important;background:rgba(176,127,18,.12)!important;border-left-color:var(--gold)!important;}
+.biz b{color:var(--gold)!important;}
+.src{color:var(--sub)!important;}
+.sub-title{color:var(--sub)!important;}
+.card .sm{color:var(--sub)!important;}
+a{color:#1a4db5!important;text-decoration:underline!important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">ASEAN SAT. DAILY · 第 097 期</span>
+  <h1>东南亚卫星产业动态</h1>
+  <p class="sub-title">今日轮值：🇹🇭 泰国（Thailand）</p>
+  <div class="meta">
+    <span>📅 监测周期：<b>2026-10-28 – 2026-11-04</b>（轮值间隔一周）</span>
+    <span>📍 轮值国：<b>🇹🇭 泰国</b></span>
+    <span>🔭 领域：<b>卫星通信 / 导航(GNSS·北斗) / 遥感 / 发射与卫星</b></span>
+    <span>🖋 出品：<b>Harry 🎩 for 明华 · Astrolink BD</b></span>
+  </div>
+</header>
+
+<section>
+  <h2>📌 本期核心看点</h2>
+  <div class="cards">
+    <div class="card">
+      <span class="badge b-new">🆕 新</span>
+      <div class="ttl">GST（原 Thaicom）太空博览会发布四大新业务</div>
+      <div class="sm">从传统通信卫星转向「LEO + AI 地理空间分析 + 安全」平台转型。</div>
+    </div>
+    <div class="card">
+      <span class="badge b-hi">🔴 高</span>
+      <div class="ttl">GISTDA CubeSat-1 在轨运行并转入青年教学</div>
+      <div class="sm">银河航天灵知09 成功交付，诗里差地面站已接收信号。</div>
+    </div>
+    <div class="card">
+      <span class="badge b-mid">🟡 中</span>
+      <div class="ttl">Starlink 入泰仍卡 49% 外资持股上限</div>
+      <div class="sm">多源确认未获公众服务牌照；Amazon Leo（GST 转售）已合规落地。</div>
+    </div>
+    <div class="card">
+      <span class="badge b-mid">🟡 中</span>
+      <div class="ttl">GISTDA 公布 18 星星座 + THEOS-3 进展</div>
+      <div class="sm">目标 3–5 年建成东南亚航天枢纽，走「共同建造+技术转让」路径。</div>
+    </div>
+    <div class="card">
+      <span class="badge b-lo">⚪ 低</span>
+      <div class="ttl">泰中北斗（NDRC 项）框架存量推进</div>
+      <div class="sm">交通物流/灾害管理/智慧农业方向，本期无新增独立落地动态。</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🗓 本周轮值进度</h2>
+  <div class="prog">
+    <div class="seg">一 · 越南<br>11/02</div>
+    <div class="seg">二 · 柬埔寨<br>11/03</div>
+    <div class="seg seg-on">三 · 泰国<br>11/04 ◀ 今日</div>
+    <div class="seg">四 · 马来西亚<br>待轮值</div>
+    <div class="seg">五 · 印尼<br>待轮值</div>
+    <div class="seg">六 · 新加坡<br>待轮值</div>
+    <div class="seg">日 · 回顾<br>周复盘</div>
+  </div>
+</section>
+
+<section>
+  <h2>🌡 轮值国四领域活跃度（泰国 · 本期）</h2>
+  <div class="act">
+    <div class="cell"><div class="lab">卫星通信</div><div class="val mid">● 中</div></div>
+    <div class="cell"><div class="lab">导航(GNSS/北斗)</div><div class="val mid">● 中</div></div>
+    <div class="cell"><div class="lab">遥感</div><div class="val hi">● 高</div></div>
+    <div class="cell"><div class="lab">发射与卫星</div><div class="val mid">● 中</div></div>
+  </div>
+  <div class="note">📌 <b>口径一致性提示</b>：与本刊上期泰国轮值（第 091 期，2026-10-28）结论一致——Starlink 在泰仍未获牌照、北斗为存量框架、GISTDA 遥感（含 SAR 洪灾监测）保持高活跃。本期新增 GST 四大新业务发布与 CubeSat-1 在轨教学两项进展。</div>
+</section>
+
+<!-- ============ 卫星通信 ============ -->
+<h2>▎卫星通信</h2>
+
+<div class="item">
+  <div class="bar com"></div>
+  <div class="inner">
+    <h3>GST（原 Thaicom）泰国太空博览会发布四大新空间业务，标志战略转型</h3>
+    <span class="heat hi">🔴 热度：高</span>
+    <div class="src">来源：Ava.fund（2026-10-28）；泰国政府公共关系部 PRD（2026-10-28）；Thais.com（2026-10-29）</div>
+    <ul class="pts">
+      <li>Gulf Space Technology（原 Thaicom，SET 代码 GST）在 10/28–31 曼谷 ICONSIAM 泰国太空博览会发布四大业务组：① 下一代通信卫星（偏远地区高速互联网）；② LEO 卫星 IoT 连接与数据传输；③ AI/ML 地理空间数据分析（自然资源管理与灾害监测）；④ 安全业务（国际合作新方向）。</li>
+      <li>标志从传统通信卫星运营商向「LEO + AI 分析 + 安全」平台型公司转型，构建于空间创新以撬动泰国航天产业增长。</li>
+      <li>此前 Amazon Leo（柯伊伯）已于 2026-04 经 GST 获授权在泰转售 LEO 宽带，已合规落地；GST 此次转型进一步强化其本土合规运营商地位。</li>
+    </ul>
+    <div class="biz"><span class="lbl">💼 BD 关联（Astrolink）</span>：GST 转型留出「中端 LEO 落地 + 行业应用集成 + 地面段运营」潜在合作窗口。明华/Astrolink 可作「合规地面段 + 轨位/牌照协调」轻资产伙伴，避免与 GST/NT 正面冲突；<b>重大合作须以 NBTC/DES 官方口径与一线 BD 核实</b>。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar com"></div>
+  <div class="inner">
+    <h3>Starlink 入泰仍卡 49% 外资持股上限，多源确认未获公众服务牌照</h3>
+    <span class="heat mid">🟡 热度：中</span>
+    <div class="src">来源：Kiatnakin Phatra 证券分析（2026-10-01，Ava.fund 2026-10-21 引述）；Nation Thailand / thaix.ai / Bangkok Business（前期多源）</div>
+    <ul class="pts">
+      <li>泰国规定获地面站使用权的实体外资持股不得超过 49%（即须泰方 &gt;50%），Starlink 因此仍未能取得公众服务牌照，在泰无明确商用时间表。</li>
+      <li>对比：Starlink 已在印尼、马来西亚、菲律宾、新加坡、越南运营，唯独泰国缺席——与本期（及第 091 期）结论一致，二值结论多源确认（未授权 ≠ 单一信源）。</li>
+      <li>Kiatnakin Phatra 认为未来 3–4 年 LEO（含 Starlink）对东盟地面运营商份额冲击有限（容量与价格因素），D2D 卫星直连手机更偏补充而非替代。</li>
+    </ul>
+    <div class="biz"><span class="lbl">💼 BD 关联（Astrolink）</span>：外资准入门槛=泰资多数+国资参与，Astrolink（香港平台）可作中立合规节点，但落地主体须满足泰资多数要求。聚焦「合规地面段 + 政府/行业专网」轻资产路径，持续监测政策松动信号。</div>
+  </div>
+</div>
+
+<!-- ============ 导航 ============ -->
+<h2 class="nav">▎导航（GNSS/北斗）</h2>
+
+<div class="item">
+  <div class="bar nav"></div>
+  <div class="inner">
+    <h3>泰中北斗应用框架（NDRC 项）存量推进，本期无新增独立落地动态</h3>
+    <span class="heat mid">🟡 热度：中</span>
+    <div class="src">来源：泰国高教科研创新部（MHESI）访华成果通报（2026-07）；2026 北斗国际化布局报告；科普中国（北斗海外合作）</div>
+    <ul class="pts">
+      <li>2026-07 泰中签署系列科技协议，国家发改委（NDRC）项下明确将<b>北斗卫星导航系统应用于泰国</b>，提升交通物流精度、降低路径管理成本、支撑灾害管理，并拓展至智慧农业，为泰初创提供地理空间数据应用机会。</li>
+      <li>泰国自 2013 年部署北斗演示系统、2020 年实现北斗三号全面组网应用；与巴基斯坦同为海外北斗连续运行参考站（CORS）网建设国，并已搭建北斗地基增强示范站点支撑精准农业与地灾监测。</li>
+      <li>本期（10/28–11/04）泰国侧无独立新增北斗/GNSS 官方落地动态，据实标注为中热度存量框架。</li>
+    </ul>
+    <div class="biz"><span class="lbl">💼 BD 关联（Astrolink）</span>：北斗写入泰中高层协议是政策挂靠锚点；等待 GISTDA 牵头的具体落地项目信号（本地化平台/行业应用示范）。明华可评估「北斗增强 + 农业/水利精度定位」轻量合作，但须等商业化节点，<b>本期不误判为已商用</b>。</div>
+  </div>
+</div>
+
+<!-- ============ 遥感 ============ -->
+<h2 class="rs">▎遥感</h2>
+
+<div class="item">
+  <div class="bar rs"></div>
+  <div class="inner">
+    <h3>GISTDA CubeSat-1（银河航天灵知09）在轨运行，转入泰国青年实操教学</h3>
+    <span class="heat hi">🔴 热度：高</span>
+    <div class="src">来源：GISTDA / LinkedIn（2026-08 后更新）；北京日报（2026-08-25）；Lowy Institute</div>
+    <ul class="pts">
+      <li>银河航天灵知09（GISTDA CubeSat-1）于 2026-08-25 由<b>长征六号丙遥一</b>运载火箭在太原卫星发射中心发射，已成功入轨——这是中国商业航天企业首次面向东南亚国家完成整星研制、发射及在轨交付（多源确认发射成功，非计划稿）。</li>
+      <li>诗里差（Si Racha, Chonburi）地面站已建立通信并接收卫星信号；卫星转入「School Satellite Project」青年实操教学：任务规划、遥测跟踪、数据接收分析、指令上注。</li>
+      <li>主任务：农业区、植被、森林、水资源、土地利用变化监测，支撑泰国自然资源管理与环境跟踪。</li>
+    </ul>
+    <div class="biz"><span class="lbl">💼 BD 关联（Astrolink）</span>：这是中方「整星+地面系统+能力培养」一体化出海标杆案例。Astrolink/明华可研究该「能力建设+数据服务」捆绑模式在泰国及东盟复制；关注银河航天后续在泰合作与 GISTDA 采购偏好。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar rs"></div>
+  <div class="inner">
+    <h3>GISTDA 公布 18 星对地观测星座 + THEOS-3 进展，目标 3–5 年建成东南亚航天枢纽</h3>
+    <span class="heat mid">🟡 热度：中</span>
+    <div class="src">来源：Thais.com（泰国中文社，2026-10-28/29 太空博览会报道）</div>
+    <ul class="pts">
+      <li>GISTDA 在太空博览会披露：THEOS-3（泰国首颗 100% 由本国工程师研制的 EO 卫星）研发进展，及 18 颗 EO 卫星群发展计划。</li>
+      <li>泰国采取「共同建造、共同投资、在泰生产组装部分部件以换取技术转让」路径，而非 100% 直接采购成品卫星。</li>
+      <li>现场亦展示与武汉大学合作的「诗琳通地理信息中心」及干旱/洪涝/PM2.5 建模、精准农业、虚拟数字城市等应用；局长帕功称目标 3–5 年内将泰国打造成东南亚航天技术枢纽。</li>
+    </ul>
+    <div class="biz"><span class="lbl">💼 BD 关联（Astrolink）</span>：18 星星座 + THEOS-3 是中长期采购与技术合作富矿。Astrolink 可定位为「星座地面段 / 数据分发 / 应用集成」伙伴，并借「共同建造+技术转让」框架寻设备与载荷合作切入点。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar rs"></div>
+  <div class="inner">
+    <h3>洪灾 SAR 监测进入恢复尾声（9–10 月洪灾监测回顾）</h3>
+    <span class="heat lo">⚪ 热度：低</span>
+    <div class="src">来源：Weathernews（2026-10-01）；GISTDA（Sentinel-1D SAR 监测，2026-09）</div>
+    <ul class="pts">
+      <li>GISTDA 利用 Sentinel-1D 雷达（SAR）卫星于 9 月识别泰国约 2,610 km²（29 省）淹没区，支撑国家洪灾决策；随 10 月下旬退水，监测转入恢复评估阶段。</li>
+      <li>本期（11 月初）无新增活跃洪灾事件，据实标注为低热度；SAR 对地观测能力已在灾情中验证，为后续保险/水利应用奠基。</li>
+    </ul>
+    <div class="biz"><span class="lbl">💼 BD 关联（Astrolink）</span>：SAR 灾情监测→保险/水利的闭环是遥感商业化切口；可关注 GISTDA 与泰国农业部/保险机构的遥感数据服务采购动向。</div>
+  </div>
+</div>
+
+<!-- ============ 发射与卫星 ============ -->
+<h2 class="launch">▎发射与卫星</h2>
+
+<div class="item">
+  <div class="bar launch"></div>
+  <div class="inner">
+    <h3>泰国青年卫星计划里程碑：CubeSat-1 在轨 + 朱拉隆功 CUSAT-1 入选 KiboCUBE</h3>
+    <span class="heat mid">🟡 热度：中</span>
+    <div class="src">来源：GISTDA / LinkedIn；Lowy Institute</div>
+    <ul class="pts">
+      <li>GISTDA CubeSat-1（2026-08-25 长征六号丙成功发射入轨）由泰国学生构想设计，是「School Satellite Project」第二年里程碑，已转入高校实操教学。</li>
+      <li>朱拉隆功大学 CUSAT 团队入选第 9 轮 KiboCUBE，将由其卫星 CUSAT-1 在国际空间站部署用于环境监测；GISTDA 提供技术咨询与设备支持。</li>
+      <li>背景：THEOS-2A 于 2026-01 印度发射失利损失，但研制经验留存泰国（Lowy Institute 报道）。</li>
+    </ul>
+    <div class="biz"><span class="lbl">💼 BD 关联（Astrolink）</span>：泰国「青年卫星人才梯队」+ 高校（朱拉隆功等）是长期生态入口；Astrolink 可借教育培训/联合研制切入，建立与 GISTDA 及高校的持久关系。</div>
+  </div>
+</div>
+
+<div class="item">
+  <div class="bar launch"></div>
+  <div class="inner">
+    <h3>泰国航天经济基础成型：设施+资本+人才四支柱，2 家私企已境外投资造星</h3>
+    <span class="heat mid">🟡 热度：中</span>
+    <div class="src">来源：Thais.com（2026-10-28 太空博览会报道）</div>
+    <ul class="pts">
+      <li>GISTDA 局长归纳泰国发展航天经济四基础：① 工程师与研究人员；② Space Krenovation Park 卫星组装测试设施（支持约 200kg 级卫星 + 地面站 + 数据库）；③ 汽车/电子/结构件传统产业可向高精度制造升级；④ 政府将航天数据用于农作物保险与水资源管理。</li>
+      <li>目前已有 2 家泰国大型私营企业参与境外投资建造卫星；GISTDA 正推动设立基金与金融、税收措施支持泰企融资，并吸引海外顶尖院校奖学金学生回国创办航天初创。</li>
+    </ul>
+    <div class="biz"><span class="lbl">💼 BD 关联（Astrolink）</span>：泰国正构建「政策+设施+资本+人才」航天生态，对外合作窗口宽广；Astrolink 可评估以「设施共享/联合投资/数据应用」轻资产方式参与，避开重资产卫星制造竞争。</div>
+  </div>
+</div>
+
+<!-- ============ BD 衔接 ============ -->
+<section>
+  <h2>🧭 与明华 / Astrolink BD 的业务衔接建议</h2>
+  <ul class="bd-list">
+    <li><span class="p0">【P0】</span> 跟进 GST（原 Thaicom）战略转型窗口——其从传统通信卫星转向「LEO + AI 地理空间分析 + 安全」，中端 LEO 落地、行业应用集成、地面段运营可能外包/合作；以「合规地面段 + 轨位/牌照协调」轻资产定位接洽，<b>重大合作须以 NBTC/DES 官方与一线 BD 核实</b>。</li>
+    <li><span class="p1">【P1】</span> 研究银河航天「整星+地面系统+能力培养」泰国成功模式，评估 Astrolink 在东盟（尤其泰国/柬埔寨/越南）复制「能力建设+数据服务」捆绑出海的可行性；关注 GISTDA 18 星星座与 THEOS-3 的后续采购与技术合作。</li>
+    <li><span class="p1">【P1】</span> 北斗（NDRC 项）存量框架待具体落地项目信号；等待 GISTDA 牵头示范，评估「北斗增强 + 农业/水利精度定位」轻量合作。</li>
+    <li><span class="p2">【P2】</span> 借泰国「青年卫星人才梯队」与高校（朱拉隆功等）教育培训/联合研制切入，建立与 GISTDA 及高校的持久关系，作为长期生态入口。</li>
+    <li><span class="p2">【P2】</span> 持续监测 Starlink 入泰政策松动信号（49% 上限是否调整）；若松动，LEO 合规落地竞争格局将重塑，提前布局合规地面段能力。</li>
+  </ul>
+</section>
+
+<footer>
+  <p>📄 <b>ASEAN SAT. DAILY · 第 097 期</b> ｜ 生成时间：2026-11-04 21:31 (GMT+8) ｜ 出品：<b>Astrolink BD</b>（非 SmarCo）</p>
+  <p>说明：新闻时点以来源为准；重大合作需以官方与一线 BD 核实。本刊为信息汇编，不构成投资或商业决策唯一依据。</p>
+</footer>
+
+</div>
+</body>
+</html>
