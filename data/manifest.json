@@ -3,6 +3,46 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-11-05",
+      "issue_no": "098",
+      "title": "马来西亚轮值：天通一号落地马来西亚MOU签署(中电信×MEASAT×Extend)、北斗马来西亚创新基地揭牌、MEASAT-3b替换RFP临近、扎希德力推卫星防灾",
+      "tags": [
+        "马来西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "天通一号",
+        "MEASAT",
+        "Starlink",
+        "北斗马来西亚基地",
+        "JENDELA",
+        "扎希德"
+      ],
+      "file": "issues/2026-11-05.html"
+    },
+    {
+      "date": "2026-11-04",
+      "issue_no": "097",
+      "title": "泰国轮值：GST(原Thaicom)太空博览会发布四大新业务、GISTDA CubeSat-1在轨教学、18星星座与THEOS-3推进，Starlink仍卡49%外资上限",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "GST",
+        "GISTDA",
+        "CubeSat-1",
+        "Starlink",
+        "THEOS-3",
+        "太空博览会"
+      ],
+      "file": "issues/2026-11-04.html"
+    },
+    {
       "date": "2026-11-03",
       "issue_no": "096",
       "title": "柬埔寨轮值：『数字围栏』边境SAR监测入东盟观察机制、邮电部加速航天政策框架与48名青年留洋、千帆意向延续待核、柬中环境遥感MoU与北斗出租车调度示范推进",
