@@ -3,6 +3,28 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-11-06",
+      "file": "issues/2026-11-06.html",
+      "issue_no": "099",
+      "tags": [
+        "印度尼西亚",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "银河航天",
+        "小蜘蛛网",
+        "NSC",
+        "北斗出海",
+        "雅万高铁",
+        "BRIN",
+        "比亚克航天港",
+        "火情监测"
+      ],
+      "title": "东南亚卫星产业动态 · 第 099 期 · 🇮🇩 印度尼西亚"
+    },
+    {
       "date": "2026-11-05",
       "issue_no": "098",
       "title": "马来西亚轮值：天通一号落地马来西亚MOU签署(中电信×MEASAT×Extend)、北斗马来西亚创新基地揭牌、MEASAT-3b替换RFP临近、扎希德力推卫星防灾",
