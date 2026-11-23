@@ -3,6 +3,23 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-11-23",
+      "issue_no": 110,
+      "title": "东南亚卫星产业动态 · 第 110 期 · 🇻🇳 越南（卫星互联网196个弱信号点激活、中越水文数据共享纪要与VNSC地面站能力披露、LOTUSat-1仍以2027年底为目标未入轨）",
+      "tags": [
+        "越南",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "Starlink",
+        "VNSC",
+        "LOTUSat-1"
+      ],
+      "file": "issues/2026-11-23.html"
+    },
+    {
       "date": "2026-11-22",
       "issue_no": 109,
       "title": "东南亚卫星产业动态 · 第 109 期 · 周回顾（洪灾遥感贯穿六国、Thaicom4完成离轨、法马卫星通信MoU、11-20长八甲成功发射低轨30组卫星）",
