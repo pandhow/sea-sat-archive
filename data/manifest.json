@@ -3,6 +3,26 @@
   "_add_issue_help": "新增一期：① 把报告HTML丢进 issues/（命名 YYYY-MM-DD.html）② 在 issues 数组顶部加一条 {date,issue_no,title,tags,file} ③ 刷新页面",
   "issues": [
     {
+      "date": "2026-11-25",
+      "issue_no": 112,
+      "title": "东南亚卫星产业动态 · 第112期 · 泰国（泰美ART联合声明11/17签署卫星外资条款待定、GST授Kratos Thaicom10 Q/V/Ka关口站合同、GISTDA洪灾SAR制图与AI农业持续、DronTech曼谷聚焦GNSS抗干扰）",
+      "tags": [
+        "泰国",
+        "卫星通信",
+        "导航",
+        "北斗",
+        "遥感",
+        "发射",
+        "ART",
+        "Starlink",
+        "Thaicom10",
+        "GISTDA",
+        "DronTech",
+        "GNSS抗干扰"
+      ],
+      "file": "issues/2026-11-25.html"
+    },
+    {
       "date": "2026-11-24",
       "issue_no": 111,
       "title": "东南亚卫星产业动态 · 第111期 · 柬埔寨（空客×邮电部交换地球观测合作文件、东盟首份航天合作宣言11国通过、洪灾遥感预警需求延续）",
